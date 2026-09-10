@@ -1,0 +1,6542 @@
+[
+  {
+    "model": "core.attendance",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "date": "2026-03-16",
+      "running_record": 1,
+      "created_at": "2026-03-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "date": "2026-03-24",
+      "running_record": 2,
+      "created_at": "2026-03-24T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 3,
+    "fields": {
+      "user": 2,
+      "date": "2026-04-04",
+      "running_record": 3,
+      "created_at": "2026-04-04T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 4,
+    "fields": {
+      "user": 2,
+      "date": "2026-04-15",
+      "running_record": 4,
+      "created_at": "2026-04-15T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 5,
+    "fields": {
+      "user": 2,
+      "date": "2026-04-16",
+      "running_record": 5,
+      "created_at": "2026-04-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 6,
+    "fields": {
+      "user": 2,
+      "date": "2026-05-01",
+      "running_record": 6,
+      "created_at": "2026-05-01T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 7,
+    "fields": {
+      "user": 2,
+      "date": "2026-05-03",
+      "running_record": 7,
+      "created_at": "2026-05-03T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 8,
+    "fields": {
+      "user": 2,
+      "date": "2026-05-05",
+      "running_record": 8,
+      "created_at": "2026-05-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 9,
+    "fields": {
+      "user": 2,
+      "date": "2026-05-09",
+      "running_record": 9,
+      "created_at": "2026-05-09T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 10,
+    "fields": {
+      "user": 2,
+      "date": "2026-05-20",
+      "running_record": 10,
+      "created_at": "2026-05-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 11,
+    "fields": {
+      "user": 2,
+      "date": "2026-05-21",
+      "running_record": 11,
+      "created_at": "2026-05-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 12,
+    "fields": {
+      "user": 2,
+      "date": "2026-05-22",
+      "running_record": 12,
+      "created_at": "2026-05-22T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 13,
+    "fields": {
+      "user": 2,
+      "date": "2026-05-26",
+      "running_record": 13,
+      "created_at": "2026-05-26T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 14,
+    "fields": {
+      "user": 2,
+      "date": "2026-05-29",
+      "running_record": 14,
+      "created_at": "2026-05-29T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 15,
+    "fields": {
+      "user": 2,
+      "date": "2026-06-04",
+      "running_record": 15,
+      "created_at": "2026-06-04T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 16,
+    "fields": {
+      "user": 2,
+      "date": "2026-06-15",
+      "running_record": 16,
+      "created_at": "2026-06-15T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 17,
+    "fields": {
+      "user": 2,
+      "date": "2026-06-21",
+      "running_record": 17,
+      "created_at": "2026-06-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 18,
+    "fields": {
+      "user": 3,
+      "date": "2026-03-24",
+      "running_record": 19,
+      "created_at": "2026-03-24T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 19,
+    "fields": {
+      "user": 3,
+      "date": "2026-03-26",
+      "running_record": 20,
+      "created_at": "2026-03-26T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 20,
+    "fields": {
+      "user": 3,
+      "date": "2026-03-28",
+      "running_record": 21,
+      "created_at": "2026-03-28T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 21,
+    "fields": {
+      "user": 3,
+      "date": "2026-03-29",
+      "running_record": 22,
+      "created_at": "2026-03-29T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 22,
+    "fields": {
+      "user": 3,
+      "date": "2026-04-08",
+      "running_record": 23,
+      "created_at": "2026-04-08T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 23,
+    "fields": {
+      "user": 3,
+      "date": "2026-04-11",
+      "running_record": 24,
+      "created_at": "2026-04-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 24,
+    "fields": {
+      "user": 3,
+      "date": "2026-04-23",
+      "running_record": 25,
+      "created_at": "2026-04-23T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 25,
+    "fields": {
+      "user": 3,
+      "date": "2026-04-24",
+      "running_record": 26,
+      "created_at": "2026-04-24T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 26,
+    "fields": {
+      "user": 14,
+      "date": "2026-05-07",
+      "running_record": 27,
+      "created_at": "2026-05-07T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 27,
+    "fields": {
+      "user": 14,
+      "date": "2026-05-08",
+      "running_record": 28,
+      "created_at": "2026-05-08T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 28,
+    "fields": {
+      "user": 14,
+      "date": "2026-05-30",
+      "running_record": 29,
+      "created_at": "2026-05-30T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 29,
+    "fields": {
+      "user": 14,
+      "date": "2026-06-08",
+      "running_record": 30,
+      "created_at": "2026-06-08T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 30,
+    "fields": {
+      "user": 14,
+      "date": "2026-06-09",
+      "running_record": 31,
+      "created_at": "2026-06-09T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 31,
+    "fields": {
+      "user": 14,
+      "date": "2026-06-11",
+      "running_record": 32,
+      "created_at": "2026-06-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 32,
+    "fields": {
+      "user": 14,
+      "date": "2026-06-13",
+      "running_record": 33,
+      "created_at": "2026-06-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 33,
+    "fields": {
+      "user": 14,
+      "date": "2026-06-16",
+      "running_record": 34,
+      "created_at": "2026-06-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 34,
+    "fields": {
+      "user": 14,
+      "date": "2026-06-19",
+      "running_record": 35,
+      "created_at": "2026-06-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 35,
+    "fields": {
+      "user": 14,
+      "date": "2026-06-20",
+      "running_record": 36,
+      "created_at": "2026-06-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 36,
+    "fields": {
+      "user": 15,
+      "date": "2026-04-30",
+      "running_record": 37,
+      "created_at": "2026-04-30T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 37,
+    "fields": {
+      "user": 15,
+      "date": "2026-05-03",
+      "running_record": 38,
+      "created_at": "2026-05-03T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 38,
+    "fields": {
+      "user": 15,
+      "date": "2026-05-09",
+      "running_record": 39,
+      "created_at": "2026-05-09T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 39,
+    "fields": {
+      "user": 15,
+      "date": "2026-05-10",
+      "running_record": 40,
+      "created_at": "2026-05-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 40,
+    "fields": {
+      "user": 15,
+      "date": "2026-05-11",
+      "running_record": 41,
+      "created_at": "2026-05-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 41,
+    "fields": {
+      "user": 15,
+      "date": "2026-05-19",
+      "running_record": 42,
+      "created_at": "2026-05-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 42,
+    "fields": {
+      "user": 15,
+      "date": "2026-05-24",
+      "running_record": 43,
+      "created_at": "2026-05-24T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 43,
+    "fields": {
+      "user": 15,
+      "date": "2026-06-05",
+      "running_record": 45,
+      "created_at": "2026-06-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 44,
+    "fields": {
+      "user": 15,
+      "date": "2026-06-20",
+      "running_record": 46,
+      "created_at": "2026-06-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 45,
+    "fields": {
+      "user": 16,
+      "date": "2026-04-13",
+      "running_record": 47,
+      "created_at": "2026-04-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 46,
+    "fields": {
+      "user": 16,
+      "date": "2026-04-30",
+      "running_record": 48,
+      "created_at": "2026-04-30T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 47,
+    "fields": {
+      "user": 16,
+      "date": "2026-05-01",
+      "running_record": 49,
+      "created_at": "2026-05-01T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 48,
+    "fields": {
+      "user": 16,
+      "date": "2026-05-20",
+      "running_record": 50,
+      "created_at": "2026-05-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 49,
+    "fields": {
+      "user": 16,
+      "date": "2026-05-23",
+      "running_record": 51,
+      "created_at": "2026-05-23T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 50,
+    "fields": {
+      "user": 16,
+      "date": "2026-05-26",
+      "running_record": 52,
+      "created_at": "2026-05-26T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 51,
+    "fields": {
+      "user": 16,
+      "date": "2026-05-30",
+      "running_record": 53,
+      "created_at": "2026-05-30T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 52,
+    "fields": {
+      "user": 16,
+      "date": "2026-05-31",
+      "running_record": 54,
+      "created_at": "2026-05-31T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 53,
+    "fields": {
+      "user": 16,
+      "date": "2026-06-11",
+      "running_record": 55,
+      "created_at": "2026-06-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 54,
+    "fields": {
+      "user": 16,
+      "date": "2026-06-14",
+      "running_record": 56,
+      "created_at": "2026-06-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 55,
+    "fields": {
+      "user": 17,
+      "date": "2026-04-28",
+      "running_record": 57,
+      "created_at": "2026-04-28T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 56,
+    "fields": {
+      "user": 17,
+      "date": "2026-05-19",
+      "running_record": 58,
+      "created_at": "2026-05-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 57,
+    "fields": {
+      "user": 17,
+      "date": "2026-05-27",
+      "running_record": 59,
+      "created_at": "2026-05-27T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 58,
+    "fields": {
+      "user": 17,
+      "date": "2026-05-28",
+      "running_record": 60,
+      "created_at": "2026-05-28T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 59,
+    "fields": {
+      "user": 17,
+      "date": "2026-06-01",
+      "running_record": 61,
+      "created_at": "2026-06-01T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 60,
+    "fields": {
+      "user": 17,
+      "date": "2026-06-03",
+      "running_record": 62,
+      "created_at": "2026-06-03T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 61,
+    "fields": {
+      "user": 17,
+      "date": "2026-06-05",
+      "running_record": 63,
+      "created_at": "2026-06-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 62,
+    "fields": {
+      "user": 17,
+      "date": "2026-06-08",
+      "running_record": 64,
+      "created_at": "2026-06-08T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 63,
+    "fields": {
+      "user": 17,
+      "date": "2026-06-13",
+      "running_record": 65,
+      "created_at": "2026-06-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 64,
+    "fields": {
+      "user": 17,
+      "date": "2026-06-19",
+      "running_record": 66,
+      "created_at": "2026-06-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 65,
+    "fields": {
+      "user": 18,
+      "date": "2026-04-28",
+      "running_record": 67,
+      "created_at": "2026-04-28T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 66,
+    "fields": {
+      "user": 18,
+      "date": "2026-05-06",
+      "running_record": 68,
+      "created_at": "2026-05-06T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 67,
+    "fields": {
+      "user": 18,
+      "date": "2026-05-09",
+      "running_record": 69,
+      "created_at": "2026-05-09T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 68,
+    "fields": {
+      "user": 18,
+      "date": "2026-05-16",
+      "running_record": 70,
+      "created_at": "2026-05-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 69,
+    "fields": {
+      "user": 18,
+      "date": "2026-05-23",
+      "running_record": 71,
+      "created_at": "2026-05-23T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 70,
+    "fields": {
+      "user": 18,
+      "date": "2026-05-24",
+      "running_record": 72,
+      "created_at": "2026-05-24T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 71,
+    "fields": {
+      "user": 18,
+      "date": "2026-06-01",
+      "running_record": 73,
+      "created_at": "2026-06-01T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 72,
+    "fields": {
+      "user": 18,
+      "date": "2026-06-05",
+      "running_record": 74,
+      "created_at": "2026-06-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 73,
+    "fields": {
+      "user": 18,
+      "date": "2026-06-07",
+      "running_record": 75,
+      "created_at": "2026-06-07T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 74,
+    "fields": {
+      "user": 18,
+      "date": "2026-06-10",
+      "running_record": 76,
+      "created_at": "2026-06-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 75,
+    "fields": {
+      "user": 19,
+      "date": "2026-05-01",
+      "running_record": 77,
+      "created_at": "2026-05-01T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 76,
+    "fields": {
+      "user": 19,
+      "date": "2026-05-05",
+      "running_record": 78,
+      "created_at": "2026-05-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 77,
+    "fields": {
+      "user": 19,
+      "date": "2026-05-07",
+      "running_record": 79,
+      "created_at": "2026-05-07T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 78,
+    "fields": {
+      "user": 19,
+      "date": "2026-05-10",
+      "running_record": 80,
+      "created_at": "2026-05-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 79,
+    "fields": {
+      "user": 19,
+      "date": "2026-05-16",
+      "running_record": 81,
+      "created_at": "2026-05-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 80,
+    "fields": {
+      "user": 19,
+      "date": "2026-05-17",
+      "running_record": 82,
+      "created_at": "2026-05-17T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 81,
+    "fields": {
+      "user": 19,
+      "date": "2026-05-26",
+      "running_record": 83,
+      "created_at": "2026-05-26T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 82,
+    "fields": {
+      "user": 19,
+      "date": "2026-05-31",
+      "running_record": 84,
+      "created_at": "2026-05-31T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 83,
+    "fields": {
+      "user": 19,
+      "date": "2026-06-08",
+      "running_record": 85,
+      "created_at": "2026-06-08T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 84,
+    "fields": {
+      "user": 19,
+      "date": "2026-06-12",
+      "running_record": 86,
+      "created_at": "2026-06-12T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 85,
+    "fields": {
+      "user": 20,
+      "date": "2026-04-10",
+      "running_record": 87,
+      "created_at": "2026-04-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 86,
+    "fields": {
+      "user": 20,
+      "date": "2026-05-13",
+      "running_record": 88,
+      "created_at": "2026-05-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 87,
+    "fields": {
+      "user": 20,
+      "date": "2026-05-16",
+      "running_record": 89,
+      "created_at": "2026-05-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 88,
+    "fields": {
+      "user": 20,
+      "date": "2026-05-20",
+      "running_record": 90,
+      "created_at": "2026-05-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 89,
+    "fields": {
+      "user": 20,
+      "date": "2026-05-21",
+      "running_record": 91,
+      "created_at": "2026-05-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 90,
+    "fields": {
+      "user": 20,
+      "date": "2026-05-28",
+      "running_record": 92,
+      "created_at": "2026-05-28T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 91,
+    "fields": {
+      "user": 20,
+      "date": "2026-06-01",
+      "running_record": 93,
+      "created_at": "2026-06-01T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 92,
+    "fields": {
+      "user": 20,
+      "date": "2026-06-16",
+      "running_record": 94,
+      "created_at": "2026-06-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 93,
+    "fields": {
+      "user": 20,
+      "date": "2026-06-19",
+      "running_record": 95,
+      "created_at": "2026-06-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 94,
+    "fields": {
+      "user": 20,
+      "date": "2026-06-21",
+      "running_record": 96,
+      "created_at": "2026-06-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 95,
+    "fields": {
+      "user": 21,
+      "date": "2026-05-17",
+      "running_record": 97,
+      "created_at": "2026-05-17T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 96,
+    "fields": {
+      "user": 21,
+      "date": "2026-05-19",
+      "running_record": 98,
+      "created_at": "2026-05-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 97,
+    "fields": {
+      "user": 21,
+      "date": "2026-05-20",
+      "running_record": 99,
+      "created_at": "2026-05-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 98,
+    "fields": {
+      "user": 21,
+      "date": "2026-05-28",
+      "running_record": 100,
+      "created_at": "2026-05-28T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 99,
+    "fields": {
+      "user": 21,
+      "date": "2026-05-31",
+      "running_record": 101,
+      "created_at": "2026-05-31T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 100,
+    "fields": {
+      "user": 21,
+      "date": "2026-06-02",
+      "running_record": 102,
+      "created_at": "2026-06-02T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 101,
+    "fields": {
+      "user": 21,
+      "date": "2026-06-08",
+      "running_record": 103,
+      "created_at": "2026-06-08T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 102,
+    "fields": {
+      "user": 21,
+      "date": "2026-06-09",
+      "running_record": 104,
+      "created_at": "2026-06-09T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 103,
+    "fields": {
+      "user": 21,
+      "date": "2026-06-12",
+      "running_record": 105,
+      "created_at": "2026-06-12T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 104,
+    "fields": {
+      "user": 21,
+      "date": "2026-06-16",
+      "running_record": 106,
+      "created_at": "2026-06-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 105,
+    "fields": {
+      "user": 22,
+      "date": "2026-04-10",
+      "running_record": 107,
+      "created_at": "2026-04-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 106,
+    "fields": {
+      "user": 22,
+      "date": "2026-04-11",
+      "running_record": 108,
+      "created_at": "2026-04-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 107,
+    "fields": {
+      "user": 22,
+      "date": "2026-04-18",
+      "running_record": 109,
+      "created_at": "2026-04-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 108,
+    "fields": {
+      "user": 22,
+      "date": "2026-04-19",
+      "running_record": 110,
+      "created_at": "2026-04-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 109,
+    "fields": {
+      "user": 22,
+      "date": "2026-05-13",
+      "running_record": 111,
+      "created_at": "2026-05-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 110,
+    "fields": {
+      "user": 22,
+      "date": "2026-05-21",
+      "running_record": 112,
+      "created_at": "2026-05-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 111,
+    "fields": {
+      "user": 22,
+      "date": "2026-05-23",
+      "running_record": 113,
+      "created_at": "2026-05-23T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 112,
+    "fields": {
+      "user": 22,
+      "date": "2026-06-04",
+      "running_record": 114,
+      "created_at": "2026-06-04T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 113,
+    "fields": {
+      "user": 22,
+      "date": "2026-06-11",
+      "running_record": 115,
+      "created_at": "2026-06-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 114,
+    "fields": {
+      "user": 22,
+      "date": "2026-06-15",
+      "running_record": 116,
+      "created_at": "2026-06-15T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 115,
+    "fields": {
+      "user": 23,
+      "date": "2026-04-27",
+      "running_record": 117,
+      "created_at": "2026-04-27T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 116,
+    "fields": {
+      "user": 23,
+      "date": "2026-05-01",
+      "running_record": 118,
+      "created_at": "2026-05-01T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 117,
+    "fields": {
+      "user": 23,
+      "date": "2026-05-04",
+      "running_record": 119,
+      "created_at": "2026-05-04T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 118,
+    "fields": {
+      "user": 23,
+      "date": "2026-05-09",
+      "running_record": 120,
+      "created_at": "2026-05-09T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 119,
+    "fields": {
+      "user": 23,
+      "date": "2026-05-14",
+      "running_record": 121,
+      "created_at": "2026-05-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 120,
+    "fields": {
+      "user": 23,
+      "date": "2026-05-16",
+      "running_record": 122,
+      "created_at": "2026-05-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 121,
+    "fields": {
+      "user": 23,
+      "date": "2026-05-23",
+      "running_record": 123,
+      "created_at": "2026-05-23T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 122,
+    "fields": {
+      "user": 23,
+      "date": "2026-05-24",
+      "running_record": 124,
+      "created_at": "2026-05-24T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 123,
+    "fields": {
+      "user": 23,
+      "date": "2026-06-10",
+      "running_record": 125,
+      "created_at": "2026-06-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 124,
+    "fields": {
+      "user": 23,
+      "date": "2026-06-14",
+      "running_record": 126,
+      "created_at": "2026-06-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 125,
+    "fields": {
+      "user": 24,
+      "date": "2026-04-16",
+      "running_record": 127,
+      "created_at": "2026-04-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 126,
+    "fields": {
+      "user": 24,
+      "date": "2026-04-20",
+      "running_record": 128,
+      "created_at": "2026-04-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 127,
+    "fields": {
+      "user": 24,
+      "date": "2026-04-23",
+      "running_record": 129,
+      "created_at": "2026-04-23T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 128,
+    "fields": {
+      "user": 24,
+      "date": "2026-04-26",
+      "running_record": 130,
+      "created_at": "2026-04-26T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 129,
+    "fields": {
+      "user": 24,
+      "date": "2026-04-29",
+      "running_record": 131,
+      "created_at": "2026-04-29T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 130,
+    "fields": {
+      "user": 24,
+      "date": "2026-04-30",
+      "running_record": 132,
+      "created_at": "2026-04-30T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 131,
+    "fields": {
+      "user": 24,
+      "date": "2026-05-06",
+      "running_record": 133,
+      "created_at": "2026-05-06T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 132,
+    "fields": {
+      "user": 24,
+      "date": "2026-05-08",
+      "running_record": 134,
+      "created_at": "2026-05-08T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 133,
+    "fields": {
+      "user": 24,
+      "date": "2026-05-14",
+      "running_record": 135,
+      "created_at": "2026-05-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 134,
+    "fields": {
+      "user": 24,
+      "date": "2026-05-18",
+      "running_record": 136,
+      "created_at": "2026-05-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 135,
+    "fields": {
+      "user": 24,
+      "date": "2026-05-20",
+      "running_record": 137,
+      "created_at": "2026-05-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 136,
+    "fields": {
+      "user": 24,
+      "date": "2026-05-22",
+      "running_record": 138,
+      "created_at": "2026-05-22T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 137,
+    "fields": {
+      "user": 24,
+      "date": "2026-05-26",
+      "running_record": 139,
+      "created_at": "2026-05-26T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 138,
+    "fields": {
+      "user": 24,
+      "date": "2026-05-31",
+      "running_record": 140,
+      "created_at": "2026-05-31T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 139,
+    "fields": {
+      "user": 24,
+      "date": "2026-06-04",
+      "running_record": 141,
+      "created_at": "2026-06-04T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 140,
+    "fields": {
+      "user": 24,
+      "date": "2026-06-10",
+      "running_record": 142,
+      "created_at": "2026-06-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 141,
+    "fields": {
+      "user": 24,
+      "date": "2026-06-16",
+      "running_record": 144,
+      "created_at": "2026-06-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 142,
+    "fields": {
+      "user": 25,
+      "date": "2026-04-05",
+      "running_record": 145,
+      "created_at": "2026-04-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 143,
+    "fields": {
+      "user": 25,
+      "date": "2026-04-07",
+      "running_record": 146,
+      "created_at": "2026-04-07T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 144,
+    "fields": {
+      "user": 25,
+      "date": "2026-04-17",
+      "running_record": 147,
+      "created_at": "2026-04-17T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 145,
+    "fields": {
+      "user": 25,
+      "date": "2026-04-19",
+      "running_record": 148,
+      "created_at": "2026-04-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 146,
+    "fields": {
+      "user": 25,
+      "date": "2026-05-07",
+      "running_record": 149,
+      "created_at": "2026-05-07T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 147,
+    "fields": {
+      "user": 25,
+      "date": "2026-05-14",
+      "running_record": 150,
+      "created_at": "2026-05-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 148,
+    "fields": {
+      "user": 25,
+      "date": "2026-05-15",
+      "running_record": 151,
+      "created_at": "2026-05-15T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 149,
+    "fields": {
+      "user": 25,
+      "date": "2026-05-16",
+      "running_record": 152,
+      "created_at": "2026-05-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 150,
+    "fields": {
+      "user": 25,
+      "date": "2026-05-17",
+      "running_record": 153,
+      "created_at": "2026-05-17T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 151,
+    "fields": {
+      "user": 25,
+      "date": "2026-05-21",
+      "running_record": 154,
+      "created_at": "2026-05-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 152,
+    "fields": {
+      "user": 25,
+      "date": "2026-05-22",
+      "running_record": 155,
+      "created_at": "2026-05-22T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 153,
+    "fields": {
+      "user": 25,
+      "date": "2026-05-30",
+      "running_record": 156,
+      "created_at": "2026-05-30T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 154,
+    "fields": {
+      "user": 25,
+      "date": "2026-06-02",
+      "running_record": 157,
+      "created_at": "2026-06-02T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 155,
+    "fields": {
+      "user": 25,
+      "date": "2026-06-04",
+      "running_record": 158,
+      "created_at": "2026-06-04T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 156,
+    "fields": {
+      "user": 25,
+      "date": "2026-06-07",
+      "running_record": 159,
+      "created_at": "2026-06-07T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 157,
+    "fields": {
+      "user": 25,
+      "date": "2026-06-14",
+      "running_record": 160,
+      "created_at": "2026-06-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 158,
+    "fields": {
+      "user": 25,
+      "date": "2026-06-18",
+      "running_record": 161,
+      "created_at": "2026-06-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 159,
+    "fields": {
+      "user": 25,
+      "date": "2026-06-21",
+      "running_record": 162,
+      "created_at": "2026-06-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 160,
+    "fields": {
+      "user": 26,
+      "date": "2026-03-03",
+      "running_record": 163,
+      "created_at": "2026-03-03T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 161,
+    "fields": {
+      "user": 26,
+      "date": "2026-03-06",
+      "running_record": 164,
+      "created_at": "2026-03-06T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 162,
+    "fields": {
+      "user": 26,
+      "date": "2026-03-14",
+      "running_record": 165,
+      "created_at": "2026-03-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 163,
+    "fields": {
+      "user": 26,
+      "date": "2026-03-17",
+      "running_record": 166,
+      "created_at": "2026-03-17T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 164,
+    "fields": {
+      "user": 26,
+      "date": "2026-03-21",
+      "running_record": 167,
+      "created_at": "2026-03-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 165,
+    "fields": {
+      "user": 26,
+      "date": "2026-03-30",
+      "running_record": 168,
+      "created_at": "2026-03-30T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 166,
+    "fields": {
+      "user": 26,
+      "date": "2026-04-04",
+      "running_record": 169,
+      "created_at": "2026-04-04T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 167,
+    "fields": {
+      "user": 26,
+      "date": "2026-04-12",
+      "running_record": 170,
+      "created_at": "2026-04-12T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 168,
+    "fields": {
+      "user": 26,
+      "date": "2026-04-23",
+      "running_record": 171,
+      "created_at": "2026-04-23T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 169,
+    "fields": {
+      "user": 26,
+      "date": "2026-05-01",
+      "running_record": 172,
+      "created_at": "2026-05-01T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 170,
+    "fields": {
+      "user": 26,
+      "date": "2026-05-08",
+      "running_record": 173,
+      "created_at": "2026-05-08T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 171,
+    "fields": {
+      "user": 26,
+      "date": "2026-05-09",
+      "running_record": 174,
+      "created_at": "2026-05-09T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 172,
+    "fields": {
+      "user": 26,
+      "date": "2026-05-16",
+      "running_record": 175,
+      "created_at": "2026-05-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 173,
+    "fields": {
+      "user": 26,
+      "date": "2026-05-22",
+      "running_record": 176,
+      "created_at": "2026-05-22T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 174,
+    "fields": {
+      "user": 26,
+      "date": "2026-05-25",
+      "running_record": 177,
+      "created_at": "2026-05-25T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 175,
+    "fields": {
+      "user": 26,
+      "date": "2026-06-03",
+      "running_record": 178,
+      "created_at": "2026-06-03T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 176,
+    "fields": {
+      "user": 26,
+      "date": "2026-06-09",
+      "running_record": 179,
+      "created_at": "2026-06-09T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 177,
+    "fields": {
+      "user": 26,
+      "date": "2026-06-16",
+      "running_record": 180,
+      "created_at": "2026-06-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 178,
+    "fields": {
+      "user": 27,
+      "date": "2026-04-01",
+      "running_record": 181,
+      "created_at": "2026-04-01T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 179,
+    "fields": {
+      "user": 27,
+      "date": "2026-04-16",
+      "running_record": 182,
+      "created_at": "2026-04-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 180,
+    "fields": {
+      "user": 27,
+      "date": "2026-04-17",
+      "running_record": 183,
+      "created_at": "2026-04-17T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 181,
+    "fields": {
+      "user": 27,
+      "date": "2026-04-23",
+      "running_record": 184,
+      "created_at": "2026-04-23T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 182,
+    "fields": {
+      "user": 27,
+      "date": "2026-04-26",
+      "running_record": 185,
+      "created_at": "2026-04-26T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 183,
+    "fields": {
+      "user": 27,
+      "date": "2026-04-30",
+      "running_record": 186,
+      "created_at": "2026-04-30T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 184,
+    "fields": {
+      "user": 27,
+      "date": "2026-05-14",
+      "running_record": 187,
+      "created_at": "2026-05-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 185,
+    "fields": {
+      "user": 27,
+      "date": "2026-05-25",
+      "running_record": 188,
+      "created_at": "2026-05-25T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 186,
+    "fields": {
+      "user": 27,
+      "date": "2026-05-27",
+      "running_record": 189,
+      "created_at": "2026-05-27T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 187,
+    "fields": {
+      "user": 27,
+      "date": "2026-05-30",
+      "running_record": 190,
+      "created_at": "2026-05-30T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 188,
+    "fields": {
+      "user": 27,
+      "date": "2026-05-31",
+      "running_record": 191,
+      "created_at": "2026-05-31T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 189,
+    "fields": {
+      "user": 27,
+      "date": "2026-06-02",
+      "running_record": 192,
+      "created_at": "2026-06-02T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 190,
+    "fields": {
+      "user": 27,
+      "date": "2026-06-08",
+      "running_record": 193,
+      "created_at": "2026-06-08T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 191,
+    "fields": {
+      "user": 27,
+      "date": "2026-06-15",
+      "running_record": 194,
+      "created_at": "2026-06-15T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 192,
+    "fields": {
+      "user": 27,
+      "date": "2026-06-16",
+      "running_record": 195,
+      "created_at": "2026-06-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 193,
+    "fields": {
+      "user": 27,
+      "date": "2026-06-18",
+      "running_record": 196,
+      "created_at": "2026-06-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 194,
+    "fields": {
+      "user": 27,
+      "date": "2026-06-20",
+      "running_record": 197,
+      "created_at": "2026-06-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 195,
+    "fields": {
+      "user": 27,
+      "date": "2026-06-21",
+      "running_record": 198,
+      "created_at": "2026-06-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 196,
+    "fields": {
+      "user": 28,
+      "date": "2026-03-29",
+      "running_record": 199,
+      "created_at": "2026-03-29T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 197,
+    "fields": {
+      "user": 28,
+      "date": "2026-04-02",
+      "running_record": 200,
+      "created_at": "2026-04-02T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 198,
+    "fields": {
+      "user": 28,
+      "date": "2026-04-03",
+      "running_record": 201,
+      "created_at": "2026-04-03T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 199,
+    "fields": {
+      "user": 28,
+      "date": "2026-04-16",
+      "running_record": 202,
+      "created_at": "2026-04-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 200,
+    "fields": {
+      "user": 28,
+      "date": "2026-04-22",
+      "running_record": 203,
+      "created_at": "2026-04-22T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 201,
+    "fields": {
+      "user": 28,
+      "date": "2026-05-02",
+      "running_record": 204,
+      "created_at": "2026-05-02T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 202,
+    "fields": {
+      "user": 28,
+      "date": "2026-05-05",
+      "running_record": 205,
+      "created_at": "2026-05-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 203,
+    "fields": {
+      "user": 28,
+      "date": "2026-05-06",
+      "running_record": 206,
+      "created_at": "2026-05-06T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 204,
+    "fields": {
+      "user": 28,
+      "date": "2026-05-07",
+      "running_record": 207,
+      "created_at": "2026-05-07T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 205,
+    "fields": {
+      "user": 28,
+      "date": "2026-05-09",
+      "running_record": 208,
+      "created_at": "2026-05-09T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 206,
+    "fields": {
+      "user": 28,
+      "date": "2026-05-11",
+      "running_record": 209,
+      "created_at": "2026-05-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 207,
+    "fields": {
+      "user": 28,
+      "date": "2026-05-12",
+      "running_record": 210,
+      "created_at": "2026-05-12T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 208,
+    "fields": {
+      "user": 28,
+      "date": "2026-05-13",
+      "running_record": 211,
+      "created_at": "2026-05-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 209,
+    "fields": {
+      "user": 28,
+      "date": "2026-05-14",
+      "running_record": 212,
+      "created_at": "2026-05-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 210,
+    "fields": {
+      "user": 28,
+      "date": "2026-05-21",
+      "running_record": 213,
+      "created_at": "2026-05-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 211,
+    "fields": {
+      "user": 28,
+      "date": "2026-05-30",
+      "running_record": 214,
+      "created_at": "2026-05-30T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 212,
+    "fields": {
+      "user": 28,
+      "date": "2026-06-10",
+      "running_record": 215,
+      "created_at": "2026-06-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 213,
+    "fields": {
+      "user": 28,
+      "date": "2026-06-18",
+      "running_record": 216,
+      "created_at": "2026-06-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 214,
+    "fields": {
+      "user": 29,
+      "date": "2026-03-18",
+      "running_record": 217,
+      "created_at": "2026-03-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 215,
+    "fields": {
+      "user": 29,
+      "date": "2026-03-21",
+      "running_record": 218,
+      "created_at": "2026-03-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 216,
+    "fields": {
+      "user": 29,
+      "date": "2026-03-28",
+      "running_record": 219,
+      "created_at": "2026-03-28T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 217,
+    "fields": {
+      "user": 29,
+      "date": "2026-03-31",
+      "running_record": 220,
+      "created_at": "2026-03-31T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 218,
+    "fields": {
+      "user": 29,
+      "date": "2026-04-11",
+      "running_record": 221,
+      "created_at": "2026-04-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 219,
+    "fields": {
+      "user": 29,
+      "date": "2026-05-05",
+      "running_record": 222,
+      "created_at": "2026-05-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 220,
+    "fields": {
+      "user": 29,
+      "date": "2026-05-15",
+      "running_record": 223,
+      "created_at": "2026-05-15T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 221,
+    "fields": {
+      "user": 29,
+      "date": "2026-05-18",
+      "running_record": 224,
+      "created_at": "2026-05-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 222,
+    "fields": {
+      "user": 29,
+      "date": "2026-05-19",
+      "running_record": 225,
+      "created_at": "2026-05-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 223,
+    "fields": {
+      "user": 29,
+      "date": "2026-05-20",
+      "running_record": 226,
+      "created_at": "2026-05-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 224,
+    "fields": {
+      "user": 29,
+      "date": "2026-05-21",
+      "running_record": 227,
+      "created_at": "2026-05-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 225,
+    "fields": {
+      "user": 29,
+      "date": "2026-05-29",
+      "running_record": 228,
+      "created_at": "2026-05-29T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 226,
+    "fields": {
+      "user": 29,
+      "date": "2026-05-31",
+      "running_record": 229,
+      "created_at": "2026-05-31T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 227,
+    "fields": {
+      "user": 29,
+      "date": "2026-06-02",
+      "running_record": 230,
+      "created_at": "2026-06-02T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 228,
+    "fields": {
+      "user": 29,
+      "date": "2026-06-04",
+      "running_record": 231,
+      "created_at": "2026-06-04T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 229,
+    "fields": {
+      "user": 29,
+      "date": "2026-06-05",
+      "running_record": 232,
+      "created_at": "2026-06-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 230,
+    "fields": {
+      "user": 29,
+      "date": "2026-06-09",
+      "running_record": 233,
+      "created_at": "2026-06-09T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 231,
+    "fields": {
+      "user": 29,
+      "date": "2026-06-13",
+      "running_record": 234,
+      "created_at": "2026-06-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 232,
+    "fields": {
+      "user": 30,
+      "date": "2026-04-22",
+      "running_record": 235,
+      "created_at": "2026-04-22T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 233,
+    "fields": {
+      "user": 30,
+      "date": "2026-04-24",
+      "running_record": 236,
+      "created_at": "2026-04-24T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 234,
+    "fields": {
+      "user": 30,
+      "date": "2026-04-26",
+      "running_record": 237,
+      "created_at": "2026-04-26T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 235,
+    "fields": {
+      "user": 30,
+      "date": "2026-05-03",
+      "running_record": 238,
+      "created_at": "2026-05-03T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 236,
+    "fields": {
+      "user": 30,
+      "date": "2026-05-05",
+      "running_record": 239,
+      "created_at": "2026-05-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 237,
+    "fields": {
+      "user": 30,
+      "date": "2026-05-09",
+      "running_record": 240,
+      "created_at": "2026-05-09T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 238,
+    "fields": {
+      "user": 30,
+      "date": "2026-05-10",
+      "running_record": 241,
+      "created_at": "2026-05-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 239,
+    "fields": {
+      "user": 30,
+      "date": "2026-05-11",
+      "running_record": 242,
+      "created_at": "2026-05-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 240,
+    "fields": {
+      "user": 30,
+      "date": "2026-05-13",
+      "running_record": 243,
+      "created_at": "2026-05-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 241,
+    "fields": {
+      "user": 30,
+      "date": "2026-05-17",
+      "running_record": 244,
+      "created_at": "2026-05-17T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 242,
+    "fields": {
+      "user": 30,
+      "date": "2026-05-22",
+      "running_record": 245,
+      "created_at": "2026-05-22T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 243,
+    "fields": {
+      "user": 30,
+      "date": "2026-06-05",
+      "running_record": 247,
+      "created_at": "2026-06-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 244,
+    "fields": {
+      "user": 30,
+      "date": "2026-06-07",
+      "running_record": 248,
+      "created_at": "2026-06-07T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 245,
+    "fields": {
+      "user": 30,
+      "date": "2026-06-12",
+      "running_record": 249,
+      "created_at": "2026-06-12T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 246,
+    "fields": {
+      "user": 30,
+      "date": "2026-06-13",
+      "running_record": 250,
+      "created_at": "2026-06-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 247,
+    "fields": {
+      "user": 30,
+      "date": "2026-06-17",
+      "running_record": 252,
+      "created_at": "2026-06-17T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 248,
+    "fields": {
+      "user": 31,
+      "date": "2026-03-13",
+      "running_record": 253,
+      "created_at": "2026-03-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 249,
+    "fields": {
+      "user": 31,
+      "date": "2026-03-22",
+      "running_record": 254,
+      "created_at": "2026-03-22T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 250,
+    "fields": {
+      "user": 31,
+      "date": "2026-03-28",
+      "running_record": 255,
+      "created_at": "2026-03-28T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 251,
+    "fields": {
+      "user": 31,
+      "date": "2026-04-01",
+      "running_record": 256,
+      "created_at": "2026-04-01T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 252,
+    "fields": {
+      "user": 31,
+      "date": "2026-04-03",
+      "running_record": 257,
+      "created_at": "2026-04-03T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 253,
+    "fields": {
+      "user": 31,
+      "date": "2026-04-10",
+      "running_record": 258,
+      "created_at": "2026-04-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 254,
+    "fields": {
+      "user": 31,
+      "date": "2026-04-11",
+      "running_record": 259,
+      "created_at": "2026-04-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 255,
+    "fields": {
+      "user": 31,
+      "date": "2026-04-13",
+      "running_record": 260,
+      "created_at": "2026-04-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 256,
+    "fields": {
+      "user": 31,
+      "date": "2026-04-19",
+      "running_record": 261,
+      "created_at": "2026-04-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 257,
+    "fields": {
+      "user": 31,
+      "date": "2026-04-24",
+      "running_record": 262,
+      "created_at": "2026-04-24T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 258,
+    "fields": {
+      "user": 31,
+      "date": "2026-05-03",
+      "running_record": 263,
+      "created_at": "2026-05-03T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 259,
+    "fields": {
+      "user": 31,
+      "date": "2026-05-15",
+      "running_record": 264,
+      "created_at": "2026-05-15T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 260,
+    "fields": {
+      "user": 31,
+      "date": "2026-05-16",
+      "running_record": 265,
+      "created_at": "2026-05-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 261,
+    "fields": {
+      "user": 31,
+      "date": "2026-05-25",
+      "running_record": 266,
+      "created_at": "2026-05-25T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 262,
+    "fields": {
+      "user": 31,
+      "date": "2026-05-30",
+      "running_record": 267,
+      "created_at": "2026-05-30T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 263,
+    "fields": {
+      "user": 31,
+      "date": "2026-05-31",
+      "running_record": 268,
+      "created_at": "2026-05-31T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 264,
+    "fields": {
+      "user": 31,
+      "date": "2026-06-03",
+      "running_record": 269,
+      "created_at": "2026-06-03T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 265,
+    "fields": {
+      "user": 31,
+      "date": "2026-06-19",
+      "running_record": 270,
+      "created_at": "2026-06-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 266,
+    "fields": {
+      "user": 32,
+      "date": "2026-03-10",
+      "running_record": 271,
+      "created_at": "2026-03-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 267,
+    "fields": {
+      "user": 32,
+      "date": "2026-03-16",
+      "running_record": 272,
+      "created_at": "2026-03-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 268,
+    "fields": {
+      "user": 32,
+      "date": "2026-03-19",
+      "running_record": 273,
+      "created_at": "2026-03-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 269,
+    "fields": {
+      "user": 32,
+      "date": "2026-03-26",
+      "running_record": 274,
+      "created_at": "2026-03-26T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 270,
+    "fields": {
+      "user": 32,
+      "date": "2026-03-30",
+      "running_record": 275,
+      "created_at": "2026-03-30T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 271,
+    "fields": {
+      "user": 32,
+      "date": "2026-04-05",
+      "running_record": 276,
+      "created_at": "2026-04-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 272,
+    "fields": {
+      "user": 32,
+      "date": "2026-04-18",
+      "running_record": 277,
+      "created_at": "2026-04-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 273,
+    "fields": {
+      "user": 32,
+      "date": "2026-05-02",
+      "running_record": 278,
+      "created_at": "2026-05-02T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 274,
+    "fields": {
+      "user": 32,
+      "date": "2026-05-04",
+      "running_record": 279,
+      "created_at": "2026-05-04T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 275,
+    "fields": {
+      "user": 32,
+      "date": "2026-05-06",
+      "running_record": 280,
+      "created_at": "2026-05-06T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 276,
+    "fields": {
+      "user": 32,
+      "date": "2026-05-17",
+      "running_record": 281,
+      "created_at": "2026-05-17T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 277,
+    "fields": {
+      "user": 32,
+      "date": "2026-05-19",
+      "running_record": 282,
+      "created_at": "2026-05-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 278,
+    "fields": {
+      "user": 32,
+      "date": "2026-05-28",
+      "running_record": 283,
+      "created_at": "2026-05-28T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 279,
+    "fields": {
+      "user": 32,
+      "date": "2026-06-05",
+      "running_record": 284,
+      "created_at": "2026-06-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 280,
+    "fields": {
+      "user": 32,
+      "date": "2026-06-11",
+      "running_record": 285,
+      "created_at": "2026-06-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 281,
+    "fields": {
+      "user": 32,
+      "date": "2026-06-13",
+      "running_record": 286,
+      "created_at": "2026-06-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 282,
+    "fields": {
+      "user": 32,
+      "date": "2026-06-14",
+      "running_record": 287,
+      "created_at": "2026-06-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 283,
+    "fields": {
+      "user": 32,
+      "date": "2026-06-18",
+      "running_record": 288,
+      "created_at": "2026-06-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 284,
+    "fields": {
+      "user": 33,
+      "date": "2026-03-14",
+      "running_record": 289,
+      "created_at": "2026-03-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 285,
+    "fields": {
+      "user": 33,
+      "date": "2026-03-29",
+      "running_record": 290,
+      "created_at": "2026-03-29T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 286,
+    "fields": {
+      "user": 33,
+      "date": "2026-04-05",
+      "running_record": 291,
+      "created_at": "2026-04-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 287,
+    "fields": {
+      "user": 33,
+      "date": "2026-04-14",
+      "running_record": 292,
+      "created_at": "2026-04-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 288,
+    "fields": {
+      "user": 33,
+      "date": "2026-04-15",
+      "running_record": 293,
+      "created_at": "2026-04-15T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 289,
+    "fields": {
+      "user": 33,
+      "date": "2026-04-29",
+      "running_record": 294,
+      "created_at": "2026-04-29T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 290,
+    "fields": {
+      "user": 33,
+      "date": "2026-05-02",
+      "running_record": 295,
+      "created_at": "2026-05-02T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 291,
+    "fields": {
+      "user": 33,
+      "date": "2026-05-10",
+      "running_record": 296,
+      "created_at": "2026-05-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 292,
+    "fields": {
+      "user": 33,
+      "date": "2026-05-14",
+      "running_record": 297,
+      "created_at": "2026-05-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 293,
+    "fields": {
+      "user": 33,
+      "date": "2026-05-19",
+      "running_record": 298,
+      "created_at": "2026-05-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 294,
+    "fields": {
+      "user": 33,
+      "date": "2026-05-23",
+      "running_record": 299,
+      "created_at": "2026-05-23T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 295,
+    "fields": {
+      "user": 33,
+      "date": "2026-05-24",
+      "running_record": 300,
+      "created_at": "2026-05-24T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 296,
+    "fields": {
+      "user": 33,
+      "date": "2026-05-29",
+      "running_record": 301,
+      "created_at": "2026-05-29T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 297,
+    "fields": {
+      "user": 33,
+      "date": "2026-06-09",
+      "running_record": 302,
+      "created_at": "2026-06-09T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 298,
+    "fields": {
+      "user": 33,
+      "date": "2026-06-13",
+      "running_record": 303,
+      "created_at": "2026-06-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 299,
+    "fields": {
+      "user": 33,
+      "date": "2026-06-14",
+      "running_record": 304,
+      "created_at": "2026-06-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 300,
+    "fields": {
+      "user": 33,
+      "date": "2026-06-16",
+      "running_record": 305,
+      "created_at": "2026-06-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 301,
+    "fields": {
+      "user": 33,
+      "date": "2026-06-20",
+      "running_record": 306,
+      "created_at": "2026-06-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 302,
+    "fields": {
+      "user": 34,
+      "date": "2026-04-10",
+      "running_record": 307,
+      "created_at": "2026-04-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 303,
+    "fields": {
+      "user": 34,
+      "date": "2026-04-12",
+      "running_record": 308,
+      "created_at": "2026-04-12T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 304,
+    "fields": {
+      "user": 34,
+      "date": "2026-04-13",
+      "running_record": 309,
+      "created_at": "2026-04-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 305,
+    "fields": {
+      "user": 34,
+      "date": "2026-04-24",
+      "running_record": 310,
+      "created_at": "2026-04-24T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 306,
+    "fields": {
+      "user": 34,
+      "date": "2026-04-28",
+      "running_record": 311,
+      "created_at": "2026-04-28T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 307,
+    "fields": {
+      "user": 34,
+      "date": "2026-05-07",
+      "running_record": 312,
+      "created_at": "2026-05-07T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 308,
+    "fields": {
+      "user": 34,
+      "date": "2026-05-19",
+      "running_record": 313,
+      "created_at": "2026-05-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 309,
+    "fields": {
+      "user": 34,
+      "date": "2026-05-21",
+      "running_record": 314,
+      "created_at": "2026-05-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 310,
+    "fields": {
+      "user": 34,
+      "date": "2026-05-22",
+      "running_record": 315,
+      "created_at": "2026-05-22T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 311,
+    "fields": {
+      "user": 34,
+      "date": "2026-05-25",
+      "running_record": 316,
+      "created_at": "2026-05-25T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 312,
+    "fields": {
+      "user": 34,
+      "date": "2026-05-26",
+      "running_record": 317,
+      "created_at": "2026-05-26T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 313,
+    "fields": {
+      "user": 34,
+      "date": "2026-06-03",
+      "running_record": 318,
+      "created_at": "2026-06-03T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 314,
+    "fields": {
+      "user": 34,
+      "date": "2026-06-06",
+      "running_record": 319,
+      "created_at": "2026-06-06T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 315,
+    "fields": {
+      "user": 34,
+      "date": "2026-06-12",
+      "running_record": 320,
+      "created_at": "2026-06-12T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 316,
+    "fields": {
+      "user": 34,
+      "date": "2026-06-13",
+      "running_record": 321,
+      "created_at": "2026-06-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 317,
+    "fields": {
+      "user": 34,
+      "date": "2026-06-17",
+      "running_record": 322,
+      "created_at": "2026-06-17T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 318,
+    "fields": {
+      "user": 34,
+      "date": "2026-06-20",
+      "running_record": 324,
+      "created_at": "2026-06-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 319,
+    "fields": {
+      "user": 35,
+      "date": "2026-03-30",
+      "running_record": 325,
+      "created_at": "2026-03-30T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 320,
+    "fields": {
+      "user": 35,
+      "date": "2026-03-31",
+      "running_record": 326,
+      "created_at": "2026-03-31T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 321,
+    "fields": {
+      "user": 35,
+      "date": "2026-04-01",
+      "running_record": 327,
+      "created_at": "2026-04-01T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 322,
+    "fields": {
+      "user": 35,
+      "date": "2026-04-09",
+      "running_record": 328,
+      "created_at": "2026-04-09T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 323,
+    "fields": {
+      "user": 35,
+      "date": "2026-04-19",
+      "running_record": 329,
+      "created_at": "2026-04-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 324,
+    "fields": {
+      "user": 35,
+      "date": "2026-04-21",
+      "running_record": 330,
+      "created_at": "2026-04-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 325,
+    "fields": {
+      "user": 35,
+      "date": "2026-04-26",
+      "running_record": 331,
+      "created_at": "2026-04-26T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 326,
+    "fields": {
+      "user": 35,
+      "date": "2026-04-29",
+      "running_record": 332,
+      "created_at": "2026-04-29T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 327,
+    "fields": {
+      "user": 35,
+      "date": "2026-05-02",
+      "running_record": 333,
+      "created_at": "2026-05-02T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 328,
+    "fields": {
+      "user": 35,
+      "date": "2026-05-03",
+      "running_record": 334,
+      "created_at": "2026-05-03T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 329,
+    "fields": {
+      "user": 35,
+      "date": "2026-05-11",
+      "running_record": 335,
+      "created_at": "2026-05-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 330,
+    "fields": {
+      "user": 35,
+      "date": "2026-05-17",
+      "running_record": 336,
+      "created_at": "2026-05-17T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 331,
+    "fields": {
+      "user": 35,
+      "date": "2026-05-18",
+      "running_record": 337,
+      "created_at": "2026-05-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 332,
+    "fields": {
+      "user": 35,
+      "date": "2026-05-23",
+      "running_record": 338,
+      "created_at": "2026-05-23T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 333,
+    "fields": {
+      "user": 35,
+      "date": "2026-05-28",
+      "running_record": 339,
+      "created_at": "2026-05-28T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 334,
+    "fields": {
+      "user": 35,
+      "date": "2026-06-06",
+      "running_record": 340,
+      "created_at": "2026-06-06T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 335,
+    "fields": {
+      "user": 35,
+      "date": "2026-06-09",
+      "running_record": 341,
+      "created_at": "2026-06-09T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 336,
+    "fields": {
+      "user": 35,
+      "date": "2026-06-11",
+      "running_record": 342,
+      "created_at": "2026-06-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 337,
+    "fields": {
+      "user": 36,
+      "date": "2026-05-05",
+      "running_record": 343,
+      "created_at": "2026-05-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 338,
+    "fields": {
+      "user": 36,
+      "date": "2026-05-06",
+      "running_record": 344,
+      "created_at": "2026-05-06T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 339,
+    "fields": {
+      "user": 36,
+      "date": "2026-05-14",
+      "running_record": 345,
+      "created_at": "2026-05-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 340,
+    "fields": {
+      "user": 36,
+      "date": "2026-05-15",
+      "running_record": 346,
+      "created_at": "2026-05-15T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 341,
+    "fields": {
+      "user": 36,
+      "date": "2026-05-16",
+      "running_record": 347,
+      "created_at": "2026-05-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 342,
+    "fields": {
+      "user": 36,
+      "date": "2026-05-22",
+      "running_record": 348,
+      "created_at": "2026-05-22T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 343,
+    "fields": {
+      "user": 36,
+      "date": "2026-05-23",
+      "running_record": 349,
+      "created_at": "2026-05-23T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 344,
+    "fields": {
+      "user": 36,
+      "date": "2026-05-24",
+      "running_record": 350,
+      "created_at": "2026-05-24T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 345,
+    "fields": {
+      "user": 36,
+      "date": "2026-05-27",
+      "running_record": 351,
+      "created_at": "2026-05-27T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 346,
+    "fields": {
+      "user": 36,
+      "date": "2026-05-31",
+      "running_record": 352,
+      "created_at": "2026-05-31T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 347,
+    "fields": {
+      "user": 36,
+      "date": "2026-06-01",
+      "running_record": 353,
+      "created_at": "2026-06-01T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 348,
+    "fields": {
+      "user": 36,
+      "date": "2026-06-05",
+      "running_record": 354,
+      "created_at": "2026-06-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 349,
+    "fields": {
+      "user": 36,
+      "date": "2026-06-07",
+      "running_record": 355,
+      "created_at": "2026-06-07T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 350,
+    "fields": {
+      "user": 36,
+      "date": "2026-06-12",
+      "running_record": 356,
+      "created_at": "2026-06-12T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 351,
+    "fields": {
+      "user": 36,
+      "date": "2026-06-16",
+      "running_record": 357,
+      "created_at": "2026-06-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 352,
+    "fields": {
+      "user": 36,
+      "date": "2026-06-18",
+      "running_record": 358,
+      "created_at": "2026-06-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 353,
+    "fields": {
+      "user": 36,
+      "date": "2026-06-21",
+      "running_record": 360,
+      "created_at": "2026-06-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 354,
+    "fields": {
+      "user": 37,
+      "date": "2026-04-03",
+      "running_record": 361,
+      "created_at": "2026-04-03T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 355,
+    "fields": {
+      "user": 37,
+      "date": "2026-04-07",
+      "running_record": 362,
+      "created_at": "2026-04-07T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 356,
+    "fields": {
+      "user": 37,
+      "date": "2026-04-10",
+      "running_record": 363,
+      "created_at": "2026-04-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 357,
+    "fields": {
+      "user": 37,
+      "date": "2026-04-11",
+      "running_record": 364,
+      "created_at": "2026-04-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 358,
+    "fields": {
+      "user": 37,
+      "date": "2026-04-13",
+      "running_record": 365,
+      "created_at": "2026-04-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 359,
+    "fields": {
+      "user": 37,
+      "date": "2026-04-29",
+      "running_record": 366,
+      "created_at": "2026-04-29T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 360,
+    "fields": {
+      "user": 37,
+      "date": "2026-05-05",
+      "running_record": 367,
+      "created_at": "2026-05-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 361,
+    "fields": {
+      "user": 37,
+      "date": "2026-05-08",
+      "running_record": 368,
+      "created_at": "2026-05-08T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 362,
+    "fields": {
+      "user": 37,
+      "date": "2026-05-10",
+      "running_record": 369,
+      "created_at": "2026-05-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 363,
+    "fields": {
+      "user": 37,
+      "date": "2026-05-11",
+      "running_record": 370,
+      "created_at": "2026-05-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 364,
+    "fields": {
+      "user": 37,
+      "date": "2026-05-12",
+      "running_record": 371,
+      "created_at": "2026-05-12T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 365,
+    "fields": {
+      "user": 37,
+      "date": "2026-05-15",
+      "running_record": 372,
+      "created_at": "2026-05-15T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 366,
+    "fields": {
+      "user": 37,
+      "date": "2026-05-17",
+      "running_record": 373,
+      "created_at": "2026-05-17T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 367,
+    "fields": {
+      "user": 37,
+      "date": "2026-05-18",
+      "running_record": 374,
+      "created_at": "2026-05-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 368,
+    "fields": {
+      "user": 37,
+      "date": "2026-05-19",
+      "running_record": 375,
+      "created_at": "2026-05-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 369,
+    "fields": {
+      "user": 37,
+      "date": "2026-06-02",
+      "running_record": 376,
+      "created_at": "2026-06-02T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 370,
+    "fields": {
+      "user": 37,
+      "date": "2026-06-13",
+      "running_record": 377,
+      "created_at": "2026-06-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 371,
+    "fields": {
+      "user": 37,
+      "date": "2026-06-19",
+      "running_record": 378,
+      "created_at": "2026-06-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 372,
+    "fields": {
+      "user": 38,
+      "date": "2026-03-18",
+      "running_record": 379,
+      "created_at": "2026-03-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 373,
+    "fields": {
+      "user": 38,
+      "date": "2026-03-19",
+      "running_record": 380,
+      "created_at": "2026-03-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 374,
+    "fields": {
+      "user": 38,
+      "date": "2026-03-20",
+      "running_record": 381,
+      "created_at": "2026-03-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 375,
+    "fields": {
+      "user": 38,
+      "date": "2026-03-27",
+      "running_record": 382,
+      "created_at": "2026-03-27T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 376,
+    "fields": {
+      "user": 38,
+      "date": "2026-03-29",
+      "running_record": 383,
+      "created_at": "2026-03-29T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 377,
+    "fields": {
+      "user": 38,
+      "date": "2026-03-31",
+      "running_record": 384,
+      "created_at": "2026-03-31T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 378,
+    "fields": {
+      "user": 38,
+      "date": "2026-04-08",
+      "running_record": 385,
+      "created_at": "2026-04-08T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 379,
+    "fields": {
+      "user": 38,
+      "date": "2026-04-23",
+      "running_record": 386,
+      "created_at": "2026-04-23T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 380,
+    "fields": {
+      "user": 38,
+      "date": "2026-04-24",
+      "running_record": 387,
+      "created_at": "2026-04-24T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 381,
+    "fields": {
+      "user": 38,
+      "date": "2026-04-27",
+      "running_record": 388,
+      "created_at": "2026-04-27T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 382,
+    "fields": {
+      "user": 38,
+      "date": "2026-05-05",
+      "running_record": 389,
+      "created_at": "2026-05-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 383,
+    "fields": {
+      "user": 38,
+      "date": "2026-05-12",
+      "running_record": 390,
+      "created_at": "2026-05-12T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 384,
+    "fields": {
+      "user": 38,
+      "date": "2026-05-13",
+      "running_record": 391,
+      "created_at": "2026-05-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 385,
+    "fields": {
+      "user": 38,
+      "date": "2026-05-18",
+      "running_record": 392,
+      "created_at": "2026-05-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 386,
+    "fields": {
+      "user": 38,
+      "date": "2026-05-24",
+      "running_record": 393,
+      "created_at": "2026-05-24T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 387,
+    "fields": {
+      "user": 38,
+      "date": "2026-05-29",
+      "running_record": 394,
+      "created_at": "2026-05-29T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 388,
+    "fields": {
+      "user": 38,
+      "date": "2026-05-31",
+      "running_record": 395,
+      "created_at": "2026-05-31T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 389,
+    "fields": {
+      "user": 38,
+      "date": "2026-06-17",
+      "running_record": 396,
+      "created_at": "2026-06-17T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 390,
+    "fields": {
+      "user": 39,
+      "date": "2026-03-14",
+      "running_record": 397,
+      "created_at": "2026-03-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 391,
+    "fields": {
+      "user": 39,
+      "date": "2026-03-15",
+      "running_record": 398,
+      "created_at": "2026-03-15T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 392,
+    "fields": {
+      "user": 39,
+      "date": "2026-03-16",
+      "running_record": 399,
+      "created_at": "2026-03-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 393,
+    "fields": {
+      "user": 39,
+      "date": "2026-03-17",
+      "running_record": 400,
+      "created_at": "2026-03-17T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 394,
+    "fields": {
+      "user": 39,
+      "date": "2026-03-18",
+      "running_record": 401,
+      "created_at": "2026-03-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 395,
+    "fields": {
+      "user": 39,
+      "date": "2026-03-19",
+      "running_record": 402,
+      "created_at": "2026-03-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 396,
+    "fields": {
+      "user": 39,
+      "date": "2026-03-20",
+      "running_record": 403,
+      "created_at": "2026-03-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 397,
+    "fields": {
+      "user": 39,
+      "date": "2026-03-21",
+      "running_record": 404,
+      "created_at": "2026-03-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 398,
+    "fields": {
+      "user": 39,
+      "date": "2026-03-22",
+      "running_record": 405,
+      "created_at": "2026-03-22T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 399,
+    "fields": {
+      "user": 39,
+      "date": "2026-03-23",
+      "running_record": 406,
+      "created_at": "2026-03-23T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 400,
+    "fields": {
+      "user": 39,
+      "date": "2026-03-24",
+      "running_record": 407,
+      "created_at": "2026-03-24T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 401,
+    "fields": {
+      "user": 39,
+      "date": "2026-03-25",
+      "running_record": 408,
+      "created_at": "2026-03-25T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 402,
+    "fields": {
+      "user": 39,
+      "date": "2026-03-26",
+      "running_record": 409,
+      "created_at": "2026-03-26T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 403,
+    "fields": {
+      "user": 39,
+      "date": "2026-03-27",
+      "running_record": 410,
+      "created_at": "2026-03-27T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 404,
+    "fields": {
+      "user": 39,
+      "date": "2026-03-28",
+      "running_record": 411,
+      "created_at": "2026-03-28T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 405,
+    "fields": {
+      "user": 39,
+      "date": "2026-03-29",
+      "running_record": 412,
+      "created_at": "2026-03-29T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 406,
+    "fields": {
+      "user": 39,
+      "date": "2026-03-30",
+      "running_record": 413,
+      "created_at": "2026-03-30T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 407,
+    "fields": {
+      "user": 39,
+      "date": "2026-03-31",
+      "running_record": 414,
+      "created_at": "2026-03-31T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 408,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-01",
+      "running_record": 415,
+      "created_at": "2026-04-01T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 409,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-02",
+      "running_record": 416,
+      "created_at": "2026-04-02T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 410,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-03",
+      "running_record": 417,
+      "created_at": "2026-04-03T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 411,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-04",
+      "running_record": 418,
+      "created_at": "2026-04-04T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 412,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-05",
+      "running_record": 419,
+      "created_at": "2026-04-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 413,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-06",
+      "running_record": 420,
+      "created_at": "2026-04-06T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 414,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-07",
+      "running_record": 421,
+      "created_at": "2026-04-07T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 415,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-08",
+      "running_record": 422,
+      "created_at": "2026-04-08T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 416,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-09",
+      "running_record": 423,
+      "created_at": "2026-04-09T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 417,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-10",
+      "running_record": 424,
+      "created_at": "2026-04-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 418,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-11",
+      "running_record": 425,
+      "created_at": "2026-04-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 419,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-12",
+      "running_record": 426,
+      "created_at": "2026-04-12T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 420,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-13",
+      "running_record": 427,
+      "created_at": "2026-04-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 421,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-14",
+      "running_record": 428,
+      "created_at": "2026-04-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 422,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-15",
+      "running_record": 429,
+      "created_at": "2026-04-15T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 423,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-16",
+      "running_record": 430,
+      "created_at": "2026-04-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 424,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-17",
+      "running_record": 431,
+      "created_at": "2026-04-17T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 425,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-18",
+      "running_record": 432,
+      "created_at": "2026-04-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 426,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-19",
+      "running_record": 433,
+      "created_at": "2026-04-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 427,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-20",
+      "running_record": 434,
+      "created_at": "2026-04-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 428,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-21",
+      "running_record": 435,
+      "created_at": "2026-04-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 429,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-22",
+      "running_record": 436,
+      "created_at": "2026-04-22T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 430,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-23",
+      "running_record": 437,
+      "created_at": "2026-04-23T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 431,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-24",
+      "running_record": 438,
+      "created_at": "2026-04-24T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 432,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-25",
+      "running_record": 439,
+      "created_at": "2026-04-25T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 433,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-26",
+      "running_record": 440,
+      "created_at": "2026-04-26T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 434,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-27",
+      "running_record": 441,
+      "created_at": "2026-04-27T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 435,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-28",
+      "running_record": 442,
+      "created_at": "2026-04-28T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 436,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-29",
+      "running_record": 443,
+      "created_at": "2026-04-29T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 437,
+    "fields": {
+      "user": 39,
+      "date": "2026-04-30",
+      "running_record": 444,
+      "created_at": "2026-04-30T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 438,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-01",
+      "running_record": 445,
+      "created_at": "2026-05-01T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 439,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-02",
+      "running_record": 446,
+      "created_at": "2026-05-02T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 440,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-03",
+      "running_record": 447,
+      "created_at": "2026-05-03T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 441,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-04",
+      "running_record": 448,
+      "created_at": "2026-05-04T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 442,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-05",
+      "running_record": 449,
+      "created_at": "2026-05-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 443,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-06",
+      "running_record": 450,
+      "created_at": "2026-05-06T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 444,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-07",
+      "running_record": 451,
+      "created_at": "2026-05-07T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 445,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-08",
+      "running_record": 452,
+      "created_at": "2026-05-08T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 446,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-09",
+      "running_record": 453,
+      "created_at": "2026-05-09T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 447,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-10",
+      "running_record": 454,
+      "created_at": "2026-05-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 448,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-11",
+      "running_record": 455,
+      "created_at": "2026-05-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 449,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-12",
+      "running_record": 456,
+      "created_at": "2026-05-12T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 450,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-13",
+      "running_record": 457,
+      "created_at": "2026-05-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 451,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-14",
+      "running_record": 458,
+      "created_at": "2026-05-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 452,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-15",
+      "running_record": 459,
+      "created_at": "2026-05-15T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 453,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-16",
+      "running_record": 460,
+      "created_at": "2026-05-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 454,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-17",
+      "running_record": 461,
+      "created_at": "2026-05-17T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 455,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-18",
+      "running_record": 462,
+      "created_at": "2026-05-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 456,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-19",
+      "running_record": 463,
+      "created_at": "2026-05-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 457,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-20",
+      "running_record": 464,
+      "created_at": "2026-05-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 458,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-21",
+      "running_record": 465,
+      "created_at": "2026-05-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 459,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-22",
+      "running_record": 466,
+      "created_at": "2026-05-22T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 460,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-23",
+      "running_record": 467,
+      "created_at": "2026-05-23T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 461,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-24",
+      "running_record": 468,
+      "created_at": "2026-05-24T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 462,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-25",
+      "running_record": 469,
+      "created_at": "2026-05-25T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 463,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-26",
+      "running_record": 470,
+      "created_at": "2026-05-26T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 464,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-27",
+      "running_record": 471,
+      "created_at": "2026-05-27T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 465,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-28",
+      "running_record": 472,
+      "created_at": "2026-05-28T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 466,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-29",
+      "running_record": 473,
+      "created_at": "2026-05-29T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 467,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-30",
+      "running_record": 474,
+      "created_at": "2026-05-30T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 468,
+    "fields": {
+      "user": 39,
+      "date": "2026-05-31",
+      "running_record": 475,
+      "created_at": "2026-05-31T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 469,
+    "fields": {
+      "user": 39,
+      "date": "2026-06-01",
+      "running_record": 476,
+      "created_at": "2026-06-01T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 470,
+    "fields": {
+      "user": 39,
+      "date": "2026-06-02",
+      "running_record": 477,
+      "created_at": "2026-06-02T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 471,
+    "fields": {
+      "user": 39,
+      "date": "2026-06-03",
+      "running_record": 478,
+      "created_at": "2026-06-03T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 472,
+    "fields": {
+      "user": 39,
+      "date": "2026-06-04",
+      "running_record": 479,
+      "created_at": "2026-06-04T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 473,
+    "fields": {
+      "user": 39,
+      "date": "2026-06-05",
+      "running_record": 480,
+      "created_at": "2026-06-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 474,
+    "fields": {
+      "user": 39,
+      "date": "2026-06-06",
+      "running_record": 481,
+      "created_at": "2026-06-06T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 475,
+    "fields": {
+      "user": 39,
+      "date": "2026-06-07",
+      "running_record": 482,
+      "created_at": "2026-06-07T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 476,
+    "fields": {
+      "user": 39,
+      "date": "2026-06-08",
+      "running_record": 483,
+      "created_at": "2026-06-08T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 477,
+    "fields": {
+      "user": 39,
+      "date": "2026-06-09",
+      "running_record": 484,
+      "created_at": "2026-06-09T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 478,
+    "fields": {
+      "user": 39,
+      "date": "2026-06-10",
+      "running_record": 485,
+      "created_at": "2026-06-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 479,
+    "fields": {
+      "user": 39,
+      "date": "2026-06-11",
+      "running_record": 486,
+      "created_at": "2026-06-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 480,
+    "fields": {
+      "user": 39,
+      "date": "2026-06-12",
+      "running_record": 487,
+      "created_at": "2026-06-12T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 481,
+    "fields": {
+      "user": 39,
+      "date": "2026-06-13",
+      "running_record": 488,
+      "created_at": "2026-06-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 482,
+    "fields": {
+      "user": 39,
+      "date": "2026-06-14",
+      "running_record": 489,
+      "created_at": "2026-06-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 483,
+    "fields": {
+      "user": 39,
+      "date": "2026-06-15",
+      "running_record": 490,
+      "created_at": "2026-06-15T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 484,
+    "fields": {
+      "user": 39,
+      "date": "2026-06-16",
+      "running_record": 491,
+      "created_at": "2026-06-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 485,
+    "fields": {
+      "user": 39,
+      "date": "2026-06-17",
+      "running_record": 492,
+      "created_at": "2026-06-17T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 486,
+    "fields": {
+      "user": 39,
+      "date": "2026-06-18",
+      "running_record": 493,
+      "created_at": "2026-06-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 487,
+    "fields": {
+      "user": 39,
+      "date": "2026-06-19",
+      "running_record": 494,
+      "created_at": "2026-06-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 488,
+    "fields": {
+      "user": 39,
+      "date": "2026-06-20",
+      "running_record": 495,
+      "created_at": "2026-06-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 489,
+    "fields": {
+      "user": 39,
+      "date": "2026-06-21",
+      "running_record": 496,
+      "created_at": "2026-06-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 490,
+    "fields": {
+      "user": 40,
+      "date": "2026-03-15",
+      "running_record": 497,
+      "created_at": "2026-03-15T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 491,
+    "fields": {
+      "user": 40,
+      "date": "2026-03-20",
+      "running_record": 498,
+      "created_at": "2026-03-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 492,
+    "fields": {
+      "user": 40,
+      "date": "2026-03-21",
+      "running_record": 499,
+      "created_at": "2026-03-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 493,
+    "fields": {
+      "user": 40,
+      "date": "2026-03-27",
+      "running_record": 500,
+      "created_at": "2026-03-27T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 494,
+    "fields": {
+      "user": 40,
+      "date": "2026-04-01",
+      "running_record": 501,
+      "created_at": "2026-04-01T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 495,
+    "fields": {
+      "user": 40,
+      "date": "2026-04-05",
+      "running_record": 502,
+      "created_at": "2026-04-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 496,
+    "fields": {
+      "user": 40,
+      "date": "2026-04-07",
+      "running_record": 503,
+      "created_at": "2026-04-07T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 497,
+    "fields": {
+      "user": 40,
+      "date": "2026-04-09",
+      "running_record": 504,
+      "created_at": "2026-04-09T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 498,
+    "fields": {
+      "user": 40,
+      "date": "2026-04-13",
+      "running_record": 505,
+      "created_at": "2026-04-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 499,
+    "fields": {
+      "user": 40,
+      "date": "2026-04-18",
+      "running_record": 506,
+      "created_at": "2026-04-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 500,
+    "fields": {
+      "user": 40,
+      "date": "2026-04-21",
+      "running_record": 507,
+      "created_at": "2026-04-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 501,
+    "fields": {
+      "user": 40,
+      "date": "2026-04-23",
+      "running_record": 508,
+      "created_at": "2026-04-23T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 502,
+    "fields": {
+      "user": 40,
+      "date": "2026-04-26",
+      "running_record": 509,
+      "created_at": "2026-04-26T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 503,
+    "fields": {
+      "user": 40,
+      "date": "2026-05-01",
+      "running_record": 510,
+      "created_at": "2026-05-01T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 504,
+    "fields": {
+      "user": 40,
+      "date": "2026-05-04",
+      "running_record": 511,
+      "created_at": "2026-05-04T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 505,
+    "fields": {
+      "user": 40,
+      "date": "2026-05-06",
+      "running_record": 512,
+      "created_at": "2026-05-06T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 506,
+    "fields": {
+      "user": 40,
+      "date": "2026-05-11",
+      "running_record": 513,
+      "created_at": "2026-05-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 507,
+    "fields": {
+      "user": 40,
+      "date": "2026-05-12",
+      "running_record": 514,
+      "created_at": "2026-05-12T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 508,
+    "fields": {
+      "user": 40,
+      "date": "2026-05-20",
+      "running_record": 515,
+      "created_at": "2026-05-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 509,
+    "fields": {
+      "user": 40,
+      "date": "2026-05-25",
+      "running_record": 516,
+      "created_at": "2026-05-25T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 510,
+    "fields": {
+      "user": 40,
+      "date": "2026-05-31",
+      "running_record": 519,
+      "created_at": "2026-05-31T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 511,
+    "fields": {
+      "user": 40,
+      "date": "2026-06-04",
+      "running_record": 520,
+      "created_at": "2026-06-04T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 512,
+    "fields": {
+      "user": 40,
+      "date": "2026-06-05",
+      "running_record": 521,
+      "created_at": "2026-06-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 513,
+    "fields": {
+      "user": 40,
+      "date": "2026-06-13",
+      "running_record": 522,
+      "created_at": "2026-06-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 514,
+    "fields": {
+      "user": 40,
+      "date": "2026-06-19",
+      "running_record": 523,
+      "created_at": "2026-06-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 515,
+    "fields": {
+      "user": 40,
+      "date": "2026-06-20",
+      "running_record": 524,
+      "created_at": "2026-06-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 516,
+    "fields": {
+      "user": 41,
+      "date": "2026-03-11",
+      "running_record": 525,
+      "created_at": "2026-03-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 517,
+    "fields": {
+      "user": 41,
+      "date": "2026-03-12",
+      "running_record": 526,
+      "created_at": "2026-03-12T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 518,
+    "fields": {
+      "user": 41,
+      "date": "2026-03-17",
+      "running_record": 527,
+      "created_at": "2026-03-17T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 519,
+    "fields": {
+      "user": 41,
+      "date": "2026-03-18",
+      "running_record": 528,
+      "created_at": "2026-03-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 520,
+    "fields": {
+      "user": 41,
+      "date": "2026-03-19",
+      "running_record": 529,
+      "created_at": "2026-03-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 521,
+    "fields": {
+      "user": 41,
+      "date": "2026-03-20",
+      "running_record": 530,
+      "created_at": "2026-03-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 522,
+    "fields": {
+      "user": 41,
+      "date": "2026-03-21",
+      "running_record": 531,
+      "created_at": "2026-03-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 523,
+    "fields": {
+      "user": 41,
+      "date": "2026-03-27",
+      "running_record": 532,
+      "created_at": "2026-03-27T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 524,
+    "fields": {
+      "user": 41,
+      "date": "2026-03-29",
+      "running_record": 533,
+      "created_at": "2026-03-29T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 525,
+    "fields": {
+      "user": 41,
+      "date": "2026-04-01",
+      "running_record": 534,
+      "created_at": "2026-04-01T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 526,
+    "fields": {
+      "user": 41,
+      "date": "2026-04-11",
+      "running_record": 535,
+      "created_at": "2026-04-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 527,
+    "fields": {
+      "user": 41,
+      "date": "2026-04-13",
+      "running_record": 536,
+      "created_at": "2026-04-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 528,
+    "fields": {
+      "user": 41,
+      "date": "2026-04-16",
+      "running_record": 537,
+      "created_at": "2026-04-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 529,
+    "fields": {
+      "user": 41,
+      "date": "2026-04-19",
+      "running_record": 538,
+      "created_at": "2026-04-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 530,
+    "fields": {
+      "user": 41,
+      "date": "2026-04-20",
+      "running_record": 539,
+      "created_at": "2026-04-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 531,
+    "fields": {
+      "user": 41,
+      "date": "2026-05-01",
+      "running_record": 540,
+      "created_at": "2026-05-01T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 532,
+    "fields": {
+      "user": 41,
+      "date": "2026-05-04",
+      "running_record": 541,
+      "created_at": "2026-05-04T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 533,
+    "fields": {
+      "user": 41,
+      "date": "2026-05-10",
+      "running_record": 542,
+      "created_at": "2026-05-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 534,
+    "fields": {
+      "user": 41,
+      "date": "2026-05-13",
+      "running_record": 543,
+      "created_at": "2026-05-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 535,
+    "fields": {
+      "user": 41,
+      "date": "2026-05-15",
+      "running_record": 544,
+      "created_at": "2026-05-15T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 536,
+    "fields": {
+      "user": 41,
+      "date": "2026-05-24",
+      "running_record": 545,
+      "created_at": "2026-05-24T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 537,
+    "fields": {
+      "user": 41,
+      "date": "2026-05-25",
+      "running_record": 546,
+      "created_at": "2026-05-25T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 538,
+    "fields": {
+      "user": 41,
+      "date": "2026-05-26",
+      "running_record": 547,
+      "created_at": "2026-05-26T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 539,
+    "fields": {
+      "user": 41,
+      "date": "2026-05-30",
+      "running_record": 548,
+      "created_at": "2026-05-30T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 540,
+    "fields": {
+      "user": 41,
+      "date": "2026-06-12",
+      "running_record": 549,
+      "created_at": "2026-06-12T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 541,
+    "fields": {
+      "user": 41,
+      "date": "2026-06-14",
+      "running_record": 550,
+      "created_at": "2026-06-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 542,
+    "fields": {
+      "user": 41,
+      "date": "2026-06-17",
+      "running_record": 551,
+      "created_at": "2026-06-17T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 543,
+    "fields": {
+      "user": 41,
+      "date": "2026-06-20",
+      "running_record": 552,
+      "created_at": "2026-06-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 544,
+    "fields": {
+      "user": 42,
+      "date": "2026-03-13",
+      "running_record": 553,
+      "created_at": "2026-03-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 545,
+    "fields": {
+      "user": 42,
+      "date": "2026-03-18",
+      "running_record": 554,
+      "created_at": "2026-03-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 546,
+    "fields": {
+      "user": 42,
+      "date": "2026-03-19",
+      "running_record": 555,
+      "created_at": "2026-03-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 547,
+    "fields": {
+      "user": 42,
+      "date": "2026-03-26",
+      "running_record": 556,
+      "created_at": "2026-03-26T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 548,
+    "fields": {
+      "user": 42,
+      "date": "2026-03-31",
+      "running_record": 557,
+      "created_at": "2026-03-31T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 549,
+    "fields": {
+      "user": 42,
+      "date": "2026-04-03",
+      "running_record": 558,
+      "created_at": "2026-04-03T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 550,
+    "fields": {
+      "user": 42,
+      "date": "2026-04-05",
+      "running_record": 559,
+      "created_at": "2026-04-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 551,
+    "fields": {
+      "user": 42,
+      "date": "2026-04-10",
+      "running_record": 560,
+      "created_at": "2026-04-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 552,
+    "fields": {
+      "user": 42,
+      "date": "2026-04-14",
+      "running_record": 561,
+      "created_at": "2026-04-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 553,
+    "fields": {
+      "user": 42,
+      "date": "2026-04-21",
+      "running_record": 562,
+      "created_at": "2026-04-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 554,
+    "fields": {
+      "user": 42,
+      "date": "2026-04-23",
+      "running_record": 563,
+      "created_at": "2026-04-23T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 555,
+    "fields": {
+      "user": 42,
+      "date": "2026-04-28",
+      "running_record": 564,
+      "created_at": "2026-04-28T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 556,
+    "fields": {
+      "user": 42,
+      "date": "2026-04-30",
+      "running_record": 565,
+      "created_at": "2026-04-30T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 557,
+    "fields": {
+      "user": 42,
+      "date": "2026-05-03",
+      "running_record": 566,
+      "created_at": "2026-05-03T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 558,
+    "fields": {
+      "user": 42,
+      "date": "2026-05-06",
+      "running_record": 567,
+      "created_at": "2026-05-06T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 559,
+    "fields": {
+      "user": 42,
+      "date": "2026-05-10",
+      "running_record": 568,
+      "created_at": "2026-05-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 560,
+    "fields": {
+      "user": 42,
+      "date": "2026-05-11",
+      "running_record": 569,
+      "created_at": "2026-05-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 561,
+    "fields": {
+      "user": 42,
+      "date": "2026-05-14",
+      "running_record": 570,
+      "created_at": "2026-05-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 562,
+    "fields": {
+      "user": 42,
+      "date": "2026-05-20",
+      "running_record": 571,
+      "created_at": "2026-05-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 563,
+    "fields": {
+      "user": 42,
+      "date": "2026-05-21",
+      "running_record": 572,
+      "created_at": "2026-05-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 564,
+    "fields": {
+      "user": 42,
+      "date": "2026-05-25",
+      "running_record": 573,
+      "created_at": "2026-05-25T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 565,
+    "fields": {
+      "user": 42,
+      "date": "2026-06-03",
+      "running_record": 574,
+      "created_at": "2026-06-03T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 566,
+    "fields": {
+      "user": 42,
+      "date": "2026-06-05",
+      "running_record": 575,
+      "created_at": "2026-06-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 567,
+    "fields": {
+      "user": 42,
+      "date": "2026-06-09",
+      "running_record": 576,
+      "created_at": "2026-06-09T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 568,
+    "fields": {
+      "user": 42,
+      "date": "2026-06-10",
+      "running_record": 577,
+      "created_at": "2026-06-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 569,
+    "fields": {
+      "user": 42,
+      "date": "2026-06-12",
+      "running_record": 578,
+      "created_at": "2026-06-12T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 570,
+    "fields": {
+      "user": 42,
+      "date": "2026-06-16",
+      "running_record": 579,
+      "created_at": "2026-06-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 571,
+    "fields": {
+      "user": 42,
+      "date": "2026-06-19",
+      "running_record": 580,
+      "created_at": "2026-06-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 572,
+    "fields": {
+      "user": 43,
+      "date": "2026-03-13",
+      "running_record": 581,
+      "created_at": "2026-03-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 573,
+    "fields": {
+      "user": 43,
+      "date": "2026-03-14",
+      "running_record": 582,
+      "created_at": "2026-03-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 574,
+    "fields": {
+      "user": 43,
+      "date": "2026-03-22",
+      "running_record": 584,
+      "created_at": "2026-03-22T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 575,
+    "fields": {
+      "user": 43,
+      "date": "2026-03-29",
+      "running_record": 585,
+      "created_at": "2026-03-29T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 576,
+    "fields": {
+      "user": 43,
+      "date": "2026-04-04",
+      "running_record": 586,
+      "created_at": "2026-04-04T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 577,
+    "fields": {
+      "user": 43,
+      "date": "2026-04-05",
+      "running_record": 587,
+      "created_at": "2026-04-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 578,
+    "fields": {
+      "user": 43,
+      "date": "2026-04-07",
+      "running_record": 588,
+      "created_at": "2026-04-07T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 579,
+    "fields": {
+      "user": 43,
+      "date": "2026-04-08",
+      "running_record": 589,
+      "created_at": "2026-04-08T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 580,
+    "fields": {
+      "user": 43,
+      "date": "2026-04-15",
+      "running_record": 590,
+      "created_at": "2026-04-15T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 581,
+    "fields": {
+      "user": 43,
+      "date": "2026-04-16",
+      "running_record": 591,
+      "created_at": "2026-04-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 582,
+    "fields": {
+      "user": 43,
+      "date": "2026-04-18",
+      "running_record": 592,
+      "created_at": "2026-04-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 583,
+    "fields": {
+      "user": 43,
+      "date": "2026-04-26",
+      "running_record": 593,
+      "created_at": "2026-04-26T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 584,
+    "fields": {
+      "user": 43,
+      "date": "2026-04-29",
+      "running_record": 594,
+      "created_at": "2026-04-29T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 585,
+    "fields": {
+      "user": 43,
+      "date": "2026-05-04",
+      "running_record": 595,
+      "created_at": "2026-05-04T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 586,
+    "fields": {
+      "user": 43,
+      "date": "2026-05-05",
+      "running_record": 596,
+      "created_at": "2026-05-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 587,
+    "fields": {
+      "user": 43,
+      "date": "2026-05-08",
+      "running_record": 597,
+      "created_at": "2026-05-08T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 588,
+    "fields": {
+      "user": 43,
+      "date": "2026-05-10",
+      "running_record": 598,
+      "created_at": "2026-05-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 589,
+    "fields": {
+      "user": 43,
+      "date": "2026-05-19",
+      "running_record": 599,
+      "created_at": "2026-05-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 590,
+    "fields": {
+      "user": 43,
+      "date": "2026-05-30",
+      "running_record": 600,
+      "created_at": "2026-05-30T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 591,
+    "fields": {
+      "user": 43,
+      "date": "2026-06-03",
+      "running_record": 601,
+      "created_at": "2026-06-03T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 592,
+    "fields": {
+      "user": 43,
+      "date": "2026-06-04",
+      "running_record": 602,
+      "created_at": "2026-06-04T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 593,
+    "fields": {
+      "user": 43,
+      "date": "2026-06-05",
+      "running_record": 603,
+      "created_at": "2026-06-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 594,
+    "fields": {
+      "user": 43,
+      "date": "2026-06-06",
+      "running_record": 604,
+      "created_at": "2026-06-06T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 595,
+    "fields": {
+      "user": 43,
+      "date": "2026-06-13",
+      "running_record": 605,
+      "created_at": "2026-06-13T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 596,
+    "fields": {
+      "user": 43,
+      "date": "2026-06-14",
+      "running_record": 606,
+      "created_at": "2026-06-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 597,
+    "fields": {
+      "user": 43,
+      "date": "2026-06-18",
+      "running_record": 607,
+      "created_at": "2026-06-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 598,
+    "fields": {
+      "user": 43,
+      "date": "2026-06-19",
+      "running_record": 608,
+      "created_at": "2026-06-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 599,
+    "fields": {
+      "user": 44,
+      "date": "2026-03-27",
+      "running_record": 609,
+      "created_at": "2026-03-27T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 600,
+    "fields": {
+      "user": 44,
+      "date": "2026-03-29",
+      "running_record": 610,
+      "created_at": "2026-03-29T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 601,
+    "fields": {
+      "user": 44,
+      "date": "2026-04-03",
+      "running_record": 611,
+      "created_at": "2026-04-03T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 602,
+    "fields": {
+      "user": 44,
+      "date": "2026-04-08",
+      "running_record": 612,
+      "created_at": "2026-04-08T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 603,
+    "fields": {
+      "user": 44,
+      "date": "2026-04-26",
+      "running_record": 613,
+      "created_at": "2026-04-26T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 604,
+    "fields": {
+      "user": 44,
+      "date": "2026-04-27",
+      "running_record": 614,
+      "created_at": "2026-04-27T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 605,
+    "fields": {
+      "user": 44,
+      "date": "2026-04-30",
+      "running_record": 615,
+      "created_at": "2026-04-30T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 606,
+    "fields": {
+      "user": 44,
+      "date": "2026-05-06",
+      "running_record": 616,
+      "created_at": "2026-05-06T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 607,
+    "fields": {
+      "user": 45,
+      "date": "2026-03-06",
+      "running_record": 617,
+      "created_at": "2026-03-06T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 608,
+    "fields": {
+      "user": 45,
+      "date": "2026-03-08",
+      "running_record": 618,
+      "created_at": "2026-03-08T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 609,
+    "fields": {
+      "user": 45,
+      "date": "2026-03-28",
+      "running_record": 619,
+      "created_at": "2026-03-28T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 610,
+    "fields": {
+      "user": 45,
+      "date": "2026-03-30",
+      "running_record": 620,
+      "created_at": "2026-03-30T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 611,
+    "fields": {
+      "user": 45,
+      "date": "2026-04-05",
+      "running_record": 621,
+      "created_at": "2026-04-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 612,
+    "fields": {
+      "user": 45,
+      "date": "2026-04-18",
+      "running_record": 622,
+      "created_at": "2026-04-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 613,
+    "fields": {
+      "user": 45,
+      "date": "2026-04-21",
+      "running_record": 623,
+      "created_at": "2026-04-21T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 614,
+    "fields": {
+      "user": 45,
+      "date": "2026-04-27",
+      "running_record": 624,
+      "created_at": "2026-04-27T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 615,
+    "fields": {
+      "user": 46,
+      "date": "2026-03-18",
+      "running_record": 625,
+      "created_at": "2026-03-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 616,
+    "fields": {
+      "user": 46,
+      "date": "2026-04-01",
+      "running_record": 626,
+      "created_at": "2026-04-01T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 617,
+    "fields": {
+      "user": 46,
+      "date": "2026-04-12",
+      "running_record": 627,
+      "created_at": "2026-04-12T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 618,
+    "fields": {
+      "user": 46,
+      "date": "2026-04-16",
+      "running_record": 628,
+      "created_at": "2026-04-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 619,
+    "fields": {
+      "user": 46,
+      "date": "2026-04-20",
+      "running_record": 629,
+      "created_at": "2026-04-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 620,
+    "fields": {
+      "user": 46,
+      "date": "2026-04-25",
+      "running_record": 630,
+      "created_at": "2026-04-25T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 621,
+    "fields": {
+      "user": 46,
+      "date": "2026-05-05",
+      "running_record": 631,
+      "created_at": "2026-05-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 622,
+    "fields": {
+      "user": 46,
+      "date": "2026-05-10",
+      "running_record": 632,
+      "created_at": "2026-05-10T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 623,
+    "fields": {
+      "user": 47,
+      "date": "2026-03-30",
+      "running_record": 633,
+      "created_at": "2026-03-30T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 624,
+    "fields": {
+      "user": 47,
+      "date": "2026-04-04",
+      "running_record": 634,
+      "created_at": "2026-04-04T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 625,
+    "fields": {
+      "user": 47,
+      "date": "2026-04-12",
+      "running_record": 635,
+      "created_at": "2026-04-12T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 626,
+    "fields": {
+      "user": 47,
+      "date": "2026-04-14",
+      "running_record": 636,
+      "created_at": "2026-04-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 627,
+    "fields": {
+      "user": 47,
+      "date": "2026-04-18",
+      "running_record": 637,
+      "created_at": "2026-04-18T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 628,
+    "fields": {
+      "user": 47,
+      "date": "2026-04-19",
+      "running_record": 638,
+      "created_at": "2026-04-19T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 629,
+    "fields": {
+      "user": 47,
+      "date": "2026-04-20",
+      "running_record": 639,
+      "created_at": "2026-04-20T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 630,
+    "fields": {
+      "user": 47,
+      "date": "2026-04-24",
+      "running_record": 640,
+      "created_at": "2026-04-24T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 631,
+    "fields": {
+      "user": 48,
+      "date": "2026-04-11",
+      "running_record": 641,
+      "created_at": "2026-04-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 632,
+    "fields": {
+      "user": 48,
+      "date": "2026-04-16",
+      "running_record": 642,
+      "created_at": "2026-04-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 633,
+    "fields": {
+      "user": 48,
+      "date": "2026-04-22",
+      "running_record": 643,
+      "created_at": "2026-04-22T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 634,
+    "fields": {
+      "user": 48,
+      "date": "2026-04-26",
+      "running_record": 644,
+      "created_at": "2026-04-26T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 635,
+    "fields": {
+      "user": 48,
+      "date": "2026-04-29",
+      "running_record": 645,
+      "created_at": "2026-04-29T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 636,
+    "fields": {
+      "user": 48,
+      "date": "2026-05-04",
+      "running_record": 646,
+      "created_at": "2026-05-04T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 637,
+    "fields": {
+      "user": 48,
+      "date": "2026-05-05",
+      "running_record": 647,
+      "created_at": "2026-05-05T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 638,
+    "fields": {
+      "user": 48,
+      "date": "2026-05-07",
+      "running_record": 648,
+      "created_at": "2026-05-07T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 639,
+    "fields": {
+      "user": 49,
+      "date": "2026-03-14",
+      "running_record": 649,
+      "created_at": "2026-03-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 640,
+    "fields": {
+      "user": 49,
+      "date": "2026-03-22",
+      "running_record": 650,
+      "created_at": "2026-03-22T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 641,
+    "fields": {
+      "user": 49,
+      "date": "2026-03-28",
+      "running_record": 651,
+      "created_at": "2026-03-28T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 642,
+    "fields": {
+      "user": 49,
+      "date": "2026-03-31",
+      "running_record": 652,
+      "created_at": "2026-03-31T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 643,
+    "fields": {
+      "user": 49,
+      "date": "2026-04-02",
+      "running_record": 653,
+      "created_at": "2026-04-02T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 644,
+    "fields": {
+      "user": 49,
+      "date": "2026-04-09",
+      "running_record": 654,
+      "created_at": "2026-04-09T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 645,
+    "fields": {
+      "user": 49,
+      "date": "2026-04-11",
+      "running_record": 655,
+      "created_at": "2026-04-11T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 646,
+    "fields": {
+      "user": 49,
+      "date": "2026-04-27",
+      "running_record": 656,
+      "created_at": "2026-04-27T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 647,
+    "fields": {
+      "user": 50,
+      "date": "2026-03-22",
+      "running_record": 657,
+      "created_at": "2026-03-22T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 648,
+    "fields": {
+      "user": 50,
+      "date": "2026-03-28",
+      "running_record": 658,
+      "created_at": "2026-03-28T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 649,
+    "fields": {
+      "user": 50,
+      "date": "2026-04-01",
+      "running_record": 659,
+      "created_at": "2026-04-01T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 650,
+    "fields": {
+      "user": 50,
+      "date": "2026-04-03",
+      "running_record": 660,
+      "created_at": "2026-04-03T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 651,
+    "fields": {
+      "user": 50,
+      "date": "2026-04-14",
+      "running_record": 661,
+      "created_at": "2026-04-14T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 652,
+    "fields": {
+      "user": 50,
+      "date": "2026-04-15",
+      "running_record": 662,
+      "created_at": "2026-04-15T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 653,
+    "fields": {
+      "user": 50,
+      "date": "2026-04-16",
+      "running_record": 663,
+      "created_at": "2026-04-16T23:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.attendance",
+    "pk": 654,
+    "fields": {
+      "user": 50,
+      "date": "2026-04-26",
+      "running_record": 664,
+      "created_at": "2026-04-26T23:00:00+09:00"
+    }
+  }
+]

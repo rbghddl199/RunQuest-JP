@@ -1,0 +1,1262 @@
+[
+  {
+    "model": "courses.course",
+    "pk": 1,
+    "fields": {
+      "name": "갑천 러닝 코스",
+      "subtitle": "갑천을 중심으로 달리는 대전 맞춤 코스",
+      "district": "대전 서구",
+      "location": "갑천",
+      "course_type": "river",
+      "level": "beginner",
+      "distance_km": 4.8,
+      "expected_time": 28,
+      "description": "갑천 러닝 코스는 접근성과 풍경을 함께 고려한 RunQuest 추천 코스입니다.",
+      "start_lat": 36.3545,
+      "start_lng": 127.3621,
+      "end_lat": 36.354847,
+      "end_lng": 127.356454,
+      "route_points": [
+        {
+          "lat": 36.3545,
+          "lng": 127.3621
+        },
+        {
+          "lat": 36.356668,
+          "lng": 127.36191
+        },
+        {
+          "lat": 36.358366,
+          "lng": 127.360861
+        },
+        {
+          "lat": 36.35924,
+          "lng": 127.359283
+        },
+        {
+          "lat": 36.359137,
+          "lng": 127.357635
+        },
+        {
+          "lat": 36.358144,
+          "lng": 127.356395
+        },
+        {
+          "lat": 36.356564,
+          "lng": 127.35594
+        },
+        {
+          "lat": 36.354847,
+          "lng": 127.356454
+        }
+      ],
+      "safety_score": 4.8,
+      "scenic_score": 4.7,
+      "crowd_level": "medium",
+      "night_recommend": true,
+      "sidewalk_ratio": 100,
+      "toilet": true,
+      "parking": true,
+      "likes": 29,
+      "is_active": true,
+      "created_at": "2026-03-01T09:00:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 2,
+    "fields": {
+      "name": "유등천 산책 러닝 코스",
+      "subtitle": "유등천을 중심으로 달리는 대전 맞춤 코스",
+      "district": "대전 중구",
+      "location": "유등천",
+      "course_type": "river",
+      "level": "beginner",
+      "distance_km": 3.8,
+      "expected_time": 24,
+      "description": "유등천 산책 러닝 코스는 접근성과 풍경을 함께 고려한 RunQuest 추천 코스입니다.",
+      "start_lat": 36.3242,
+      "start_lng": 127.4091,
+      "end_lat": 36.324547,
+      "end_lng": 127.403454,
+      "route_points": [
+        {
+          "lat": 36.3242,
+          "lng": 127.4091
+        },
+        {
+          "lat": 36.326368,
+          "lng": 127.40891
+        },
+        {
+          "lat": 36.328066,
+          "lng": 127.407861
+        },
+        {
+          "lat": 36.32894,
+          "lng": 127.406283
+        },
+        {
+          "lat": 36.328837,
+          "lng": 127.404635
+        },
+        {
+          "lat": 36.327844,
+          "lng": 127.403395
+        },
+        {
+          "lat": 36.326264,
+          "lng": 127.40294
+        },
+        {
+          "lat": 36.324547,
+          "lng": 127.403454
+        }
+      ],
+      "safety_score": 4.6,
+      "scenic_score": 4.4,
+      "crowd_level": "low",
+      "night_recommend": true,
+      "sidewalk_ratio": 95,
+      "toilet": true,
+      "parking": false,
+      "likes": 95,
+      "is_active": true,
+      "created_at": "2026-03-01T09:00:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 3,
+    "fields": {
+      "name": "한밭수목원 힐링 코스",
+      "subtitle": "한밭수목원을 중심으로 달리는 대전 맞춤 코스",
+      "district": "대전 서구",
+      "location": "한밭수목원",
+      "course_type": "park",
+      "level": "beginner",
+      "distance_km": 3.1,
+      "expected_time": 22,
+      "description": "한밭수목원 힐링 코스는 접근성과 풍경을 함께 고려한 RunQuest 추천 코스입니다.",
+      "start_lat": 36.3678,
+      "start_lng": 127.3923,
+      "end_lat": 36.368147,
+      "end_lng": 127.386654,
+      "route_points": [
+        {
+          "lat": 36.3678,
+          "lng": 127.3923
+        },
+        {
+          "lat": 36.369968,
+          "lng": 127.39211
+        },
+        {
+          "lat": 36.371666,
+          "lng": 127.391061
+        },
+        {
+          "lat": 36.37254,
+          "lng": 127.389483
+        },
+        {
+          "lat": 36.372437,
+          "lng": 127.387835
+        },
+        {
+          "lat": 36.371444,
+          "lng": 127.386595
+        },
+        {
+          "lat": 36.369864,
+          "lng": 127.38614
+        },
+        {
+          "lat": 36.368147,
+          "lng": 127.386654
+        }
+      ],
+      "safety_score": 4.9,
+      "scenic_score": 4.8,
+      "crowd_level": "medium",
+      "night_recommend": false,
+      "sidewalk_ratio": 100,
+      "toilet": true,
+      "parking": true,
+      "likes": 122,
+      "is_active": true,
+      "created_at": "2026-03-01T09:00:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 4,
+    "fields": {
+      "name": "엑스포 시민광장 야간 코스",
+      "subtitle": "엑스포 시민광장을 중심으로 달리는 대전 맞춤 코스",
+      "district": "대전 유성구",
+      "location": "엑스포 시민광장",
+      "course_type": "city",
+      "level": "beginner",
+      "distance_km": 3.6,
+      "expected_time": 25,
+      "description": "엑스포 시민광장 야간 코스는 접근성과 풍경을 함께 고려한 RunQuest 추천 코스입니다.",
+      "start_lat": 36.3741,
+      "start_lng": 127.3929,
+      "end_lat": 36.374447,
+      "end_lng": 127.387254,
+      "route_points": [
+        {
+          "lat": 36.3741,
+          "lng": 127.3929
+        },
+        {
+          "lat": 36.376268,
+          "lng": 127.39271
+        },
+        {
+          "lat": 36.377966,
+          "lng": 127.391661
+        },
+        {
+          "lat": 36.37884,
+          "lng": 127.390083
+        },
+        {
+          "lat": 36.378737,
+          "lng": 127.388435
+        },
+        {
+          "lat": 36.377744,
+          "lng": 127.387195
+        },
+        {
+          "lat": 36.376164,
+          "lng": 127.38674
+        },
+        {
+          "lat": 36.374447,
+          "lng": 127.387254
+        }
+      ],
+      "safety_score": 4.7,
+      "scenic_score": 4.5,
+      "crowd_level": "medium",
+      "night_recommend": true,
+      "sidewalk_ratio": 90,
+      "toilet": true,
+      "parking": true,
+      "likes": 49,
+      "is_active": true,
+      "created_at": "2026-03-01T09:00:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 5,
+    "fields": {
+      "name": "대청호 장거리 코스",
+      "subtitle": "대청호을 중심으로 달리는 대전 맞춤 코스",
+      "district": "대전 대덕구",
+      "location": "대청호",
+      "course_type": "river",
+      "level": "advanced",
+      "distance_km": 10.8,
+      "expected_time": 68,
+      "description": "대청호 장거리 코스는 접근성과 풍경을 함께 고려한 RunQuest 추천 코스입니다.",
+      "start_lat": 36.4382,
+      "start_lng": 127.4809,
+      "end_lat": 36.438547,
+      "end_lng": 127.475254,
+      "route_points": [
+        {
+          "lat": 36.4382,
+          "lng": 127.4809
+        },
+        {
+          "lat": 36.440368,
+          "lng": 127.48071
+        },
+        {
+          "lat": 36.442066,
+          "lng": 127.479661
+        },
+        {
+          "lat": 36.44294,
+          "lng": 127.478083
+        },
+        {
+          "lat": 36.442837,
+          "lng": 127.476435
+        },
+        {
+          "lat": 36.441844,
+          "lng": 127.475195
+        },
+        {
+          "lat": 36.440264,
+          "lng": 127.47474
+        },
+        {
+          "lat": 36.438547,
+          "lng": 127.475254
+        }
+      ],
+      "safety_score": 4.4,
+      "scenic_score": 4.9,
+      "crowd_level": "low",
+      "night_recommend": false,
+      "sidewalk_ratio": 80,
+      "toilet": false,
+      "parking": true,
+      "likes": 125,
+      "is_active": true,
+      "created_at": "2026-03-01T09:00:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 6,
+    "fields": {
+      "name": "보문산 트레이닝 코스",
+      "subtitle": "보문산을 중심으로 달리는 대전 맞춤 코스",
+      "district": "대전 중구",
+      "location": "보문산",
+      "course_type": "mountain",
+      "level": "advanced",
+      "distance_km": 7.2,
+      "expected_time": 55,
+      "description": "보문산 트레이닝 코스는 접근성과 풍경을 함께 고려한 RunQuest 추천 코스입니다.",
+      "start_lat": 36.3084,
+      "start_lng": 127.4275,
+      "end_lat": 36.308747,
+      "end_lng": 127.421854,
+      "route_points": [
+        {
+          "lat": 36.3084,
+          "lng": 127.4275
+        },
+        {
+          "lat": 36.310568,
+          "lng": 127.42731
+        },
+        {
+          "lat": 36.312266,
+          "lng": 127.426261
+        },
+        {
+          "lat": 36.31314,
+          "lng": 127.424683
+        },
+        {
+          "lat": 36.313037,
+          "lng": 127.423035
+        },
+        {
+          "lat": 36.312044,
+          "lng": 127.421795
+        },
+        {
+          "lat": 36.310464,
+          "lng": 127.42134
+        },
+        {
+          "lat": 36.308747,
+          "lng": 127.421854
+        }
+      ],
+      "safety_score": 4.0,
+      "scenic_score": 4.8,
+      "crowd_level": "low",
+      "night_recommend": false,
+      "sidewalk_ratio": 60,
+      "toilet": true,
+      "parking": true,
+      "likes": 150,
+      "is_active": true,
+      "created_at": "2026-03-01T09:00:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 7,
+    "fields": {
+      "name": "월평공원 숲길 코스",
+      "subtitle": "월평공원을 중심으로 달리는 대전 맞춤 코스",
+      "district": "대전 서구",
+      "location": "월평공원",
+      "course_type": "park",
+      "level": "intermediate",
+      "distance_km": 5.7,
+      "expected_time": 38,
+      "description": "월평공원 숲길 코스는 접근성과 풍경을 함께 고려한 RunQuest 추천 코스입니다.",
+      "start_lat": 36.3549,
+      "start_lng": 127.3656,
+      "end_lat": 36.355247,
+      "end_lng": 127.359954,
+      "route_points": [
+        {
+          "lat": 36.3549,
+          "lng": 127.3656
+        },
+        {
+          "lat": 36.357068,
+          "lng": 127.36541
+        },
+        {
+          "lat": 36.358766,
+          "lng": 127.364361
+        },
+        {
+          "lat": 36.35964,
+          "lng": 127.362783
+        },
+        {
+          "lat": 36.359537,
+          "lng": 127.361135
+        },
+        {
+          "lat": 36.358544,
+          "lng": 127.359895
+        },
+        {
+          "lat": 36.356964,
+          "lng": 127.35944
+        },
+        {
+          "lat": 36.355247,
+          "lng": 127.359954
+        }
+      ],
+      "safety_score": 4.5,
+      "scenic_score": 4.8,
+      "crowd_level": "low",
+      "night_recommend": false,
+      "sidewalk_ratio": 85,
+      "toilet": true,
+      "parking": true,
+      "likes": 47,
+      "is_active": true,
+      "created_at": "2026-03-01T09:00:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 8,
+    "fields": {
+      "name": "유성온천 도심 루프",
+      "subtitle": "유성온천을 중심으로 달리는 대전 맞춤 코스",
+      "district": "대전 유성구",
+      "location": "유성온천",
+      "course_type": "city",
+      "level": "beginner",
+      "distance_km": 4.1,
+      "expected_time": 29,
+      "description": "유성온천 도심 루프는 접근성과 풍경을 함께 고려한 RunQuest 추천 코스입니다.",
+      "start_lat": 36.3552,
+      "start_lng": 127.3457,
+      "end_lat": 36.355547,
+      "end_lng": 127.340054,
+      "route_points": [
+        {
+          "lat": 36.3552,
+          "lng": 127.3457
+        },
+        {
+          "lat": 36.357368,
+          "lng": 127.34551
+        },
+        {
+          "lat": 36.359066,
+          "lng": 127.344461
+        },
+        {
+          "lat": 36.35994,
+          "lng": 127.342883
+        },
+        {
+          "lat": 36.359837,
+          "lng": 127.341235
+        },
+        {
+          "lat": 36.358844,
+          "lng": 127.339995
+        },
+        {
+          "lat": 36.357264,
+          "lng": 127.33954
+        },
+        {
+          "lat": 36.355547,
+          "lng": 127.340054
+        }
+      ],
+      "safety_score": 4.3,
+      "scenic_score": 4.1,
+      "crowd_level": "high",
+      "night_recommend": true,
+      "sidewalk_ratio": 88,
+      "toilet": true,
+      "parking": true,
+      "likes": 58,
+      "is_active": true,
+      "created_at": "2026-03-01T09:00:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 9,
+    "fields": {
+      "name": "충남대 캠퍼스 코스",
+      "subtitle": "충남대학교을 중심으로 달리는 대전 맞춤 코스",
+      "district": "대전 유성구",
+      "location": "충남대학교",
+      "course_type": "park",
+      "level": "beginner",
+      "distance_km": 3.4,
+      "expected_time": 23,
+      "description": "충남대 캠퍼스 코스는 접근성과 풍경을 함께 고려한 RunQuest 추천 코스입니다.",
+      "start_lat": 36.3683,
+      "start_lng": 127.3488,
+      "end_lat": 36.368647,
+      "end_lng": 127.343154,
+      "route_points": [
+        {
+          "lat": 36.3683,
+          "lng": 127.3488
+        },
+        {
+          "lat": 36.370468,
+          "lng": 127.34861
+        },
+        {
+          "lat": 36.372166,
+          "lng": 127.347561
+        },
+        {
+          "lat": 36.37304,
+          "lng": 127.345983
+        },
+        {
+          "lat": 36.372937,
+          "lng": 127.344335
+        },
+        {
+          "lat": 36.371944,
+          "lng": 127.343095
+        },
+        {
+          "lat": 36.370364,
+          "lng": 127.34264
+        },
+        {
+          "lat": 36.368647,
+          "lng": 127.343154
+        }
+      ],
+      "safety_score": 4.6,
+      "scenic_score": 4.3,
+      "crowd_level": "medium",
+      "night_recommend": true,
+      "sidewalk_ratio": 95,
+      "toilet": true,
+      "parking": false,
+      "likes": 106,
+      "is_active": true,
+      "created_at": "2026-03-01T09:00:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 10,
+    "fields": {
+      "name": "카이스트 호수 코스",
+      "subtitle": "KAIST을 중심으로 달리는 대전 맞춤 코스",
+      "district": "대전 유성구",
+      "location": "KAIST",
+      "course_type": "park",
+      "level": "beginner",
+      "distance_km": 3.9,
+      "expected_time": 27,
+      "description": "카이스트 호수 코스는 접근성과 풍경을 함께 고려한 RunQuest 추천 코스입니다.",
+      "start_lat": 36.3712,
+      "start_lng": 127.3641,
+      "end_lat": 36.371547,
+      "end_lng": 127.358454,
+      "route_points": [
+        {
+          "lat": 36.3712,
+          "lng": 127.3641
+        },
+        {
+          "lat": 36.373368,
+          "lng": 127.36391
+        },
+        {
+          "lat": 36.375066,
+          "lng": 127.362861
+        },
+        {
+          "lat": 36.37594,
+          "lng": 127.361283
+        },
+        {
+          "lat": 36.375837,
+          "lng": 127.359635
+        },
+        {
+          "lat": 36.374844,
+          "lng": 127.358395
+        },
+        {
+          "lat": 36.373264,
+          "lng": 127.35794
+        },
+        {
+          "lat": 36.371547,
+          "lng": 127.358454
+        }
+      ],
+      "safety_score": 4.5,
+      "scenic_score": 4.5,
+      "crowd_level": "medium",
+      "night_recommend": true,
+      "sidewalk_ratio": 90,
+      "toilet": true,
+      "parking": false,
+      "likes": 143,
+      "is_active": true,
+      "created_at": "2026-03-01T09:00:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 11,
+    "fields": {
+      "name": "대전천 가벼운 코스",
+      "subtitle": "대전천을 중심으로 달리는 대전 맞춤 코스",
+      "district": "대전 동구",
+      "location": "대전천",
+      "course_type": "river",
+      "level": "beginner",
+      "distance_km": 3.2,
+      "expected_time": 22,
+      "description": "대전천 가벼운 코스는 접근성과 풍경을 함께 고려한 RunQuest 추천 코스입니다.",
+      "start_lat": 36.329,
+      "start_lng": 127.4368,
+      "end_lat": 36.329347,
+      "end_lng": 127.431154,
+      "route_points": [
+        {
+          "lat": 36.329,
+          "lng": 127.4368
+        },
+        {
+          "lat": 36.331168,
+          "lng": 127.43661
+        },
+        {
+          "lat": 36.332866,
+          "lng": 127.435561
+        },
+        {
+          "lat": 36.33374,
+          "lng": 127.433983
+        },
+        {
+          "lat": 36.333637,
+          "lng": 127.432335
+        },
+        {
+          "lat": 36.332644,
+          "lng": 127.431095
+        },
+        {
+          "lat": 36.331064,
+          "lng": 127.43064
+        },
+        {
+          "lat": 36.329347,
+          "lng": 127.431154
+        }
+      ],
+      "safety_score": 4.2,
+      "scenic_score": 4.0,
+      "crowd_level": "medium",
+      "night_recommend": true,
+      "sidewalk_ratio": 80,
+      "toilet": true,
+      "parking": false,
+      "likes": 141,
+      "is_active": true,
+      "created_at": "2026-03-01T09:00:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 12,
+    "fields": {
+      "name": "샘머리공원 순환 코스",
+      "subtitle": "샘머리공원을 중심으로 달리는 대전 맞춤 코스",
+      "district": "대전 서구",
+      "location": "샘머리공원",
+      "course_type": "park",
+      "level": "beginner",
+      "distance_km": 2.7,
+      "expected_time": 19,
+      "description": "샘머리공원 순환 코스는 접근성과 풍경을 함께 고려한 RunQuest 추천 코스입니다.",
+      "start_lat": 36.3518,
+      "start_lng": 127.3882,
+      "end_lat": 36.352147,
+      "end_lng": 127.382554,
+      "route_points": [
+        {
+          "lat": 36.3518,
+          "lng": 127.3882
+        },
+        {
+          "lat": 36.353968,
+          "lng": 127.38801
+        },
+        {
+          "lat": 36.355666,
+          "lng": 127.386961
+        },
+        {
+          "lat": 36.35654,
+          "lng": 127.385383
+        },
+        {
+          "lat": 36.356437,
+          "lng": 127.383735
+        },
+        {
+          "lat": 36.355444,
+          "lng": 127.382495
+        },
+        {
+          "lat": 36.353864,
+          "lng": 127.38204
+        },
+        {
+          "lat": 36.352147,
+          "lng": 127.382554
+        }
+      ],
+      "safety_score": 4.6,
+      "scenic_score": 4.2,
+      "crowd_level": "medium",
+      "night_recommend": true,
+      "sidewalk_ratio": 100,
+      "toilet": true,
+      "parking": true,
+      "likes": 38,
+      "is_active": true,
+      "created_at": "2026-03-01T09:00:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 13,
+    "fields": {
+      "name": "남선공원 러닝 코스",
+      "subtitle": "남선공원을 중심으로 달리는 대전 맞춤 코스",
+      "district": "대전 서구",
+      "location": "남선공원",
+      "course_type": "park",
+      "level": "intermediate",
+      "distance_km": 4.6,
+      "expected_time": 32,
+      "description": "남선공원 러닝 코스는 접근성과 풍경을 함께 고려한 RunQuest 추천 코스입니다.",
+      "start_lat": 36.3419,
+      "start_lng": 127.3954,
+      "end_lat": 36.342247,
+      "end_lng": 127.389754,
+      "route_points": [
+        {
+          "lat": 36.3419,
+          "lng": 127.3954
+        },
+        {
+          "lat": 36.344068,
+          "lng": 127.39521
+        },
+        {
+          "lat": 36.345766,
+          "lng": 127.394161
+        },
+        {
+          "lat": 36.34664,
+          "lng": 127.392583
+        },
+        {
+          "lat": 36.346537,
+          "lng": 127.390935
+        },
+        {
+          "lat": 36.345544,
+          "lng": 127.389695
+        },
+        {
+          "lat": 36.343964,
+          "lng": 127.38924
+        },
+        {
+          "lat": 36.342247,
+          "lng": 127.389754
+        }
+      ],
+      "safety_score": 4.4,
+      "scenic_score": 4.3,
+      "crowd_level": "medium",
+      "night_recommend": true,
+      "sidewalk_ratio": 90,
+      "toilet": true,
+      "parking": true,
+      "likes": 153,
+      "is_active": true,
+      "created_at": "2026-03-01T09:00:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 14,
+    "fields": {
+      "name": "대동하늘공원 업힐 코스",
+      "subtitle": "대동하늘공원을 중심으로 달리는 대전 맞춤 코스",
+      "district": "대전 동구",
+      "location": "대동하늘공원",
+      "course_type": "mountain",
+      "level": "intermediate",
+      "distance_km": 5.2,
+      "expected_time": 42,
+      "description": "대동하늘공원 업힐 코스는 접근성과 풍경을 함께 고려한 RunQuest 추천 코스입니다.",
+      "start_lat": 36.3296,
+      "start_lng": 127.4514,
+      "end_lat": 36.329947,
+      "end_lng": 127.445754,
+      "route_points": [
+        {
+          "lat": 36.3296,
+          "lng": 127.4514
+        },
+        {
+          "lat": 36.331768,
+          "lng": 127.45121
+        },
+        {
+          "lat": 36.333466,
+          "lng": 127.450161
+        },
+        {
+          "lat": 36.33434,
+          "lng": 127.448583
+        },
+        {
+          "lat": 36.334237,
+          "lng": 127.446935
+        },
+        {
+          "lat": 36.333244,
+          "lng": 127.445695
+        },
+        {
+          "lat": 36.331664,
+          "lng": 127.44524
+        },
+        {
+          "lat": 36.329947,
+          "lng": 127.445754
+        }
+      ],
+      "safety_score": 4.0,
+      "scenic_score": 4.9,
+      "crowd_level": "low",
+      "night_recommend": false,
+      "sidewalk_ratio": 65,
+      "toilet": false,
+      "parking": true,
+      "likes": 68,
+      "is_active": true,
+      "created_at": "2026-03-01T09:00:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 15,
+    "fields": {
+      "name": "중앙로 도심 러닝 코스",
+      "subtitle": "중앙로을 중심으로 달리는 대전 맞춤 코스",
+      "district": "대전 중구",
+      "location": "중앙로",
+      "course_type": "city",
+      "level": "beginner",
+      "distance_km": 3.0,
+      "expected_time": 21,
+      "description": "중앙로 도심 러닝 코스는 접근성과 풍경을 함께 고려한 RunQuest 추천 코스입니다.",
+      "start_lat": 36.3275,
+      "start_lng": 127.4312,
+      "end_lat": 36.327847,
+      "end_lng": 127.425554,
+      "route_points": [
+        {
+          "lat": 36.3275,
+          "lng": 127.4312
+        },
+        {
+          "lat": 36.329668,
+          "lng": 127.43101
+        },
+        {
+          "lat": 36.331366,
+          "lng": 127.429961
+        },
+        {
+          "lat": 36.33224,
+          "lng": 127.428383
+        },
+        {
+          "lat": 36.332137,
+          "lng": 127.426735
+        },
+        {
+          "lat": 36.331144,
+          "lng": 127.425495
+        },
+        {
+          "lat": 36.329564,
+          "lng": 127.42504
+        },
+        {
+          "lat": 36.327847,
+          "lng": 127.425554
+        }
+      ],
+      "safety_score": 4.0,
+      "scenic_score": 3.8,
+      "crowd_level": "high",
+      "night_recommend": true,
+      "sidewalk_ratio": 75,
+      "toilet": true,
+      "parking": false,
+      "likes": 77,
+      "is_active": true,
+      "created_at": "2026-03-01T09:00:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 16,
+    "fields": {
+      "name": "관평천 퇴근 러닝 코스",
+      "subtitle": "관평천을 중심으로 달리는 대전 맞춤 코스",
+      "district": "대전 유성구",
+      "location": "관평천",
+      "course_type": "river",
+      "level": "intermediate",
+      "distance_km": 5.4,
+      "expected_time": 36,
+      "description": "관평천 퇴근 러닝 코스는 접근성과 풍경을 함께 고려한 RunQuest 추천 코스입니다.",
+      "start_lat": 36.4242,
+      "start_lng": 127.3932,
+      "end_lat": 36.424547,
+      "end_lng": 127.387554,
+      "route_points": [
+        {
+          "lat": 36.4242,
+          "lng": 127.3932
+        },
+        {
+          "lat": 36.426368,
+          "lng": 127.39301
+        },
+        {
+          "lat": 36.428066,
+          "lng": 127.391961
+        },
+        {
+          "lat": 36.42894,
+          "lng": 127.390383
+        },
+        {
+          "lat": 36.428837,
+          "lng": 127.388735
+        },
+        {
+          "lat": 36.427844,
+          "lng": 127.387495
+        },
+        {
+          "lat": 36.426264,
+          "lng": 127.38704
+        },
+        {
+          "lat": 36.424547,
+          "lng": 127.387554
+        }
+      ],
+      "safety_score": 4.5,
+      "scenic_score": 4.4,
+      "crowd_level": "low",
+      "night_recommend": true,
+      "sidewalk_ratio": 92,
+      "toilet": true,
+      "parking": true,
+      "likes": 92,
+      "is_active": true,
+      "created_at": "2026-03-01T09:00:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 17,
+    "fields": {
+      "name": "송강근린공원 코스",
+      "subtitle": "송강근린공원을 중심으로 달리는 대전 맞춤 코스",
+      "district": "대전 유성구",
+      "location": "송강근린공원",
+      "course_type": "park",
+      "level": "beginner",
+      "distance_km": 3.5,
+      "expected_time": 24,
+      "description": "송강근린공원 코스는 접근성과 풍경을 함께 고려한 RunQuest 추천 코스입니다.",
+      "start_lat": 36.4353,
+      "start_lng": 127.3881,
+      "end_lat": 36.435647,
+      "end_lng": 127.382454,
+      "route_points": [
+        {
+          "lat": 36.4353,
+          "lng": 127.3881
+        },
+        {
+          "lat": 36.437468,
+          "lng": 127.38791
+        },
+        {
+          "lat": 36.439166,
+          "lng": 127.386861
+        },
+        {
+          "lat": 36.44004,
+          "lng": 127.385283
+        },
+        {
+          "lat": 36.439937,
+          "lng": 127.383635
+        },
+        {
+          "lat": 36.438944,
+          "lng": 127.382395
+        },
+        {
+          "lat": 36.437364,
+          "lng": 127.38194
+        },
+        {
+          "lat": 36.435647,
+          "lng": 127.382454
+        }
+      ],
+      "safety_score": 4.4,
+      "scenic_score": 4.2,
+      "crowd_level": "low",
+      "night_recommend": true,
+      "sidewalk_ratio": 95,
+      "toilet": true,
+      "parking": true,
+      "likes": 119,
+      "is_active": true,
+      "created_at": "2026-03-01T09:00:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 18,
+    "fields": {
+      "name": "도안호수공원 코스",
+      "subtitle": "도안호수공원을 중심으로 달리는 대전 맞춤 코스",
+      "district": "대전 유성구",
+      "location": "도안호수공원",
+      "course_type": "park",
+      "level": "beginner",
+      "distance_km": 4.4,
+      "expected_time": 30,
+      "description": "도안호수공원 코스는 접근성과 풍경을 함께 고려한 RunQuest 추천 코스입니다.",
+      "start_lat": 36.3396,
+      "start_lng": 127.3405,
+      "end_lat": 36.339947,
+      "end_lng": 127.334854,
+      "route_points": [
+        {
+          "lat": 36.3396,
+          "lng": 127.3405
+        },
+        {
+          "lat": 36.341768,
+          "lng": 127.34031
+        },
+        {
+          "lat": 36.343466,
+          "lng": 127.339261
+        },
+        {
+          "lat": 36.34434,
+          "lng": 127.337683
+        },
+        {
+          "lat": 36.344237,
+          "lng": 127.336035
+        },
+        {
+          "lat": 36.343244,
+          "lng": 127.334795
+        },
+        {
+          "lat": 36.341664,
+          "lng": 127.33434
+        },
+        {
+          "lat": 36.339947,
+          "lng": 127.334854
+        }
+      ],
+      "safety_score": 4.7,
+      "scenic_score": 4.6,
+      "crowd_level": "medium",
+      "night_recommend": true,
+      "sidewalk_ratio": 100,
+      "toilet": true,
+      "parking": true,
+      "likes": 58,
+      "is_active": true,
+      "created_at": "2026-03-01T09:00:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 19,
+    "fields": {
+      "name": "갑천 장거리 확장 코스",
+      "subtitle": "갑천을 중심으로 달리는 대전 맞춤 코스",
+      "district": "대전 서구",
+      "location": "갑천",
+      "course_type": "river",
+      "level": "intermediate",
+      "distance_km": 7.8,
+      "expected_time": 50,
+      "description": "갑천 장거리 확장 코스는 접근성과 풍경을 함께 고려한 RunQuest 추천 코스입니다.",
+      "start_lat": 36.3521,
+      "start_lng": 127.375,
+      "end_lat": 36.352447,
+      "end_lng": 127.369354,
+      "route_points": [
+        {
+          "lat": 36.3521,
+          "lng": 127.375
+        },
+        {
+          "lat": 36.354268,
+          "lng": 127.37481
+        },
+        {
+          "lat": 36.355966,
+          "lng": 127.373761
+        },
+        {
+          "lat": 36.35684,
+          "lng": 127.372183
+        },
+        {
+          "lat": 36.356737,
+          "lng": 127.370535
+        },
+        {
+          "lat": 36.355744,
+          "lng": 127.369295
+        },
+        {
+          "lat": 36.354164,
+          "lng": 127.36884
+        },
+        {
+          "lat": 36.352447,
+          "lng": 127.369354
+        }
+      ],
+      "safety_score": 4.6,
+      "scenic_score": 4.7,
+      "crowd_level": "medium",
+      "night_recommend": true,
+      "sidewalk_ratio": 95,
+      "toilet": true,
+      "parking": true,
+      "likes": 50,
+      "is_active": true,
+      "created_at": "2026-03-01T09:00:00"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 20,
+    "fields": {
+      "name": "대청호 회복 조깅 코스",
+      "subtitle": "대청호을 중심으로 달리는 대전 맞춤 코스",
+      "district": "대전 대덕구",
+      "location": "대청호",
+      "course_type": "river",
+      "level": "intermediate",
+      "distance_km": 6.0,
+      "expected_time": 41,
+      "description": "대청호 회복 조깅 코스는 접근성과 풍경을 함께 고려한 RunQuest 추천 코스입니다.",
+      "start_lat": 36.4269,
+      "start_lng": 127.4771,
+      "end_lat": 36.427247,
+      "end_lng": 127.471454,
+      "route_points": [
+        {
+          "lat": 36.4269,
+          "lng": 127.4771
+        },
+        {
+          "lat": 36.429068,
+          "lng": 127.47691
+        },
+        {
+          "lat": 36.430766,
+          "lng": 127.475861
+        },
+        {
+          "lat": 36.43164,
+          "lng": 127.474283
+        },
+        {
+          "lat": 36.431537,
+          "lng": 127.472635
+        },
+        {
+          "lat": 36.430544,
+          "lng": 127.471395
+        },
+        {
+          "lat": 36.428964,
+          "lng": 127.47094
+        },
+        {
+          "lat": 36.427247,
+          "lng": 127.471454
+        }
+      ],
+      "safety_score": 4.3,
+      "scenic_score": 4.9,
+      "crowd_level": "low",
+      "night_recommend": false,
+      "sidewalk_ratio": 80,
+      "toilet": false,
+      "parking": true,
+      "likes": 148,
+      "is_active": true,
+      "created_at": "2026-03-01T09:00:00"
+    }
+  }
+]

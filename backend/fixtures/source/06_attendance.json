@@ -1,0 +1,5888 @@
+[
+  {
+    "model": "records.attendance",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "record": 1,
+      "date": "2026-03-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "record": 2,
+      "date": "2026-03-24"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 3,
+    "fields": {
+      "user": 2,
+      "record": 3,
+      "date": "2026-04-04"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 4,
+    "fields": {
+      "user": 2,
+      "record": 4,
+      "date": "2026-04-15"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 5,
+    "fields": {
+      "user": 2,
+      "record": 5,
+      "date": "2026-04-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 6,
+    "fields": {
+      "user": 2,
+      "record": 6,
+      "date": "2026-05-01"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 7,
+    "fields": {
+      "user": 2,
+      "record": 7,
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 8,
+    "fields": {
+      "user": 2,
+      "record": 8,
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 9,
+    "fields": {
+      "user": 2,
+      "record": 9,
+      "date": "2026-05-09"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 10,
+    "fields": {
+      "user": 2,
+      "record": 10,
+      "date": "2026-05-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 11,
+    "fields": {
+      "user": 2,
+      "record": 11,
+      "date": "2026-05-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 12,
+    "fields": {
+      "user": 2,
+      "record": 12,
+      "date": "2026-05-22"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 13,
+    "fields": {
+      "user": 2,
+      "record": 13,
+      "date": "2026-05-26"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 14,
+    "fields": {
+      "user": 2,
+      "record": 14,
+      "date": "2026-05-29"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 15,
+    "fields": {
+      "user": 2,
+      "record": 15,
+      "date": "2026-06-04"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 16,
+    "fields": {
+      "user": 2,
+      "record": 16,
+      "date": "2026-06-15"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 17,
+    "fields": {
+      "user": 2,
+      "record": 17,
+      "date": "2026-06-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 18,
+    "fields": {
+      "user": 3,
+      "record": 19,
+      "date": "2026-03-24"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 19,
+    "fields": {
+      "user": 3,
+      "record": 20,
+      "date": "2026-03-26"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 20,
+    "fields": {
+      "user": 3,
+      "record": 21,
+      "date": "2026-03-28"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 21,
+    "fields": {
+      "user": 3,
+      "record": 22,
+      "date": "2026-03-29"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 22,
+    "fields": {
+      "user": 3,
+      "record": 23,
+      "date": "2026-04-08"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 23,
+    "fields": {
+      "user": 3,
+      "record": 24,
+      "date": "2026-04-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 24,
+    "fields": {
+      "user": 3,
+      "record": 25,
+      "date": "2026-04-23"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 25,
+    "fields": {
+      "user": 3,
+      "record": 26,
+      "date": "2026-04-24"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 26,
+    "fields": {
+      "user": 14,
+      "record": 27,
+      "date": "2026-05-07"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 27,
+    "fields": {
+      "user": 14,
+      "record": 28,
+      "date": "2026-05-08"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 28,
+    "fields": {
+      "user": 14,
+      "record": 29,
+      "date": "2026-05-30"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 29,
+    "fields": {
+      "user": 14,
+      "record": 30,
+      "date": "2026-06-08"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 30,
+    "fields": {
+      "user": 14,
+      "record": 31,
+      "date": "2026-06-09"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 31,
+    "fields": {
+      "user": 14,
+      "record": 32,
+      "date": "2026-06-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 32,
+    "fields": {
+      "user": 14,
+      "record": 33,
+      "date": "2026-06-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 33,
+    "fields": {
+      "user": 14,
+      "record": 34,
+      "date": "2026-06-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 34,
+    "fields": {
+      "user": 14,
+      "record": 35,
+      "date": "2026-06-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 35,
+    "fields": {
+      "user": 14,
+      "record": 36,
+      "date": "2026-06-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 36,
+    "fields": {
+      "user": 15,
+      "record": 37,
+      "date": "2026-04-30"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 37,
+    "fields": {
+      "user": 15,
+      "record": 38,
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 38,
+    "fields": {
+      "user": 15,
+      "record": 39,
+      "date": "2026-05-09"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 39,
+    "fields": {
+      "user": 15,
+      "record": 40,
+      "date": "2026-05-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 40,
+    "fields": {
+      "user": 15,
+      "record": 41,
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 41,
+    "fields": {
+      "user": 15,
+      "record": 42,
+      "date": "2026-05-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 42,
+    "fields": {
+      "user": 15,
+      "record": 43,
+      "date": "2026-05-24"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 43,
+    "fields": {
+      "user": 15,
+      "record": 45,
+      "date": "2026-06-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 44,
+    "fields": {
+      "user": 15,
+      "record": 46,
+      "date": "2026-06-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 45,
+    "fields": {
+      "user": 16,
+      "record": 47,
+      "date": "2026-04-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 46,
+    "fields": {
+      "user": 16,
+      "record": 48,
+      "date": "2026-04-30"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 47,
+    "fields": {
+      "user": 16,
+      "record": 49,
+      "date": "2026-05-01"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 48,
+    "fields": {
+      "user": 16,
+      "record": 50,
+      "date": "2026-05-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 49,
+    "fields": {
+      "user": 16,
+      "record": 51,
+      "date": "2026-05-23"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 50,
+    "fields": {
+      "user": 16,
+      "record": 52,
+      "date": "2026-05-26"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 51,
+    "fields": {
+      "user": 16,
+      "record": 53,
+      "date": "2026-05-30"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 52,
+    "fields": {
+      "user": 16,
+      "record": 54,
+      "date": "2026-05-31"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 53,
+    "fields": {
+      "user": 16,
+      "record": 55,
+      "date": "2026-06-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 54,
+    "fields": {
+      "user": 16,
+      "record": 56,
+      "date": "2026-06-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 55,
+    "fields": {
+      "user": 17,
+      "record": 57,
+      "date": "2026-04-28"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 56,
+    "fields": {
+      "user": 17,
+      "record": 58,
+      "date": "2026-05-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 57,
+    "fields": {
+      "user": 17,
+      "record": 59,
+      "date": "2026-05-27"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 58,
+    "fields": {
+      "user": 17,
+      "record": 60,
+      "date": "2026-05-28"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 59,
+    "fields": {
+      "user": 17,
+      "record": 61,
+      "date": "2026-06-01"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 60,
+    "fields": {
+      "user": 17,
+      "record": 62,
+      "date": "2026-06-03"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 61,
+    "fields": {
+      "user": 17,
+      "record": 63,
+      "date": "2026-06-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 62,
+    "fields": {
+      "user": 17,
+      "record": 64,
+      "date": "2026-06-08"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 63,
+    "fields": {
+      "user": 17,
+      "record": 65,
+      "date": "2026-06-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 64,
+    "fields": {
+      "user": 17,
+      "record": 66,
+      "date": "2026-06-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 65,
+    "fields": {
+      "user": 18,
+      "record": 67,
+      "date": "2026-04-28"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 66,
+    "fields": {
+      "user": 18,
+      "record": 68,
+      "date": "2026-05-06"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 67,
+    "fields": {
+      "user": 18,
+      "record": 69,
+      "date": "2026-05-09"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 68,
+    "fields": {
+      "user": 18,
+      "record": 70,
+      "date": "2026-05-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 69,
+    "fields": {
+      "user": 18,
+      "record": 71,
+      "date": "2026-05-23"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 70,
+    "fields": {
+      "user": 18,
+      "record": 72,
+      "date": "2026-05-24"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 71,
+    "fields": {
+      "user": 18,
+      "record": 73,
+      "date": "2026-06-01"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 72,
+    "fields": {
+      "user": 18,
+      "record": 74,
+      "date": "2026-06-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 73,
+    "fields": {
+      "user": 18,
+      "record": 75,
+      "date": "2026-06-07"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 74,
+    "fields": {
+      "user": 18,
+      "record": 76,
+      "date": "2026-06-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 75,
+    "fields": {
+      "user": 19,
+      "record": 77,
+      "date": "2026-05-01"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 76,
+    "fields": {
+      "user": 19,
+      "record": 78,
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 77,
+    "fields": {
+      "user": 19,
+      "record": 79,
+      "date": "2026-05-07"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 78,
+    "fields": {
+      "user": 19,
+      "record": 80,
+      "date": "2026-05-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 79,
+    "fields": {
+      "user": 19,
+      "record": 81,
+      "date": "2026-05-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 80,
+    "fields": {
+      "user": 19,
+      "record": 82,
+      "date": "2026-05-17"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 81,
+    "fields": {
+      "user": 19,
+      "record": 83,
+      "date": "2026-05-26"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 82,
+    "fields": {
+      "user": 19,
+      "record": 84,
+      "date": "2026-05-31"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 83,
+    "fields": {
+      "user": 19,
+      "record": 85,
+      "date": "2026-06-08"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 84,
+    "fields": {
+      "user": 19,
+      "record": 86,
+      "date": "2026-06-12"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 85,
+    "fields": {
+      "user": 20,
+      "record": 87,
+      "date": "2026-04-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 86,
+    "fields": {
+      "user": 20,
+      "record": 88,
+      "date": "2026-05-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 87,
+    "fields": {
+      "user": 20,
+      "record": 89,
+      "date": "2026-05-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 88,
+    "fields": {
+      "user": 20,
+      "record": 90,
+      "date": "2026-05-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 89,
+    "fields": {
+      "user": 20,
+      "record": 91,
+      "date": "2026-05-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 90,
+    "fields": {
+      "user": 20,
+      "record": 92,
+      "date": "2026-05-28"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 91,
+    "fields": {
+      "user": 20,
+      "record": 93,
+      "date": "2026-06-01"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 92,
+    "fields": {
+      "user": 20,
+      "record": 94,
+      "date": "2026-06-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 93,
+    "fields": {
+      "user": 20,
+      "record": 95,
+      "date": "2026-06-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 94,
+    "fields": {
+      "user": 20,
+      "record": 96,
+      "date": "2026-06-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 95,
+    "fields": {
+      "user": 21,
+      "record": 97,
+      "date": "2026-05-17"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 96,
+    "fields": {
+      "user": 21,
+      "record": 98,
+      "date": "2026-05-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 97,
+    "fields": {
+      "user": 21,
+      "record": 99,
+      "date": "2026-05-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 98,
+    "fields": {
+      "user": 21,
+      "record": 100,
+      "date": "2026-05-28"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 99,
+    "fields": {
+      "user": 21,
+      "record": 101,
+      "date": "2026-05-31"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 100,
+    "fields": {
+      "user": 21,
+      "record": 102,
+      "date": "2026-06-02"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 101,
+    "fields": {
+      "user": 21,
+      "record": 103,
+      "date": "2026-06-08"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 102,
+    "fields": {
+      "user": 21,
+      "record": 104,
+      "date": "2026-06-09"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 103,
+    "fields": {
+      "user": 21,
+      "record": 105,
+      "date": "2026-06-12"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 104,
+    "fields": {
+      "user": 21,
+      "record": 106,
+      "date": "2026-06-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 105,
+    "fields": {
+      "user": 22,
+      "record": 107,
+      "date": "2026-04-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 106,
+    "fields": {
+      "user": 22,
+      "record": 108,
+      "date": "2026-04-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 107,
+    "fields": {
+      "user": 22,
+      "record": 109,
+      "date": "2026-04-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 108,
+    "fields": {
+      "user": 22,
+      "record": 110,
+      "date": "2026-04-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 109,
+    "fields": {
+      "user": 22,
+      "record": 111,
+      "date": "2026-05-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 110,
+    "fields": {
+      "user": 22,
+      "record": 112,
+      "date": "2026-05-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 111,
+    "fields": {
+      "user": 22,
+      "record": 113,
+      "date": "2026-05-23"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 112,
+    "fields": {
+      "user": 22,
+      "record": 114,
+      "date": "2026-06-04"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 113,
+    "fields": {
+      "user": 22,
+      "record": 115,
+      "date": "2026-06-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 114,
+    "fields": {
+      "user": 22,
+      "record": 116,
+      "date": "2026-06-15"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 115,
+    "fields": {
+      "user": 23,
+      "record": 117,
+      "date": "2026-04-27"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 116,
+    "fields": {
+      "user": 23,
+      "record": 118,
+      "date": "2026-05-01"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 117,
+    "fields": {
+      "user": 23,
+      "record": 119,
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 118,
+    "fields": {
+      "user": 23,
+      "record": 120,
+      "date": "2026-05-09"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 119,
+    "fields": {
+      "user": 23,
+      "record": 121,
+      "date": "2026-05-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 120,
+    "fields": {
+      "user": 23,
+      "record": 122,
+      "date": "2026-05-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 121,
+    "fields": {
+      "user": 23,
+      "record": 123,
+      "date": "2026-05-23"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 122,
+    "fields": {
+      "user": 23,
+      "record": 124,
+      "date": "2026-05-24"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 123,
+    "fields": {
+      "user": 23,
+      "record": 125,
+      "date": "2026-06-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 124,
+    "fields": {
+      "user": 23,
+      "record": 126,
+      "date": "2026-06-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 125,
+    "fields": {
+      "user": 24,
+      "record": 127,
+      "date": "2026-04-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 126,
+    "fields": {
+      "user": 24,
+      "record": 128,
+      "date": "2026-04-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 127,
+    "fields": {
+      "user": 24,
+      "record": 129,
+      "date": "2026-04-23"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 128,
+    "fields": {
+      "user": 24,
+      "record": 130,
+      "date": "2026-04-26"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 129,
+    "fields": {
+      "user": 24,
+      "record": 131,
+      "date": "2026-04-29"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 130,
+    "fields": {
+      "user": 24,
+      "record": 132,
+      "date": "2026-04-30"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 131,
+    "fields": {
+      "user": 24,
+      "record": 133,
+      "date": "2026-05-06"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 132,
+    "fields": {
+      "user": 24,
+      "record": 134,
+      "date": "2026-05-08"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 133,
+    "fields": {
+      "user": 24,
+      "record": 135,
+      "date": "2026-05-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 134,
+    "fields": {
+      "user": 24,
+      "record": 136,
+      "date": "2026-05-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 135,
+    "fields": {
+      "user": 24,
+      "record": 137,
+      "date": "2026-05-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 136,
+    "fields": {
+      "user": 24,
+      "record": 138,
+      "date": "2026-05-22"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 137,
+    "fields": {
+      "user": 24,
+      "record": 139,
+      "date": "2026-05-26"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 138,
+    "fields": {
+      "user": 24,
+      "record": 140,
+      "date": "2026-05-31"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 139,
+    "fields": {
+      "user": 24,
+      "record": 141,
+      "date": "2026-06-04"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 140,
+    "fields": {
+      "user": 24,
+      "record": 142,
+      "date": "2026-06-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 141,
+    "fields": {
+      "user": 24,
+      "record": 144,
+      "date": "2026-06-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 142,
+    "fields": {
+      "user": 25,
+      "record": 145,
+      "date": "2026-04-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 143,
+    "fields": {
+      "user": 25,
+      "record": 146,
+      "date": "2026-04-07"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 144,
+    "fields": {
+      "user": 25,
+      "record": 147,
+      "date": "2026-04-17"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 145,
+    "fields": {
+      "user": 25,
+      "record": 148,
+      "date": "2026-04-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 146,
+    "fields": {
+      "user": 25,
+      "record": 149,
+      "date": "2026-05-07"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 147,
+    "fields": {
+      "user": 25,
+      "record": 150,
+      "date": "2026-05-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 148,
+    "fields": {
+      "user": 25,
+      "record": 151,
+      "date": "2026-05-15"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 149,
+    "fields": {
+      "user": 25,
+      "record": 152,
+      "date": "2026-05-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 150,
+    "fields": {
+      "user": 25,
+      "record": 153,
+      "date": "2026-05-17"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 151,
+    "fields": {
+      "user": 25,
+      "record": 154,
+      "date": "2026-05-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 152,
+    "fields": {
+      "user": 25,
+      "record": 155,
+      "date": "2026-05-22"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 153,
+    "fields": {
+      "user": 25,
+      "record": 156,
+      "date": "2026-05-30"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 154,
+    "fields": {
+      "user": 25,
+      "record": 157,
+      "date": "2026-06-02"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 155,
+    "fields": {
+      "user": 25,
+      "record": 158,
+      "date": "2026-06-04"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 156,
+    "fields": {
+      "user": 25,
+      "record": 159,
+      "date": "2026-06-07"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 157,
+    "fields": {
+      "user": 25,
+      "record": 160,
+      "date": "2026-06-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 158,
+    "fields": {
+      "user": 25,
+      "record": 161,
+      "date": "2026-06-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 159,
+    "fields": {
+      "user": 25,
+      "record": 162,
+      "date": "2026-06-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 160,
+    "fields": {
+      "user": 26,
+      "record": 163,
+      "date": "2026-03-03"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 161,
+    "fields": {
+      "user": 26,
+      "record": 164,
+      "date": "2026-03-06"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 162,
+    "fields": {
+      "user": 26,
+      "record": 165,
+      "date": "2026-03-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 163,
+    "fields": {
+      "user": 26,
+      "record": 166,
+      "date": "2026-03-17"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 164,
+    "fields": {
+      "user": 26,
+      "record": 167,
+      "date": "2026-03-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 165,
+    "fields": {
+      "user": 26,
+      "record": 168,
+      "date": "2026-03-30"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 166,
+    "fields": {
+      "user": 26,
+      "record": 169,
+      "date": "2026-04-04"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 167,
+    "fields": {
+      "user": 26,
+      "record": 170,
+      "date": "2026-04-12"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 168,
+    "fields": {
+      "user": 26,
+      "record": 171,
+      "date": "2026-04-23"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 169,
+    "fields": {
+      "user": 26,
+      "record": 172,
+      "date": "2026-05-01"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 170,
+    "fields": {
+      "user": 26,
+      "record": 173,
+      "date": "2026-05-08"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 171,
+    "fields": {
+      "user": 26,
+      "record": 174,
+      "date": "2026-05-09"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 172,
+    "fields": {
+      "user": 26,
+      "record": 175,
+      "date": "2026-05-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 173,
+    "fields": {
+      "user": 26,
+      "record": 176,
+      "date": "2026-05-22"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 174,
+    "fields": {
+      "user": 26,
+      "record": 177,
+      "date": "2026-05-25"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 175,
+    "fields": {
+      "user": 26,
+      "record": 178,
+      "date": "2026-06-03"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 176,
+    "fields": {
+      "user": 26,
+      "record": 179,
+      "date": "2026-06-09"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 177,
+    "fields": {
+      "user": 26,
+      "record": 180,
+      "date": "2026-06-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 178,
+    "fields": {
+      "user": 27,
+      "record": 181,
+      "date": "2026-04-01"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 179,
+    "fields": {
+      "user": 27,
+      "record": 182,
+      "date": "2026-04-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 180,
+    "fields": {
+      "user": 27,
+      "record": 183,
+      "date": "2026-04-17"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 181,
+    "fields": {
+      "user": 27,
+      "record": 184,
+      "date": "2026-04-23"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 182,
+    "fields": {
+      "user": 27,
+      "record": 185,
+      "date": "2026-04-26"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 183,
+    "fields": {
+      "user": 27,
+      "record": 186,
+      "date": "2026-04-30"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 184,
+    "fields": {
+      "user": 27,
+      "record": 187,
+      "date": "2026-05-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 185,
+    "fields": {
+      "user": 27,
+      "record": 188,
+      "date": "2026-05-25"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 186,
+    "fields": {
+      "user": 27,
+      "record": 189,
+      "date": "2026-05-27"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 187,
+    "fields": {
+      "user": 27,
+      "record": 190,
+      "date": "2026-05-30"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 188,
+    "fields": {
+      "user": 27,
+      "record": 191,
+      "date": "2026-05-31"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 189,
+    "fields": {
+      "user": 27,
+      "record": 192,
+      "date": "2026-06-02"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 190,
+    "fields": {
+      "user": 27,
+      "record": 193,
+      "date": "2026-06-08"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 191,
+    "fields": {
+      "user": 27,
+      "record": 194,
+      "date": "2026-06-15"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 192,
+    "fields": {
+      "user": 27,
+      "record": 195,
+      "date": "2026-06-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 193,
+    "fields": {
+      "user": 27,
+      "record": 196,
+      "date": "2026-06-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 194,
+    "fields": {
+      "user": 27,
+      "record": 197,
+      "date": "2026-06-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 195,
+    "fields": {
+      "user": 27,
+      "record": 198,
+      "date": "2026-06-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 196,
+    "fields": {
+      "user": 28,
+      "record": 199,
+      "date": "2026-03-29"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 197,
+    "fields": {
+      "user": 28,
+      "record": 200,
+      "date": "2026-04-02"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 198,
+    "fields": {
+      "user": 28,
+      "record": 201,
+      "date": "2026-04-03"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 199,
+    "fields": {
+      "user": 28,
+      "record": 202,
+      "date": "2026-04-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 200,
+    "fields": {
+      "user": 28,
+      "record": 203,
+      "date": "2026-04-22"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 201,
+    "fields": {
+      "user": 28,
+      "record": 204,
+      "date": "2026-05-02"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 202,
+    "fields": {
+      "user": 28,
+      "record": 205,
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 203,
+    "fields": {
+      "user": 28,
+      "record": 206,
+      "date": "2026-05-06"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 204,
+    "fields": {
+      "user": 28,
+      "record": 207,
+      "date": "2026-05-07"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 205,
+    "fields": {
+      "user": 28,
+      "record": 208,
+      "date": "2026-05-09"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 206,
+    "fields": {
+      "user": 28,
+      "record": 209,
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 207,
+    "fields": {
+      "user": 28,
+      "record": 210,
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 208,
+    "fields": {
+      "user": 28,
+      "record": 211,
+      "date": "2026-05-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 209,
+    "fields": {
+      "user": 28,
+      "record": 212,
+      "date": "2026-05-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 210,
+    "fields": {
+      "user": 28,
+      "record": 213,
+      "date": "2026-05-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 211,
+    "fields": {
+      "user": 28,
+      "record": 214,
+      "date": "2026-05-30"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 212,
+    "fields": {
+      "user": 28,
+      "record": 215,
+      "date": "2026-06-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 213,
+    "fields": {
+      "user": 28,
+      "record": 216,
+      "date": "2026-06-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 214,
+    "fields": {
+      "user": 29,
+      "record": 217,
+      "date": "2026-03-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 215,
+    "fields": {
+      "user": 29,
+      "record": 218,
+      "date": "2026-03-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 216,
+    "fields": {
+      "user": 29,
+      "record": 219,
+      "date": "2026-03-28"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 217,
+    "fields": {
+      "user": 29,
+      "record": 220,
+      "date": "2026-03-31"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 218,
+    "fields": {
+      "user": 29,
+      "record": 221,
+      "date": "2026-04-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 219,
+    "fields": {
+      "user": 29,
+      "record": 222,
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 220,
+    "fields": {
+      "user": 29,
+      "record": 223,
+      "date": "2026-05-15"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 221,
+    "fields": {
+      "user": 29,
+      "record": 224,
+      "date": "2026-05-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 222,
+    "fields": {
+      "user": 29,
+      "record": 225,
+      "date": "2026-05-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 223,
+    "fields": {
+      "user": 29,
+      "record": 226,
+      "date": "2026-05-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 224,
+    "fields": {
+      "user": 29,
+      "record": 227,
+      "date": "2026-05-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 225,
+    "fields": {
+      "user": 29,
+      "record": 228,
+      "date": "2026-05-29"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 226,
+    "fields": {
+      "user": 29,
+      "record": 229,
+      "date": "2026-05-31"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 227,
+    "fields": {
+      "user": 29,
+      "record": 230,
+      "date": "2026-06-02"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 228,
+    "fields": {
+      "user": 29,
+      "record": 231,
+      "date": "2026-06-04"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 229,
+    "fields": {
+      "user": 29,
+      "record": 232,
+      "date": "2026-06-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 230,
+    "fields": {
+      "user": 29,
+      "record": 233,
+      "date": "2026-06-09"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 231,
+    "fields": {
+      "user": 29,
+      "record": 234,
+      "date": "2026-06-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 232,
+    "fields": {
+      "user": 30,
+      "record": 235,
+      "date": "2026-04-22"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 233,
+    "fields": {
+      "user": 30,
+      "record": 236,
+      "date": "2026-04-24"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 234,
+    "fields": {
+      "user": 30,
+      "record": 237,
+      "date": "2026-04-26"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 235,
+    "fields": {
+      "user": 30,
+      "record": 238,
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 236,
+    "fields": {
+      "user": 30,
+      "record": 239,
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 237,
+    "fields": {
+      "user": 30,
+      "record": 240,
+      "date": "2026-05-09"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 238,
+    "fields": {
+      "user": 30,
+      "record": 241,
+      "date": "2026-05-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 239,
+    "fields": {
+      "user": 30,
+      "record": 242,
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 240,
+    "fields": {
+      "user": 30,
+      "record": 243,
+      "date": "2026-05-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 241,
+    "fields": {
+      "user": 30,
+      "record": 244,
+      "date": "2026-05-17"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 242,
+    "fields": {
+      "user": 30,
+      "record": 245,
+      "date": "2026-05-22"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 243,
+    "fields": {
+      "user": 30,
+      "record": 247,
+      "date": "2026-06-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 244,
+    "fields": {
+      "user": 30,
+      "record": 248,
+      "date": "2026-06-07"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 245,
+    "fields": {
+      "user": 30,
+      "record": 249,
+      "date": "2026-06-12"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 246,
+    "fields": {
+      "user": 30,
+      "record": 250,
+      "date": "2026-06-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 247,
+    "fields": {
+      "user": 30,
+      "record": 252,
+      "date": "2026-06-17"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 248,
+    "fields": {
+      "user": 31,
+      "record": 253,
+      "date": "2026-03-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 249,
+    "fields": {
+      "user": 31,
+      "record": 254,
+      "date": "2026-03-22"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 250,
+    "fields": {
+      "user": 31,
+      "record": 255,
+      "date": "2026-03-28"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 251,
+    "fields": {
+      "user": 31,
+      "record": 256,
+      "date": "2026-04-01"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 252,
+    "fields": {
+      "user": 31,
+      "record": 257,
+      "date": "2026-04-03"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 253,
+    "fields": {
+      "user": 31,
+      "record": 258,
+      "date": "2026-04-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 254,
+    "fields": {
+      "user": 31,
+      "record": 259,
+      "date": "2026-04-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 255,
+    "fields": {
+      "user": 31,
+      "record": 260,
+      "date": "2026-04-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 256,
+    "fields": {
+      "user": 31,
+      "record": 261,
+      "date": "2026-04-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 257,
+    "fields": {
+      "user": 31,
+      "record": 262,
+      "date": "2026-04-24"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 258,
+    "fields": {
+      "user": 31,
+      "record": 263,
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 259,
+    "fields": {
+      "user": 31,
+      "record": 264,
+      "date": "2026-05-15"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 260,
+    "fields": {
+      "user": 31,
+      "record": 265,
+      "date": "2026-05-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 261,
+    "fields": {
+      "user": 31,
+      "record": 266,
+      "date": "2026-05-25"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 262,
+    "fields": {
+      "user": 31,
+      "record": 267,
+      "date": "2026-05-30"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 263,
+    "fields": {
+      "user": 31,
+      "record": 268,
+      "date": "2026-05-31"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 264,
+    "fields": {
+      "user": 31,
+      "record": 269,
+      "date": "2026-06-03"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 265,
+    "fields": {
+      "user": 31,
+      "record": 270,
+      "date": "2026-06-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 266,
+    "fields": {
+      "user": 32,
+      "record": 271,
+      "date": "2026-03-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 267,
+    "fields": {
+      "user": 32,
+      "record": 272,
+      "date": "2026-03-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 268,
+    "fields": {
+      "user": 32,
+      "record": 273,
+      "date": "2026-03-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 269,
+    "fields": {
+      "user": 32,
+      "record": 274,
+      "date": "2026-03-26"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 270,
+    "fields": {
+      "user": 32,
+      "record": 275,
+      "date": "2026-03-30"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 271,
+    "fields": {
+      "user": 32,
+      "record": 276,
+      "date": "2026-04-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 272,
+    "fields": {
+      "user": 32,
+      "record": 277,
+      "date": "2026-04-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 273,
+    "fields": {
+      "user": 32,
+      "record": 278,
+      "date": "2026-05-02"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 274,
+    "fields": {
+      "user": 32,
+      "record": 279,
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 275,
+    "fields": {
+      "user": 32,
+      "record": 280,
+      "date": "2026-05-06"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 276,
+    "fields": {
+      "user": 32,
+      "record": 281,
+      "date": "2026-05-17"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 277,
+    "fields": {
+      "user": 32,
+      "record": 282,
+      "date": "2026-05-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 278,
+    "fields": {
+      "user": 32,
+      "record": 283,
+      "date": "2026-05-28"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 279,
+    "fields": {
+      "user": 32,
+      "record": 284,
+      "date": "2026-06-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 280,
+    "fields": {
+      "user": 32,
+      "record": 285,
+      "date": "2026-06-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 281,
+    "fields": {
+      "user": 32,
+      "record": 286,
+      "date": "2026-06-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 282,
+    "fields": {
+      "user": 32,
+      "record": 287,
+      "date": "2026-06-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 283,
+    "fields": {
+      "user": 32,
+      "record": 288,
+      "date": "2026-06-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 284,
+    "fields": {
+      "user": 33,
+      "record": 289,
+      "date": "2026-03-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 285,
+    "fields": {
+      "user": 33,
+      "record": 290,
+      "date": "2026-03-29"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 286,
+    "fields": {
+      "user": 33,
+      "record": 291,
+      "date": "2026-04-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 287,
+    "fields": {
+      "user": 33,
+      "record": 292,
+      "date": "2026-04-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 288,
+    "fields": {
+      "user": 33,
+      "record": 293,
+      "date": "2026-04-15"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 289,
+    "fields": {
+      "user": 33,
+      "record": 294,
+      "date": "2026-04-29"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 290,
+    "fields": {
+      "user": 33,
+      "record": 295,
+      "date": "2026-05-02"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 291,
+    "fields": {
+      "user": 33,
+      "record": 296,
+      "date": "2026-05-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 292,
+    "fields": {
+      "user": 33,
+      "record": 297,
+      "date": "2026-05-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 293,
+    "fields": {
+      "user": 33,
+      "record": 298,
+      "date": "2026-05-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 294,
+    "fields": {
+      "user": 33,
+      "record": 299,
+      "date": "2026-05-23"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 295,
+    "fields": {
+      "user": 33,
+      "record": 300,
+      "date": "2026-05-24"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 296,
+    "fields": {
+      "user": 33,
+      "record": 301,
+      "date": "2026-05-29"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 297,
+    "fields": {
+      "user": 33,
+      "record": 302,
+      "date": "2026-06-09"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 298,
+    "fields": {
+      "user": 33,
+      "record": 303,
+      "date": "2026-06-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 299,
+    "fields": {
+      "user": 33,
+      "record": 304,
+      "date": "2026-06-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 300,
+    "fields": {
+      "user": 33,
+      "record": 305,
+      "date": "2026-06-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 301,
+    "fields": {
+      "user": 33,
+      "record": 306,
+      "date": "2026-06-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 302,
+    "fields": {
+      "user": 34,
+      "record": 307,
+      "date": "2026-04-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 303,
+    "fields": {
+      "user": 34,
+      "record": 308,
+      "date": "2026-04-12"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 304,
+    "fields": {
+      "user": 34,
+      "record": 309,
+      "date": "2026-04-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 305,
+    "fields": {
+      "user": 34,
+      "record": 310,
+      "date": "2026-04-24"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 306,
+    "fields": {
+      "user": 34,
+      "record": 311,
+      "date": "2026-04-28"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 307,
+    "fields": {
+      "user": 34,
+      "record": 312,
+      "date": "2026-05-07"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 308,
+    "fields": {
+      "user": 34,
+      "record": 313,
+      "date": "2026-05-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 309,
+    "fields": {
+      "user": 34,
+      "record": 314,
+      "date": "2026-05-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 310,
+    "fields": {
+      "user": 34,
+      "record": 315,
+      "date": "2026-05-22"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 311,
+    "fields": {
+      "user": 34,
+      "record": 316,
+      "date": "2026-05-25"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 312,
+    "fields": {
+      "user": 34,
+      "record": 317,
+      "date": "2026-05-26"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 313,
+    "fields": {
+      "user": 34,
+      "record": 318,
+      "date": "2026-06-03"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 314,
+    "fields": {
+      "user": 34,
+      "record": 319,
+      "date": "2026-06-06"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 315,
+    "fields": {
+      "user": 34,
+      "record": 320,
+      "date": "2026-06-12"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 316,
+    "fields": {
+      "user": 34,
+      "record": 321,
+      "date": "2026-06-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 317,
+    "fields": {
+      "user": 34,
+      "record": 322,
+      "date": "2026-06-17"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 318,
+    "fields": {
+      "user": 34,
+      "record": 324,
+      "date": "2026-06-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 319,
+    "fields": {
+      "user": 35,
+      "record": 325,
+      "date": "2026-03-30"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 320,
+    "fields": {
+      "user": 35,
+      "record": 326,
+      "date": "2026-03-31"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 321,
+    "fields": {
+      "user": 35,
+      "record": 327,
+      "date": "2026-04-01"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 322,
+    "fields": {
+      "user": 35,
+      "record": 328,
+      "date": "2026-04-09"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 323,
+    "fields": {
+      "user": 35,
+      "record": 329,
+      "date": "2026-04-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 324,
+    "fields": {
+      "user": 35,
+      "record": 330,
+      "date": "2026-04-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 325,
+    "fields": {
+      "user": 35,
+      "record": 331,
+      "date": "2026-04-26"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 326,
+    "fields": {
+      "user": 35,
+      "record": 332,
+      "date": "2026-04-29"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 327,
+    "fields": {
+      "user": 35,
+      "record": 333,
+      "date": "2026-05-02"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 328,
+    "fields": {
+      "user": 35,
+      "record": 334,
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 329,
+    "fields": {
+      "user": 35,
+      "record": 335,
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 330,
+    "fields": {
+      "user": 35,
+      "record": 336,
+      "date": "2026-05-17"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 331,
+    "fields": {
+      "user": 35,
+      "record": 337,
+      "date": "2026-05-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 332,
+    "fields": {
+      "user": 35,
+      "record": 338,
+      "date": "2026-05-23"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 333,
+    "fields": {
+      "user": 35,
+      "record": 339,
+      "date": "2026-05-28"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 334,
+    "fields": {
+      "user": 35,
+      "record": 340,
+      "date": "2026-06-06"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 335,
+    "fields": {
+      "user": 35,
+      "record": 341,
+      "date": "2026-06-09"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 336,
+    "fields": {
+      "user": 35,
+      "record": 342,
+      "date": "2026-06-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 337,
+    "fields": {
+      "user": 36,
+      "record": 343,
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 338,
+    "fields": {
+      "user": 36,
+      "record": 344,
+      "date": "2026-05-06"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 339,
+    "fields": {
+      "user": 36,
+      "record": 345,
+      "date": "2026-05-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 340,
+    "fields": {
+      "user": 36,
+      "record": 346,
+      "date": "2026-05-15"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 341,
+    "fields": {
+      "user": 36,
+      "record": 347,
+      "date": "2026-05-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 342,
+    "fields": {
+      "user": 36,
+      "record": 348,
+      "date": "2026-05-22"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 343,
+    "fields": {
+      "user": 36,
+      "record": 349,
+      "date": "2026-05-23"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 344,
+    "fields": {
+      "user": 36,
+      "record": 350,
+      "date": "2026-05-24"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 345,
+    "fields": {
+      "user": 36,
+      "record": 351,
+      "date": "2026-05-27"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 346,
+    "fields": {
+      "user": 36,
+      "record": 352,
+      "date": "2026-05-31"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 347,
+    "fields": {
+      "user": 36,
+      "record": 353,
+      "date": "2026-06-01"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 348,
+    "fields": {
+      "user": 36,
+      "record": 354,
+      "date": "2026-06-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 349,
+    "fields": {
+      "user": 36,
+      "record": 355,
+      "date": "2026-06-07"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 350,
+    "fields": {
+      "user": 36,
+      "record": 356,
+      "date": "2026-06-12"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 351,
+    "fields": {
+      "user": 36,
+      "record": 357,
+      "date": "2026-06-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 352,
+    "fields": {
+      "user": 36,
+      "record": 358,
+      "date": "2026-06-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 353,
+    "fields": {
+      "user": 36,
+      "record": 360,
+      "date": "2026-06-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 354,
+    "fields": {
+      "user": 37,
+      "record": 361,
+      "date": "2026-04-03"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 355,
+    "fields": {
+      "user": 37,
+      "record": 362,
+      "date": "2026-04-07"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 356,
+    "fields": {
+      "user": 37,
+      "record": 363,
+      "date": "2026-04-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 357,
+    "fields": {
+      "user": 37,
+      "record": 364,
+      "date": "2026-04-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 358,
+    "fields": {
+      "user": 37,
+      "record": 365,
+      "date": "2026-04-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 359,
+    "fields": {
+      "user": 37,
+      "record": 366,
+      "date": "2026-04-29"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 360,
+    "fields": {
+      "user": 37,
+      "record": 367,
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 361,
+    "fields": {
+      "user": 37,
+      "record": 368,
+      "date": "2026-05-08"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 362,
+    "fields": {
+      "user": 37,
+      "record": 369,
+      "date": "2026-05-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 363,
+    "fields": {
+      "user": 37,
+      "record": 370,
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 364,
+    "fields": {
+      "user": 37,
+      "record": 371,
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 365,
+    "fields": {
+      "user": 37,
+      "record": 372,
+      "date": "2026-05-15"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 366,
+    "fields": {
+      "user": 37,
+      "record": 373,
+      "date": "2026-05-17"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 367,
+    "fields": {
+      "user": 37,
+      "record": 374,
+      "date": "2026-05-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 368,
+    "fields": {
+      "user": 37,
+      "record": 375,
+      "date": "2026-05-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 369,
+    "fields": {
+      "user": 37,
+      "record": 376,
+      "date": "2026-06-02"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 370,
+    "fields": {
+      "user": 37,
+      "record": 377,
+      "date": "2026-06-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 371,
+    "fields": {
+      "user": 37,
+      "record": 378,
+      "date": "2026-06-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 372,
+    "fields": {
+      "user": 38,
+      "record": 379,
+      "date": "2026-03-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 373,
+    "fields": {
+      "user": 38,
+      "record": 380,
+      "date": "2026-03-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 374,
+    "fields": {
+      "user": 38,
+      "record": 381,
+      "date": "2026-03-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 375,
+    "fields": {
+      "user": 38,
+      "record": 382,
+      "date": "2026-03-27"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 376,
+    "fields": {
+      "user": 38,
+      "record": 383,
+      "date": "2026-03-29"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 377,
+    "fields": {
+      "user": 38,
+      "record": 384,
+      "date": "2026-03-31"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 378,
+    "fields": {
+      "user": 38,
+      "record": 385,
+      "date": "2026-04-08"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 379,
+    "fields": {
+      "user": 38,
+      "record": 386,
+      "date": "2026-04-23"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 380,
+    "fields": {
+      "user": 38,
+      "record": 387,
+      "date": "2026-04-24"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 381,
+    "fields": {
+      "user": 38,
+      "record": 388,
+      "date": "2026-04-27"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 382,
+    "fields": {
+      "user": 38,
+      "record": 389,
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 383,
+    "fields": {
+      "user": 38,
+      "record": 390,
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 384,
+    "fields": {
+      "user": 38,
+      "record": 391,
+      "date": "2026-05-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 385,
+    "fields": {
+      "user": 38,
+      "record": 392,
+      "date": "2026-05-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 386,
+    "fields": {
+      "user": 38,
+      "record": 393,
+      "date": "2026-05-24"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 387,
+    "fields": {
+      "user": 38,
+      "record": 394,
+      "date": "2026-05-29"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 388,
+    "fields": {
+      "user": 38,
+      "record": 395,
+      "date": "2026-05-31"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 389,
+    "fields": {
+      "user": 38,
+      "record": 396,
+      "date": "2026-06-17"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 390,
+    "fields": {
+      "user": 39,
+      "record": 397,
+      "date": "2026-03-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 391,
+    "fields": {
+      "user": 39,
+      "record": 398,
+      "date": "2026-03-15"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 392,
+    "fields": {
+      "user": 39,
+      "record": 399,
+      "date": "2026-03-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 393,
+    "fields": {
+      "user": 39,
+      "record": 400,
+      "date": "2026-03-17"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 394,
+    "fields": {
+      "user": 39,
+      "record": 401,
+      "date": "2026-03-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 395,
+    "fields": {
+      "user": 39,
+      "record": 402,
+      "date": "2026-03-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 396,
+    "fields": {
+      "user": 39,
+      "record": 403,
+      "date": "2026-03-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 397,
+    "fields": {
+      "user": 39,
+      "record": 404,
+      "date": "2026-03-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 398,
+    "fields": {
+      "user": 39,
+      "record": 405,
+      "date": "2026-03-22"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 399,
+    "fields": {
+      "user": 39,
+      "record": 406,
+      "date": "2026-03-23"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 400,
+    "fields": {
+      "user": 39,
+      "record": 407,
+      "date": "2026-03-24"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 401,
+    "fields": {
+      "user": 39,
+      "record": 408,
+      "date": "2026-03-25"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 402,
+    "fields": {
+      "user": 39,
+      "record": 409,
+      "date": "2026-03-26"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 403,
+    "fields": {
+      "user": 39,
+      "record": 410,
+      "date": "2026-03-27"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 404,
+    "fields": {
+      "user": 39,
+      "record": 411,
+      "date": "2026-03-28"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 405,
+    "fields": {
+      "user": 39,
+      "record": 412,
+      "date": "2026-03-29"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 406,
+    "fields": {
+      "user": 39,
+      "record": 413,
+      "date": "2026-03-30"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 407,
+    "fields": {
+      "user": 39,
+      "record": 414,
+      "date": "2026-03-31"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 408,
+    "fields": {
+      "user": 39,
+      "record": 415,
+      "date": "2026-04-01"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 409,
+    "fields": {
+      "user": 39,
+      "record": 416,
+      "date": "2026-04-02"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 410,
+    "fields": {
+      "user": 39,
+      "record": 417,
+      "date": "2026-04-03"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 411,
+    "fields": {
+      "user": 39,
+      "record": 418,
+      "date": "2026-04-04"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 412,
+    "fields": {
+      "user": 39,
+      "record": 419,
+      "date": "2026-04-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 413,
+    "fields": {
+      "user": 39,
+      "record": 420,
+      "date": "2026-04-06"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 414,
+    "fields": {
+      "user": 39,
+      "record": 421,
+      "date": "2026-04-07"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 415,
+    "fields": {
+      "user": 39,
+      "record": 422,
+      "date": "2026-04-08"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 416,
+    "fields": {
+      "user": 39,
+      "record": 423,
+      "date": "2026-04-09"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 417,
+    "fields": {
+      "user": 39,
+      "record": 424,
+      "date": "2026-04-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 418,
+    "fields": {
+      "user": 39,
+      "record": 425,
+      "date": "2026-04-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 419,
+    "fields": {
+      "user": 39,
+      "record": 426,
+      "date": "2026-04-12"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 420,
+    "fields": {
+      "user": 39,
+      "record": 427,
+      "date": "2026-04-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 421,
+    "fields": {
+      "user": 39,
+      "record": 428,
+      "date": "2026-04-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 422,
+    "fields": {
+      "user": 39,
+      "record": 429,
+      "date": "2026-04-15"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 423,
+    "fields": {
+      "user": 39,
+      "record": 430,
+      "date": "2026-04-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 424,
+    "fields": {
+      "user": 39,
+      "record": 431,
+      "date": "2026-04-17"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 425,
+    "fields": {
+      "user": 39,
+      "record": 432,
+      "date": "2026-04-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 426,
+    "fields": {
+      "user": 39,
+      "record": 433,
+      "date": "2026-04-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 427,
+    "fields": {
+      "user": 39,
+      "record": 434,
+      "date": "2026-04-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 428,
+    "fields": {
+      "user": 39,
+      "record": 435,
+      "date": "2026-04-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 429,
+    "fields": {
+      "user": 39,
+      "record": 436,
+      "date": "2026-04-22"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 430,
+    "fields": {
+      "user": 39,
+      "record": 437,
+      "date": "2026-04-23"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 431,
+    "fields": {
+      "user": 39,
+      "record": 438,
+      "date": "2026-04-24"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 432,
+    "fields": {
+      "user": 39,
+      "record": 439,
+      "date": "2026-04-25"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 433,
+    "fields": {
+      "user": 39,
+      "record": 440,
+      "date": "2026-04-26"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 434,
+    "fields": {
+      "user": 39,
+      "record": 441,
+      "date": "2026-04-27"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 435,
+    "fields": {
+      "user": 39,
+      "record": 442,
+      "date": "2026-04-28"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 436,
+    "fields": {
+      "user": 39,
+      "record": 443,
+      "date": "2026-04-29"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 437,
+    "fields": {
+      "user": 39,
+      "record": 444,
+      "date": "2026-04-30"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 438,
+    "fields": {
+      "user": 39,
+      "record": 445,
+      "date": "2026-05-01"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 439,
+    "fields": {
+      "user": 39,
+      "record": 446,
+      "date": "2026-05-02"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 440,
+    "fields": {
+      "user": 39,
+      "record": 447,
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 441,
+    "fields": {
+      "user": 39,
+      "record": 448,
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 442,
+    "fields": {
+      "user": 39,
+      "record": 449,
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 443,
+    "fields": {
+      "user": 39,
+      "record": 450,
+      "date": "2026-05-06"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 444,
+    "fields": {
+      "user": 39,
+      "record": 451,
+      "date": "2026-05-07"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 445,
+    "fields": {
+      "user": 39,
+      "record": 452,
+      "date": "2026-05-08"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 446,
+    "fields": {
+      "user": 39,
+      "record": 453,
+      "date": "2026-05-09"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 447,
+    "fields": {
+      "user": 39,
+      "record": 454,
+      "date": "2026-05-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 448,
+    "fields": {
+      "user": 39,
+      "record": 455,
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 449,
+    "fields": {
+      "user": 39,
+      "record": 456,
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 450,
+    "fields": {
+      "user": 39,
+      "record": 457,
+      "date": "2026-05-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 451,
+    "fields": {
+      "user": 39,
+      "record": 458,
+      "date": "2026-05-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 452,
+    "fields": {
+      "user": 39,
+      "record": 459,
+      "date": "2026-05-15"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 453,
+    "fields": {
+      "user": 39,
+      "record": 460,
+      "date": "2026-05-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 454,
+    "fields": {
+      "user": 39,
+      "record": 461,
+      "date": "2026-05-17"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 455,
+    "fields": {
+      "user": 39,
+      "record": 462,
+      "date": "2026-05-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 456,
+    "fields": {
+      "user": 39,
+      "record": 463,
+      "date": "2026-05-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 457,
+    "fields": {
+      "user": 39,
+      "record": 464,
+      "date": "2026-05-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 458,
+    "fields": {
+      "user": 39,
+      "record": 465,
+      "date": "2026-05-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 459,
+    "fields": {
+      "user": 39,
+      "record": 466,
+      "date": "2026-05-22"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 460,
+    "fields": {
+      "user": 39,
+      "record": 467,
+      "date": "2026-05-23"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 461,
+    "fields": {
+      "user": 39,
+      "record": 468,
+      "date": "2026-05-24"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 462,
+    "fields": {
+      "user": 39,
+      "record": 469,
+      "date": "2026-05-25"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 463,
+    "fields": {
+      "user": 39,
+      "record": 470,
+      "date": "2026-05-26"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 464,
+    "fields": {
+      "user": 39,
+      "record": 471,
+      "date": "2026-05-27"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 465,
+    "fields": {
+      "user": 39,
+      "record": 472,
+      "date": "2026-05-28"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 466,
+    "fields": {
+      "user": 39,
+      "record": 473,
+      "date": "2026-05-29"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 467,
+    "fields": {
+      "user": 39,
+      "record": 474,
+      "date": "2026-05-30"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 468,
+    "fields": {
+      "user": 39,
+      "record": 475,
+      "date": "2026-05-31"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 469,
+    "fields": {
+      "user": 39,
+      "record": 476,
+      "date": "2026-06-01"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 470,
+    "fields": {
+      "user": 39,
+      "record": 477,
+      "date": "2026-06-02"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 471,
+    "fields": {
+      "user": 39,
+      "record": 478,
+      "date": "2026-06-03"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 472,
+    "fields": {
+      "user": 39,
+      "record": 479,
+      "date": "2026-06-04"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 473,
+    "fields": {
+      "user": 39,
+      "record": 480,
+      "date": "2026-06-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 474,
+    "fields": {
+      "user": 39,
+      "record": 481,
+      "date": "2026-06-06"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 475,
+    "fields": {
+      "user": 39,
+      "record": 482,
+      "date": "2026-06-07"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 476,
+    "fields": {
+      "user": 39,
+      "record": 483,
+      "date": "2026-06-08"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 477,
+    "fields": {
+      "user": 39,
+      "record": 484,
+      "date": "2026-06-09"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 478,
+    "fields": {
+      "user": 39,
+      "record": 485,
+      "date": "2026-06-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 479,
+    "fields": {
+      "user": 39,
+      "record": 486,
+      "date": "2026-06-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 480,
+    "fields": {
+      "user": 39,
+      "record": 487,
+      "date": "2026-06-12"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 481,
+    "fields": {
+      "user": 39,
+      "record": 488,
+      "date": "2026-06-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 482,
+    "fields": {
+      "user": 39,
+      "record": 489,
+      "date": "2026-06-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 483,
+    "fields": {
+      "user": 39,
+      "record": 490,
+      "date": "2026-06-15"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 484,
+    "fields": {
+      "user": 39,
+      "record": 491,
+      "date": "2026-06-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 485,
+    "fields": {
+      "user": 39,
+      "record": 492,
+      "date": "2026-06-17"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 486,
+    "fields": {
+      "user": 39,
+      "record": 493,
+      "date": "2026-06-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 487,
+    "fields": {
+      "user": 39,
+      "record": 494,
+      "date": "2026-06-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 488,
+    "fields": {
+      "user": 39,
+      "record": 495,
+      "date": "2026-06-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 489,
+    "fields": {
+      "user": 39,
+      "record": 496,
+      "date": "2026-06-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 490,
+    "fields": {
+      "user": 40,
+      "record": 497,
+      "date": "2026-03-15"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 491,
+    "fields": {
+      "user": 40,
+      "record": 498,
+      "date": "2026-03-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 492,
+    "fields": {
+      "user": 40,
+      "record": 499,
+      "date": "2026-03-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 493,
+    "fields": {
+      "user": 40,
+      "record": 500,
+      "date": "2026-03-27"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 494,
+    "fields": {
+      "user": 40,
+      "record": 501,
+      "date": "2026-04-01"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 495,
+    "fields": {
+      "user": 40,
+      "record": 502,
+      "date": "2026-04-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 496,
+    "fields": {
+      "user": 40,
+      "record": 503,
+      "date": "2026-04-07"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 497,
+    "fields": {
+      "user": 40,
+      "record": 504,
+      "date": "2026-04-09"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 498,
+    "fields": {
+      "user": 40,
+      "record": 505,
+      "date": "2026-04-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 499,
+    "fields": {
+      "user": 40,
+      "record": 506,
+      "date": "2026-04-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 500,
+    "fields": {
+      "user": 40,
+      "record": 507,
+      "date": "2026-04-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 501,
+    "fields": {
+      "user": 40,
+      "record": 508,
+      "date": "2026-04-23"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 502,
+    "fields": {
+      "user": 40,
+      "record": 509,
+      "date": "2026-04-26"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 503,
+    "fields": {
+      "user": 40,
+      "record": 510,
+      "date": "2026-05-01"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 504,
+    "fields": {
+      "user": 40,
+      "record": 511,
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 505,
+    "fields": {
+      "user": 40,
+      "record": 512,
+      "date": "2026-05-06"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 506,
+    "fields": {
+      "user": 40,
+      "record": 513,
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 507,
+    "fields": {
+      "user": 40,
+      "record": 514,
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 508,
+    "fields": {
+      "user": 40,
+      "record": 515,
+      "date": "2026-05-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 509,
+    "fields": {
+      "user": 40,
+      "record": 516,
+      "date": "2026-05-25"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 510,
+    "fields": {
+      "user": 40,
+      "record": 519,
+      "date": "2026-05-31"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 511,
+    "fields": {
+      "user": 40,
+      "record": 520,
+      "date": "2026-06-04"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 512,
+    "fields": {
+      "user": 40,
+      "record": 521,
+      "date": "2026-06-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 513,
+    "fields": {
+      "user": 40,
+      "record": 522,
+      "date": "2026-06-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 514,
+    "fields": {
+      "user": 40,
+      "record": 523,
+      "date": "2026-06-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 515,
+    "fields": {
+      "user": 40,
+      "record": 524,
+      "date": "2026-06-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 516,
+    "fields": {
+      "user": 41,
+      "record": 525,
+      "date": "2026-03-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 517,
+    "fields": {
+      "user": 41,
+      "record": 526,
+      "date": "2026-03-12"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 518,
+    "fields": {
+      "user": 41,
+      "record": 527,
+      "date": "2026-03-17"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 519,
+    "fields": {
+      "user": 41,
+      "record": 528,
+      "date": "2026-03-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 520,
+    "fields": {
+      "user": 41,
+      "record": 529,
+      "date": "2026-03-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 521,
+    "fields": {
+      "user": 41,
+      "record": 530,
+      "date": "2026-03-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 522,
+    "fields": {
+      "user": 41,
+      "record": 531,
+      "date": "2026-03-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 523,
+    "fields": {
+      "user": 41,
+      "record": 532,
+      "date": "2026-03-27"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 524,
+    "fields": {
+      "user": 41,
+      "record": 533,
+      "date": "2026-03-29"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 525,
+    "fields": {
+      "user": 41,
+      "record": 534,
+      "date": "2026-04-01"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 526,
+    "fields": {
+      "user": 41,
+      "record": 535,
+      "date": "2026-04-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 527,
+    "fields": {
+      "user": 41,
+      "record": 536,
+      "date": "2026-04-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 528,
+    "fields": {
+      "user": 41,
+      "record": 537,
+      "date": "2026-04-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 529,
+    "fields": {
+      "user": 41,
+      "record": 538,
+      "date": "2026-04-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 530,
+    "fields": {
+      "user": 41,
+      "record": 539,
+      "date": "2026-04-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 531,
+    "fields": {
+      "user": 41,
+      "record": 540,
+      "date": "2026-05-01"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 532,
+    "fields": {
+      "user": 41,
+      "record": 541,
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 533,
+    "fields": {
+      "user": 41,
+      "record": 542,
+      "date": "2026-05-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 534,
+    "fields": {
+      "user": 41,
+      "record": 543,
+      "date": "2026-05-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 535,
+    "fields": {
+      "user": 41,
+      "record": 544,
+      "date": "2026-05-15"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 536,
+    "fields": {
+      "user": 41,
+      "record": 545,
+      "date": "2026-05-24"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 537,
+    "fields": {
+      "user": 41,
+      "record": 546,
+      "date": "2026-05-25"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 538,
+    "fields": {
+      "user": 41,
+      "record": 547,
+      "date": "2026-05-26"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 539,
+    "fields": {
+      "user": 41,
+      "record": 548,
+      "date": "2026-05-30"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 540,
+    "fields": {
+      "user": 41,
+      "record": 549,
+      "date": "2026-06-12"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 541,
+    "fields": {
+      "user": 41,
+      "record": 550,
+      "date": "2026-06-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 542,
+    "fields": {
+      "user": 41,
+      "record": 551,
+      "date": "2026-06-17"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 543,
+    "fields": {
+      "user": 41,
+      "record": 552,
+      "date": "2026-06-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 544,
+    "fields": {
+      "user": 42,
+      "record": 553,
+      "date": "2026-03-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 545,
+    "fields": {
+      "user": 42,
+      "record": 554,
+      "date": "2026-03-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 546,
+    "fields": {
+      "user": 42,
+      "record": 555,
+      "date": "2026-03-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 547,
+    "fields": {
+      "user": 42,
+      "record": 556,
+      "date": "2026-03-26"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 548,
+    "fields": {
+      "user": 42,
+      "record": 557,
+      "date": "2026-03-31"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 549,
+    "fields": {
+      "user": 42,
+      "record": 558,
+      "date": "2026-04-03"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 550,
+    "fields": {
+      "user": 42,
+      "record": 559,
+      "date": "2026-04-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 551,
+    "fields": {
+      "user": 42,
+      "record": 560,
+      "date": "2026-04-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 552,
+    "fields": {
+      "user": 42,
+      "record": 561,
+      "date": "2026-04-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 553,
+    "fields": {
+      "user": 42,
+      "record": 562,
+      "date": "2026-04-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 554,
+    "fields": {
+      "user": 42,
+      "record": 563,
+      "date": "2026-04-23"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 555,
+    "fields": {
+      "user": 42,
+      "record": 564,
+      "date": "2026-04-28"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 556,
+    "fields": {
+      "user": 42,
+      "record": 565,
+      "date": "2026-04-30"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 557,
+    "fields": {
+      "user": 42,
+      "record": 566,
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 558,
+    "fields": {
+      "user": 42,
+      "record": 567,
+      "date": "2026-05-06"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 559,
+    "fields": {
+      "user": 42,
+      "record": 568,
+      "date": "2026-05-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 560,
+    "fields": {
+      "user": 42,
+      "record": 569,
+      "date": "2026-05-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 561,
+    "fields": {
+      "user": 42,
+      "record": 570,
+      "date": "2026-05-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 562,
+    "fields": {
+      "user": 42,
+      "record": 571,
+      "date": "2026-05-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 563,
+    "fields": {
+      "user": 42,
+      "record": 572,
+      "date": "2026-05-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 564,
+    "fields": {
+      "user": 42,
+      "record": 573,
+      "date": "2026-05-25"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 565,
+    "fields": {
+      "user": 42,
+      "record": 574,
+      "date": "2026-06-03"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 566,
+    "fields": {
+      "user": 42,
+      "record": 575,
+      "date": "2026-06-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 567,
+    "fields": {
+      "user": 42,
+      "record": 576,
+      "date": "2026-06-09"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 568,
+    "fields": {
+      "user": 42,
+      "record": 577,
+      "date": "2026-06-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 569,
+    "fields": {
+      "user": 42,
+      "record": 578,
+      "date": "2026-06-12"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 570,
+    "fields": {
+      "user": 42,
+      "record": 579,
+      "date": "2026-06-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 571,
+    "fields": {
+      "user": 42,
+      "record": 580,
+      "date": "2026-06-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 572,
+    "fields": {
+      "user": 43,
+      "record": 581,
+      "date": "2026-03-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 573,
+    "fields": {
+      "user": 43,
+      "record": 582,
+      "date": "2026-03-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 574,
+    "fields": {
+      "user": 43,
+      "record": 584,
+      "date": "2026-03-22"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 575,
+    "fields": {
+      "user": 43,
+      "record": 585,
+      "date": "2026-03-29"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 576,
+    "fields": {
+      "user": 43,
+      "record": 586,
+      "date": "2026-04-04"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 577,
+    "fields": {
+      "user": 43,
+      "record": 587,
+      "date": "2026-04-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 578,
+    "fields": {
+      "user": 43,
+      "record": 588,
+      "date": "2026-04-07"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 579,
+    "fields": {
+      "user": 43,
+      "record": 589,
+      "date": "2026-04-08"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 580,
+    "fields": {
+      "user": 43,
+      "record": 590,
+      "date": "2026-04-15"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 581,
+    "fields": {
+      "user": 43,
+      "record": 591,
+      "date": "2026-04-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 582,
+    "fields": {
+      "user": 43,
+      "record": 592,
+      "date": "2026-04-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 583,
+    "fields": {
+      "user": 43,
+      "record": 593,
+      "date": "2026-04-26"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 584,
+    "fields": {
+      "user": 43,
+      "record": 594,
+      "date": "2026-04-29"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 585,
+    "fields": {
+      "user": 43,
+      "record": 595,
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 586,
+    "fields": {
+      "user": 43,
+      "record": 596,
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 587,
+    "fields": {
+      "user": 43,
+      "record": 597,
+      "date": "2026-05-08"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 588,
+    "fields": {
+      "user": 43,
+      "record": 598,
+      "date": "2026-05-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 589,
+    "fields": {
+      "user": 43,
+      "record": 599,
+      "date": "2026-05-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 590,
+    "fields": {
+      "user": 43,
+      "record": 600,
+      "date": "2026-05-30"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 591,
+    "fields": {
+      "user": 43,
+      "record": 601,
+      "date": "2026-06-03"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 592,
+    "fields": {
+      "user": 43,
+      "record": 602,
+      "date": "2026-06-04"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 593,
+    "fields": {
+      "user": 43,
+      "record": 603,
+      "date": "2026-06-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 594,
+    "fields": {
+      "user": 43,
+      "record": 604,
+      "date": "2026-06-06"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 595,
+    "fields": {
+      "user": 43,
+      "record": 605,
+      "date": "2026-06-13"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 596,
+    "fields": {
+      "user": 43,
+      "record": 606,
+      "date": "2026-06-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 597,
+    "fields": {
+      "user": 43,
+      "record": 607,
+      "date": "2026-06-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 598,
+    "fields": {
+      "user": 43,
+      "record": 608,
+      "date": "2026-06-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 599,
+    "fields": {
+      "user": 44,
+      "record": 609,
+      "date": "2026-03-27"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 600,
+    "fields": {
+      "user": 44,
+      "record": 610,
+      "date": "2026-03-29"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 601,
+    "fields": {
+      "user": 44,
+      "record": 611,
+      "date": "2026-04-03"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 602,
+    "fields": {
+      "user": 44,
+      "record": 612,
+      "date": "2026-04-08"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 603,
+    "fields": {
+      "user": 44,
+      "record": 613,
+      "date": "2026-04-26"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 604,
+    "fields": {
+      "user": 44,
+      "record": 614,
+      "date": "2026-04-27"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 605,
+    "fields": {
+      "user": 44,
+      "record": 615,
+      "date": "2026-04-30"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 606,
+    "fields": {
+      "user": 44,
+      "record": 616,
+      "date": "2026-05-06"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 607,
+    "fields": {
+      "user": 45,
+      "record": 617,
+      "date": "2026-03-06"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 608,
+    "fields": {
+      "user": 45,
+      "record": 618,
+      "date": "2026-03-08"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 609,
+    "fields": {
+      "user": 45,
+      "record": 619,
+      "date": "2026-03-28"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 610,
+    "fields": {
+      "user": 45,
+      "record": 620,
+      "date": "2026-03-30"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 611,
+    "fields": {
+      "user": 45,
+      "record": 621,
+      "date": "2026-04-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 612,
+    "fields": {
+      "user": 45,
+      "record": 622,
+      "date": "2026-04-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 613,
+    "fields": {
+      "user": 45,
+      "record": 623,
+      "date": "2026-04-21"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 614,
+    "fields": {
+      "user": 45,
+      "record": 624,
+      "date": "2026-04-27"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 615,
+    "fields": {
+      "user": 46,
+      "record": 625,
+      "date": "2026-03-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 616,
+    "fields": {
+      "user": 46,
+      "record": 626,
+      "date": "2026-04-01"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 617,
+    "fields": {
+      "user": 46,
+      "record": 627,
+      "date": "2026-04-12"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 618,
+    "fields": {
+      "user": 46,
+      "record": 628,
+      "date": "2026-04-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 619,
+    "fields": {
+      "user": 46,
+      "record": 629,
+      "date": "2026-04-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 620,
+    "fields": {
+      "user": 46,
+      "record": 630,
+      "date": "2026-04-25"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 621,
+    "fields": {
+      "user": 46,
+      "record": 631,
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 622,
+    "fields": {
+      "user": 46,
+      "record": 632,
+      "date": "2026-05-10"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 623,
+    "fields": {
+      "user": 47,
+      "record": 633,
+      "date": "2026-03-30"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 624,
+    "fields": {
+      "user": 47,
+      "record": 634,
+      "date": "2026-04-04"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 625,
+    "fields": {
+      "user": 47,
+      "record": 635,
+      "date": "2026-04-12"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 626,
+    "fields": {
+      "user": 47,
+      "record": 636,
+      "date": "2026-04-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 627,
+    "fields": {
+      "user": 47,
+      "record": 637,
+      "date": "2026-04-18"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 628,
+    "fields": {
+      "user": 47,
+      "record": 638,
+      "date": "2026-04-19"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 629,
+    "fields": {
+      "user": 47,
+      "record": 639,
+      "date": "2026-04-20"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 630,
+    "fields": {
+      "user": 47,
+      "record": 640,
+      "date": "2026-04-24"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 631,
+    "fields": {
+      "user": 48,
+      "record": 641,
+      "date": "2026-04-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 632,
+    "fields": {
+      "user": 48,
+      "record": 642,
+      "date": "2026-04-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 633,
+    "fields": {
+      "user": 48,
+      "record": 643,
+      "date": "2026-04-22"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 634,
+    "fields": {
+      "user": 48,
+      "record": 644,
+      "date": "2026-04-26"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 635,
+    "fields": {
+      "user": 48,
+      "record": 645,
+      "date": "2026-04-29"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 636,
+    "fields": {
+      "user": 48,
+      "record": 646,
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 637,
+    "fields": {
+      "user": 48,
+      "record": 647,
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 638,
+    "fields": {
+      "user": 48,
+      "record": 648,
+      "date": "2026-05-07"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 639,
+    "fields": {
+      "user": 49,
+      "record": 649,
+      "date": "2026-03-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 640,
+    "fields": {
+      "user": 49,
+      "record": 650,
+      "date": "2026-03-22"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 641,
+    "fields": {
+      "user": 49,
+      "record": 651,
+      "date": "2026-03-28"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 642,
+    "fields": {
+      "user": 49,
+      "record": 652,
+      "date": "2026-03-31"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 643,
+    "fields": {
+      "user": 49,
+      "record": 653,
+      "date": "2026-04-02"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 644,
+    "fields": {
+      "user": 49,
+      "record": 654,
+      "date": "2026-04-09"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 645,
+    "fields": {
+      "user": 49,
+      "record": 655,
+      "date": "2026-04-11"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 646,
+    "fields": {
+      "user": 49,
+      "record": 656,
+      "date": "2026-04-27"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 647,
+    "fields": {
+      "user": 50,
+      "record": 657,
+      "date": "2026-03-22"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 648,
+    "fields": {
+      "user": 50,
+      "record": 658,
+      "date": "2026-03-28"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 649,
+    "fields": {
+      "user": 50,
+      "record": 659,
+      "date": "2026-04-01"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 650,
+    "fields": {
+      "user": 50,
+      "record": 660,
+      "date": "2026-04-03"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 651,
+    "fields": {
+      "user": 50,
+      "record": 661,
+      "date": "2026-04-14"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 652,
+    "fields": {
+      "user": 50,
+      "record": 662,
+      "date": "2026-04-15"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 653,
+    "fields": {
+      "user": 50,
+      "record": 663,
+      "date": "2026-04-16"
+    }
+  },
+  {
+    "model": "records.attendance",
+    "pk": 654,
+    "fields": {
+      "user": 50,
+      "record": 664,
+      "date": "2026-04-26"
+    }
+  }
+]

@@ -1,0 +1,1302 @@
+[
+  {
+    "model": "badges.userbadge",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "badge": 1,
+      "acquired_at": "2026-03-13T13:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "badge": 2,
+      "acquired_at": "2026-03-14T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 3,
+    "fields": {
+      "user": 2,
+      "badge": 5,
+      "acquired_at": "2026-03-15T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 4,
+    "fields": {
+      "user": 2,
+      "badge": 10,
+      "acquired_at": "2026-03-16T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 5,
+    "fields": {
+      "user": 3,
+      "badge": 1,
+      "acquired_at": "2026-03-08T13:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 6,
+    "fields": {
+      "user": 3,
+      "badge": 8,
+      "acquired_at": "2026-03-09T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 7,
+    "fields": {
+      "user": 14,
+      "badge": 1,
+      "acquired_at": "2026-05-08T16:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 8,
+    "fields": {
+      "user": 14,
+      "badge": 10,
+      "acquired_at": "2026-05-09T16:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 9,
+    "fields": {
+      "user": 15,
+      "badge": 1,
+      "acquired_at": "2026-04-27T14:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 10,
+    "fields": {
+      "user": 15,
+      "badge": 10,
+      "acquired_at": "2026-04-28T14:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 11,
+    "fields": {
+      "user": 16,
+      "badge": 1,
+      "acquired_at": "2026-04-13T14:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 12,
+    "fields": {
+      "user": 16,
+      "badge": 10,
+      "acquired_at": "2026-04-14T14:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 13,
+    "fields": {
+      "user": 17,
+      "badge": 1,
+      "acquired_at": "2026-04-30T15:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 14,
+    "fields": {
+      "user": 17,
+      "badge": 10,
+      "acquired_at": "2026-05-01T15:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 15,
+    "fields": {
+      "user": 18,
+      "badge": 1,
+      "acquired_at": "2026-04-26T14:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 16,
+    "fields": {
+      "user": 18,
+      "badge": 10,
+      "acquired_at": "2026-04-27T14:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 17,
+    "fields": {
+      "user": 19,
+      "badge": 1,
+      "acquired_at": "2026-05-03T16:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 18,
+    "fields": {
+      "user": 19,
+      "badge": 10,
+      "acquired_at": "2026-05-04T16:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 19,
+    "fields": {
+      "user": 20,
+      "badge": 1,
+      "acquired_at": "2026-04-10T14:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 20,
+    "fields": {
+      "user": 20,
+      "badge": 10,
+      "acquired_at": "2026-04-11T14:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 21,
+    "fields": {
+      "user": 21,
+      "badge": 1,
+      "acquired_at": "2026-05-18T14:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 22,
+    "fields": {
+      "user": 21,
+      "badge": 10,
+      "acquired_at": "2026-05-19T14:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 23,
+    "fields": {
+      "user": 22,
+      "badge": 1,
+      "acquired_at": "2026-04-08T15:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 24,
+    "fields": {
+      "user": 22,
+      "badge": 10,
+      "acquired_at": "2026-04-09T15:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 25,
+    "fields": {
+      "user": 23,
+      "badge": 1,
+      "acquired_at": "2026-04-29T16:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 26,
+    "fields": {
+      "user": 23,
+      "badge": 10,
+      "acquired_at": "2026-04-30T16:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 27,
+    "fields": {
+      "user": 24,
+      "badge": 1,
+      "acquired_at": "2026-04-17T15:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 28,
+    "fields": {
+      "user": 24,
+      "badge": 2,
+      "acquired_at": "2026-04-18T15:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 29,
+    "fields": {
+      "user": 24,
+      "badge": 5,
+      "acquired_at": "2026-04-19T15:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 30,
+    "fields": {
+      "user": 24,
+      "badge": 10,
+      "acquired_at": "2026-04-20T15:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 31,
+    "fields": {
+      "user": 25,
+      "badge": 1,
+      "acquired_at": "2026-04-05T16:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 32,
+    "fields": {
+      "user": 25,
+      "badge": 2,
+      "acquired_at": "2026-04-06T16:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 33,
+    "fields": {
+      "user": 25,
+      "badge": 5,
+      "acquired_at": "2026-04-07T16:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 34,
+    "fields": {
+      "user": 25,
+      "badge": 10,
+      "acquired_at": "2026-04-08T16:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 35,
+    "fields": {
+      "user": 26,
+      "badge": 1,
+      "acquired_at": "2026-03-04T13:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 36,
+    "fields": {
+      "user": 26,
+      "badge": 2,
+      "acquired_at": "2026-03-05T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 37,
+    "fields": {
+      "user": 26,
+      "badge": 5,
+      "acquired_at": "2026-03-06T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 38,
+    "fields": {
+      "user": 26,
+      "badge": 10,
+      "acquired_at": "2026-03-07T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 39,
+    "fields": {
+      "user": 27,
+      "badge": 1,
+      "acquired_at": "2026-04-01T12:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 40,
+    "fields": {
+      "user": 27,
+      "badge": 2,
+      "acquired_at": "2026-04-02T12:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 41,
+    "fields": {
+      "user": 27,
+      "badge": 5,
+      "acquired_at": "2026-04-03T12:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 42,
+    "fields": {
+      "user": 27,
+      "badge": 10,
+      "acquired_at": "2026-04-04T12:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 43,
+    "fields": {
+      "user": 28,
+      "badge": 1,
+      "acquired_at": "2026-03-28T14:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 44,
+    "fields": {
+      "user": 28,
+      "badge": 2,
+      "acquired_at": "2026-03-29T14:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 45,
+    "fields": {
+      "user": 28,
+      "badge": 5,
+      "acquired_at": "2026-03-30T14:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 46,
+    "fields": {
+      "user": 28,
+      "badge": 10,
+      "acquired_at": "2026-03-31T14:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 47,
+    "fields": {
+      "user": 29,
+      "badge": 1,
+      "acquired_at": "2026-03-12T14:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 48,
+    "fields": {
+      "user": 29,
+      "badge": 2,
+      "acquired_at": "2026-03-13T14:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 49,
+    "fields": {
+      "user": 29,
+      "badge": 5,
+      "acquired_at": "2026-03-14T14:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 50,
+    "fields": {
+      "user": 29,
+      "badge": 10,
+      "acquired_at": "2026-03-15T14:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 51,
+    "fields": {
+      "user": 30,
+      "badge": 1,
+      "acquired_at": "2026-04-24T12:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 52,
+    "fields": {
+      "user": 30,
+      "badge": 2,
+      "acquired_at": "2026-04-25T12:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 53,
+    "fields": {
+      "user": 30,
+      "badge": 5,
+      "acquired_at": "2026-04-26T12:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 54,
+    "fields": {
+      "user": 30,
+      "badge": 10,
+      "acquired_at": "2026-04-27T12:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 55,
+    "fields": {
+      "user": 31,
+      "badge": 1,
+      "acquired_at": "2026-03-10T15:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 56,
+    "fields": {
+      "user": 31,
+      "badge": 2,
+      "acquired_at": "2026-03-11T15:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 57,
+    "fields": {
+      "user": 31,
+      "badge": 5,
+      "acquired_at": "2026-03-12T15:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 58,
+    "fields": {
+      "user": 31,
+      "badge": 10,
+      "acquired_at": "2026-03-13T15:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 59,
+    "fields": {
+      "user": 32,
+      "badge": 1,
+      "acquired_at": "2026-03-11T15:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 60,
+    "fields": {
+      "user": 32,
+      "badge": 2,
+      "acquired_at": "2026-03-12T15:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 61,
+    "fields": {
+      "user": 32,
+      "badge": 5,
+      "acquired_at": "2026-03-13T15:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 62,
+    "fields": {
+      "user": 32,
+      "badge": 10,
+      "acquired_at": "2026-03-14T15:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 63,
+    "fields": {
+      "user": 33,
+      "badge": 1,
+      "acquired_at": "2026-03-14T15:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 64,
+    "fields": {
+      "user": 33,
+      "badge": 2,
+      "acquired_at": "2026-03-15T15:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 65,
+    "fields": {
+      "user": 33,
+      "badge": 5,
+      "acquired_at": "2026-03-16T15:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 66,
+    "fields": {
+      "user": 33,
+      "badge": 10,
+      "acquired_at": "2026-03-17T15:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 67,
+    "fields": {
+      "user": 34,
+      "badge": 1,
+      "acquired_at": "2026-03-27T12:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 68,
+    "fields": {
+      "user": 34,
+      "badge": 2,
+      "acquired_at": "2026-03-28T12:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 69,
+    "fields": {
+      "user": 34,
+      "badge": 5,
+      "acquired_at": "2026-03-29T12:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 70,
+    "fields": {
+      "user": 34,
+      "badge": 10,
+      "acquired_at": "2026-03-30T12:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 71,
+    "fields": {
+      "user": 35,
+      "badge": 1,
+      "acquired_at": "2026-03-30T15:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 72,
+    "fields": {
+      "user": 35,
+      "badge": 2,
+      "acquired_at": "2026-03-31T15:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 73,
+    "fields": {
+      "user": 35,
+      "badge": 5,
+      "acquired_at": "2026-04-01T15:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 74,
+    "fields": {
+      "user": 35,
+      "badge": 10,
+      "acquired_at": "2026-04-02T15:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 75,
+    "fields": {
+      "user": 36,
+      "badge": 1,
+      "acquired_at": "2026-05-03T16:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 76,
+    "fields": {
+      "user": 36,
+      "badge": 2,
+      "acquired_at": "2026-05-04T16:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 77,
+    "fields": {
+      "user": 36,
+      "badge": 5,
+      "acquired_at": "2026-05-05T16:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 78,
+    "fields": {
+      "user": 36,
+      "badge": 10,
+      "acquired_at": "2026-05-06T16:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 79,
+    "fields": {
+      "user": 37,
+      "badge": 1,
+      "acquired_at": "2026-04-05T13:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 80,
+    "fields": {
+      "user": 37,
+      "badge": 2,
+      "acquired_at": "2026-04-06T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 81,
+    "fields": {
+      "user": 37,
+      "badge": 5,
+      "acquired_at": "2026-04-07T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 82,
+    "fields": {
+      "user": 37,
+      "badge": 10,
+      "acquired_at": "2026-04-08T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 83,
+    "fields": {
+      "user": 38,
+      "badge": 1,
+      "acquired_at": "2026-03-19T14:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 84,
+    "fields": {
+      "user": 38,
+      "badge": 2,
+      "acquired_at": "2026-03-20T14:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 85,
+    "fields": {
+      "user": 38,
+      "badge": 5,
+      "acquired_at": "2026-03-21T14:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 86,
+    "fields": {
+      "user": 38,
+      "badge": 10,
+      "acquired_at": "2026-03-22T14:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 87,
+    "fields": {
+      "user": 39,
+      "badge": 1,
+      "acquired_at": "2026-03-04T13:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 88,
+    "fields": {
+      "user": 39,
+      "badge": 2,
+      "acquired_at": "2026-03-05T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 89,
+    "fields": {
+      "user": 39,
+      "badge": 3,
+      "acquired_at": "2026-03-06T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 90,
+    "fields": {
+      "user": 39,
+      "badge": 7,
+      "acquired_at": "2026-03-07T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 91,
+    "fields": {
+      "user": 39,
+      "badge": 8,
+      "acquired_at": "2026-03-08T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 92,
+    "fields": {
+      "user": 39,
+      "badge": 9,
+      "acquired_at": "2026-03-09T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 93,
+    "fields": {
+      "user": 40,
+      "badge": 1,
+      "acquired_at": "2026-03-13T13:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 94,
+    "fields": {
+      "user": 40,
+      "badge": 2,
+      "acquired_at": "2026-03-14T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 95,
+    "fields": {
+      "user": 40,
+      "badge": 3,
+      "acquired_at": "2026-03-15T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 96,
+    "fields": {
+      "user": 40,
+      "badge": 7,
+      "acquired_at": "2026-03-16T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 97,
+    "fields": {
+      "user": 40,
+      "badge": 8,
+      "acquired_at": "2026-03-17T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 98,
+    "fields": {
+      "user": 40,
+      "badge": 9,
+      "acquired_at": "2026-03-18T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 99,
+    "fields": {
+      "user": 41,
+      "badge": 1,
+      "acquired_at": "2026-03-10T12:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 100,
+    "fields": {
+      "user": 41,
+      "badge": 2,
+      "acquired_at": "2026-03-11T12:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 101,
+    "fields": {
+      "user": 41,
+      "badge": 3,
+      "acquired_at": "2026-03-12T12:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 102,
+    "fields": {
+      "user": 41,
+      "badge": 7,
+      "acquired_at": "2026-03-13T12:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 103,
+    "fields": {
+      "user": 41,
+      "badge": 8,
+      "acquired_at": "2026-03-14T12:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 104,
+    "fields": {
+      "user": 41,
+      "badge": 9,
+      "acquired_at": "2026-03-15T12:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 105,
+    "fields": {
+      "user": 42,
+      "badge": 1,
+      "acquired_at": "2026-03-06T14:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 106,
+    "fields": {
+      "user": 42,
+      "badge": 2,
+      "acquired_at": "2026-03-07T14:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 107,
+    "fields": {
+      "user": 42,
+      "badge": 3,
+      "acquired_at": "2026-03-08T14:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 108,
+    "fields": {
+      "user": 42,
+      "badge": 7,
+      "acquired_at": "2026-03-09T14:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 109,
+    "fields": {
+      "user": 42,
+      "badge": 8,
+      "acquired_at": "2026-03-10T14:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 110,
+    "fields": {
+      "user": 42,
+      "badge": 9,
+      "acquired_at": "2026-03-11T14:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 111,
+    "fields": {
+      "user": 43,
+      "badge": 1,
+      "acquired_at": "2026-03-07T13:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 112,
+    "fields": {
+      "user": 43,
+      "badge": 2,
+      "acquired_at": "2026-03-08T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 113,
+    "fields": {
+      "user": 43,
+      "badge": 3,
+      "acquired_at": "2026-03-09T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 114,
+    "fields": {
+      "user": 43,
+      "badge": 7,
+      "acquired_at": "2026-03-10T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 115,
+    "fields": {
+      "user": 43,
+      "badge": 8,
+      "acquired_at": "2026-03-11T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 116,
+    "fields": {
+      "user": 43,
+      "badge": 9,
+      "acquired_at": "2026-03-12T13:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 117,
+    "fields": {
+      "user": 44,
+      "badge": 1,
+      "acquired_at": "2026-03-14T12:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 118,
+    "fields": {
+      "user": 44,
+      "badge": 8,
+      "acquired_at": "2026-03-15T12:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 119,
+    "fields": {
+      "user": 45,
+      "badge": 1,
+      "acquired_at": "2026-03-05T15:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 120,
+    "fields": {
+      "user": 45,
+      "badge": 8,
+      "acquired_at": "2026-03-06T15:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 121,
+    "fields": {
+      "user": 46,
+      "badge": 1,
+      "acquired_at": "2026-03-11T12:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 122,
+    "fields": {
+      "user": 46,
+      "badge": 8,
+      "acquired_at": "2026-03-12T12:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 123,
+    "fields": {
+      "user": 47,
+      "badge": 1,
+      "acquired_at": "2026-03-17T14:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 124,
+    "fields": {
+      "user": 47,
+      "badge": 8,
+      "acquired_at": "2026-03-18T14:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 125,
+    "fields": {
+      "user": 48,
+      "badge": 1,
+      "acquired_at": "2026-03-15T12:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 126,
+    "fields": {
+      "user": 48,
+      "badge": 8,
+      "acquired_at": "2026-03-16T12:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 127,
+    "fields": {
+      "user": 49,
+      "badge": 1,
+      "acquired_at": "2026-03-07T16:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 128,
+    "fields": {
+      "user": 49,
+      "badge": 8,
+      "acquired_at": "2026-03-08T16:00:00",
+      "is_representative": false
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 129,
+    "fields": {
+      "user": 50,
+      "badge": 1,
+      "acquired_at": "2026-03-15T13:00:00",
+      "is_representative": true
+    }
+  },
+  {
+    "model": "badges.userbadge",
+    "pk": 130,
+    "fields": {
+      "user": 50,
+      "badge": 8,
+      "acquired_at": "2026-03-16T13:00:00",
+      "is_representative": false
+    }
+  }
+]

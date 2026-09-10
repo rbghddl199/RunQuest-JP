@@ -1,0 +1,702 @@
+[
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "experience": "beginner",
+      "distance": "1_3",
+      "course_type": "park",
+      "time_zone": "morning",
+      "run_style": "alone",
+      "purpose": "health",
+      "created_at": "2026-06-21T09:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stress",
+      "created_at": "2026-03-10T09:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 3,
+    "fields": {
+      "user": 3,
+      "experience": "intermediate",
+      "distance": "5_10",
+      "course_type": "river",
+      "time_zone": "morning",
+      "run_style": "alone",
+      "purpose": "stamina",
+      "created_at": "2026-03-05T09:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 4,
+    "fields": {
+      "user": 4,
+      "experience": "beginner",
+      "distance": "1_3",
+      "course_type": "park",
+      "time_zone": "morning",
+      "run_style": "alone",
+      "purpose": "health",
+      "created_at": "2026-06-17T12:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 5,
+    "fields": {
+      "user": 5,
+      "experience": "beginner",
+      "distance": "1_3",
+      "course_type": "park",
+      "time_zone": "morning",
+      "run_style": "alone",
+      "purpose": "health",
+      "created_at": "2026-06-12T10:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 6,
+    "fields": {
+      "user": 6,
+      "experience": "beginner",
+      "distance": "1_3",
+      "course_type": "park",
+      "time_zone": "morning",
+      "run_style": "alone",
+      "purpose": "health",
+      "created_at": "2026-06-15T09:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 7,
+    "fields": {
+      "user": 7,
+      "experience": "beginner",
+      "distance": "1_3",
+      "course_type": "park",
+      "time_zone": "morning",
+      "run_style": "alone",
+      "purpose": "health",
+      "created_at": "2026-06-14T08:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 8,
+    "fields": {
+      "user": 8,
+      "experience": "beginner",
+      "distance": "1_3",
+      "course_type": "park",
+      "time_zone": "morning",
+      "run_style": "alone",
+      "purpose": "health",
+      "created_at": "2026-06-03T12:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 9,
+    "fields": {
+      "user": 9,
+      "experience": "beginner",
+      "distance": "1_3",
+      "course_type": "park",
+      "time_zone": "morning",
+      "run_style": "alone",
+      "purpose": "health",
+      "created_at": "2026-06-05T09:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 10,
+    "fields": {
+      "user": 10,
+      "experience": "beginner",
+      "distance": "1_3",
+      "course_type": "park",
+      "time_zone": "morning",
+      "run_style": "alone",
+      "purpose": "health",
+      "created_at": "2026-06-20T12:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 11,
+    "fields": {
+      "user": 11,
+      "experience": "beginner",
+      "distance": "1_3",
+      "course_type": "park",
+      "time_zone": "morning",
+      "run_style": "alone",
+      "purpose": "health",
+      "created_at": "2026-06-14T10:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 12,
+    "fields": {
+      "user": 12,
+      "experience": "beginner",
+      "distance": "1_3",
+      "course_type": "park",
+      "time_zone": "morning",
+      "run_style": "alone",
+      "purpose": "health",
+      "created_at": "2026-06-02T09:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 13,
+    "fields": {
+      "user": 13,
+      "experience": "beginner",
+      "distance": "1_3",
+      "course_type": "park",
+      "time_zone": "morning",
+      "run_style": "alone",
+      "purpose": "health",
+      "created_at": "2026-06-21T12:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 14,
+    "fields": {
+      "user": 14,
+      "experience": "beginner",
+      "distance": "3_5",
+      "course_type": "park",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stamina",
+      "created_at": "2026-05-05T12:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 15,
+    "fields": {
+      "user": 15,
+      "experience": "beginner",
+      "distance": "3_5",
+      "course_type": "park",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stamina",
+      "created_at": "2026-04-24T10:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 16,
+    "fields": {
+      "user": 16,
+      "experience": "beginner",
+      "distance": "3_5",
+      "course_type": "park",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stamina",
+      "created_at": "2026-04-10T10:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 17,
+    "fields": {
+      "user": 17,
+      "experience": "beginner",
+      "distance": "3_5",
+      "course_type": "park",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stamina",
+      "created_at": "2026-04-27T11:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 18,
+    "fields": {
+      "user": 18,
+      "experience": "beginner",
+      "distance": "3_5",
+      "course_type": "park",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stamina",
+      "created_at": "2026-04-23T10:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 19,
+    "fields": {
+      "user": 19,
+      "experience": "beginner",
+      "distance": "3_5",
+      "course_type": "park",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stamina",
+      "created_at": "2026-04-30T12:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 20,
+    "fields": {
+      "user": 20,
+      "experience": "beginner",
+      "distance": "3_5",
+      "course_type": "park",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stamina",
+      "created_at": "2026-04-07T10:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 21,
+    "fields": {
+      "user": 21,
+      "experience": "beginner",
+      "distance": "3_5",
+      "course_type": "park",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stamina",
+      "created_at": "2026-05-15T10:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 22,
+    "fields": {
+      "user": 22,
+      "experience": "beginner",
+      "distance": "3_5",
+      "course_type": "park",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stamina",
+      "created_at": "2026-04-05T11:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 23,
+    "fields": {
+      "user": 23,
+      "experience": "beginner",
+      "distance": "3_5",
+      "course_type": "park",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stamina",
+      "created_at": "2026-04-26T12:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 24,
+    "fields": {
+      "user": 24,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stress",
+      "created_at": "2026-04-14T11:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 25,
+    "fields": {
+      "user": 25,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stress",
+      "created_at": "2026-04-02T12:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 26,
+    "fields": {
+      "user": 26,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stress",
+      "created_at": "2026-03-01T09:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 27,
+    "fields": {
+      "user": 27,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stress",
+      "created_at": "2026-03-29T08:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 28,
+    "fields": {
+      "user": 28,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stress",
+      "created_at": "2026-03-25T10:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 29,
+    "fields": {
+      "user": 29,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stress",
+      "created_at": "2026-03-09T10:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 30,
+    "fields": {
+      "user": 30,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stress",
+      "created_at": "2026-04-21T08:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 31,
+    "fields": {
+      "user": 31,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stress",
+      "created_at": "2026-03-07T11:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 32,
+    "fields": {
+      "user": 32,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stress",
+      "created_at": "2026-03-08T11:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 33,
+    "fields": {
+      "user": 33,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stress",
+      "created_at": "2026-03-11T11:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 34,
+    "fields": {
+      "user": 34,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stress",
+      "created_at": "2026-03-24T08:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 35,
+    "fields": {
+      "user": 35,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stress",
+      "created_at": "2026-03-27T11:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 36,
+    "fields": {
+      "user": 36,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stress",
+      "created_at": "2026-04-30T12:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 37,
+    "fields": {
+      "user": 37,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stress",
+      "created_at": "2026-04-02T09:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 38,
+    "fields": {
+      "user": 38,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "stress",
+      "created_at": "2026-03-16T10:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 39,
+    "fields": {
+      "user": 39,
+      "experience": "advanced",
+      "distance": "10_plus",
+      "course_type": "river",
+      "time_zone": "night",
+      "run_style": "alone",
+      "purpose": "record",
+      "created_at": "2026-03-01T09:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 40,
+    "fields": {
+      "user": 40,
+      "experience": "advanced",
+      "distance": "10_plus",
+      "course_type": "river",
+      "time_zone": "night",
+      "run_style": "alone",
+      "purpose": "record",
+      "created_at": "2026-03-10T09:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 41,
+    "fields": {
+      "user": 41,
+      "experience": "advanced",
+      "distance": "10_plus",
+      "course_type": "river",
+      "time_zone": "night",
+      "run_style": "alone",
+      "purpose": "record",
+      "created_at": "2026-03-07T08:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 42,
+    "fields": {
+      "user": 42,
+      "experience": "advanced",
+      "distance": "10_plus",
+      "course_type": "river",
+      "time_zone": "night",
+      "run_style": "alone",
+      "purpose": "record",
+      "created_at": "2026-03-03T10:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 43,
+    "fields": {
+      "user": 43,
+      "experience": "advanced",
+      "distance": "10_plus",
+      "course_type": "river",
+      "time_zone": "night",
+      "run_style": "alone",
+      "purpose": "record",
+      "created_at": "2026-03-04T09:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 44,
+    "fields": {
+      "user": 44,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "health",
+      "created_at": "2026-03-11T08:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 45,
+    "fields": {
+      "user": 45,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "health",
+      "created_at": "2026-03-02T11:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 46,
+    "fields": {
+      "user": 46,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "health",
+      "created_at": "2026-03-08T08:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 47,
+    "fields": {
+      "user": 47,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "health",
+      "created_at": "2026-03-14T10:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 48,
+    "fields": {
+      "user": 48,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "health",
+      "created_at": "2026-03-12T08:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 49,
+    "fields": {
+      "user": 49,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "health",
+      "created_at": "2026-03-04T12:00:00"
+    }
+  },
+  {
+    "model": "surveys.surveyanswer",
+    "pk": 50,
+    "fields": {
+      "user": 50,
+      "experience": "intermediate",
+      "distance": "3_5",
+      "course_type": "river",
+      "time_zone": "evening",
+      "run_style": "alone",
+      "purpose": "health",
+      "created_at": "2026-03-12T09:00:00"
+    }
+  }
+]

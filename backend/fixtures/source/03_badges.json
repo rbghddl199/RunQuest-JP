@@ -1,0 +1,122 @@
+[
+  {
+    "model": "badges.badge",
+    "pk": 1,
+    "fields": {
+      "name": "작은 불씨",
+      "description": "첫 러닝 기록을 완료한 러너",
+      "condition": "러닝 기록 1회",
+      "badge_type": "streak",
+      "icon_type": "fire",
+      "required_value": 1
+    }
+  },
+  {
+    "model": "badges.badge",
+    "pk": 2,
+    "fields": {
+      "name": "활활 타오름",
+      "description": "7일 연속 러닝을 달성한 러너",
+      "condition": "연속 러닝 7일",
+      "badge_type": "streak",
+      "icon_type": "fire",
+      "required_value": 7
+    }
+  },
+  {
+    "model": "badges.badge",
+    "pk": 3,
+    "fields": {
+      "name": "전설의 러너",
+      "description": "30일 연속 러닝을 달성한 러너",
+      "condition": "연속 러닝 30일",
+      "badge_type": "streak",
+      "icon_type": "medal",
+      "required_value": 30
+    }
+  },
+  {
+    "model": "badges.badge",
+    "pk": 4,
+    "fields": {
+      "name": "야간 러너",
+      "description": "야간 러닝을 즐기는 러너",
+      "condition": "야간 러닝 5회",
+      "badge_type": "night",
+      "icon_type": "moon",
+      "required_value": 5
+    }
+  },
+  {
+    "model": "badges.badge",
+    "pk": 5,
+    "fields": {
+      "name": "강변 마스터",
+      "description": "하천 코스를 꾸준히 달린 러너",
+      "condition": "하천 코스 10회",
+      "badge_type": "river",
+      "icon_type": "wave",
+      "required_value": 10
+    }
+  },
+  {
+    "model": "badges.badge",
+    "pk": 6,
+    "fields": {
+      "name": "공원 루틴러",
+      "description": "공원 코스를 꾸준히 달린 러너",
+      "condition": "공원 코스 10회",
+      "badge_type": "nature",
+      "icon_type": "leaf",
+      "required_value": 10
+    }
+  },
+  {
+    "model": "badges.badge",
+    "pk": 7,
+    "fields": {
+      "name": "스피드 러너",
+      "description": "빠른 페이스를 기록한 러너",
+      "condition": "평균 페이스 6분 30초 이하 5회",
+      "badge_type": "speed",
+      "icon_type": "lightning",
+      "required_value": 5
+    }
+  },
+  {
+    "model": "badges.badge",
+    "pk": 8,
+    "fields": {
+      "name": "10km 완주",
+      "description": "10km 이상 코스를 완주한 러너",
+      "condition": "10km 이상 기록 1회",
+      "badge_type": "distance",
+      "icon_type": "10k",
+      "required_value": 10
+    }
+  },
+  {
+    "model": "badges.badge",
+    "pk": 9,
+    "fields": {
+      "name": "대전 탐험가",
+      "description": "서로 다른 대전 코스를 달린 러너",
+      "condition": "서로 다른 코스 10개",
+      "badge_type": "explore",
+      "icon_type": "map",
+      "required_value": 10
+    }
+  },
+  {
+    "model": "badges.badge",
+    "pk": 10,
+    "fields": {
+      "name": "첫 커뮤니티",
+      "description": "첫 게시글을 작성한 러너",
+      "condition": "게시글 1개",
+      "badge_type": "community",
+      "icon_type": "chat",
+      "required_value": 1
+    }
+  }
+]

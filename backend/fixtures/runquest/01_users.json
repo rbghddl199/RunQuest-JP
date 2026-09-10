@@ -1,0 +1,2302 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "new@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "new@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-06-21T09:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "nickname": "새싹러너",
+      "user_type": "new",
+      "survey_completed": true,
+      "created_at": "2026-06-21T09:00:00+09:00",
+      "updated_at": "2026-06-21T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-06-21T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "runner@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "runner@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-10T09:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "nickname": "꾸준러너",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-03-10T09:00:00+09:00",
+      "updated_at": "2026-03-10T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-10T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "comeback@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "comeback@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-05T09:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 3,
+    "fields": {
+      "user": 3,
+      "nickname": "복귀러너",
+      "user_type": "returning",
+      "survey_completed": true,
+      "created_at": "2026-03-05T09:00:00+09:00",
+      "updated_at": "2026-03-05T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 3,
+    "fields": {
+      "user": 3,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-05T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "new01@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "new01@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-06-17T12:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 4,
+    "fields": {
+      "user": 4,
+      "nickname": "첫러너01",
+      "user_type": "new",
+      "survey_completed": true,
+      "created_at": "2026-06-17T12:00:00+09:00",
+      "updated_at": "2026-06-17T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 4,
+    "fields": {
+      "user": 4,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-06-17T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "new02@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "new02@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-06-12T10:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 5,
+    "fields": {
+      "user": 5,
+      "nickname": "첫러너02",
+      "user_type": "new",
+      "survey_completed": true,
+      "created_at": "2026-06-12T10:00:00+09:00",
+      "updated_at": "2026-06-12T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 5,
+    "fields": {
+      "user": 5,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-06-12T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "new03@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "new03@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-06-15T09:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 6,
+    "fields": {
+      "user": 6,
+      "nickname": "첫러너03",
+      "user_type": "new",
+      "survey_completed": true,
+      "created_at": "2026-06-15T09:00:00+09:00",
+      "updated_at": "2026-06-15T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 6,
+    "fields": {
+      "user": 6,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-06-15T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "new04@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "new04@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-06-14T08:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 7,
+    "fields": {
+      "user": 7,
+      "nickname": "첫러너04",
+      "user_type": "new",
+      "survey_completed": true,
+      "created_at": "2026-06-14T08:00:00+09:00",
+      "updated_at": "2026-06-14T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 7,
+    "fields": {
+      "user": 7,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-06-14T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 8,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "new05@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "new05@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-06-03T12:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 8,
+    "fields": {
+      "user": 8,
+      "nickname": "첫러너05",
+      "user_type": "new",
+      "survey_completed": true,
+      "created_at": "2026-06-03T12:00:00+09:00",
+      "updated_at": "2026-06-03T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 8,
+    "fields": {
+      "user": 8,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-06-03T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 9,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "new06@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "new06@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-06-05T09:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 9,
+    "fields": {
+      "user": 9,
+      "nickname": "첫러너06",
+      "user_type": "new",
+      "survey_completed": true,
+      "created_at": "2026-06-05T09:00:00+09:00",
+      "updated_at": "2026-06-05T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 9,
+    "fields": {
+      "user": 9,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-06-05T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 10,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "new07@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "new07@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-06-20T12:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 10,
+    "fields": {
+      "user": 10,
+      "nickname": "첫러너07",
+      "user_type": "new",
+      "survey_completed": true,
+      "created_at": "2026-06-20T12:00:00+09:00",
+      "updated_at": "2026-06-20T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 10,
+    "fields": {
+      "user": 10,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-06-20T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 11,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "new08@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "new08@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-06-14T10:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 11,
+    "fields": {
+      "user": 11,
+      "nickname": "첫러너08",
+      "user_type": "new",
+      "survey_completed": true,
+      "created_at": "2026-06-14T10:00:00+09:00",
+      "updated_at": "2026-06-14T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 11,
+    "fields": {
+      "user": 11,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-06-14T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 12,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "new09@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "new09@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-06-02T09:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 12,
+    "fields": {
+      "user": 12,
+      "nickname": "첫러너09",
+      "user_type": "new",
+      "survey_completed": true,
+      "created_at": "2026-06-02T09:00:00+09:00",
+      "updated_at": "2026-06-02T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 12,
+    "fields": {
+      "user": 12,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-06-02T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 13,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "new10@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "new10@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-06-21T12:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 13,
+    "fields": {
+      "user": 13,
+      "nickname": "첫러너10",
+      "user_type": "new",
+      "survey_completed": true,
+      "created_at": "2026-06-21T12:00:00+09:00",
+      "updated_at": "2026-06-21T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 13,
+    "fields": {
+      "user": 13,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-06-21T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 14,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "beginner01@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "beginner01@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-05-05T12:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 14,
+    "fields": {
+      "user": 14,
+      "nickname": "공원러너01",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-05-05T12:00:00+09:00",
+      "updated_at": "2026-05-05T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 14,
+    "fields": {
+      "user": 14,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-05-05T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 15,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "beginner02@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "beginner02@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-04-24T10:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 15,
+    "fields": {
+      "user": 15,
+      "nickname": "공원러너02",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-04-24T10:00:00+09:00",
+      "updated_at": "2026-04-24T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 15,
+    "fields": {
+      "user": 15,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-04-24T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 16,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "beginner03@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "beginner03@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-04-10T10:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 16,
+    "fields": {
+      "user": 16,
+      "nickname": "공원러너03",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-04-10T10:00:00+09:00",
+      "updated_at": "2026-04-10T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 16,
+    "fields": {
+      "user": 16,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-04-10T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 17,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "beginner04@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "beginner04@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-04-27T11:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 17,
+    "fields": {
+      "user": 17,
+      "nickname": "공원러너04",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-04-27T11:00:00+09:00",
+      "updated_at": "2026-04-27T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 17,
+    "fields": {
+      "user": 17,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-04-27T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 18,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "beginner05@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "beginner05@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-04-23T10:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 18,
+    "fields": {
+      "user": 18,
+      "nickname": "공원러너05",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-04-23T10:00:00+09:00",
+      "updated_at": "2026-04-23T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 18,
+    "fields": {
+      "user": 18,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-04-23T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 19,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "beginner06@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "beginner06@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-04-30T12:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 19,
+    "fields": {
+      "user": 19,
+      "nickname": "공원러너06",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-04-30T12:00:00+09:00",
+      "updated_at": "2026-04-30T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 19,
+    "fields": {
+      "user": 19,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-04-30T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 20,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "beginner07@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "beginner07@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-04-07T10:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 20,
+    "fields": {
+      "user": 20,
+      "nickname": "공원러너07",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-04-07T10:00:00+09:00",
+      "updated_at": "2026-04-07T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 20,
+    "fields": {
+      "user": 20,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-04-07T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 21,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "beginner08@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "beginner08@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-05-15T10:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 21,
+    "fields": {
+      "user": 21,
+      "nickname": "공원러너08",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-05-15T10:00:00+09:00",
+      "updated_at": "2026-05-15T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 21,
+    "fields": {
+      "user": 21,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-05-15T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 22,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "beginner09@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "beginner09@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-04-05T11:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 22,
+    "fields": {
+      "user": 22,
+      "nickname": "공원러너09",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-04-05T11:00:00+09:00",
+      "updated_at": "2026-04-05T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 22,
+    "fields": {
+      "user": 22,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-04-05T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 23,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "beginner10@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "beginner10@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-04-26T12:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 23,
+    "fields": {
+      "user": 23,
+      "nickname": "공원러너10",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-04-26T12:00:00+09:00",
+      "updated_at": "2026-04-26T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 23,
+    "fields": {
+      "user": 23,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-04-26T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 24,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "runner01@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "runner01@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-04-14T11:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 24,
+    "fields": {
+      "user": 24,
+      "nickname": "강변러너01",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-04-14T11:00:00+09:00",
+      "updated_at": "2026-04-14T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 24,
+    "fields": {
+      "user": 24,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-04-14T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 25,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "runner02@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "runner02@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-04-02T12:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 25,
+    "fields": {
+      "user": 25,
+      "nickname": "강변러너02",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-04-02T12:00:00+09:00",
+      "updated_at": "2026-04-02T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 25,
+    "fields": {
+      "user": 25,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-04-02T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 26,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "runner03@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "runner03@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-01T09:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 26,
+    "fields": {
+      "user": 26,
+      "nickname": "강변러너03",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-03-01T09:00:00+09:00",
+      "updated_at": "2026-03-01T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 26,
+    "fields": {
+      "user": 26,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-01T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 27,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "runner04@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "runner04@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-29T08:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 27,
+    "fields": {
+      "user": 27,
+      "nickname": "강변러너04",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-03-29T08:00:00+09:00",
+      "updated_at": "2026-03-29T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 27,
+    "fields": {
+      "user": 27,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-29T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 28,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "runner05@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "runner05@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-25T10:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 28,
+    "fields": {
+      "user": 28,
+      "nickname": "강변러너05",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-03-25T10:00:00+09:00",
+      "updated_at": "2026-03-25T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 28,
+    "fields": {
+      "user": 28,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-25T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 29,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "runner06@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "runner06@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-09T10:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 29,
+    "fields": {
+      "user": 29,
+      "nickname": "강변러너06",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-03-09T10:00:00+09:00",
+      "updated_at": "2026-03-09T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 29,
+    "fields": {
+      "user": 29,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-09T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 30,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "runner07@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "runner07@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-04-21T08:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 30,
+    "fields": {
+      "user": 30,
+      "nickname": "강변러너07",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-04-21T08:00:00+09:00",
+      "updated_at": "2026-04-21T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 30,
+    "fields": {
+      "user": 30,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-04-21T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 31,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "runner08@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "runner08@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-07T11:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 31,
+    "fields": {
+      "user": 31,
+      "nickname": "강변러너08",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-03-07T11:00:00+09:00",
+      "updated_at": "2026-03-07T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 31,
+    "fields": {
+      "user": 31,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-07T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 32,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "runner09@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "runner09@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-08T11:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 32,
+    "fields": {
+      "user": 32,
+      "nickname": "강변러너09",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-03-08T11:00:00+09:00",
+      "updated_at": "2026-03-08T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 32,
+    "fields": {
+      "user": 32,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-08T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 33,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "runner10@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "runner10@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-11T11:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 33,
+    "fields": {
+      "user": 33,
+      "nickname": "강변러너10",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-03-11T11:00:00+09:00",
+      "updated_at": "2026-03-11T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 33,
+    "fields": {
+      "user": 33,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-11T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 34,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "runner11@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "runner11@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-24T08:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 34,
+    "fields": {
+      "user": 34,
+      "nickname": "강변러너11",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-03-24T08:00:00+09:00",
+      "updated_at": "2026-03-24T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 34,
+    "fields": {
+      "user": 34,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-24T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 35,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "runner12@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "runner12@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-27T11:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 35,
+    "fields": {
+      "user": 35,
+      "nickname": "강변러너12",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-03-27T11:00:00+09:00",
+      "updated_at": "2026-03-27T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 35,
+    "fields": {
+      "user": 35,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-27T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 36,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "runner13@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "runner13@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-04-30T12:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 36,
+    "fields": {
+      "user": 36,
+      "nickname": "강변러너13",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-04-30T12:00:00+09:00",
+      "updated_at": "2026-04-30T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 36,
+    "fields": {
+      "user": 36,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-04-30T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 37,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "runner14@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "runner14@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-04-02T09:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 37,
+    "fields": {
+      "user": 37,
+      "nickname": "강변러너14",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-04-02T09:00:00+09:00",
+      "updated_at": "2026-04-02T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 37,
+    "fields": {
+      "user": 37,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-04-02T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 38,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "runner15@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "runner15@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-16T10:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 38,
+    "fields": {
+      "user": 38,
+      "nickname": "강변러너15",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-03-16T10:00:00+09:00",
+      "updated_at": "2026-03-16T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 38,
+    "fields": {
+      "user": 38,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-16T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 39,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "pro01@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "pro01@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-01T09:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 39,
+    "fields": {
+      "user": 39,
+      "nickname": "스피드러너01",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-03-01T09:00:00+09:00",
+      "updated_at": "2026-03-01T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 39,
+    "fields": {
+      "user": 39,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-01T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 40,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "pro02@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "pro02@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-10T09:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 40,
+    "fields": {
+      "user": 40,
+      "nickname": "스피드러너02",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-03-10T09:00:00+09:00",
+      "updated_at": "2026-03-10T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 40,
+    "fields": {
+      "user": 40,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-10T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 41,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "pro03@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "pro03@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-07T08:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 41,
+    "fields": {
+      "user": 41,
+      "nickname": "스피드러너03",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-03-07T08:00:00+09:00",
+      "updated_at": "2026-03-07T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 41,
+    "fields": {
+      "user": 41,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-07T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 42,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "pro04@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "pro04@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-03T10:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 42,
+    "fields": {
+      "user": 42,
+      "nickname": "스피드러너04",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-03-03T10:00:00+09:00",
+      "updated_at": "2026-03-03T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 42,
+    "fields": {
+      "user": 42,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-03T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 43,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "pro05@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "pro05@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-04T09:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 43,
+    "fields": {
+      "user": 43,
+      "nickname": "스피드러너05",
+      "user_type": "active",
+      "survey_completed": true,
+      "created_at": "2026-03-04T09:00:00+09:00",
+      "updated_at": "2026-03-04T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 43,
+    "fields": {
+      "user": 43,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-04T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 44,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "comeback01@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "comeback01@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-11T08:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 44,
+    "fields": {
+      "user": 44,
+      "nickname": "다시러너01",
+      "user_type": "returning",
+      "survey_completed": true,
+      "created_at": "2026-03-11T08:00:00+09:00",
+      "updated_at": "2026-03-11T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 44,
+    "fields": {
+      "user": 44,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-11T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 45,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "comeback02@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "comeback02@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-02T11:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 45,
+    "fields": {
+      "user": 45,
+      "nickname": "다시러너02",
+      "user_type": "returning",
+      "survey_completed": true,
+      "created_at": "2026-03-02T11:00:00+09:00",
+      "updated_at": "2026-03-02T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 45,
+    "fields": {
+      "user": 45,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-02T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 46,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "comeback03@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "comeback03@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-08T08:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 46,
+    "fields": {
+      "user": 46,
+      "nickname": "다시러너03",
+      "user_type": "returning",
+      "survey_completed": true,
+      "created_at": "2026-03-08T08:00:00+09:00",
+      "updated_at": "2026-03-08T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 46,
+    "fields": {
+      "user": 46,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-08T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 47,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "comeback04@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "comeback04@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-14T10:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 47,
+    "fields": {
+      "user": 47,
+      "nickname": "다시러너04",
+      "user_type": "returning",
+      "survey_completed": true,
+      "created_at": "2026-03-14T10:00:00+09:00",
+      "updated_at": "2026-03-14T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 47,
+    "fields": {
+      "user": 47,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-14T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 48,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "comeback05@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "comeback05@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-12T08:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 48,
+    "fields": {
+      "user": 48,
+      "nickname": "다시러너05",
+      "user_type": "returning",
+      "survey_completed": true,
+      "created_at": "2026-03-12T08:00:00+09:00",
+      "updated_at": "2026-03-12T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 48,
+    "fields": {
+      "user": 48,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-12T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 49,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "comeback06@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "comeback06@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-04T12:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 49,
+    "fields": {
+      "user": 49,
+      "nickname": "다시러너06",
+      "user_type": "returning",
+      "survey_completed": true,
+      "created_at": "2026-03-04T12:00:00+09:00",
+      "updated_at": "2026-03-04T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 49,
+    "fields": {
+      "user": 49,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-04T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 50,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jfP_u8I4vZnF8HFI$fBtsM4qIFzbl8OgtQOcEIffOChZyJ8YIi0J07M2kNEY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "comeback07@runquest.com",
+      "first_name": "",
+      "last_name": "",
+      "email": "comeback07@runquest.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-03-12T09:00:00+09:00",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "core.userprofile",
+    "pk": 50,
+    "fields": {
+      "user": 50,
+      "nickname": "다시러너07",
+      "user_type": "returning",
+      "survey_completed": true,
+      "created_at": "2026-03-12T09:00:00+09:00",
+      "updated_at": "2026-03-12T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.usersettings",
+    "pk": 50,
+    "fields": {
+      "user": 50,
+      "push_notifications": true,
+      "recommendation_notifications": true,
+      "community_notifications": true,
+      "marketing_notifications": false,
+      "distance_unit": "km",
+      "temperature_unit": "c",
+      "profile_visibility": "members",
+      "show_running_records": true,
+      "updated_at": "2026-03-12T09:00:00+09:00"
+    }
+  }
+]

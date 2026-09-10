@@ -1,0 +1,140 @@
+.auth-form {
+  display: grid;
+  gap: 14px;
+}
+
+.auth-form > .base-button {
+  min-height: 50px;
+  color: #fff;
+  background: linear-gradient(135deg, #0b6cff 0%, #0757de 100%);
+  border: 1px solid rgba(117, 170, 255, 0.42);
+  border-radius: 16px;
+  box-shadow: 0 16px 30px rgba(8, 73, 190, 0.26);
+}
+
+.auth-form__heading {
+  display: grid;
+  gap: 4px;
+}
+
+.auth-form__heading span {
+  color: var(--color-primary);
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}
+
+.auth-form__heading h2,
+.auth-form__heading p {
+  margin: 0;
+}
+
+.auth-form__heading h2 {
+  color: var(--color-navy);
+  font-size: 18px;
+  line-height: 1.25;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.auth-form__heading p {
+  color: var(--color-muted);
+  font-size: 10px;
+  line-height: 1.45;
+  white-space: nowrap;
+}
+
+.auth-section-label {
+  margin-bottom: -7px;
+  color: #6d7b91;
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.auth-form__options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: -4px;
+}
+
+.check-control {
+  display: inline-flex;
+  min-width: 0;
+  align-items: center;
+  gap: 8px;
+  color: var(--color-text);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.check-control input {
+  width: 17px;
+  height: 17px;
+  flex: 0 0 auto;
+  margin: 0;
+  accent-color: var(--color-primary);
+}
+
+.link-button {
+  padding: 4px;
+  color: var(--color-primary);
+  font-size: 12px;
+  font-weight: 700;
+  background: transparent;
+}
+
+.link-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.icon-action {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  place-items: center;
+  color: #8795aa;
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.form-error {
+  margin: -6px 0 0;
+  padding: 10px 12px;
+  color: #b52e3e;
+  font-size: 12px;
+  line-height: 1.45;
+  background: #fff0f2;
+  border-radius: var(--radius-small);
+}
+
+.auth-form__switch {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 12px;
+  text-align: center;
+}
+
+.auth-form__switch a {
+  margin-left: 5px;
+  color: var(--color-primary);
+  font-weight: 800;
+}
+
+@media (max-height: 720px) {
+  .auth-form {
+    gap: 12px;
+  }
+
+  .auth-form__heading h2 {
+    font-size: 16px;
+  }
+
+  .auth-form__heading p {
+    font-size: 9.5px;
+  }
+}

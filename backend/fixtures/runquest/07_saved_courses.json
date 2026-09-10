@@ -1,0 +1,848 @@
+[
+  {
+    "model": "core.favoritecourse",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "course": 1,
+      "created_at": "2026-06-21T09:30:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "course": 2,
+      "created_at": "2026-03-11T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 3,
+    "fields": {
+      "user": 2,
+      "course": 15,
+      "created_at": "2026-03-11T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 4,
+    "fields": {
+      "user": 3,
+      "course": 8,
+      "created_at": "2026-03-06T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 5,
+    "fields": {
+      "user": 3,
+      "course": 10,
+      "created_at": "2026-03-06T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 6,
+    "fields": {
+      "user": 4,
+      "course": 1,
+      "created_at": "2026-06-18T14:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 7,
+    "fields": {
+      "user": 5,
+      "course": 17,
+      "created_at": "2026-06-13T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 8,
+    "fields": {
+      "user": 6,
+      "course": 18,
+      "created_at": "2026-06-16T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 9,
+    "fields": {
+      "user": 7,
+      "course": 9,
+      "created_at": "2026-06-15T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 10,
+    "fields": {
+      "user": 8,
+      "course": 11,
+      "created_at": "2026-06-04T14:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 11,
+    "fields": {
+      "user": 9,
+      "course": 7,
+      "created_at": "2026-06-06T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 12,
+    "fields": {
+      "user": 10,
+      "course": 4,
+      "created_at": "2026-06-21T14:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 13,
+    "fields": {
+      "user": 11,
+      "course": 1,
+      "created_at": "2026-06-15T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 14,
+    "fields": {
+      "user": 12,
+      "course": 17,
+      "created_at": "2026-06-03T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 15,
+    "fields": {
+      "user": 13,
+      "course": 4,
+      "created_at": "2026-06-21T12:30:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 16,
+    "fields": {
+      "user": 14,
+      "course": 13,
+      "created_at": "2026-05-06T14:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 17,
+    "fields": {
+      "user": 14,
+      "course": 2,
+      "created_at": "2026-05-06T14:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 18,
+    "fields": {
+      "user": 15,
+      "course": 10,
+      "created_at": "2026-04-25T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 19,
+    "fields": {
+      "user": 15,
+      "course": 19,
+      "created_at": "2026-04-25T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 20,
+    "fields": {
+      "user": 16,
+      "course": 2,
+      "created_at": "2026-04-11T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 21,
+    "fields": {
+      "user": 16,
+      "course": 10,
+      "created_at": "2026-04-11T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 22,
+    "fields": {
+      "user": 17,
+      "course": 14,
+      "created_at": "2026-04-28T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 23,
+    "fields": {
+      "user": 17,
+      "course": 2,
+      "created_at": "2026-04-28T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 24,
+    "fields": {
+      "user": 18,
+      "course": 14,
+      "created_at": "2026-04-24T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 25,
+    "fields": {
+      "user": 18,
+      "course": 4,
+      "created_at": "2026-04-24T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 26,
+    "fields": {
+      "user": 19,
+      "course": 5,
+      "created_at": "2026-05-01T14:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 27,
+    "fields": {
+      "user": 19,
+      "course": 10,
+      "created_at": "2026-05-01T14:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 28,
+    "fields": {
+      "user": 20,
+      "course": 12,
+      "created_at": "2026-04-08T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 29,
+    "fields": {
+      "user": 20,
+      "course": 14,
+      "created_at": "2026-04-08T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 30,
+    "fields": {
+      "user": 21,
+      "course": 5,
+      "created_at": "2026-05-16T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 31,
+    "fields": {
+      "user": 21,
+      "course": 19,
+      "created_at": "2026-05-16T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 32,
+    "fields": {
+      "user": 22,
+      "course": 6,
+      "created_at": "2026-04-06T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 33,
+    "fields": {
+      "user": 22,
+      "course": 11,
+      "created_at": "2026-04-06T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 34,
+    "fields": {
+      "user": 23,
+      "course": 10,
+      "created_at": "2026-04-27T14:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 35,
+    "fields": {
+      "user": 23,
+      "course": 11,
+      "created_at": "2026-04-27T14:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 36,
+    "fields": {
+      "user": 24,
+      "course": 18,
+      "created_at": "2026-04-15T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 37,
+    "fields": {
+      "user": 24,
+      "course": 17,
+      "created_at": "2026-04-15T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 38,
+    "fields": {
+      "user": 25,
+      "course": 14,
+      "created_at": "2026-04-03T14:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 39,
+    "fields": {
+      "user": 25,
+      "course": 20,
+      "created_at": "2026-04-03T14:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 40,
+    "fields": {
+      "user": 26,
+      "course": 5,
+      "created_at": "2026-03-02T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 41,
+    "fields": {
+      "user": 26,
+      "course": 8,
+      "created_at": "2026-03-02T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 42,
+    "fields": {
+      "user": 27,
+      "course": 20,
+      "created_at": "2026-03-30T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 43,
+    "fields": {
+      "user": 27,
+      "course": 5,
+      "created_at": "2026-03-30T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 44,
+    "fields": {
+      "user": 28,
+      "course": 18,
+      "created_at": "2026-03-26T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 45,
+    "fields": {
+      "user": 28,
+      "course": 4,
+      "created_at": "2026-03-26T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 46,
+    "fields": {
+      "user": 29,
+      "course": 1,
+      "created_at": "2026-03-10T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 47,
+    "fields": {
+      "user": 29,
+      "course": 15,
+      "created_at": "2026-03-10T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 48,
+    "fields": {
+      "user": 30,
+      "course": 20,
+      "created_at": "2026-04-22T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 49,
+    "fields": {
+      "user": 30,
+      "course": 11,
+      "created_at": "2026-04-22T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 50,
+    "fields": {
+      "user": 31,
+      "course": 19,
+      "created_at": "2026-03-08T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 51,
+    "fields": {
+      "user": 31,
+      "course": 17,
+      "created_at": "2026-03-08T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 52,
+    "fields": {
+      "user": 32,
+      "course": 16,
+      "created_at": "2026-03-09T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 53,
+    "fields": {
+      "user": 32,
+      "course": 6,
+      "created_at": "2026-03-09T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 54,
+    "fields": {
+      "user": 33,
+      "course": 19,
+      "created_at": "2026-03-12T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 55,
+    "fields": {
+      "user": 33,
+      "course": 13,
+      "created_at": "2026-03-12T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 56,
+    "fields": {
+      "user": 34,
+      "course": 10,
+      "created_at": "2026-03-25T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 57,
+    "fields": {
+      "user": 34,
+      "course": 7,
+      "created_at": "2026-03-25T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 58,
+    "fields": {
+      "user": 35,
+      "course": 8,
+      "created_at": "2026-03-28T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 59,
+    "fields": {
+      "user": 35,
+      "course": 12,
+      "created_at": "2026-03-28T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 60,
+    "fields": {
+      "user": 36,
+      "course": 11,
+      "created_at": "2026-05-01T14:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 61,
+    "fields": {
+      "user": 36,
+      "course": 5,
+      "created_at": "2026-05-01T14:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 62,
+    "fields": {
+      "user": 37,
+      "course": 2,
+      "created_at": "2026-04-03T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 63,
+    "fields": {
+      "user": 37,
+      "course": 12,
+      "created_at": "2026-04-03T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 64,
+    "fields": {
+      "user": 38,
+      "course": 15,
+      "created_at": "2026-03-17T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 65,
+    "fields": {
+      "user": 38,
+      "course": 18,
+      "created_at": "2026-03-17T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 66,
+    "fields": {
+      "user": 39,
+      "course": 8,
+      "created_at": "2026-03-02T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 67,
+    "fields": {
+      "user": 39,
+      "course": 19,
+      "created_at": "2026-03-02T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 68,
+    "fields": {
+      "user": 39,
+      "course": 2,
+      "created_at": "2026-03-02T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 69,
+    "fields": {
+      "user": 40,
+      "course": 7,
+      "created_at": "2026-03-11T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 70,
+    "fields": {
+      "user": 40,
+      "course": 14,
+      "created_at": "2026-03-11T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 71,
+    "fields": {
+      "user": 40,
+      "course": 4,
+      "created_at": "2026-03-11T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 72,
+    "fields": {
+      "user": 41,
+      "course": 2,
+      "created_at": "2026-03-08T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 73,
+    "fields": {
+      "user": 41,
+      "course": 15,
+      "created_at": "2026-03-08T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 74,
+    "fields": {
+      "user": 41,
+      "course": 11,
+      "created_at": "2026-03-08T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 75,
+    "fields": {
+      "user": 42,
+      "course": 7,
+      "created_at": "2026-03-04T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 76,
+    "fields": {
+      "user": 42,
+      "course": 10,
+      "created_at": "2026-03-04T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 77,
+    "fields": {
+      "user": 42,
+      "course": 5,
+      "created_at": "2026-03-04T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 78,
+    "fields": {
+      "user": 43,
+      "course": 11,
+      "created_at": "2026-03-05T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 79,
+    "fields": {
+      "user": 43,
+      "course": 10,
+      "created_at": "2026-03-05T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 80,
+    "fields": {
+      "user": 43,
+      "course": 19,
+      "created_at": "2026-03-05T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 81,
+    "fields": {
+      "user": 44,
+      "course": 10,
+      "created_at": "2026-03-12T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 82,
+    "fields": {
+      "user": 44,
+      "course": 2,
+      "created_at": "2026-03-12T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 83,
+    "fields": {
+      "user": 45,
+      "course": 2,
+      "created_at": "2026-03-03T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 84,
+    "fields": {
+      "user": 45,
+      "course": 17,
+      "created_at": "2026-03-03T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 85,
+    "fields": {
+      "user": 46,
+      "course": 6,
+      "created_at": "2026-03-09T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 86,
+    "fields": {
+      "user": 46,
+      "course": 12,
+      "created_at": "2026-03-09T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 87,
+    "fields": {
+      "user": 47,
+      "course": 12,
+      "created_at": "2026-03-15T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 88,
+    "fields": {
+      "user": 47,
+      "course": 4,
+      "created_at": "2026-03-15T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 89,
+    "fields": {
+      "user": 48,
+      "course": 7,
+      "created_at": "2026-03-13T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 90,
+    "fields": {
+      "user": 48,
+      "course": 9,
+      "created_at": "2026-03-13T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 91,
+    "fields": {
+      "user": 49,
+      "course": 13,
+      "created_at": "2026-03-05T14:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 92,
+    "fields": {
+      "user": 49,
+      "course": 14,
+      "created_at": "2026-03-05T14:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 93,
+    "fields": {
+      "user": 50,
+      "course": 1,
+      "created_at": "2026-03-13T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.favoritecourse",
+    "pk": 94,
+    "fields": {
+      "user": 50,
+      "course": 7,
+      "created_at": "2026-03-13T11:00:00+09:00"
+    }
+  }
+]

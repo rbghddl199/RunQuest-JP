@@ -1,0 +1,2052 @@
+[
+  {
+    "model": "core.recommendationsession",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "user_state": "new",
+      "survey_weight": 1.0,
+      "record_weight": 0.0,
+      "safety_weight": 0.0,
+      "record_count": 0,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-06-21T11:00:00+09:00",
+      "updated_at": "2026-06-21T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "user_state": "active",
+      "survey_weight": 0.19,
+      "record_weight": 0.81,
+      "safety_weight": 0.0,
+      "record_count": 18,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-15T19:00:00+09:00",
+      "updated_at": "2026-03-15T19:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 3,
+    "fields": {
+      "user": 3,
+      "user_state": "returning",
+      "survey_weight": 0.5,
+      "record_weight": 0.3,
+      "safety_weight": 0.2,
+      "record_count": 8,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-15T19:00:00+09:00",
+      "updated_at": "2026-03-15T19:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 4,
+    "fields": {
+      "user": 4,
+      "user_state": "new",
+      "survey_weight": 1.0,
+      "record_weight": 0.0,
+      "safety_weight": 0.0,
+      "record_count": 0,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-06-19T15:00:00+09:00",
+      "updated_at": "2026-06-19T15:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 5,
+    "fields": {
+      "user": 5,
+      "user_state": "new",
+      "survey_weight": 1.0,
+      "record_weight": 0.0,
+      "safety_weight": 0.0,
+      "record_count": 0,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-06-14T13:00:00+09:00",
+      "updated_at": "2026-06-14T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 6,
+    "fields": {
+      "user": 6,
+      "user_state": "new",
+      "survey_weight": 1.0,
+      "record_weight": 0.0,
+      "safety_weight": 0.0,
+      "record_count": 0,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-06-17T12:00:00+09:00",
+      "updated_at": "2026-06-17T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 7,
+    "fields": {
+      "user": 7,
+      "user_state": "new",
+      "survey_weight": 1.0,
+      "record_weight": 0.0,
+      "safety_weight": 0.0,
+      "record_count": 0,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-06-16T11:00:00+09:00",
+      "updated_at": "2026-06-16T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 8,
+    "fields": {
+      "user": 8,
+      "user_state": "new",
+      "survey_weight": 1.0,
+      "record_weight": 0.0,
+      "safety_weight": 0.0,
+      "record_count": 0,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-06-05T15:00:00+09:00",
+      "updated_at": "2026-06-05T15:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 9,
+    "fields": {
+      "user": 9,
+      "user_state": "new",
+      "survey_weight": 1.0,
+      "record_weight": 0.0,
+      "safety_weight": 0.0,
+      "record_count": 0,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-06-07T12:00:00+09:00",
+      "updated_at": "2026-06-07T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 10,
+    "fields": {
+      "user": 10,
+      "user_state": "new",
+      "survey_weight": 1.0,
+      "record_weight": 0.0,
+      "safety_weight": 0.0,
+      "record_count": 0,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-06-20T14:00:00+09:00",
+      "updated_at": "2026-06-20T14:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 11,
+    "fields": {
+      "user": 11,
+      "user_state": "new",
+      "survey_weight": 1.0,
+      "record_weight": 0.0,
+      "safety_weight": 0.0,
+      "record_count": 0,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-06-16T13:00:00+09:00",
+      "updated_at": "2026-06-16T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 12,
+    "fields": {
+      "user": 12,
+      "user_state": "new",
+      "survey_weight": 1.0,
+      "record_weight": 0.0,
+      "safety_weight": 0.0,
+      "record_count": 0,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-06-04T12:00:00+09:00",
+      "updated_at": "2026-06-04T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 13,
+    "fields": {
+      "user": 13,
+      "user_state": "new",
+      "survey_weight": 1.0,
+      "record_weight": 0.0,
+      "safety_weight": 0.0,
+      "record_count": 0,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-06-21T14:00:00+09:00",
+      "updated_at": "2026-06-21T14:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 14,
+    "fields": {
+      "user": 14,
+      "user_state": "active",
+      "survey_weight": 0.55,
+      "record_weight": 0.45,
+      "safety_weight": 0.0,
+      "record_count": 10,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-05-07T15:00:00+09:00",
+      "updated_at": "2026-05-07T15:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 15,
+    "fields": {
+      "user": 15,
+      "user_state": "active",
+      "survey_weight": 0.55,
+      "record_weight": 0.45,
+      "safety_weight": 0.0,
+      "record_count": 10,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-04-26T13:00:00+09:00",
+      "updated_at": "2026-04-26T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 16,
+    "fields": {
+      "user": 16,
+      "user_state": "active",
+      "survey_weight": 0.55,
+      "record_weight": 0.45,
+      "safety_weight": 0.0,
+      "record_count": 10,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-04-12T13:00:00+09:00",
+      "updated_at": "2026-04-12T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 17,
+    "fields": {
+      "user": 17,
+      "user_state": "active",
+      "survey_weight": 0.55,
+      "record_weight": 0.45,
+      "safety_weight": 0.0,
+      "record_count": 10,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-04-29T14:00:00+09:00",
+      "updated_at": "2026-04-29T14:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 18,
+    "fields": {
+      "user": 18,
+      "user_state": "active",
+      "survey_weight": 0.55,
+      "record_weight": 0.45,
+      "safety_weight": 0.0,
+      "record_count": 10,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-04-25T13:00:00+09:00",
+      "updated_at": "2026-04-25T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 19,
+    "fields": {
+      "user": 19,
+      "user_state": "active",
+      "survey_weight": 0.55,
+      "record_weight": 0.45,
+      "safety_weight": 0.0,
+      "record_count": 10,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-05-02T15:00:00+09:00",
+      "updated_at": "2026-05-02T15:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 20,
+    "fields": {
+      "user": 20,
+      "user_state": "active",
+      "survey_weight": 0.55,
+      "record_weight": 0.45,
+      "safety_weight": 0.0,
+      "record_count": 10,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-04-09T13:00:00+09:00",
+      "updated_at": "2026-04-09T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 21,
+    "fields": {
+      "user": 21,
+      "user_state": "active",
+      "survey_weight": 0.55,
+      "record_weight": 0.45,
+      "safety_weight": 0.0,
+      "record_count": 10,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-05-17T13:00:00+09:00",
+      "updated_at": "2026-05-17T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 22,
+    "fields": {
+      "user": 22,
+      "user_state": "active",
+      "survey_weight": 0.55,
+      "record_weight": 0.45,
+      "safety_weight": 0.0,
+      "record_count": 10,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-04-07T14:00:00+09:00",
+      "updated_at": "2026-04-07T14:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 23,
+    "fields": {
+      "user": 23,
+      "user_state": "active",
+      "survey_weight": 0.55,
+      "record_weight": 0.45,
+      "safety_weight": 0.0,
+      "record_count": 10,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-04-28T15:00:00+09:00",
+      "updated_at": "2026-04-28T15:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 24,
+    "fields": {
+      "user": 24,
+      "user_state": "active",
+      "survey_weight": 0.19,
+      "record_weight": 0.81,
+      "safety_weight": 0.0,
+      "record_count": 18,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-04-16T14:00:00+09:00",
+      "updated_at": "2026-04-16T14:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 25,
+    "fields": {
+      "user": 25,
+      "user_state": "active",
+      "survey_weight": 0.19,
+      "record_weight": 0.81,
+      "safety_weight": 0.0,
+      "record_count": 18,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-04-04T15:00:00+09:00",
+      "updated_at": "2026-04-04T15:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 26,
+    "fields": {
+      "user": 26,
+      "user_state": "active",
+      "survey_weight": 0.19,
+      "record_weight": 0.81,
+      "safety_weight": 0.0,
+      "record_count": 18,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-15T19:00:00+09:00",
+      "updated_at": "2026-03-15T19:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 27,
+    "fields": {
+      "user": 27,
+      "user_state": "active",
+      "survey_weight": 0.19,
+      "record_weight": 0.81,
+      "safety_weight": 0.0,
+      "record_count": 18,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-31T11:00:00+09:00",
+      "updated_at": "2026-03-31T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 28,
+    "fields": {
+      "user": 28,
+      "user_state": "active",
+      "survey_weight": 0.19,
+      "record_weight": 0.81,
+      "safety_weight": 0.0,
+      "record_count": 18,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-27T13:00:00+09:00",
+      "updated_at": "2026-03-27T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 29,
+    "fields": {
+      "user": 29,
+      "user_state": "active",
+      "survey_weight": 0.19,
+      "record_weight": 0.81,
+      "safety_weight": 0.0,
+      "record_count": 18,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-15T19:00:00+09:00",
+      "updated_at": "2026-03-15T19:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 30,
+    "fields": {
+      "user": 30,
+      "user_state": "active",
+      "survey_weight": 0.19,
+      "record_weight": 0.81,
+      "safety_weight": 0.0,
+      "record_count": 18,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-04-23T11:00:00+09:00",
+      "updated_at": "2026-04-23T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 31,
+    "fields": {
+      "user": 31,
+      "user_state": "active",
+      "survey_weight": 0.19,
+      "record_weight": 0.81,
+      "safety_weight": 0.0,
+      "record_count": 18,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-15T19:00:00+09:00",
+      "updated_at": "2026-03-15T19:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 32,
+    "fields": {
+      "user": 32,
+      "user_state": "active",
+      "survey_weight": 0.19,
+      "record_weight": 0.81,
+      "safety_weight": 0.0,
+      "record_count": 18,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-15T19:00:00+09:00",
+      "updated_at": "2026-03-15T19:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 33,
+    "fields": {
+      "user": 33,
+      "user_state": "active",
+      "survey_weight": 0.19,
+      "record_weight": 0.81,
+      "safety_weight": 0.0,
+      "record_count": 18,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-15T19:00:00+09:00",
+      "updated_at": "2026-03-15T19:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 34,
+    "fields": {
+      "user": 34,
+      "user_state": "active",
+      "survey_weight": 0.19,
+      "record_weight": 0.81,
+      "safety_weight": 0.0,
+      "record_count": 18,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-26T11:00:00+09:00",
+      "updated_at": "2026-03-26T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 35,
+    "fields": {
+      "user": 35,
+      "user_state": "active",
+      "survey_weight": 0.19,
+      "record_weight": 0.81,
+      "safety_weight": 0.0,
+      "record_count": 18,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-29T14:00:00+09:00",
+      "updated_at": "2026-03-29T14:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 36,
+    "fields": {
+      "user": 36,
+      "user_state": "active",
+      "survey_weight": 0.19,
+      "record_weight": 0.81,
+      "safety_weight": 0.0,
+      "record_count": 18,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-05-02T15:00:00+09:00",
+      "updated_at": "2026-05-02T15:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 37,
+    "fields": {
+      "user": 37,
+      "user_state": "active",
+      "survey_weight": 0.19,
+      "record_weight": 0.81,
+      "safety_weight": 0.0,
+      "record_count": 18,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-04-04T12:00:00+09:00",
+      "updated_at": "2026-04-04T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 38,
+    "fields": {
+      "user": 38,
+      "user_state": "active",
+      "survey_weight": 0.19,
+      "record_weight": 0.81,
+      "safety_weight": 0.0,
+      "record_count": 18,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-18T13:00:00+09:00",
+      "updated_at": "2026-03-18T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 39,
+    "fields": {
+      "user": 39,
+      "user_state": "active",
+      "survey_weight": 0.1,
+      "record_weight": 0.9,
+      "safety_weight": 0.0,
+      "record_count": 100,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-15T19:00:00+09:00",
+      "updated_at": "2026-03-15T19:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 40,
+    "fields": {
+      "user": 40,
+      "user_state": "active",
+      "survey_weight": 0.1,
+      "record_weight": 0.9,
+      "safety_weight": 0.0,
+      "record_count": 28,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-15T19:00:00+09:00",
+      "updated_at": "2026-03-15T19:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 41,
+    "fields": {
+      "user": 41,
+      "user_state": "active",
+      "survey_weight": 0.1,
+      "record_weight": 0.9,
+      "safety_weight": 0.0,
+      "record_count": 28,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-15T19:00:00+09:00",
+      "updated_at": "2026-03-15T19:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 42,
+    "fields": {
+      "user": 42,
+      "user_state": "active",
+      "survey_weight": 0.1,
+      "record_weight": 0.9,
+      "safety_weight": 0.0,
+      "record_count": 28,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-15T19:00:00+09:00",
+      "updated_at": "2026-03-15T19:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 43,
+    "fields": {
+      "user": 43,
+      "user_state": "active",
+      "survey_weight": 0.1,
+      "record_weight": 0.9,
+      "safety_weight": 0.0,
+      "record_count": 28,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-15T19:00:00+09:00",
+      "updated_at": "2026-03-15T19:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 44,
+    "fields": {
+      "user": 44,
+      "user_state": "returning",
+      "survey_weight": 0.5,
+      "record_weight": 0.3,
+      "safety_weight": 0.2,
+      "record_count": 8,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-15T19:00:00+09:00",
+      "updated_at": "2026-03-15T19:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 45,
+    "fields": {
+      "user": 45,
+      "user_state": "returning",
+      "survey_weight": 0.5,
+      "record_weight": 0.3,
+      "safety_weight": 0.2,
+      "record_count": 8,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-15T19:00:00+09:00",
+      "updated_at": "2026-03-15T19:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 46,
+    "fields": {
+      "user": 46,
+      "user_state": "returning",
+      "survey_weight": 0.5,
+      "record_weight": 0.3,
+      "safety_weight": 0.2,
+      "record_count": 8,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-15T19:00:00+09:00",
+      "updated_at": "2026-03-15T19:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 47,
+    "fields": {
+      "user": 47,
+      "user_state": "returning",
+      "survey_weight": 0.5,
+      "record_weight": 0.3,
+      "safety_weight": 0.2,
+      "record_count": 8,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-16T13:00:00+09:00",
+      "updated_at": "2026-03-16T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 48,
+    "fields": {
+      "user": 48,
+      "user_state": "returning",
+      "survey_weight": 0.5,
+      "record_weight": 0.3,
+      "safety_weight": 0.2,
+      "record_count": 8,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-15T19:00:00+09:00",
+      "updated_at": "2026-03-15T19:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 49,
+    "fields": {
+      "user": 49,
+      "user_state": "returning",
+      "survey_weight": 0.5,
+      "record_weight": 0.3,
+      "safety_weight": 0.2,
+      "record_count": 8,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-15T19:00:00+09:00",
+      "updated_at": "2026-03-15T19:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationsession",
+    "pk": 50,
+    "fields": {
+      "user": 50,
+      "user_state": "returning",
+      "survey_weight": 0.5,
+      "record_weight": 0.3,
+      "safety_weight": 0.2,
+      "record_count": 8,
+      "returning_recent_count": 0,
+      "current_latitude": null,
+      "current_longitude": null,
+      "location_priority_weight": 0,
+      "current_index": 0,
+      "is_active": false,
+      "created_at": "2026-03-15T19:00:00+09:00",
+      "updated_at": "2026-03-15T19:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 1,
+    "fields": {
+      "session": 1,
+      "course": 3,
+      "rank": 1,
+      "total_score": 91.3,
+      "survey_score": 91.3,
+      "record_score": 0.0,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "신규 유저라 설문 결과와 현재 위치를 중심으로 추천했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "new"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 2,
+    "fields": {
+      "session": 2,
+      "course": 2,
+      "rank": 1,
+      "total_score": 92.8,
+      "survey_score": 17.63,
+      "record_score": 75.17,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 3,
+    "fields": {
+      "session": 3,
+      "course": 12,
+      "rank": 1,
+      "total_score": 96.0,
+      "survey_score": 48.0,
+      "record_score": 28.8,
+      "safety_score": 19.2,
+      "location_score": 0,
+      "reasons": [
+        "최근 기록 공백이 있어 복귀 러너 안전 보정을 적용했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "returning"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 4,
+    "fields": {
+      "session": 4,
+      "course": 9,
+      "rank": 1,
+      "total_score": 92.7,
+      "survey_score": 92.7,
+      "record_score": 0.0,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "신규 유저라 설문 결과와 현재 위치를 중심으로 추천했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "new"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 5,
+    "fields": {
+      "session": 5,
+      "course": 3,
+      "rank": 1,
+      "total_score": 93.3,
+      "survey_score": 93.3,
+      "record_score": 0.0,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "신규 유저라 설문 결과와 현재 위치를 중심으로 추천했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "new"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 6,
+    "fields": {
+      "session": 6,
+      "course": 3,
+      "rank": 1,
+      "total_score": 85.4,
+      "survey_score": 85.4,
+      "record_score": 0.0,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "신규 유저라 설문 결과와 현재 위치를 중심으로 추천했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "new"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 7,
+    "fields": {
+      "session": 7,
+      "course": 3,
+      "rank": 1,
+      "total_score": 86.4,
+      "survey_score": 86.4,
+      "record_score": 0.0,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "신규 유저라 설문 결과와 현재 위치를 중심으로 추천했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "new"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 8,
+    "fields": {
+      "session": 8,
+      "course": 9,
+      "rank": 1,
+      "total_score": 88.9,
+      "survey_score": 88.9,
+      "record_score": 0.0,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "신규 유저라 설문 결과와 현재 위치를 중심으로 추천했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "new"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 9,
+    "fields": {
+      "session": 9,
+      "course": 12,
+      "rank": 1,
+      "total_score": 87.9,
+      "survey_score": 87.9,
+      "record_score": 0.0,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "신규 유저라 설문 결과와 현재 위치를 중심으로 추천했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "new"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 10,
+    "fields": {
+      "session": 10,
+      "course": 9,
+      "rank": 1,
+      "total_score": 85.9,
+      "survey_score": 85.9,
+      "record_score": 0.0,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "신규 유저라 설문 결과와 현재 위치를 중심으로 추천했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "new"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 11,
+    "fields": {
+      "session": 11,
+      "course": 3,
+      "rank": 1,
+      "total_score": 91.7,
+      "survey_score": 91.7,
+      "record_score": 0.0,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "신규 유저라 설문 결과와 현재 위치를 중심으로 추천했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "new"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 12,
+    "fields": {
+      "session": 12,
+      "course": 3,
+      "rank": 1,
+      "total_score": 97.7,
+      "survey_score": 97.7,
+      "record_score": 0.0,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "신규 유저라 설문 결과와 현재 위치를 중심으로 추천했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "new"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 13,
+    "fields": {
+      "session": 13,
+      "course": 9,
+      "rank": 1,
+      "total_score": 90.9,
+      "survey_score": 90.9,
+      "record_score": 0.0,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "신규 유저라 설문 결과와 현재 위치를 중심으로 추천했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "new"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 14,
+    "fields": {
+      "session": 14,
+      "course": 12,
+      "rank": 1,
+      "total_score": 91.0,
+      "survey_score": 50.05,
+      "record_score": 40.95,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 15,
+    "fields": {
+      "session": 15,
+      "course": 3,
+      "rank": 1,
+      "total_score": 92.6,
+      "survey_score": 50.93,
+      "record_score": 41.67,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 16,
+    "fields": {
+      "session": 16,
+      "course": 18,
+      "rank": 1,
+      "total_score": 97.5,
+      "survey_score": 53.63,
+      "record_score": 43.88,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 17,
+    "fields": {
+      "session": 17,
+      "course": 13,
+      "rank": 1,
+      "total_score": 90.2,
+      "survey_score": 49.61,
+      "record_score": 40.59,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 18,
+    "fields": {
+      "session": 18,
+      "course": 18,
+      "rank": 1,
+      "total_score": 83.4,
+      "survey_score": 45.87,
+      "record_score": 37.53,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 19,
+    "fields": {
+      "session": 19,
+      "course": 3,
+      "rank": 1,
+      "total_score": 97.9,
+      "survey_score": 53.85,
+      "record_score": 44.06,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 20,
+    "fields": {
+      "session": 20,
+      "course": 13,
+      "rank": 1,
+      "total_score": 97.9,
+      "survey_score": 53.85,
+      "record_score": 44.06,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 21,
+    "fields": {
+      "session": 21,
+      "course": 13,
+      "rank": 1,
+      "total_score": 86.0,
+      "survey_score": 47.3,
+      "record_score": 38.7,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 22,
+    "fields": {
+      "session": 22,
+      "course": 3,
+      "rank": 1,
+      "total_score": 89.8,
+      "survey_score": 49.39,
+      "record_score": 40.41,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 23,
+    "fields": {
+      "session": 23,
+      "course": 3,
+      "rank": 1,
+      "total_score": 95.4,
+      "survey_score": 52.47,
+      "record_score": 42.93,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 24,
+    "fields": {
+      "session": 24,
+      "course": 1,
+      "rank": 1,
+      "total_score": 87.2,
+      "survey_score": 16.57,
+      "record_score": 70.63,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 25,
+    "fields": {
+      "session": 25,
+      "course": 19,
+      "rank": 1,
+      "total_score": 88.1,
+      "survey_score": 16.74,
+      "record_score": 71.36,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 26,
+    "fields": {
+      "session": 26,
+      "course": 16,
+      "rank": 1,
+      "total_score": 90.9,
+      "survey_score": 17.27,
+      "record_score": 73.63,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 27,
+    "fields": {
+      "session": 27,
+      "course": 19,
+      "rank": 1,
+      "total_score": 97.4,
+      "survey_score": 18.51,
+      "record_score": 78.89,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 28,
+    "fields": {
+      "session": 28,
+      "course": 16,
+      "rank": 1,
+      "total_score": 83.2,
+      "survey_score": 15.81,
+      "record_score": 67.39,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 29,
+    "fields": {
+      "session": 29,
+      "course": 16,
+      "rank": 1,
+      "total_score": 83.2,
+      "survey_score": 15.81,
+      "record_score": 67.39,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 30,
+    "fields": {
+      "session": 30,
+      "course": 1,
+      "rank": 1,
+      "total_score": 90.8,
+      "survey_score": 17.25,
+      "record_score": 73.55,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 31,
+    "fields": {
+      "session": 31,
+      "course": 1,
+      "rank": 1,
+      "total_score": 91.8,
+      "survey_score": 17.44,
+      "record_score": 74.36,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 32,
+    "fields": {
+      "session": 32,
+      "course": 16,
+      "rank": 1,
+      "total_score": 83.4,
+      "survey_score": 15.85,
+      "record_score": 67.55,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 33,
+    "fields": {
+      "session": 33,
+      "course": 1,
+      "rank": 1,
+      "total_score": 89.9,
+      "survey_score": 17.08,
+      "record_score": 72.82,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 34,
+    "fields": {
+      "session": 34,
+      "course": 2,
+      "rank": 1,
+      "total_score": 87.3,
+      "survey_score": 16.59,
+      "record_score": 70.71,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 35,
+    "fields": {
+      "session": 35,
+      "course": 16,
+      "rank": 1,
+      "total_score": 85.5,
+      "survey_score": 16.25,
+      "record_score": 69.26,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 36,
+    "fields": {
+      "session": 36,
+      "course": 19,
+      "rank": 1,
+      "total_score": 97.7,
+      "survey_score": 18.56,
+      "record_score": 79.14,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 37,
+    "fields": {
+      "session": 37,
+      "course": 16,
+      "rank": 1,
+      "total_score": 84.1,
+      "survey_score": 15.98,
+      "record_score": 68.12,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 38,
+    "fields": {
+      "session": 38,
+      "course": 2,
+      "rank": 1,
+      "total_score": 96.4,
+      "survey_score": 18.32,
+      "record_score": 78.08,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 39,
+    "fields": {
+      "session": 39,
+      "course": 19,
+      "rank": 1,
+      "total_score": 84.8,
+      "survey_score": 8.48,
+      "record_score": 76.32,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 40,
+    "fields": {
+      "session": 40,
+      "course": 20,
+      "rank": 1,
+      "total_score": 91.0,
+      "survey_score": 9.1,
+      "record_score": 81.9,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 41,
+    "fields": {
+      "session": 41,
+      "course": 6,
+      "rank": 1,
+      "total_score": 82.6,
+      "survey_score": 8.26,
+      "record_score": 74.34,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 42,
+    "fields": {
+      "session": 42,
+      "course": 6,
+      "rank": 1,
+      "total_score": 92.1,
+      "survey_score": 9.21,
+      "record_score": 82.89,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 43,
+    "fields": {
+      "session": 43,
+      "course": 6,
+      "rank": 1,
+      "total_score": 87.1,
+      "survey_score": 8.71,
+      "record_score": 78.39,
+      "safety_score": 0.0,
+      "location_score": 0,
+      "reasons": [
+        "최근 러닝 기록과 설문 결과를 함께 반영했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "existing"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 44,
+    "fields": {
+      "session": 44,
+      "course": 1,
+      "rank": 1,
+      "total_score": 89.8,
+      "survey_score": 44.9,
+      "record_score": 26.94,
+      "safety_score": 17.96,
+      "location_score": 0,
+      "reasons": [
+        "최근 기록 공백이 있어 복귀 러너 안전 보정을 적용했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "returning"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 45,
+    "fields": {
+      "session": 45,
+      "course": 2,
+      "rank": 1,
+      "total_score": 91.6,
+      "survey_score": 45.8,
+      "record_score": 27.48,
+      "safety_score": 18.32,
+      "location_score": 0,
+      "reasons": [
+        "최근 기록 공백이 있어 복귀 러너 안전 보정을 적용했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "returning"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 46,
+    "fields": {
+      "session": 46,
+      "course": 2,
+      "rank": 1,
+      "total_score": 91.9,
+      "survey_score": 45.95,
+      "record_score": 27.57,
+      "safety_score": 18.38,
+      "location_score": 0,
+      "reasons": [
+        "최근 기록 공백이 있어 복귀 러너 안전 보정을 적용했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "returning"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 47,
+    "fields": {
+      "session": 47,
+      "course": 3,
+      "rank": 1,
+      "total_score": 89.7,
+      "survey_score": 44.85,
+      "record_score": 26.91,
+      "safety_score": 17.94,
+      "location_score": 0,
+      "reasons": [
+        "최근 기록 공백이 있어 복귀 러너 안전 보정을 적용했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "returning"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 48,
+    "fields": {
+      "session": 48,
+      "course": 3,
+      "rank": 1,
+      "total_score": 89.4,
+      "survey_score": 44.7,
+      "record_score": 26.82,
+      "safety_score": 17.88,
+      "location_score": 0,
+      "reasons": [
+        "최근 기록 공백이 있어 복귀 러너 안전 보정을 적용했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "returning"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 49,
+    "fields": {
+      "session": 49,
+      "course": 12,
+      "rank": 1,
+      "total_score": 93.7,
+      "survey_score": 46.85,
+      "record_score": 28.11,
+      "safety_score": 18.74,
+      "location_score": 0,
+      "reasons": [
+        "최근 기록 공백이 있어 복귀 러너 안전 보정을 적용했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "returning"
+      }
+    }
+  },
+  {
+    "model": "core.recommendationitem",
+    "pk": 50,
+    "fields": {
+      "session": 50,
+      "course": 12,
+      "rank": 1,
+      "total_score": 87.0,
+      "survey_score": 43.5,
+      "record_score": 26.1,
+      "safety_score": 17.4,
+      "location_score": 0,
+      "reasons": [
+        "최근 기록 공백이 있어 복귀 러너 안전 보정을 적용했습니다."
+      ],
+      "score_details": {
+        "source": "fixture",
+        "recommend_type": "returning"
+      }
+    }
+  }
+]

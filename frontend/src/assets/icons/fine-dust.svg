@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="11" d="M7 101h116c15 0 28-12 28-28s-13-28-28-28c-14 0-25 10-28 23" />
+    <path stroke-width="11" d="M7 139h197c25 0 45-20 45-45s-20-45-45-45c-21 0-39 15-44 35" />
+    <path stroke-width="11" d="M7 168h120c17 0 31 14 31 31s-14 31-31 31c-15 0-28-11-30-26" />
+    <path stroke-width="11" d="M7 198h71" />
+    <circle cx="91" cy="36" r="22" stroke-width="10" />
+    <circle cx="53" cy="218" r="20" stroke-width="10" />
+    <circle cx="203" cy="220" r="22" stroke-width="10" />
+    <path stroke-width="9" d="M91 7v11M91 54v12M62 36H51M130 36h-11M71 16l8 8M111 56l8 8M71 56l8-8M111 16l8-8" />
+    <path stroke-width="9" d="M53 191v9M53 236v9M27 218h-9M88 218h-9M34 199l7 7M71 235l7 7M34 237l7-7M72 199l7-7" />
+    <path stroke-width="9" d="M203 191v11M203 238v11M174 220h-10M242 220h-10M183 199l8 8M221 237l8 8M183 241l8-8M221 203l8-8" />
+    <circle cx="204" cy="52" r="10" stroke-width="10" />
+    <circle cx="177" cy="160" r="10" stroke-width="10" />
+    <path stroke-width="11" d="M37 30h2M22 74h2M70 82h2M159 31h2M230 160h2M149 230h2" />
+    <circle cx="84" cy="35" r="2" stroke-width="7" />
+    <circle cx="101" cy="42" r="2" stroke-width="7" />
+    <circle cx="53" cy="218" r="2" stroke-width="7" />
+    <circle cx="65" cy="226" r="2" stroke-width="7" />
+    <circle cx="194" cy="216" r="2" stroke-width="7" />
+    <circle cx="209" cy="224" r="2" stroke-width="7" />
+  </g>
+</svg>

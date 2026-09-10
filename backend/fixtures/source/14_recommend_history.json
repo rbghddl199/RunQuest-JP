@@ -1,0 +1,602 @@
+[
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "course": 3,
+      "score": 91.3,
+      "recommend_type": "new",
+      "reason": "신규 유저라 설문 결과와 현재 위치를 중심으로 추천했습니다.",
+      "created_at": "2026-06-21T11:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "course": 2,
+      "score": 92.8,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-03-15T19:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 3,
+    "fields": {
+      "user": 3,
+      "course": 12,
+      "score": 96.0,
+      "recommend_type": "returning",
+      "reason": "최근 기록 공백이 있어 복귀 러너 안전 보정을 적용했습니다.",
+      "created_at": "2026-03-15T19:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 4,
+    "fields": {
+      "user": 4,
+      "course": 9,
+      "score": 92.7,
+      "recommend_type": "new",
+      "reason": "신규 유저라 설문 결과와 현재 위치를 중심으로 추천했습니다.",
+      "created_at": "2026-06-19T15:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 5,
+    "fields": {
+      "user": 5,
+      "course": 3,
+      "score": 93.3,
+      "recommend_type": "new",
+      "reason": "신규 유저라 설문 결과와 현재 위치를 중심으로 추천했습니다.",
+      "created_at": "2026-06-14T13:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 6,
+    "fields": {
+      "user": 6,
+      "course": 3,
+      "score": 85.4,
+      "recommend_type": "new",
+      "reason": "신규 유저라 설문 결과와 현재 위치를 중심으로 추천했습니다.",
+      "created_at": "2026-06-17T12:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 7,
+    "fields": {
+      "user": 7,
+      "course": 3,
+      "score": 86.4,
+      "recommend_type": "new",
+      "reason": "신규 유저라 설문 결과와 현재 위치를 중심으로 추천했습니다.",
+      "created_at": "2026-06-16T11:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 8,
+    "fields": {
+      "user": 8,
+      "course": 9,
+      "score": 88.9,
+      "recommend_type": "new",
+      "reason": "신규 유저라 설문 결과와 현재 위치를 중심으로 추천했습니다.",
+      "created_at": "2026-06-05T15:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 9,
+    "fields": {
+      "user": 9,
+      "course": 12,
+      "score": 87.9,
+      "recommend_type": "new",
+      "reason": "신규 유저라 설문 결과와 현재 위치를 중심으로 추천했습니다.",
+      "created_at": "2026-06-07T12:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 10,
+    "fields": {
+      "user": 10,
+      "course": 9,
+      "score": 85.9,
+      "recommend_type": "new",
+      "reason": "신규 유저라 설문 결과와 현재 위치를 중심으로 추천했습니다.",
+      "created_at": "2026-06-20T14:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 11,
+    "fields": {
+      "user": 11,
+      "course": 3,
+      "score": 91.7,
+      "recommend_type": "new",
+      "reason": "신규 유저라 설문 결과와 현재 위치를 중심으로 추천했습니다.",
+      "created_at": "2026-06-16T13:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 12,
+    "fields": {
+      "user": 12,
+      "course": 3,
+      "score": 97.7,
+      "recommend_type": "new",
+      "reason": "신규 유저라 설문 결과와 현재 위치를 중심으로 추천했습니다.",
+      "created_at": "2026-06-04T12:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 13,
+    "fields": {
+      "user": 13,
+      "course": 9,
+      "score": 90.9,
+      "recommend_type": "new",
+      "reason": "신규 유저라 설문 결과와 현재 위치를 중심으로 추천했습니다.",
+      "created_at": "2026-06-21T14:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 14,
+    "fields": {
+      "user": 14,
+      "course": 12,
+      "score": 91.0,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-05-07T15:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 15,
+    "fields": {
+      "user": 15,
+      "course": 3,
+      "score": 92.6,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-04-26T13:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 16,
+    "fields": {
+      "user": 16,
+      "course": 18,
+      "score": 97.5,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-04-12T13:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 17,
+    "fields": {
+      "user": 17,
+      "course": 13,
+      "score": 90.2,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-04-29T14:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 18,
+    "fields": {
+      "user": 18,
+      "course": 18,
+      "score": 83.4,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-04-25T13:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 19,
+    "fields": {
+      "user": 19,
+      "course": 3,
+      "score": 97.9,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-05-02T15:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 20,
+    "fields": {
+      "user": 20,
+      "course": 13,
+      "score": 97.9,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-04-09T13:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 21,
+    "fields": {
+      "user": 21,
+      "course": 13,
+      "score": 86.0,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-05-17T13:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 22,
+    "fields": {
+      "user": 22,
+      "course": 3,
+      "score": 89.8,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-04-07T14:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 23,
+    "fields": {
+      "user": 23,
+      "course": 3,
+      "score": 95.4,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-04-28T15:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 24,
+    "fields": {
+      "user": 24,
+      "course": 1,
+      "score": 87.2,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-04-16T14:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 25,
+    "fields": {
+      "user": 25,
+      "course": 19,
+      "score": 88.1,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-04-04T15:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 26,
+    "fields": {
+      "user": 26,
+      "course": 16,
+      "score": 90.9,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-03-15T19:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 27,
+    "fields": {
+      "user": 27,
+      "course": 19,
+      "score": 97.4,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-03-31T11:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 28,
+    "fields": {
+      "user": 28,
+      "course": 16,
+      "score": 83.2,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-03-27T13:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 29,
+    "fields": {
+      "user": 29,
+      "course": 16,
+      "score": 83.2,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-03-15T19:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 30,
+    "fields": {
+      "user": 30,
+      "course": 1,
+      "score": 90.8,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-04-23T11:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 31,
+    "fields": {
+      "user": 31,
+      "course": 1,
+      "score": 91.8,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-03-15T19:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 32,
+    "fields": {
+      "user": 32,
+      "course": 16,
+      "score": 83.4,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-03-15T19:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 33,
+    "fields": {
+      "user": 33,
+      "course": 1,
+      "score": 89.9,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-03-15T19:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 34,
+    "fields": {
+      "user": 34,
+      "course": 2,
+      "score": 87.3,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-03-26T11:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 35,
+    "fields": {
+      "user": 35,
+      "course": 16,
+      "score": 85.5,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-03-29T14:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 36,
+    "fields": {
+      "user": 36,
+      "course": 19,
+      "score": 97.7,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-05-02T15:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 37,
+    "fields": {
+      "user": 37,
+      "course": 16,
+      "score": 84.1,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-04-04T12:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 38,
+    "fields": {
+      "user": 38,
+      "course": 2,
+      "score": 96.4,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-03-18T13:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 39,
+    "fields": {
+      "user": 39,
+      "course": 19,
+      "score": 84.8,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-03-15T19:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 40,
+    "fields": {
+      "user": 40,
+      "course": 20,
+      "score": 91.0,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-03-15T19:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 41,
+    "fields": {
+      "user": 41,
+      "course": 6,
+      "score": 82.6,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-03-15T19:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 42,
+    "fields": {
+      "user": 42,
+      "course": 6,
+      "score": 92.1,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-03-15T19:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 43,
+    "fields": {
+      "user": 43,
+      "course": 6,
+      "score": 87.1,
+      "recommend_type": "existing",
+      "reason": "최근 러닝 기록과 설문 결과를 함께 반영했습니다.",
+      "created_at": "2026-03-15T19:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 44,
+    "fields": {
+      "user": 44,
+      "course": 1,
+      "score": 89.8,
+      "recommend_type": "returning",
+      "reason": "최근 기록 공백이 있어 복귀 러너 안전 보정을 적용했습니다.",
+      "created_at": "2026-03-15T19:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 45,
+    "fields": {
+      "user": 45,
+      "course": 2,
+      "score": 91.6,
+      "recommend_type": "returning",
+      "reason": "최근 기록 공백이 있어 복귀 러너 안전 보정을 적용했습니다.",
+      "created_at": "2026-03-15T19:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 46,
+    "fields": {
+      "user": 46,
+      "course": 2,
+      "score": 91.9,
+      "recommend_type": "returning",
+      "reason": "최근 기록 공백이 있어 복귀 러너 안전 보정을 적용했습니다.",
+      "created_at": "2026-03-15T19:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 47,
+    "fields": {
+      "user": 47,
+      "course": 3,
+      "score": 89.7,
+      "recommend_type": "returning",
+      "reason": "최근 기록 공백이 있어 복귀 러너 안전 보정을 적용했습니다.",
+      "created_at": "2026-03-16T13:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 48,
+    "fields": {
+      "user": 48,
+      "course": 3,
+      "score": 89.4,
+      "recommend_type": "returning",
+      "reason": "최근 기록 공백이 있어 복귀 러너 안전 보정을 적용했습니다.",
+      "created_at": "2026-03-15T19:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 49,
+    "fields": {
+      "user": 49,
+      "course": 12,
+      "score": 93.7,
+      "recommend_type": "returning",
+      "reason": "최근 기록 공백이 있어 복귀 러너 안전 보정을 적용했습니다.",
+      "created_at": "2026-03-15T19:00:00"
+    }
+  },
+  {
+    "model": "recommend.recommendhistory",
+    "pk": 50,
+    "fields": {
+      "user": 50,
+      "course": 12,
+      "score": 87.0,
+      "recommend_type": "returning",
+      "reason": "최근 기록 공백이 있어 복귀 러너 안전 보정을 적용했습니다.",
+      "created_at": "2026-03-15T19:00:00"
+    }
+  }
+]

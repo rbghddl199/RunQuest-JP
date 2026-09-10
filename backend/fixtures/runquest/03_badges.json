@@ -1,0 +1,142 @@
+[
+  {
+    "model": "core.badge",
+    "pk": 1,
+    "fields": {
+      "code": "first-finish",
+      "name": "작은 불씨",
+      "description": "첫 러닝 기록을 완료한 러너",
+      "icon": "fire",
+      "color": "#ff6b35",
+      "condition_type": "run_count",
+      "condition_value": 1,
+      "sort_order": 1
+    }
+  },
+  {
+    "model": "core.badge",
+    "pk": 2,
+    "fields": {
+      "code": "seven-day-streak",
+      "name": "활활 타오름",
+      "description": "7일 연속 러닝을 달성한 러너",
+      "icon": "fire",
+      "color": "#ff6b35",
+      "condition_type": "attendance_streak",
+      "condition_value": 7,
+      "sort_order": 2
+    }
+  },
+  {
+    "model": "core.badge",
+    "pk": 3,
+    "fields": {
+      "code": "thirty-day-streak",
+      "name": "전설의 러너",
+      "description": "30일 연속 러닝을 달성한 러너",
+      "icon": "medal",
+      "color": "#7b4ce2",
+      "condition_type": "attendance_streak",
+      "condition_value": 30,
+      "sort_order": 3
+    }
+  },
+  {
+    "model": "core.badge",
+    "pk": 4,
+    "fields": {
+      "code": "night-runner-five",
+      "name": "야간 러너",
+      "description": "야간 러닝을 즐기는 러너",
+      "icon": "moon",
+      "color": "#7257e8",
+      "condition_type": "night_run",
+      "condition_value": 5,
+      "sort_order": 4
+    }
+  },
+  {
+    "model": "core.badge",
+    "pk": 5,
+    "fields": {
+      "code": "river-master",
+      "name": "강변 마스터",
+      "description": "하천 코스를 꾸준히 달린 러너",
+      "icon": "wave",
+      "color": "#168fe5",
+      "condition_type": "river_run",
+      "condition_value": 10,
+      "sort_order": 5
+    }
+  },
+  {
+    "model": "core.badge",
+    "pk": 6,
+    "fields": {
+      "code": "park-regular",
+      "name": "공원 루틴러",
+      "description": "공원 코스를 꾸준히 달린 러너",
+      "icon": "leaf",
+      "color": "#43a833",
+      "condition_type": "park_run",
+      "condition_value": 10,
+      "sort_order": 6
+    }
+  },
+  {
+    "model": "core.badge",
+    "pk": 7,
+    "fields": {
+      "code": "speed-runner",
+      "name": "스피드 러너",
+      "description": "빠른 페이스를 기록한 러너",
+      "icon": "lightning",
+      "color": "#8a4fff",
+      "condition_type": "fast_run",
+      "condition_value": 5,
+      "sort_order": 7
+    }
+  },
+  {
+    "model": "core.badge",
+    "pk": 8,
+    "fields": {
+      "code": "ten-kilometer-finish",
+      "name": "10km 완주",
+      "description": "10km 이상 코스를 완주한 러너",
+      "icon": "10k",
+      "color": "#0866ff",
+      "condition_type": "long_run",
+      "condition_value": 10,
+      "sort_order": 8
+    }
+  },
+  {
+    "model": "core.badge",
+    "pk": 9,
+    "fields": {
+      "code": "daejeon-explorer",
+      "name": "대전 탐험가",
+      "description": "서로 다른 대전 코스를 달린 러너",
+      "icon": "map",
+      "color": "#12a58c",
+      "condition_type": "distinct_course",
+      "condition_value": 10,
+      "sort_order": 9
+    }
+  },
+  {
+    "model": "core.badge",
+    "pk": 10,
+    "fields": {
+      "code": "first-community-post",
+      "name": "첫 커뮤니티",
+      "description": "첫 게시글을 작성한 러너",
+      "icon": "chat",
+      "color": "#f07a28",
+      "condition_type": "community_post",
+      "condition_value": 1,
+      "sort_order": 10
+    }
+  }
+]

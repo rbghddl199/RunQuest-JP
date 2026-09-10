@@ -1,0 +1,1602 @@
+[
+  {
+    "model": "core.surveyresponse",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "experience_level": "beginner",
+      "distance_range": "1_3km",
+      "course_type": "park",
+      "preferred_time": "morning",
+      "running_style": "solo",
+      "running_goal": "health",
+      "score_profile": {
+        "experience_score": 1,
+        "target_distance_km": 2.0,
+        "preferred_course_types": [
+          "park"
+        ],
+        "preferred_time": "morning",
+        "social_preference": "solo",
+        "goal": "health",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.3,
+          "recovery_focus": 0.8
+        },
+        "safety_adjustment": 0.85,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-06-21T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "stress_relief",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "stress_relief",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.2,
+          "recovery_focus": 1.0
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-10T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 3,
+    "fields": {
+      "user": 3,
+      "experience_level": "intermediate",
+      "distance_range": "5_10km",
+      "course_type": "river",
+      "preferred_time": "morning",
+      "running_style": "solo",
+      "running_goal": "endurance",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 7.5,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "morning",
+        "social_preference": "solo",
+        "goal": "endurance",
+        "goal_profile": {
+          "intensity": 2,
+          "pace_focus": 0.6,
+          "recovery_focus": 0.4
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-05T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 4,
+    "fields": {
+      "user": 4,
+      "experience_level": "beginner",
+      "distance_range": "1_3km",
+      "course_type": "park",
+      "preferred_time": "morning",
+      "running_style": "solo",
+      "running_goal": "health",
+      "score_profile": {
+        "experience_score": 1,
+        "target_distance_km": 2.0,
+        "preferred_course_types": [
+          "park"
+        ],
+        "preferred_time": "morning",
+        "social_preference": "solo",
+        "goal": "health",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.3,
+          "recovery_focus": 0.8
+        },
+        "safety_adjustment": 0.85,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-06-17T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 5,
+    "fields": {
+      "user": 5,
+      "experience_level": "beginner",
+      "distance_range": "1_3km",
+      "course_type": "park",
+      "preferred_time": "morning",
+      "running_style": "solo",
+      "running_goal": "health",
+      "score_profile": {
+        "experience_score": 1,
+        "target_distance_km": 2.0,
+        "preferred_course_types": [
+          "park"
+        ],
+        "preferred_time": "morning",
+        "social_preference": "solo",
+        "goal": "health",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.3,
+          "recovery_focus": 0.8
+        },
+        "safety_adjustment": 0.85,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-06-12T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 6,
+    "fields": {
+      "user": 6,
+      "experience_level": "beginner",
+      "distance_range": "1_3km",
+      "course_type": "park",
+      "preferred_time": "morning",
+      "running_style": "solo",
+      "running_goal": "health",
+      "score_profile": {
+        "experience_score": 1,
+        "target_distance_km": 2.0,
+        "preferred_course_types": [
+          "park"
+        ],
+        "preferred_time": "morning",
+        "social_preference": "solo",
+        "goal": "health",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.3,
+          "recovery_focus": 0.8
+        },
+        "safety_adjustment": 0.85,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-06-15T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 7,
+    "fields": {
+      "user": 7,
+      "experience_level": "beginner",
+      "distance_range": "1_3km",
+      "course_type": "park",
+      "preferred_time": "morning",
+      "running_style": "solo",
+      "running_goal": "health",
+      "score_profile": {
+        "experience_score": 1,
+        "target_distance_km": 2.0,
+        "preferred_course_types": [
+          "park"
+        ],
+        "preferred_time": "morning",
+        "social_preference": "solo",
+        "goal": "health",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.3,
+          "recovery_focus": 0.8
+        },
+        "safety_adjustment": 0.85,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-06-14T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 8,
+    "fields": {
+      "user": 8,
+      "experience_level": "beginner",
+      "distance_range": "1_3km",
+      "course_type": "park",
+      "preferred_time": "morning",
+      "running_style": "solo",
+      "running_goal": "health",
+      "score_profile": {
+        "experience_score": 1,
+        "target_distance_km": 2.0,
+        "preferred_course_types": [
+          "park"
+        ],
+        "preferred_time": "morning",
+        "social_preference": "solo",
+        "goal": "health",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.3,
+          "recovery_focus": 0.8
+        },
+        "safety_adjustment": 0.85,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-06-03T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 9,
+    "fields": {
+      "user": 9,
+      "experience_level": "beginner",
+      "distance_range": "1_3km",
+      "course_type": "park",
+      "preferred_time": "morning",
+      "running_style": "solo",
+      "running_goal": "health",
+      "score_profile": {
+        "experience_score": 1,
+        "target_distance_km": 2.0,
+        "preferred_course_types": [
+          "park"
+        ],
+        "preferred_time": "morning",
+        "social_preference": "solo",
+        "goal": "health",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.3,
+          "recovery_focus": 0.8
+        },
+        "safety_adjustment": 0.85,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-06-05T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 10,
+    "fields": {
+      "user": 10,
+      "experience_level": "beginner",
+      "distance_range": "1_3km",
+      "course_type": "park",
+      "preferred_time": "morning",
+      "running_style": "solo",
+      "running_goal": "health",
+      "score_profile": {
+        "experience_score": 1,
+        "target_distance_km": 2.0,
+        "preferred_course_types": [
+          "park"
+        ],
+        "preferred_time": "morning",
+        "social_preference": "solo",
+        "goal": "health",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.3,
+          "recovery_focus": 0.8
+        },
+        "safety_adjustment": 0.85,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-06-20T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 11,
+    "fields": {
+      "user": 11,
+      "experience_level": "beginner",
+      "distance_range": "1_3km",
+      "course_type": "park",
+      "preferred_time": "morning",
+      "running_style": "solo",
+      "running_goal": "health",
+      "score_profile": {
+        "experience_score": 1,
+        "target_distance_km": 2.0,
+        "preferred_course_types": [
+          "park"
+        ],
+        "preferred_time": "morning",
+        "social_preference": "solo",
+        "goal": "health",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.3,
+          "recovery_focus": 0.8
+        },
+        "safety_adjustment": 0.85,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-06-14T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 12,
+    "fields": {
+      "user": 12,
+      "experience_level": "beginner",
+      "distance_range": "1_3km",
+      "course_type": "park",
+      "preferred_time": "morning",
+      "running_style": "solo",
+      "running_goal": "health",
+      "score_profile": {
+        "experience_score": 1,
+        "target_distance_km": 2.0,
+        "preferred_course_types": [
+          "park"
+        ],
+        "preferred_time": "morning",
+        "social_preference": "solo",
+        "goal": "health",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.3,
+          "recovery_focus": 0.8
+        },
+        "safety_adjustment": 0.85,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-06-02T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 13,
+    "fields": {
+      "user": 13,
+      "experience_level": "beginner",
+      "distance_range": "1_3km",
+      "course_type": "park",
+      "preferred_time": "morning",
+      "running_style": "solo",
+      "running_goal": "health",
+      "score_profile": {
+        "experience_score": 1,
+        "target_distance_km": 2.0,
+        "preferred_course_types": [
+          "park"
+        ],
+        "preferred_time": "morning",
+        "social_preference": "solo",
+        "goal": "health",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.3,
+          "recovery_focus": 0.8
+        },
+        "safety_adjustment": 0.85,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-06-21T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 14,
+    "fields": {
+      "user": 14,
+      "experience_level": "beginner",
+      "distance_range": "3_5km",
+      "course_type": "park",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "endurance",
+      "score_profile": {
+        "experience_score": 1,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "park"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "endurance",
+        "goal_profile": {
+          "intensity": 2,
+          "pace_focus": 0.6,
+          "recovery_focus": 0.4
+        },
+        "safety_adjustment": 0.85,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-05-05T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 15,
+    "fields": {
+      "user": 15,
+      "experience_level": "beginner",
+      "distance_range": "3_5km",
+      "course_type": "park",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "endurance",
+      "score_profile": {
+        "experience_score": 1,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "park"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "endurance",
+        "goal_profile": {
+          "intensity": 2,
+          "pace_focus": 0.6,
+          "recovery_focus": 0.4
+        },
+        "safety_adjustment": 0.85,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-04-24T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 16,
+    "fields": {
+      "user": 16,
+      "experience_level": "beginner",
+      "distance_range": "3_5km",
+      "course_type": "park",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "endurance",
+      "score_profile": {
+        "experience_score": 1,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "park"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "endurance",
+        "goal_profile": {
+          "intensity": 2,
+          "pace_focus": 0.6,
+          "recovery_focus": 0.4
+        },
+        "safety_adjustment": 0.85,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-04-10T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 17,
+    "fields": {
+      "user": 17,
+      "experience_level": "beginner",
+      "distance_range": "3_5km",
+      "course_type": "park",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "endurance",
+      "score_profile": {
+        "experience_score": 1,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "park"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "endurance",
+        "goal_profile": {
+          "intensity": 2,
+          "pace_focus": 0.6,
+          "recovery_focus": 0.4
+        },
+        "safety_adjustment": 0.85,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-04-27T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 18,
+    "fields": {
+      "user": 18,
+      "experience_level": "beginner",
+      "distance_range": "3_5km",
+      "course_type": "park",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "endurance",
+      "score_profile": {
+        "experience_score": 1,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "park"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "endurance",
+        "goal_profile": {
+          "intensity": 2,
+          "pace_focus": 0.6,
+          "recovery_focus": 0.4
+        },
+        "safety_adjustment": 0.85,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-04-23T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 19,
+    "fields": {
+      "user": 19,
+      "experience_level": "beginner",
+      "distance_range": "3_5km",
+      "course_type": "park",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "endurance",
+      "score_profile": {
+        "experience_score": 1,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "park"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "endurance",
+        "goal_profile": {
+          "intensity": 2,
+          "pace_focus": 0.6,
+          "recovery_focus": 0.4
+        },
+        "safety_adjustment": 0.85,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-04-30T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 20,
+    "fields": {
+      "user": 20,
+      "experience_level": "beginner",
+      "distance_range": "3_5km",
+      "course_type": "park",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "endurance",
+      "score_profile": {
+        "experience_score": 1,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "park"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "endurance",
+        "goal_profile": {
+          "intensity": 2,
+          "pace_focus": 0.6,
+          "recovery_focus": 0.4
+        },
+        "safety_adjustment": 0.85,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-04-07T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 21,
+    "fields": {
+      "user": 21,
+      "experience_level": "beginner",
+      "distance_range": "3_5km",
+      "course_type": "park",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "endurance",
+      "score_profile": {
+        "experience_score": 1,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "park"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "endurance",
+        "goal_profile": {
+          "intensity": 2,
+          "pace_focus": 0.6,
+          "recovery_focus": 0.4
+        },
+        "safety_adjustment": 0.85,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-05-15T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 22,
+    "fields": {
+      "user": 22,
+      "experience_level": "beginner",
+      "distance_range": "3_5km",
+      "course_type": "park",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "endurance",
+      "score_profile": {
+        "experience_score": 1,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "park"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "endurance",
+        "goal_profile": {
+          "intensity": 2,
+          "pace_focus": 0.6,
+          "recovery_focus": 0.4
+        },
+        "safety_adjustment": 0.85,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-04-05T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 23,
+    "fields": {
+      "user": 23,
+      "experience_level": "beginner",
+      "distance_range": "3_5km",
+      "course_type": "park",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "endurance",
+      "score_profile": {
+        "experience_score": 1,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "park"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "endurance",
+        "goal_profile": {
+          "intensity": 2,
+          "pace_focus": 0.6,
+          "recovery_focus": 0.4
+        },
+        "safety_adjustment": 0.85,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-04-26T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 24,
+    "fields": {
+      "user": 24,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "stress_relief",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "stress_relief",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.2,
+          "recovery_focus": 1.0
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-04-14T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 25,
+    "fields": {
+      "user": 25,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "stress_relief",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "stress_relief",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.2,
+          "recovery_focus": 1.0
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-04-02T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 26,
+    "fields": {
+      "user": 26,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "stress_relief",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "stress_relief",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.2,
+          "recovery_focus": 1.0
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-01T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 27,
+    "fields": {
+      "user": 27,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "stress_relief",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "stress_relief",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.2,
+          "recovery_focus": 1.0
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-29T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 28,
+    "fields": {
+      "user": 28,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "stress_relief",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "stress_relief",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.2,
+          "recovery_focus": 1.0
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-25T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 29,
+    "fields": {
+      "user": 29,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "stress_relief",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "stress_relief",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.2,
+          "recovery_focus": 1.0
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-09T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 30,
+    "fields": {
+      "user": 30,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "stress_relief",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "stress_relief",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.2,
+          "recovery_focus": 1.0
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-04-21T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 31,
+    "fields": {
+      "user": 31,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "stress_relief",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "stress_relief",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.2,
+          "recovery_focus": 1.0
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-07T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 32,
+    "fields": {
+      "user": 32,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "stress_relief",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "stress_relief",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.2,
+          "recovery_focus": 1.0
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-08T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 33,
+    "fields": {
+      "user": 33,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "stress_relief",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "stress_relief",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.2,
+          "recovery_focus": 1.0
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-11T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 34,
+    "fields": {
+      "user": 34,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "stress_relief",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "stress_relief",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.2,
+          "recovery_focus": 1.0
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-24T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 35,
+    "fields": {
+      "user": 35,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "stress_relief",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "stress_relief",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.2,
+          "recovery_focus": 1.0
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-27T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 36,
+    "fields": {
+      "user": 36,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "stress_relief",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "stress_relief",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.2,
+          "recovery_focus": 1.0
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-04-30T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 37,
+    "fields": {
+      "user": 37,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "stress_relief",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "stress_relief",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.2,
+          "recovery_focus": 1.0
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-04-02T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 38,
+    "fields": {
+      "user": 38,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "stress_relief",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "stress_relief",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.2,
+          "recovery_focus": 1.0
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-16T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 39,
+    "fields": {
+      "user": 39,
+      "experience_level": "advanced",
+      "distance_range": "10km_plus",
+      "course_type": "river",
+      "preferred_time": "night",
+      "running_style": "solo",
+      "running_goal": "performance",
+      "score_profile": {
+        "experience_score": 3,
+        "target_distance_km": 12.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "night",
+        "social_preference": "solo",
+        "goal": "performance",
+        "goal_profile": {
+          "intensity": 3,
+          "pace_focus": 1.0,
+          "recovery_focus": 0.3
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-01T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 40,
+    "fields": {
+      "user": 40,
+      "experience_level": "advanced",
+      "distance_range": "10km_plus",
+      "course_type": "river",
+      "preferred_time": "night",
+      "running_style": "solo",
+      "running_goal": "performance",
+      "score_profile": {
+        "experience_score": 3,
+        "target_distance_km": 12.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "night",
+        "social_preference": "solo",
+        "goal": "performance",
+        "goal_profile": {
+          "intensity": 3,
+          "pace_focus": 1.0,
+          "recovery_focus": 0.3
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-10T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 41,
+    "fields": {
+      "user": 41,
+      "experience_level": "advanced",
+      "distance_range": "10km_plus",
+      "course_type": "river",
+      "preferred_time": "night",
+      "running_style": "solo",
+      "running_goal": "performance",
+      "score_profile": {
+        "experience_score": 3,
+        "target_distance_km": 12.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "night",
+        "social_preference": "solo",
+        "goal": "performance",
+        "goal_profile": {
+          "intensity": 3,
+          "pace_focus": 1.0,
+          "recovery_focus": 0.3
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-07T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 42,
+    "fields": {
+      "user": 42,
+      "experience_level": "advanced",
+      "distance_range": "10km_plus",
+      "course_type": "river",
+      "preferred_time": "night",
+      "running_style": "solo",
+      "running_goal": "performance",
+      "score_profile": {
+        "experience_score": 3,
+        "target_distance_km": 12.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "night",
+        "social_preference": "solo",
+        "goal": "performance",
+        "goal_profile": {
+          "intensity": 3,
+          "pace_focus": 1.0,
+          "recovery_focus": 0.3
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-03T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 43,
+    "fields": {
+      "user": 43,
+      "experience_level": "advanced",
+      "distance_range": "10km_plus",
+      "course_type": "river",
+      "preferred_time": "night",
+      "running_style": "solo",
+      "running_goal": "performance",
+      "score_profile": {
+        "experience_score": 3,
+        "target_distance_km": 12.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "night",
+        "social_preference": "solo",
+        "goal": "performance",
+        "goal_profile": {
+          "intensity": 3,
+          "pace_focus": 1.0,
+          "recovery_focus": 0.3
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-04T09:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 44,
+    "fields": {
+      "user": 44,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "health",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "health",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.3,
+          "recovery_focus": 0.8
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-11T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 45,
+    "fields": {
+      "user": 45,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "health",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "health",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.3,
+          "recovery_focus": 0.8
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-02T11:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 46,
+    "fields": {
+      "user": 46,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "health",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "health",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.3,
+          "recovery_focus": 0.8
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-08T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 47,
+    "fields": {
+      "user": 47,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "health",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "health",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.3,
+          "recovery_focus": 0.8
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-14T10:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 48,
+    "fields": {
+      "user": 48,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "health",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "health",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.3,
+          "recovery_focus": 0.8
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-12T08:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 49,
+    "fields": {
+      "user": 49,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "health",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "health",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.3,
+          "recovery_focus": 0.8
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-04T12:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.surveyresponse",
+    "pk": 50,
+    "fields": {
+      "user": 50,
+      "experience_level": "intermediate",
+      "distance_range": "3_5km",
+      "course_type": "river",
+      "preferred_time": "evening",
+      "running_style": "solo",
+      "running_goal": "health",
+      "score_profile": {
+        "experience_score": 2,
+        "target_distance_km": 4.0,
+        "preferred_course_types": [
+          "river"
+        ],
+        "preferred_time": "evening",
+        "social_preference": "solo",
+        "goal": "health",
+        "goal_profile": {
+          "intensity": 1,
+          "pace_focus": 0.3,
+          "recovery_focus": 0.8
+        },
+        "safety_adjustment": 1.0,
+        "survey_weight": 1.0,
+        "record_weight": 0.0
+      },
+      "completed_at": "2026-03-12T09:00:00+09:00"
+    }
+  }
+]

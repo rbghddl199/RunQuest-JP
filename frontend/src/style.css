@@ -1,0 +1,677 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif;
+  color: #10213d;
+  background: #eef5ff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --color-primary: #0866ff;
+  --color-primary-dark: #004bd6;
+  --color-primary-soft: #eaf3ff;
+  --color-secondary: #13c6c8;
+  --color-navy: #10213d;
+  --color-text: #213654;
+  --color-muted: #71809b;
+  --color-border: #dce6f4;
+  --color-surface: #ffffff;
+  --color-background: #f5f9ff;
+  --color-success: #16a66a;
+  --color-input: #ffffff;
+  --color-elevated: #ffffff;
+  --color-subtle: #edf2f8;
+  --color-divider: #e8eef7;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --app-width: 360px;
+  --app-height: 800px;
+  --app-radius: 28px;
+  --page-padding: 16px;
+  --page-top-padding: 18px;
+  --page-bottom-padding: 12px;
+  --page-gap: 12px;
+  --card-padding: 14px;
+  --card-radius: 14px;
+  --section-gap: 18px;
+  --title-font-size: 20px;
+  --section-title-size: 16px;
+  --body-font-size: 12px;
+  --caption-font-size: 10px;
+  --bottom-nav-height: 64px;
+  --radius-small: 6px;
+  --radius-medium: 8px;
+  --content-padding: var(--page-padding);
+  --shadow-soft: 0 10px 30px rgba(32, 83, 156, 0.1);
+  --shadow-button: 0 10px 24px rgba(8, 102, 255, 0.2);
+}
+
+:root[data-theme='dark'] {
+  color: #e8eef8;
+  background: #080f1c;
+  --color-primary: #4c8dff;
+  --color-primary-dark: #76a7ff;
+  --color-primary-soft: #152b4c;
+  --color-secondary: #35d3d5;
+  --color-navy: #f2f6fc;
+  --color-text: #d3ddec;
+  --color-muted: #93a3b8;
+  --color-border: #2b3a4f;
+  --color-surface: #121d2c;
+  --color-background: #0b1422;
+  --color-success: #3bc98a;
+  --color-input: #172334;
+  --color-elevated: #152132;
+  --color-subtle: #1b293b;
+  --color-divider: #26364b;
+  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.28);
+  --shadow-button: 0 10px 26px rgba(38, 111, 255, 0.3);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--color-background);
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  color: var(--color-text);
+  background:
+    radial-gradient(circle at 50% 0%, rgba(8, 102, 255, 0.12), transparent 34%),
+    linear-gradient(135deg, #eaf3ff 0%, #f6f9ff 48%, #eaf7ff 100%);
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  border: 0;
+  letter-spacing: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.mobile-shell {
+  width: var(--app-width) !important;
+  min-width: var(--app-width) !important;
+  max-width: var(--app-width) !important;
+  height: var(--app-height) !important;
+  min-height: var(--app-height) !important;
+  max-height: var(--app-height) !important;
+  margin: 0 auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: var(--color-background);
+  border-radius: var(--app-radius) !important;
+  box-shadow: 0 0 40px rgba(24, 71, 139, 0.12);
+  scrollbar-width: none;
+}
+
+.mobile-shell::-webkit-scrollbar {
+  display: none;
+}
+
+.mobile-shell :is(
+  .recommendation-card,
+  .course-card,
+  .featured-card,
+  .post-card,
+  .record-card,
+  .mission-panel,
+  .attendance-panel,
+  .recent-panel,
+  .goal-band,
+  .stats-band,
+  .recent-runs,
+  .profile-menu,
+  .style-band,
+  .memo-card,
+  .route-card
+) {
+  max-width: 100%;
+  border-radius: var(--card-radius);
+}
+
+:root[data-theme='dark'] .mobile-shell {
+  color: var(--color-text);
+  background: var(--color-background);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.32);
+}
+
+:root[data-theme='dark'] .mobile-shell:is(
+  .home-page,
+  .recommendation-page,
+  .my-page,
+  .settings-page,
+  .completed-page,
+  .community-page,
+  .course-page,
+  .run-start-page
+),
+:root[data-theme='dark'] .mobile-shell :is(
+  .home-page,
+  .recommendation-page,
+  .my-page,
+  .settings-page,
+  .completed-page,
+  .community-page,
+  .course-page,
+  .run-start-page
+) {
+  background: var(--color-background) !important;
+}
+
+:root[data-theme='dark'] .mobile-shell :is(
+  .settings-header,
+  .bottom-nav,
+  .auth-shell,
+  .auth-shell__panel,
+  .account-actions,
+  .account-actions > button,
+  .recommendation-card,
+  .map-link,
+  .goal-band,
+  .stats-band,
+  .recent-runs,
+  .profile-menu,
+  .style-band,
+  .mission-panel,
+  .attendance-panel,
+  .recent-panel,
+  .today-course article,
+  .active-run-banner,
+  .chat-entry,
+  .course-card,
+  .post-card,
+  .profile-image-field,
+  .notice-info,
+  .terms-card
+) {
+  color: var(--color-text) !important;
+  background: var(--color-surface) !important;
+  border-color: var(--color-border) !important;
+}
+
+:root[data-theme='dark'] .mobile-shell :is(
+  .detail-page,
+  .write-page,
+  .chat-page
+) {
+  color: var(--color-text) !important;
+  background: var(--color-background) !important;
+}
+
+:root[data-theme='dark'] .mobile-shell :is(
+  .detail-header,
+  .post-menu,
+  .post-menu button,
+  .post-detail,
+  .comments,
+  .comment-form,
+  .write-header,
+  .write-page section,
+  .chat-header,
+  .conversation,
+  .chat-input,
+  .bot-intro small,
+  .quick-grid button,
+  .examples,
+  .examples button,
+  .bubble,
+  .typing,
+  .chat-course,
+  .features,
+  .reason-box,
+  .selected-course,
+  .photo-preview,
+  .photo-empty,
+  .course-link
+) {
+  color: var(--color-text) !important;
+  background: var(--color-surface) !important;
+  border-color: var(--color-border) !important;
+}
+
+:root[data-theme='dark'] .mobile-shell :is(
+  .author strong,
+  .post-detail h1,
+  .comments h2,
+  .comments article strong,
+  .write-header h1,
+  label,
+  .starter-panel h2,
+  .examples h3,
+  .chat-course h2,
+  .features strong,
+  .course-link > strong,
+  .course-link b,
+  .recommendation-header h1,
+  .recommendation-intro h2,
+  .recommendation-card h2,
+  .recommendation-card__meta,
+  .reason-panel h2,
+  .location-heading h1,
+  .route-selector strong,
+  .applied-course-card,
+  .applied-course-card strong,
+  .applied-course-card dd,
+  .choice-panel strong,
+  .mode-panel strong,
+  .card-face strong,
+  .profile-image-field strong
+) {
+  color: var(--color-navy) !important;
+}
+
+:root[data-theme='dark'] .mobile-shell :is(
+  .content,
+  .comments article p,
+  .bot-intro p,
+  .bubble p,
+  .selected-course small,
+  .course-link small,
+  .post-excerpt,
+  .record-card p,
+  .run-record p,
+  .notification-list p,
+  .recommendation-intro p,
+  .recommendation-card__summary,
+  .reason-panel li,
+  .reason-panel li span,
+  .location-heading p,
+  .route-selector small,
+  .applied-course-card small,
+  .applied-course-card dt,
+  .choice-panel small,
+  .choice-link,
+  .mode-panel small,
+  .card-face > span,
+  .card-face small,
+  .profile-image-field small
+) {
+  color: var(--color-text) !important;
+}
+
+:root[data-theme='dark'] .mobile-shell :is(
+  .community-header h1,
+  .community-header button,
+  .icon-tool,
+  .filter-button,
+  .post-card h2,
+  .author-row strong,
+  .record-card strong,
+  .run-record h2,
+  .sub-header h1,
+  .calendar h2,
+  .notification-list strong,
+  .notification-summary strong,
+  .stats-band strong
+) {
+  color: var(--color-navy) !important;
+}
+
+:root[data-theme='dark'] .mobile-shell :is(
+  .community-page,
+  .attendance-page,
+  .notification-page,
+  .sub-page
+) {
+  background: var(--color-background) !important;
+}
+
+:root[data-theme='dark'] .mobile-shell :is(
+  .community-header,
+  .tools,
+  .calendar,
+  .record-card,
+  .run-record,
+  .notification-page header,
+  .notification-list,
+  .notification-list > button
+) {
+  color: var(--color-text) !important;
+  background: var(--color-surface) !important;
+  border-color: var(--color-border) !important;
+}
+
+:root[data-theme='dark'] .mobile-shell :is(
+  .category-tabs button,
+  .filter-group button,
+  .search-bar,
+  .days > button.has-records
+) {
+  color: var(--color-text) !important;
+  background: var(--color-subtle) !important;
+}
+
+:root[data-theme='dark'] .mobile-shell :is(input, select, textarea) {
+  color: var(--color-navy) !important;
+  background: var(--color-input) !important;
+  border-color: var(--color-border) !important;
+}
+
+:root[data-theme='dark'] .mobile-shell input:disabled {
+  background: var(--color-subtle) !important;
+}
+
+:root[data-theme='dark'] .mobile-shell :is(
+  .segmented,
+  .record-summary__details > div,
+  .ai-feedback,
+  .reason-panel,
+  .ai-profile,
+  .run-panel,
+  .choice-panel,
+  .gpx-panel,
+  .mode-panel,
+  .applied-course-card,
+  .card-face
+) {
+  background: var(--color-elevated) !important;
+  border-color: var(--color-border) !important;
+}
+
+:root[data-theme='dark'] .mobile-shell:is(.run-start-page),
+:root[data-theme='dark'] .mobile-shell .run-start-page {
+  background: var(--color-background) !important;
+}
+
+:root[data-theme='dark'] .mobile-shell :is(
+  .map-stage,
+  .map-background
+) {
+  background: #101b2d !important;
+}
+
+:root[data-theme='dark'] .mobile-shell :is(
+  .gps-status,
+  .mode-settings,
+  .route-selector button,
+  .choice-panel button,
+  .choice-link,
+  .applied-course-card dl div
+) {
+  color: var(--color-text) !important;
+  background: var(--color-subtle) !important;
+  border-color: var(--color-border) !important;
+}
+
+:root[data-theme='dark'] .mobile-shell :is(
+  .mode-settings,
+  .mode-settings svg,
+  .filter-button,
+  .filter-button svg,
+  .reason-panel__heading,
+  .reason-panel__heading svg,
+  .card-face > svg
+) {
+  color: var(--color-primary-dark) !important;
+}
+
+:root[data-theme='dark'] .mobile-shell :is(
+  .route-selector button.active,
+  .choice-panel button.selected,
+  .mode-panel button.is-active,
+  .location-retry
+) {
+  color: var(--color-primary-dark) !important;
+  background: #14345f !important;
+  border-color: #2f6fc3 !important;
+}
+
+:root[data-theme='dark'] .mobile-shell .fine-dust-icon {
+  color: #ffcb57 !important;
+}
+
+:root[data-theme='dark'] .mobile-shell .profile-image-preview {
+  color: var(--color-primary-dark) !important;
+  background: #14345f !important;
+}
+
+:root[data-theme='dark'] .mobile-shell .profile-image-actions button {
+  color: #fff !important;
+  background: var(--color-primary) !important;
+}
+
+:root[data-theme='dark'] .mobile-shell .profile-image-actions button + button {
+  color: var(--color-text) !important;
+  background: var(--color-subtle) !important;
+  border: 1px solid var(--color-border) !important;
+}
+
+:root[data-theme='dark'] .mobile-shell :is(
+  .switch-row,
+  .record-row,
+  .profile-menu a,
+  .account-actions > button + button
+) {
+  border-color: var(--color-divider) !important;
+}
+
+:root[data-theme='dark'] .mobile-shell .segmented input:checked + span {
+  color: var(--color-primary);
+  background: var(--color-surface);
+}
+
+:root[data-theme='dark'] .auth-shell__overlay {
+  background:
+    linear-gradient(90deg, rgba(11, 20, 34, 0.96), rgba(11, 20, 34, 0.74) 58%, transparent),
+    linear-gradient(180deg, rgba(11, 20, 34, 0.18), transparent 52%, var(--color-surface));
+}
+
+:root[data-theme='dark'] .auth-shell__brand p {
+  color: #b6c4d7;
+}
+
+:root[data-theme='dark'] .social__buttons button:not(.kakao) {
+  background: var(--color-input);
+  border-color: var(--color-border);
+}
+
+:root[data-theme='dark'] .mobile-shell .notice-button,
+:root[data-theme='dark'] .mobile-shell .streak,
+:root[data-theme='dark'] .mobile-shell .streak-popover,
+:root[data-theme='dark'] .mobile-shell .notification-popover {
+  color: var(--color-text) !important;
+  background: var(--color-surface) !important;
+  border-color: var(--color-border) !important;
+}
+
+:root[data-theme='dark'] .mobile-shell .notice-button {
+  color: #7cb7ff !important;
+}
+
+:root[data-theme='dark'] .mobile-shell .streak {
+  color: #ffb36b !important;
+}
+
+:root[data-theme='dark'] .mobile-shell .notification-list button {
+  color: var(--color-text) !important;
+  background: var(--color-elevated) !important;
+  border-color: var(--color-border) !important;
+}
+
+:root[data-theme='dark'] .mobile-shell .notification-list button.unread {
+  background: #12233d !important;
+  border-color: #2f6fc3 !important;
+}
+
+:root[data-theme='dark'] .mobile-shell .ai-profile {
+  color: #fff !important;
+  background: #0b3f9f !important;
+  border-color: rgba(255, 255, 255, 0.14) !important;
+}
+
+:root[data-theme='dark'] .mobile-shell :is(
+  .ai-profile__header h2,
+  .ai-profile__header small,
+  .ai-profile p,
+  .ai-profile__reasons span
+) {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+@media (min-width: 540px) {
+  html,
+  body,
+  #app {
+    min-height: 100vh;
+  }
+
+  body {
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    overflow: hidden;
+    padding: 24px;
+  }
+
+  #app {
+    display: grid;
+    width: 100%;
+    height: calc(100vh - 48px);
+    place-items: center;
+  }
+
+  .mobile-shell {
+    width: var(--app-width) !important;
+    min-width: var(--app-width) !important;
+    max-width: var(--app-width) !important;
+    height: var(--app-height) !important;
+    min-height: var(--app-height) !important;
+    max-height: var(--app-height) !important;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 0;
+    outline: 10px solid color-mix(in srgb, var(--color-surface) 88%, transparent);
+    border-radius: calc(var(--app-radius) + 14px) !important;
+    box-shadow:
+      0 34px 90px rgba(15, 42, 91, 0.24),
+      0 0 0 1px rgba(78, 118, 178, 0.1),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.72);
+    scrollbar-width: none;
+  }
+
+  .mobile-shell::-webkit-scrollbar {
+    display: none;
+  }
+
+  .mobile-shell :is(.bottom-nav, .comment-form) {
+    position: sticky !important;
+    z-index: 30;
+    right: auto;
+    bottom: 0;
+    left: auto;
+    width: 100%;
+    transform: none;
+  }
+
+  .mobile-shell:is(.home-page, .recommendation-page, .my-page, .community-page, .detail-page, .chat-page, .run-start-page, .completed-page, .settings-page, .write-page, .attendance-page, .notification-page, .sub-page),
+  .mobile-shell :is(.home-page, .recommendation-page, .my-page, .community-page, .detail-page, .chat-page, .run-start-page, .completed-page, .settings-page, .write-page, .attendance-page, .notification-page, .sub-page) {
+    min-height: var(--app-height) !important;
+    max-height: var(--app-height) !important;
+  }
+
+  .mobile-shell:is(.chat-page, .run-start-page, .community-page),
+  .mobile-shell :is(.chat-page, .run-start-page, .community-page) {
+    height: var(--app-height) !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.mobile-shell.detail-page {
+  position: relative !important;
+  display: flex !important;
+  height: var(--app-height) !important;
+  min-height: var(--app-height) !important;
+  max-height: var(--app-height) !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
+  padding-bottom: 0 !important;
+  background: #fff !important;
+  border-radius: var(--app-radius) !important;
+}
+
+.mobile-shell.detail-page .detail-scroll {
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
+  overflow-y: auto !important;
+  padding-bottom: 86px !important;
+  scrollbar-width: none !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+.mobile-shell.detail-page .detail-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.mobile-shell.detail-page .post-detail,
+.mobile-shell.detail-page .comments {
+  background: #fff !important;
+}
+
+.mobile-shell.detail-page .comments {
+  max-height: none !important;
+  overflow: visible !important;
+  padding: 16px 22px 28px !important;
+  border-top: 8px solid #f4f6fa !important;
+}
+
+.mobile-shell.detail-page .comments article {
+  display: grid !important;
+  grid-template-columns: 34px minmax(0, 1fr) !important;
+  gap: 9px !important;
+}
+
+.mobile-shell.detail-page .comments article > div:nth-child(2) {
+  min-width: 0 !important;
+}
+
+.mobile-shell.detail-page .comment-form {
+  position: absolute !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  margin: 0 !important;
+  border-radius: 0 0 var(--app-radius) var(--app-radius) !important;
+}

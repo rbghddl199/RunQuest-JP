@@ -1,0 +1,716 @@
+openapi: 3.0.3
+info:
+  title: RunQuest REST API
+  version: 1.0.0
+  description: 대전 AI 러닝 코스 추천 서비스 API
+paths:
+  /api/auth/login/:
+    post:
+      operationId: auth_login_create
+      tags:
+      - auth
+      security:
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          description: No response body
+  /api/auth/logout/:
+    post:
+      operationId: auth_logout_create
+      tags:
+      - auth
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/auth/me/:
+    get:
+      operationId: auth_me_retrieve
+      tags:
+      - auth
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+          description: ''
+  /api/auth/nickname-availability/:
+    get:
+      operationId: auth_nickname_availability_retrieve
+      tags:
+      - auth
+      security:
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          description: No response body
+  /api/auth/password/change/:
+    post:
+      operationId: auth_password_change_create
+      tags:
+      - auth
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/auth/settings/:
+    get:
+      operationId: auth_settings_retrieve
+      tags:
+      - auth
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+    patch:
+      operationId: auth_settings_partial_update
+      tags:
+      - auth
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/auth/signup/:
+    post:
+      operationId: auth_signup_create
+      tags:
+      - auth
+      security:
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          description: No response body
+  /api/auth/token/refresh/:
+    post:
+      operationId: auth_token_refresh_create
+      description: |-
+        Takes a refresh type JSON web token and returns an access type JSON web
+        token if the refresh token is valid.
+      tags:
+      - auth
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TokenRefresh'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/TokenRefresh'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/TokenRefresh'
+        required: true
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TokenRefresh'
+          description: ''
+  /api/chat/conversation/:
+    get:
+      operationId: chat_conversation_retrieve
+      tags:
+      - chat
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+    post:
+      operationId: chat_conversation_create
+      tags:
+      - chat
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+    delete:
+      operationId: chat_conversation_destroy
+      tags:
+      - chat
+      security:
+      - jwtAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/community/comments/{comment_id}/:
+    delete:
+      operationId: community_comments_destroy
+      parameters:
+      - in: path
+        name: comment_id
+        schema:
+          type: integer
+        required: true
+      tags:
+      - community
+      security:
+      - jwtAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/community/posts/:
+    get:
+      operationId: community_posts_retrieve
+      tags:
+      - community
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+    post:
+      operationId: community_posts_create
+      tags:
+      - community
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/community/posts/{post_id}/:
+    get:
+      operationId: community_posts_retrieve_2
+      parameters:
+      - in: path
+        name: post_id
+        schema:
+          type: integer
+        required: true
+      tags:
+      - community
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+    patch:
+      operationId: community_posts_partial_update
+      parameters:
+      - in: path
+        name: post_id
+        schema:
+          type: integer
+        required: true
+      tags:
+      - community
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+    delete:
+      operationId: community_posts_destroy
+      parameters:
+      - in: path
+        name: post_id
+        schema:
+          type: integer
+        required: true
+      tags:
+      - community
+      security:
+      - jwtAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/community/posts/{post_id}/comments/:
+    post:
+      operationId: community_posts_comments_create
+      parameters:
+      - in: path
+        name: post_id
+        schema:
+          type: integer
+        required: true
+      tags:
+      - community
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/community/posts/{post_id}/like/:
+    post:
+      operationId: community_posts_like_create
+      parameters:
+      - in: path
+        name: post_id
+        schema:
+          type: integer
+        required: true
+      tags:
+      - community
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/community/posts/{post_id}/save/:
+    post:
+      operationId: community_posts_save_create
+      parameters:
+      - in: path
+        name: post_id
+        schema:
+          type: integer
+        required: true
+      tags:
+      - community
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/courses/:
+    get:
+      operationId: courses_retrieve
+      tags:
+      - courses
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/courses/{slug}/:
+    get:
+      operationId: courses_retrieve_2
+      parameters:
+      - in: path
+        name: slug
+        schema:
+          type: string
+        required: true
+      tags:
+      - courses
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/courses/{slug}/favorite/:
+    post:
+      operationId: courses_favorite_create
+      parameters:
+      - in: path
+        name: slug
+        schema:
+          type: string
+        required: true
+      tags:
+      - courses
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+    delete:
+      operationId: courses_favorite_destroy
+      parameters:
+      - in: path
+        name: slug
+        schema:
+          type: string
+        required: true
+      tags:
+      - courses
+      security:
+      - jwtAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/courses/favorites/:
+    get:
+      operationId: courses_favorites_retrieve
+      tags:
+      - courses
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/custom-courses/:
+    get:
+      operationId: custom_courses_retrieve
+      tags:
+      - custom-courses
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+    post:
+      operationId: custom_courses_create
+      tags:
+      - custom-courses
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/custom-courses/{course_id}/:
+    get:
+      operationId: custom_courses_retrieve_2
+      parameters:
+      - in: path
+        name: course_id
+        schema:
+          type: integer
+        required: true
+      tags:
+      - custom-courses
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+    patch:
+      operationId: custom_courses_partial_update
+      parameters:
+      - in: path
+        name: course_id
+        schema:
+          type: integer
+        required: true
+      tags:
+      - custom-courses
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+    delete:
+      operationId: custom_courses_destroy
+      parameters:
+      - in: path
+        name: course_id
+        schema:
+          type: integer
+        required: true
+      tags:
+      - custom-courses
+      security:
+      - jwtAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/health/:
+    get:
+      operationId: health_retrieve
+      tags:
+      - health
+      security:
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          description: No response body
+  /api/home/:
+    get:
+      operationId: home_retrieve
+      tags:
+      - home
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/notifications/:
+    get:
+      operationId: notifications_retrieve
+      tags:
+      - notifications
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/notifications/{notification_id}/read/:
+    post:
+      operationId: notifications_read_create
+      parameters:
+      - in: path
+        name: notification_id
+        schema:
+          type: integer
+        required: true
+      tags:
+      - notifications
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/notifications/read-all/:
+    post:
+      operationId: notifications_read_all_create
+      tags:
+      - notifications
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/profile/attendance/:
+    get:
+      operationId: profile_attendance_retrieve
+      tags:
+      - profile
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/profile/badges/:
+    get:
+      operationId: profile_badges_retrieve
+      tags:
+      - profile
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/profile/badges/{code}/:
+    get:
+      operationId: profile_badges_retrieve_2
+      parameters:
+      - in: path
+        name: code
+        schema:
+          type: string
+        required: true
+      tags:
+      - profile
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/profile/records/:
+    get:
+      operationId: profile_records_retrieve
+      tags:
+      - profile
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/profile/summary/:
+    get:
+      operationId: profile_summary_retrieve
+      tags:
+      - profile
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/recommendations/current/:
+    get:
+      operationId: recommendations_current_retrieve
+      tags:
+      - recommendations
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/recommendations/generate/:
+    post:
+      operationId: recommendations_generate_create
+      tags:
+      - recommendations
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/recommendations/next/:
+    post:
+      operationId: recommendations_next_create
+      tags:
+      - recommendations
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/runs/{record_id}/:
+    get:
+      operationId: runs_retrieve
+      parameters:
+      - in: path
+        name: record_id
+        schema:
+          type: integer
+        required: true
+      tags:
+      - runs
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/runs/{record_id}/finish/:
+    post:
+      operationId: runs_finish_create
+      parameters:
+      - in: path
+        name: record_id
+        schema:
+          type: integer
+        required: true
+      tags:
+      - runs
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/runs/{record_id}/progress/:
+    patch:
+      operationId: runs_progress_partial_update
+      parameters:
+      - in: path
+        name: record_id
+        schema:
+          type: integer
+        required: true
+      tags:
+      - runs
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/runs/active/:
+    get:
+      operationId: runs_active_retrieve
+      tags:
+      - runs
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/runs/start/:
+    post:
+      operationId: runs_start_create
+      tags:
+      - runs
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/survey/questions/:
+    get:
+      operationId: survey_questions_retrieve
+      tags:
+      - survey
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/survey/response/:
+    get:
+      operationId: survey_response_retrieve
+      tags:
+      - survey
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+    post:
+      operationId: survey_response_create
+      tags:
+      - survey
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/weather/current/:
+    get:
+      operationId: weather_current_retrieve
+      tags:
+      - weather
+      security:
+      - jwtAuth: []
+      responses:
+        '200':
+          description: No response body
+components:
+  schemas:
+    TokenRefresh:
+      type: object
+      properties:
+        access:
+          type: string
+          readOnly: true
+        refresh:
+          type: string
+      required:
+      - access
+      - refresh
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        email:
+          type: string
+          format: email
+          title: 이메일 주소
+          maxLength: 254
+        profile:
+          allOf:
+          - $ref: '#/components/schemas/UserProfile'
+          readOnly: true
+      required:
+      - id
+      - profile
+    UserProfile:
+      type: object
+      properties:
+        nickname:
+          type: string
+          maxLength: 12
+        user_type:
+          $ref: '#/components/schemas/UserTypeEnum'
+        survey_completed:
+          type: boolean
+      required:
+      - nickname
+    UserTypeEnum:
+      enum:
+      - new
+      - active
+      - returning
+      type: string
+      description: |-
+        * `new` - 신규 사용자
+        * `active` - 기존 사용자
+        * `returning` - 복귀 사용자
+  securitySchemes:
+    jwtAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT

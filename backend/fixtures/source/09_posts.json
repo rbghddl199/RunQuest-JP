@@ -1,0 +1,752 @@
+[
+  {
+    "model": "community.post",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "course": 3,
+      "category": "question",
+      "title": "오늘 처음 러닝 시작했어요!",
+      "content": "운동 부족해서 러닝을 시작해보려고 합니다. 대전에서 초보자가 뛰기 좋은 코스 추천해주세요.",
+      "like_count": 24,
+      "comment_count": 3,
+      "created_at": "2026-06-22T10:00:00",
+      "updated_at": "2026-06-22T10:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "course": 7,
+      "category": "question",
+      "title": "갑천 초보자가 뛰어도 괜찮을까요?",
+      "content": "러닝 경험은 거의 없는데 갑천 코스를 많이 추천하더라구요. 1~2km 정도 뛰어보려는데 괜찮을까요?",
+      "like_count": 19,
+      "comment_count": 3,
+      "created_at": "2026-06-05T17:00:00",
+      "updated_at": "2026-06-05T17:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 3,
+    "fields": {
+      "user": 3,
+      "course": 3,
+      "category": "course",
+      "title": "한밭수목원 처음 뛰어봤는데 좋네요!",
+      "content": "AI 추천으로 한밭수목원 코스를 다녀왔어요. 길이 평탄하고 분위기도 좋아서 초보자에게 추천합니다.",
+      "like_count": 22,
+      "comment_count": 3,
+      "created_at": "2026-05-28T14:00:00",
+      "updated_at": "2026-05-28T14:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 4,
+    "fields": {
+      "user": 4,
+      "course": 18,
+      "category": "log",
+      "title": "오늘 3km 완주 성공!",
+      "content": "처음에는 힘들었는데 이제 조금씩 러닝이 재밌어지네요. 다음 목표는 5km입니다 🔥",
+      "like_count": 24,
+      "comment_count": 3,
+      "created_at": "2026-06-18T14:00:00",
+      "updated_at": "2026-06-18T14:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 5,
+    "fields": {
+      "user": 5,
+      "course": 5,
+      "category": "course",
+      "title": "오늘도 갑천 5km 완료",
+      "content": "최근 AI 추천이 갑천 위주로 나오는데 확실히 제 취향을 잘 반영하는 것 같아요.",
+      "like_count": 10,
+      "comment_count": 3,
+      "created_at": "2026-06-13T17:00:00",
+      "updated_at": "2026-06-13T17:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 6,
+    "fields": {
+      "user": 6,
+      "course": 5,
+      "category": "course",
+      "title": "유등천 야간 러닝 괜찮네요",
+      "content": "조명이 생각보다 밝아서 야간에도 무섭지 않았어요. 야간 러닝 좋아하시는 분들께 추천합니다.",
+      "like_count": 7,
+      "comment_count": 3,
+      "created_at": "2026-06-21T10:00:00",
+      "updated_at": "2026-06-21T10:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 7,
+    "fields": {
+      "user": 7,
+      "course": 6,
+      "category": "log",
+      "title": "7일 연속 러닝 달성!",
+      "content": "프로필 불꽃이 커졌어요 🔥🔥 은근히 동기부여 됩니다. 다음 목표는 14일!",
+      "like_count": 17,
+      "comment_count": 3,
+      "created_at": "2026-06-19T14:00:00",
+      "updated_at": "2026-06-19T14:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 8,
+    "fields": {
+      "user": 8,
+      "course": 18,
+      "category": "tip",
+      "title": "야간 러닝할 때 꼭 챙기는 것들",
+      "content": "헤드랜턴, 반사밴드, 수분 보충은 꼭 챙깁니다. 기록보다 안전이 먼저라고 생각해요.",
+      "like_count": 33,
+      "comment_count": 3,
+      "created_at": "2026-06-08T14:00:00",
+      "updated_at": "2026-06-08T14:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 9,
+    "fields": {
+      "user": 9,
+      "course": 1,
+      "category": "course",
+      "title": "대청호 12km 러닝 후기",
+      "content": "바람도 적당하고 코스가 길어서 장거리 훈련하기 좋았습니다. 다음엔 기록 갱신 도전해보려구요.",
+      "like_count": 34,
+      "comment_count": 3,
+      "created_at": "2026-06-08T13:00:00",
+      "updated_at": "2026-06-08T13:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 10,
+    "fields": {
+      "user": 10,
+      "course": 1,
+      "category": "log",
+      "title": "3km부터 다시 시작합니다",
+      "content": "예전에 10km씩 뛰다가 한동안 쉬었어요. AI가 짧은 코스를 추천해줘서 천천히 다시 시작하고 있습니다.",
+      "like_count": 5,
+      "comment_count": 3,
+      "created_at": "2026-06-21T19:00:00",
+      "updated_at": "2026-06-21T19:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 11,
+    "fields": {
+      "user": 11,
+      "course": 5,
+      "category": "question",
+      "title": "오늘 처음 러닝 시작했어요!",
+      "content": "운동 부족해서 러닝을 시작해보려고 합니다. 대전에서 초보자가 뛰기 좋은 코스 추천해주세요.",
+      "like_count": 6,
+      "comment_count": 3,
+      "created_at": "2026-06-21T17:00:00",
+      "updated_at": "2026-06-21T17:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 12,
+    "fields": {
+      "user": 12,
+      "course": 5,
+      "category": "question",
+      "title": "갑천 초보자가 뛰어도 괜찮을까요?",
+      "content": "러닝 경험은 거의 없는데 갑천 코스를 많이 추천하더라구요. 1~2km 정도 뛰어보려는데 괜찮을까요?",
+      "like_count": 29,
+      "comment_count": 3,
+      "created_at": "2026-06-05T14:00:00",
+      "updated_at": "2026-06-05T14:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 13,
+    "fields": {
+      "user": 13,
+      "course": 6,
+      "category": "course",
+      "title": "한밭수목원 처음 뛰어봤는데 좋네요!",
+      "content": "AI 추천으로 한밭수목원 코스를 다녀왔어요. 길이 평탄하고 분위기도 좋아서 초보자에게 추천합니다.",
+      "like_count": 29,
+      "comment_count": 3,
+      "created_at": "2026-06-22T13:00:00",
+      "updated_at": "2026-06-22T13:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 14,
+    "fields": {
+      "user": 14,
+      "course": null,
+      "category": "log",
+      "title": "오늘 3km 완주 성공!",
+      "content": "처음에는 힘들었는데 이제 조금씩 러닝이 재밌어지네요. 다음 목표는 5km입니다 🔥",
+      "like_count": 11,
+      "comment_count": 3,
+      "created_at": "2026-05-07T19:00:00",
+      "updated_at": "2026-05-07T19:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 15,
+    "fields": {
+      "user": 15,
+      "course": 3,
+      "category": "course",
+      "title": "오늘도 갑천 5km 완료",
+      "content": "최근 AI 추천이 갑천 위주로 나오는데 확실히 제 취향을 잘 반영하는 것 같아요.",
+      "like_count": 25,
+      "comment_count": 3,
+      "created_at": "2026-05-02T16:00:00",
+      "updated_at": "2026-05-02T16:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 16,
+    "fields": {
+      "user": 16,
+      "course": 6,
+      "category": "course",
+      "title": "유등천 야간 러닝 괜찮네요",
+      "content": "조명이 생각보다 밝아서 야간에도 무섭지 않았어요. 야간 러닝 좋아하시는 분들께 추천합니다.",
+      "like_count": 18,
+      "comment_count": 3,
+      "created_at": "2026-05-16T12:00:00",
+      "updated_at": "2026-05-16T12:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 17,
+    "fields": {
+      "user": 17,
+      "course": 6,
+      "category": "log",
+      "title": "7일 연속 러닝 달성!",
+      "content": "프로필 불꽃이 커졌어요 🔥🔥 은근히 동기부여 됩니다. 다음 목표는 14일!",
+      "like_count": 26,
+      "comment_count": 3,
+      "created_at": "2026-05-22T18:00:00",
+      "updated_at": "2026-05-22T18:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 18,
+    "fields": {
+      "user": 18,
+      "course": 5,
+      "category": "tip",
+      "title": "야간 러닝할 때 꼭 챙기는 것들",
+      "content": "헤드랜턴, 반사밴드, 수분 보충은 꼭 챙깁니다. 기록보다 안전이 먼저라고 생각해요.",
+      "like_count": 13,
+      "comment_count": 3,
+      "created_at": "2026-06-13T15:00:00",
+      "updated_at": "2026-06-13T15:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 19,
+    "fields": {
+      "user": 19,
+      "course": null,
+      "category": "course",
+      "title": "대청호 12km 러닝 후기",
+      "content": "바람도 적당하고 코스가 길어서 장거리 훈련하기 좋았습니다. 다음엔 기록 갱신 도전해보려구요.",
+      "like_count": 32,
+      "comment_count": 3,
+      "created_at": "2026-05-29T14:00:00",
+      "updated_at": "2026-05-29T14:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 20,
+    "fields": {
+      "user": 20,
+      "course": 7,
+      "category": "log",
+      "title": "3km부터 다시 시작합니다",
+      "content": "예전에 10km씩 뛰다가 한동안 쉬었어요. AI가 짧은 코스를 추천해줘서 천천히 다시 시작하고 있습니다.",
+      "like_count": 16,
+      "comment_count": 3,
+      "created_at": "2026-04-16T16:00:00",
+      "updated_at": "2026-04-16T16:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 21,
+    "fields": {
+      "user": 21,
+      "course": 6,
+      "category": "question",
+      "title": "오늘 처음 러닝 시작했어요!",
+      "content": "운동 부족해서 러닝을 시작해보려고 합니다. 대전에서 초보자가 뛰기 좋은 코스 추천해주세요.",
+      "like_count": 18,
+      "comment_count": 3,
+      "created_at": "2026-05-20T16:00:00",
+      "updated_at": "2026-05-20T16:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 22,
+    "fields": {
+      "user": 22,
+      "course": null,
+      "category": "question",
+      "title": "갑천 초보자가 뛰어도 괜찮을까요?",
+      "content": "러닝 경험은 거의 없는데 갑천 코스를 많이 추천하더라구요. 1~2km 정도 뛰어보려는데 괜찮을까요?",
+      "like_count": 29,
+      "comment_count": 3,
+      "created_at": "2026-06-08T13:00:00",
+      "updated_at": "2026-06-08T13:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 23,
+    "fields": {
+      "user": 23,
+      "course": 5,
+      "category": "course",
+      "title": "한밭수목원 처음 뛰어봤는데 좋네요!",
+      "content": "AI 추천으로 한밭수목원 코스를 다녀왔어요. 길이 평탄하고 분위기도 좋아서 초보자에게 추천합니다.",
+      "like_count": 8,
+      "comment_count": 3,
+      "created_at": "2026-05-06T20:00:00",
+      "updated_at": "2026-05-06T20:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 24,
+    "fields": {
+      "user": 24,
+      "course": 3,
+      "category": "log",
+      "title": "오늘 3km 완주 성공!",
+      "content": "처음에는 힘들었는데 이제 조금씩 러닝이 재밌어지네요. 다음 목표는 5km입니다 🔥",
+      "like_count": 6,
+      "comment_count": 3,
+      "created_at": "2026-04-18T12:00:00",
+      "updated_at": "2026-04-18T12:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 25,
+    "fields": {
+      "user": 25,
+      "course": null,
+      "category": "course",
+      "title": "오늘도 갑천 5km 완료",
+      "content": "최근 AI 추천이 갑천 위주로 나오는데 확실히 제 취향을 잘 반영하는 것 같아요.",
+      "like_count": 24,
+      "comment_count": 3,
+      "created_at": "2026-05-20T20:00:00",
+      "updated_at": "2026-05-20T20:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 26,
+    "fields": {
+      "user": 26,
+      "course": null,
+      "category": "course",
+      "title": "유등천 야간 러닝 괜찮네요",
+      "content": "조명이 생각보다 밝아서 야간에도 무섭지 않았어요. 야간 러닝 좋아하시는 분들께 추천합니다.",
+      "like_count": 35,
+      "comment_count": 3,
+      "created_at": "2026-04-30T15:00:00",
+      "updated_at": "2026-04-30T15:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 27,
+    "fields": {
+      "user": 27,
+      "course": 1,
+      "category": "log",
+      "title": "7일 연속 러닝 달성!",
+      "content": "프로필 불꽃이 커졌어요 🔥🔥 은근히 동기부여 됩니다. 다음 목표는 14일!",
+      "like_count": 14,
+      "comment_count": 3,
+      "created_at": "2026-05-31T11:00:00",
+      "updated_at": "2026-05-31T11:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 28,
+    "fields": {
+      "user": 28,
+      "course": 7,
+      "category": "tip",
+      "title": "야간 러닝할 때 꼭 챙기는 것들",
+      "content": "헤드랜턴, 반사밴드, 수분 보충은 꼭 챙깁니다. 기록보다 안전이 먼저라고 생각해요.",
+      "like_count": 27,
+      "comment_count": 3,
+      "created_at": "2026-06-05T13:00:00",
+      "updated_at": "2026-06-05T13:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 29,
+    "fields": {
+      "user": 29,
+      "course": 6,
+      "category": "course",
+      "title": "대청호 12km 러닝 후기",
+      "content": "바람도 적당하고 코스가 길어서 장거리 훈련하기 좋았습니다. 다음엔 기록 갱신 도전해보려구요.",
+      "like_count": 8,
+      "comment_count": 3,
+      "created_at": "2026-06-14T14:00:00",
+      "updated_at": "2026-06-14T14:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 30,
+    "fields": {
+      "user": 30,
+      "course": 1,
+      "category": "log",
+      "title": "3km부터 다시 시작합니다",
+      "content": "예전에 10km씩 뛰다가 한동안 쉬었어요. AI가 짧은 코스를 추천해줘서 천천히 다시 시작하고 있습니다.",
+      "like_count": 28,
+      "comment_count": 3,
+      "created_at": "2026-05-30T13:00:00",
+      "updated_at": "2026-05-30T13:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 31,
+    "fields": {
+      "user": 31,
+      "course": null,
+      "category": "question",
+      "title": "오늘 처음 러닝 시작했어요!",
+      "content": "운동 부족해서 러닝을 시작해보려고 합니다. 대전에서 초보자가 뛰기 좋은 코스 추천해주세요.",
+      "like_count": 24,
+      "comment_count": 3,
+      "created_at": "2026-03-13T16:00:00",
+      "updated_at": "2026-03-13T16:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 32,
+    "fields": {
+      "user": 32,
+      "course": null,
+      "category": "question",
+      "title": "갑천 초보자가 뛰어도 괜찮을까요?",
+      "content": "러닝 경험은 거의 없는데 갑천 코스를 많이 추천하더라구요. 1~2km 정도 뛰어보려는데 괜찮을까요?",
+      "like_count": 19,
+      "comment_count": 3,
+      "created_at": "2026-03-22T12:00:00",
+      "updated_at": "2026-03-22T12:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 33,
+    "fields": {
+      "user": 33,
+      "course": 18,
+      "category": "course",
+      "title": "한밭수목원 처음 뛰어봤는데 좋네요!",
+      "content": "AI 추천으로 한밭수목원 코스를 다녀왔어요. 길이 평탄하고 분위기도 좋아서 초보자에게 추천합니다.",
+      "like_count": 17,
+      "comment_count": 3,
+      "created_at": "2026-03-17T16:00:00",
+      "updated_at": "2026-03-17T16:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 34,
+    "fields": {
+      "user": 34,
+      "course": 2,
+      "category": "log",
+      "title": "오늘 3km 완주 성공!",
+      "content": "처음에는 힘들었는데 이제 조금씩 러닝이 재밌어지네요. 다음 목표는 5km입니다 🔥",
+      "like_count": 18,
+      "comment_count": 3,
+      "created_at": "2026-05-05T17:00:00",
+      "updated_at": "2026-05-05T17:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 35,
+    "fields": {
+      "user": 35,
+      "course": 2,
+      "category": "course",
+      "title": "오늘도 갑천 5km 완료",
+      "content": "최근 AI 추천이 갑천 위주로 나오는데 확실히 제 취향을 잘 반영하는 것 같아요.",
+      "like_count": 24,
+      "comment_count": 3,
+      "created_at": "2026-04-03T18:00:00",
+      "updated_at": "2026-04-03T18:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 36,
+    "fields": {
+      "user": 36,
+      "course": null,
+      "category": "course",
+      "title": "유등천 야간 러닝 괜찮네요",
+      "content": "조명이 생각보다 밝아서 야간에도 무섭지 않았어요. 야간 러닝 좋아하시는 분들께 추천합니다.",
+      "like_count": 13,
+      "comment_count": 3,
+      "created_at": "2026-06-08T15:00:00",
+      "updated_at": "2026-06-08T15:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 37,
+    "fields": {
+      "user": 37,
+      "course": 5,
+      "category": "log",
+      "title": "7일 연속 러닝 달성!",
+      "content": "프로필 불꽃이 커졌어요 🔥🔥 은근히 동기부여 됩니다. 다음 목표는 14일!",
+      "like_count": 11,
+      "comment_count": 3,
+      "created_at": "2026-04-16T11:00:00",
+      "updated_at": "2026-04-16T11:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 38,
+    "fields": {
+      "user": 38,
+      "course": 1,
+      "category": "tip",
+      "title": "야간 러닝할 때 꼭 챙기는 것들",
+      "content": "헤드랜턴, 반사밴드, 수분 보충은 꼭 챙깁니다. 기록보다 안전이 먼저라고 생각해요.",
+      "like_count": 27,
+      "comment_count": 3,
+      "created_at": "2026-05-21T14:00:00",
+      "updated_at": "2026-05-21T14:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 39,
+    "fields": {
+      "user": 39,
+      "course": null,
+      "category": "course",
+      "title": "대청호 12km 러닝 후기",
+      "content": "바람도 적당하고 코스가 길어서 장거리 훈련하기 좋았습니다. 다음엔 기록 갱신 도전해보려구요.",
+      "like_count": 29,
+      "comment_count": 3,
+      "created_at": "2026-04-15T15:00:00",
+      "updated_at": "2026-04-15T15:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 40,
+    "fields": {
+      "user": 40,
+      "course": null,
+      "category": "log",
+      "title": "3km부터 다시 시작합니다",
+      "content": "예전에 10km씩 뛰다가 한동안 쉬었어요. AI가 짧은 코스를 추천해줘서 천천히 다시 시작하고 있습니다.",
+      "like_count": 9,
+      "comment_count": 3,
+      "created_at": "2026-06-19T14:00:00",
+      "updated_at": "2026-06-19T14:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 41,
+    "fields": {
+      "user": 41,
+      "course": 6,
+      "category": "question",
+      "title": "오늘 처음 러닝 시작했어요!",
+      "content": "운동 부족해서 러닝을 시작해보려고 합니다. 대전에서 초보자가 뛰기 좋은 코스 추천해주세요.",
+      "like_count": 10,
+      "comment_count": 3,
+      "created_at": "2026-04-28T14:00:00",
+      "updated_at": "2026-04-28T14:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 42,
+    "fields": {
+      "user": 42,
+      "course": 7,
+      "category": "question",
+      "title": "갑천 초보자가 뛰어도 괜찮을까요?",
+      "content": "러닝 경험은 거의 없는데 갑천 코스를 많이 추천하더라구요. 1~2km 정도 뛰어보려는데 괜찮을까요?",
+      "like_count": 35,
+      "comment_count": 3,
+      "created_at": "2026-04-19T13:00:00",
+      "updated_at": "2026-04-19T13:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 43,
+    "fields": {
+      "user": 43,
+      "course": 5,
+      "category": "course",
+      "title": "한밭수목원 처음 뛰어봤는데 좋네요!",
+      "content": "AI 추천으로 한밭수목원 코스를 다녀왔어요. 길이 평탄하고 분위기도 좋아서 초보자에게 추천합니다.",
+      "like_count": 35,
+      "comment_count": 3,
+      "created_at": "2026-06-01T12:00:00",
+      "updated_at": "2026-06-01T12:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 44,
+    "fields": {
+      "user": 44,
+      "course": 7,
+      "category": "log",
+      "title": "오늘 3km 완주 성공!",
+      "content": "처음에는 힘들었는데 이제 조금씩 러닝이 재밌어지네요. 다음 목표는 5km입니다 🔥",
+      "like_count": 18,
+      "comment_count": 3,
+      "created_at": "2026-04-20T14:00:00",
+      "updated_at": "2026-04-20T14:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 45,
+    "fields": {
+      "user": 45,
+      "course": 2,
+      "category": "course",
+      "title": "오늘도 갑천 5km 완료",
+      "content": "최근 AI 추천이 갑천 위주로 나오는데 확실히 제 취향을 잘 반영하는 것 같아요.",
+      "like_count": 6,
+      "comment_count": 3,
+      "created_at": "2026-05-12T15:00:00",
+      "updated_at": "2026-05-12T15:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 46,
+    "fields": {
+      "user": 46,
+      "course": 2,
+      "category": "course",
+      "title": "유등천 야간 러닝 괜찮네요",
+      "content": "조명이 생각보다 밝아서 야간에도 무섭지 않았어요. 야간 러닝 좋아하시는 분들께 추천합니다.",
+      "like_count": 5,
+      "comment_count": 3,
+      "created_at": "2026-05-03T17:00:00",
+      "updated_at": "2026-05-03T17:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 47,
+    "fields": {
+      "user": 47,
+      "course": 6,
+      "category": "log",
+      "title": "7일 연속 러닝 달성!",
+      "content": "프로필 불꽃이 커졌어요 🔥🔥 은근히 동기부여 됩니다. 다음 목표는 14일!",
+      "like_count": 33,
+      "comment_count": 3,
+      "created_at": "2026-03-22T16:00:00",
+      "updated_at": "2026-03-22T16:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 48,
+    "fields": {
+      "user": 48,
+      "course": 1,
+      "category": "tip",
+      "title": "야간 러닝할 때 꼭 챙기는 것들",
+      "content": "헤드랜턴, 반사밴드, 수분 보충은 꼭 챙깁니다. 기록보다 안전이 먼저라고 생각해요.",
+      "like_count": 16,
+      "comment_count": 3,
+      "created_at": "2026-06-03T10:00:00",
+      "updated_at": "2026-06-03T10:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 49,
+    "fields": {
+      "user": 49,
+      "course": 1,
+      "category": "course",
+      "title": "대청호 12km 러닝 후기",
+      "content": "바람도 적당하고 코스가 길어서 장거리 훈련하기 좋았습니다. 다음엔 기록 갱신 도전해보려구요.",
+      "like_count": 9,
+      "comment_count": 3,
+      "created_at": "2026-06-11T21:00:00",
+      "updated_at": "2026-06-11T21:00:00"
+    }
+  },
+  {
+    "model": "community.post",
+    "pk": 50,
+    "fields": {
+      "user": 50,
+      "course": 18,
+      "category": "log",
+      "title": "3km부터 다시 시작합니다",
+      "content": "예전에 10km씩 뛰다가 한동안 쉬었어요. AI가 짧은 코스를 추천해줘서 천천히 다시 시작하고 있습니다.",
+      "like_count": 25,
+      "comment_count": 3,
+      "created_at": "2026-04-10T13:00:00",
+      "updated_at": "2026-04-10T13:00:00"
+    }
+  }
+]

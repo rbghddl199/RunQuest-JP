@@ -1,0 +1,1652 @@
+[
+  {
+    "model": "core.communitycomment",
+    "pk": 1,
+    "fields": {
+      "post": 1,
+      "author": 12,
+      "content": "저도 처음엔 한밭수목원부터 시작했어요. 길이 평탄해서 부담이 적었습니다.",
+      "created_at": "2026-06-22T10:24:00+09:00",
+      "updated_at": "2026-06-22T10:24:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 2,
+    "fields": {
+      "post": 1,
+      "author": 6,
+      "content": "갑천도 초보자에게 괜찮아요. 3km 정도만 천천히 뛰어보면 좋아요.",
+      "created_at": "2026-06-22T13:00:00+09:00",
+      "updated_at": "2026-06-22T13:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 3,
+    "fields": {
+      "post": 1,
+      "author": 15,
+      "content": "처음에는 기록보다 꾸준함이 중요합니다. 무리하지 말고 시작해보세요.",
+      "created_at": "2026-06-22T10:50:00+09:00",
+      "updated_at": "2026-06-22T10:50:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 4,
+    "fields": {
+      "post": 2,
+      "author": 26,
+      "content": "야간에는 반사밴드나 밝은 옷 꼭 챙기세요. 안전이 먼저입니다.",
+      "created_at": "2026-06-05T17:19:00+09:00",
+      "updated_at": "2026-06-05T17:19:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 5,
+    "fields": {
+      "post": 2,
+      "author": 19,
+      "content": "AI 추천이 기록 쌓일수록 취향에 맞아지는 느낌 공감합니다.",
+      "created_at": "2026-06-05T19:27:00+09:00",
+      "updated_at": "2026-06-05T19:27:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 6,
+    "fields": {
+      "post": 2,
+      "author": 32,
+      "content": "복귀 러닝은 예전 기록과 비교하지 않는 게 좋더라구요.",
+      "created_at": "2026-06-05T19:18:00+09:00",
+      "updated_at": "2026-06-05T19:18:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 7,
+    "fields": {
+      "post": 3,
+      "author": 24,
+      "content": "강변 코스는 바람이 변수라 초반 페이스를 낮추는 걸 추천합니다.",
+      "created_at": "2026-05-28T14:26:00+09:00",
+      "updated_at": "2026-05-28T14:26:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 8,
+    "fields": {
+      "post": 3,
+      "author": 32,
+      "content": "7일 연속 축하드립니다! 불꽃 커지는 거 진짜 동기부여 돼요.",
+      "created_at": "2026-05-28T16:48:00+09:00",
+      "updated_at": "2026-05-28T16:48:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 9,
+    "fields": {
+      "post": 3,
+      "author": 16,
+      "content": "대청호는 장거리 훈련하기 좋죠. 언젠가 도전해보고 싶어요.",
+      "created_at": "2026-05-28T16:37:00+09:00",
+      "updated_at": "2026-05-28T16:37:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 10,
+    "fields": {
+      "post": 4,
+      "author": 1,
+      "content": "공원 코스는 회복 러닝할 때도 괜찮더라구요.",
+      "created_at": "2026-06-21T09:10:00+09:00",
+      "updated_at": "2026-06-21T09:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 11,
+    "fields": {
+      "post": 4,
+      "author": 15,
+      "content": "저녁 갑천은 루틴 만들기 정말 좋은 코스입니다.",
+      "created_at": "2026-06-18T16:26:00+09:00",
+      "updated_at": "2026-06-18T16:26:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 12,
+    "fields": {
+      "post": 4,
+      "author": 44,
+      "content": "도심 코스는 접근성이 좋아서 짧게 뛰기엔 괜찮죠.",
+      "created_at": "2026-06-18T16:55:00+09:00",
+      "updated_at": "2026-06-18T16:55:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 13,
+    "fields": {
+      "post": 5,
+      "author": 41,
+      "content": "컨디션 안 좋은 날엔 짧게라도 기록 남긴 게 충분히 좋아요.",
+      "created_at": "2026-06-13T17:09:00+09:00",
+      "updated_at": "2026-06-13T17:09:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 14,
+    "fields": {
+      "post": 5,
+      "author": 26,
+      "content": "복귀 중이면 3km부터 다시 시작하는 게 가장 안전한 것 같아요.",
+      "created_at": "2026-06-13T18:25:00+09:00",
+      "updated_at": "2026-06-13T18:25:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 15,
+    "fields": {
+      "post": 5,
+      "author": 46,
+      "content": "추천 이유가 같이 보이니까 왜 이 코스인지 이해돼서 좋네요.",
+      "created_at": "2026-06-13T18:55:00+09:00",
+      "updated_at": "2026-06-13T18:55:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 16,
+    "fields": {
+      "post": 6,
+      "author": 33,
+      "content": "저도 처음엔 한밭수목원부터 시작했어요. 길이 평탄해서 부담이 적었습니다.",
+      "created_at": "2026-06-21T12:35:00+09:00",
+      "updated_at": "2026-06-21T12:35:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 17,
+    "fields": {
+      "post": 6,
+      "author": 10,
+      "content": "갑천도 초보자에게 괜찮아요. 3km 정도만 천천히 뛰어보면 좋아요.",
+      "created_at": "2026-06-21T12:22:00+09:00",
+      "updated_at": "2026-06-21T12:22:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 18,
+    "fields": {
+      "post": 6,
+      "author": 50,
+      "content": "처음에는 기록보다 꾸준함이 중요합니다. 무리하지 말고 시작해보세요.",
+      "created_at": "2026-06-21T11:01:00+09:00",
+      "updated_at": "2026-06-21T11:01:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 19,
+    "fields": {
+      "post": 7,
+      "author": 9,
+      "content": "야간에는 반사밴드나 밝은 옷 꼭 챙기세요. 안전이 먼저입니다.",
+      "created_at": "2026-06-19T14:06:00+09:00",
+      "updated_at": "2026-06-19T14:06:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 20,
+    "fields": {
+      "post": 7,
+      "author": 23,
+      "content": "AI 추천이 기록 쌓일수록 취향에 맞아지는 느낌 공감합니다.",
+      "created_at": "2026-06-19T16:23:00+09:00",
+      "updated_at": "2026-06-19T16:23:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 21,
+    "fields": {
+      "post": 7,
+      "author": 41,
+      "content": "복귀 러닝은 예전 기록과 비교하지 않는 게 좋더라구요.",
+      "created_at": "2026-06-19T16:32:00+09:00",
+      "updated_at": "2026-06-19T16:32:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 22,
+    "fields": {
+      "post": 8,
+      "author": 49,
+      "content": "강변 코스는 바람이 변수라 초반 페이스를 낮추는 걸 추천합니다.",
+      "created_at": "2026-06-08T14:52:00+09:00",
+      "updated_at": "2026-06-08T14:52:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 23,
+    "fields": {
+      "post": 8,
+      "author": 9,
+      "content": "7일 연속 축하드립니다! 불꽃 커지는 거 진짜 동기부여 돼요.",
+      "created_at": "2026-06-08T16:46:00+09:00",
+      "updated_at": "2026-06-08T16:46:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 24,
+    "fields": {
+      "post": 8,
+      "author": 21,
+      "content": "대청호는 장거리 훈련하기 좋죠. 언젠가 도전해보고 싶어요.",
+      "created_at": "2026-06-08T15:29:00+09:00",
+      "updated_at": "2026-06-08T15:29:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 25,
+    "fields": {
+      "post": 9,
+      "author": 44,
+      "content": "공원 코스는 회복 러닝할 때도 괜찮더라구요.",
+      "created_at": "2026-06-08T15:36:00+09:00",
+      "updated_at": "2026-06-08T15:36:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 26,
+    "fields": {
+      "post": 9,
+      "author": 12,
+      "content": "저녁 갑천은 루틴 만들기 정말 좋은 코스입니다.",
+      "created_at": "2026-06-08T15:19:00+09:00",
+      "updated_at": "2026-06-08T15:19:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 27,
+    "fields": {
+      "post": 9,
+      "author": 13,
+      "content": "도심 코스는 접근성이 좋아서 짧게 뛰기엔 괜찮죠.",
+      "created_at": "2026-06-21T12:10:00+09:00",
+      "updated_at": "2026-06-21T12:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 28,
+    "fields": {
+      "post": 10,
+      "author": 49,
+      "content": "컨디션 안 좋은 날엔 짧게라도 기록 남긴 게 충분히 좋아요.",
+      "created_at": "2026-06-21T20:49:00+09:00",
+      "updated_at": "2026-06-21T20:49:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 29,
+    "fields": {
+      "post": 10,
+      "author": 6,
+      "content": "복귀 중이면 3km부터 다시 시작하는 게 가장 안전한 것 같아요.",
+      "created_at": "2026-06-21T19:40:00+09:00",
+      "updated_at": "2026-06-21T19:40:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 30,
+    "fields": {
+      "post": 10,
+      "author": 34,
+      "content": "추천 이유가 같이 보이니까 왜 이 코스인지 이해돼서 좋네요.",
+      "created_at": "2026-06-21T21:07:00+09:00",
+      "updated_at": "2026-06-21T21:07:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 31,
+    "fields": {
+      "post": 11,
+      "author": 43,
+      "content": "저도 처음엔 한밭수목원부터 시작했어요. 길이 평탄해서 부담이 적었습니다.",
+      "created_at": "2026-06-21T17:42:00+09:00",
+      "updated_at": "2026-06-21T17:42:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 32,
+    "fields": {
+      "post": 11,
+      "author": 32,
+      "content": "갑천도 초보자에게 괜찮아요. 3km 정도만 천천히 뛰어보면 좋아요.",
+      "created_at": "2026-06-21T17:31:00+09:00",
+      "updated_at": "2026-06-21T17:31:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 33,
+    "fields": {
+      "post": 11,
+      "author": 25,
+      "content": "처음에는 기록보다 꾸준함이 중요합니다. 무리하지 말고 시작해보세요.",
+      "created_at": "2026-06-21T19:10:00+09:00",
+      "updated_at": "2026-06-21T19:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 34,
+    "fields": {
+      "post": 12,
+      "author": 10,
+      "content": "야간에는 반사밴드나 밝은 옷 꼭 챙기세요. 안전이 먼저입니다.",
+      "created_at": "2026-06-20T12:10:00+09:00",
+      "updated_at": "2026-06-20T12:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 35,
+    "fields": {
+      "post": 12,
+      "author": 6,
+      "content": "AI 추천이 기록 쌓일수록 취향에 맞아지는 느낌 공감합니다.",
+      "created_at": "2026-06-15T09:10:00+09:00",
+      "updated_at": "2026-06-15T09:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 36,
+    "fields": {
+      "post": 12,
+      "author": 9,
+      "content": "복귀 러닝은 예전 기록과 비교하지 않는 게 좋더라구요.",
+      "created_at": "2026-06-05T15:11:00+09:00",
+      "updated_at": "2026-06-05T15:11:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 37,
+    "fields": {
+      "post": 13,
+      "author": 24,
+      "content": "강변 코스는 바람이 변수라 초반 페이스를 낮추는 걸 추천합니다.",
+      "created_at": "2026-06-22T15:22:00+09:00",
+      "updated_at": "2026-06-22T15:22:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 38,
+    "fields": {
+      "post": 13,
+      "author": 9,
+      "content": "7일 연속 축하드립니다! 불꽃 커지는 거 진짜 동기부여 돼요.",
+      "created_at": "2026-06-22T15:43:00+09:00",
+      "updated_at": "2026-06-22T15:43:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 39,
+    "fields": {
+      "post": 13,
+      "author": 14,
+      "content": "대청호는 장거리 훈련하기 좋죠. 언젠가 도전해보고 싶어요.",
+      "created_at": "2026-06-22T14:22:00+09:00",
+      "updated_at": "2026-06-22T14:22:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 40,
+    "fields": {
+      "post": 14,
+      "author": 2,
+      "content": "공원 코스는 회복 러닝할 때도 괜찮더라구요.",
+      "created_at": "2026-05-07T20:29:00+09:00",
+      "updated_at": "2026-05-07T20:29:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 41,
+    "fields": {
+      "post": 14,
+      "author": 48,
+      "content": "저녁 갑천은 루틴 만들기 정말 좋은 코스입니다.",
+      "created_at": "2026-05-07T19:16:00+09:00",
+      "updated_at": "2026-05-07T19:16:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 42,
+    "fields": {
+      "post": 14,
+      "author": 15,
+      "content": "도심 코스는 접근성이 좋아서 짧게 뛰기엔 괜찮죠.",
+      "created_at": "2026-05-07T20:17:00+09:00",
+      "updated_at": "2026-05-07T20:17:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 43,
+    "fields": {
+      "post": 15,
+      "author": 21,
+      "content": "컨디션 안 좋은 날엔 짧게라도 기록 남긴 게 충분히 좋아요.",
+      "created_at": "2026-05-15T10:10:00+09:00",
+      "updated_at": "2026-05-15T10:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 44,
+    "fields": {
+      "post": 15,
+      "author": 20,
+      "content": "복귀 중이면 3km부터 다시 시작하는 게 가장 안전한 것 같아요.",
+      "created_at": "2026-05-02T16:30:00+09:00",
+      "updated_at": "2026-05-02T16:30:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 45,
+    "fields": {
+      "post": 15,
+      "author": 35,
+      "content": "추천 이유가 같이 보이니까 왜 이 코스인지 이해돼서 좋네요.",
+      "created_at": "2026-05-02T18:11:00+09:00",
+      "updated_at": "2026-05-02T18:11:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 46,
+    "fields": {
+      "post": 16,
+      "author": 18,
+      "content": "저도 처음엔 한밭수목원부터 시작했어요. 길이 평탄해서 부담이 적었습니다.",
+      "created_at": "2026-05-16T13:36:00+09:00",
+      "updated_at": "2026-05-16T13:36:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 47,
+    "fields": {
+      "post": 16,
+      "author": 47,
+      "content": "갑천도 초보자에게 괜찮아요. 3km 정도만 천천히 뛰어보면 좋아요.",
+      "created_at": "2026-05-16T13:32:00+09:00",
+      "updated_at": "2026-05-16T13:32:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 48,
+    "fields": {
+      "post": 16,
+      "author": 32,
+      "content": "처음에는 기록보다 꾸준함이 중요합니다. 무리하지 말고 시작해보세요.",
+      "created_at": "2026-05-16T12:45:00+09:00",
+      "updated_at": "2026-05-16T12:45:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 49,
+    "fields": {
+      "post": 17,
+      "author": 47,
+      "content": "야간에는 반사밴드나 밝은 옷 꼭 챙기세요. 안전이 먼저입니다.",
+      "created_at": "2026-05-22T18:58:00+09:00",
+      "updated_at": "2026-05-22T18:58:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 50,
+    "fields": {
+      "post": 17,
+      "author": 28,
+      "content": "AI 추천이 기록 쌓일수록 취향에 맞아지는 느낌 공감합니다.",
+      "created_at": "2026-05-22T19:54:00+09:00",
+      "updated_at": "2026-05-22T19:54:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 51,
+    "fields": {
+      "post": 17,
+      "author": 12,
+      "content": "복귀 러닝은 예전 기록과 비교하지 않는 게 좋더라구요.",
+      "created_at": "2026-06-02T09:10:00+09:00",
+      "updated_at": "2026-06-02T09:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 52,
+    "fields": {
+      "post": 18,
+      "author": 41,
+      "content": "강변 코스는 바람이 변수라 초반 페이스를 낮추는 걸 추천합니다.",
+      "created_at": "2026-06-13T15:41:00+09:00",
+      "updated_at": "2026-06-13T15:41:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 53,
+    "fields": {
+      "post": 18,
+      "author": 40,
+      "content": "7일 연속 축하드립니다! 불꽃 커지는 거 진짜 동기부여 돼요.",
+      "created_at": "2026-06-13T15:14:00+09:00",
+      "updated_at": "2026-06-13T15:14:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 54,
+    "fields": {
+      "post": 18,
+      "author": 33,
+      "content": "대청호는 장거리 훈련하기 좋죠. 언젠가 도전해보고 싶어요.",
+      "created_at": "2026-06-13T15:11:00+09:00",
+      "updated_at": "2026-06-13T15:11:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 55,
+    "fields": {
+      "post": 19,
+      "author": 22,
+      "content": "공원 코스는 회복 러닝할 때도 괜찮더라구요.",
+      "created_at": "2026-05-29T16:27:00+09:00",
+      "updated_at": "2026-05-29T16:27:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 56,
+    "fields": {
+      "post": 19,
+      "author": 12,
+      "content": "저녁 갑천은 루틴 만들기 정말 좋은 코스입니다.",
+      "created_at": "2026-06-02T09:10:00+09:00",
+      "updated_at": "2026-06-02T09:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 57,
+    "fields": {
+      "post": 19,
+      "author": 50,
+      "content": "도심 코스는 접근성이 좋아서 짧게 뛰기엔 괜찮죠.",
+      "created_at": "2026-05-29T14:11:00+09:00",
+      "updated_at": "2026-05-29T14:11:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 58,
+    "fields": {
+      "post": 20,
+      "author": 10,
+      "content": "컨디션 안 좋은 날엔 짧게라도 기록 남긴 게 충분히 좋아요.",
+      "created_at": "2026-06-20T12:10:00+09:00",
+      "updated_at": "2026-06-20T12:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 59,
+    "fields": {
+      "post": 20,
+      "author": 22,
+      "content": "복귀 중이면 3km부터 다시 시작하는 게 가장 안전한 것 같아요.",
+      "created_at": "2026-04-16T17:41:00+09:00",
+      "updated_at": "2026-04-16T17:41:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 60,
+    "fields": {
+      "post": 20,
+      "author": 30,
+      "content": "추천 이유가 같이 보이니까 왜 이 코스인지 이해돼서 좋네요.",
+      "created_at": "2026-04-21T08:10:00+09:00",
+      "updated_at": "2026-04-21T08:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 61,
+    "fields": {
+      "post": 21,
+      "author": 22,
+      "content": "저도 처음엔 한밭수목원부터 시작했어요. 길이 평탄해서 부담이 적었습니다.",
+      "created_at": "2026-05-20T18:02:00+09:00",
+      "updated_at": "2026-05-20T18:02:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 62,
+    "fields": {
+      "post": 21,
+      "author": 6,
+      "content": "갑천도 초보자에게 괜찮아요. 3km 정도만 천천히 뛰어보면 좋아요.",
+      "created_at": "2026-06-15T09:10:00+09:00",
+      "updated_at": "2026-06-15T09:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 63,
+    "fields": {
+      "post": 21,
+      "author": 36,
+      "content": "처음에는 기록보다 꾸준함이 중요합니다. 무리하지 말고 시작해보세요.",
+      "created_at": "2026-05-20T16:43:00+09:00",
+      "updated_at": "2026-05-20T16:43:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 64,
+    "fields": {
+      "post": 22,
+      "author": 6,
+      "content": "야간에는 반사밴드나 밝은 옷 꼭 챙기세요. 안전이 먼저입니다.",
+      "created_at": "2026-06-15T09:10:00+09:00",
+      "updated_at": "2026-06-15T09:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 65,
+    "fields": {
+      "post": 22,
+      "author": 32,
+      "content": "AI 추천이 기록 쌓일수록 취향에 맞아지는 느낌 공감합니다.",
+      "created_at": "2026-06-08T13:45:00+09:00",
+      "updated_at": "2026-06-08T13:45:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 66,
+    "fields": {
+      "post": 22,
+      "author": 38,
+      "content": "복귀 러닝은 예전 기록과 비교하지 않는 게 좋더라구요.",
+      "created_at": "2026-06-08T14:59:00+09:00",
+      "updated_at": "2026-06-08T14:59:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 67,
+    "fields": {
+      "post": 23,
+      "author": 29,
+      "content": "강변 코스는 바람이 변수라 초반 페이스를 낮추는 걸 추천합니다.",
+      "created_at": "2026-05-06T20:18:00+09:00",
+      "updated_at": "2026-05-06T20:18:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 68,
+    "fields": {
+      "post": 23,
+      "author": 35,
+      "content": "7일 연속 축하드립니다! 불꽃 커지는 거 진짜 동기부여 돼요.",
+      "created_at": "2026-05-06T22:37:00+09:00",
+      "updated_at": "2026-05-06T22:37:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 69,
+    "fields": {
+      "post": 23,
+      "author": 21,
+      "content": "대청호는 장거리 훈련하기 좋죠. 언젠가 도전해보고 싶어요.",
+      "created_at": "2026-05-15T10:10:00+09:00",
+      "updated_at": "2026-05-15T10:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 70,
+    "fields": {
+      "post": 24,
+      "author": 30,
+      "content": "공원 코스는 회복 러닝할 때도 괜찮더라구요.",
+      "created_at": "2026-04-21T08:10:00+09:00",
+      "updated_at": "2026-04-21T08:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 71,
+    "fields": {
+      "post": 24,
+      "author": 2,
+      "content": "저녁 갑천은 루틴 만들기 정말 좋은 코스입니다.",
+      "created_at": "2026-04-18T12:41:00+09:00",
+      "updated_at": "2026-04-18T12:41:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 72,
+    "fields": {
+      "post": 24,
+      "author": 48,
+      "content": "도심 코스는 접근성이 좋아서 짧게 뛰기엔 괜찮죠.",
+      "created_at": "2026-04-18T14:15:00+09:00",
+      "updated_at": "2026-04-18T14:15:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 73,
+    "fields": {
+      "post": 25,
+      "author": 7,
+      "content": "컨디션 안 좋은 날엔 짧게라도 기록 남긴 게 충분히 좋아요.",
+      "created_at": "2026-06-14T08:10:00+09:00",
+      "updated_at": "2026-06-14T08:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 74,
+    "fields": {
+      "post": 25,
+      "author": 40,
+      "content": "복귀 중이면 3km부터 다시 시작하는 게 가장 안전한 것 같아요.",
+      "created_at": "2026-05-20T20:38:00+09:00",
+      "updated_at": "2026-05-20T20:38:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 75,
+    "fields": {
+      "post": 25,
+      "author": 23,
+      "content": "추천 이유가 같이 보이니까 왜 이 코스인지 이해돼서 좋네요.",
+      "created_at": "2026-05-20T21:43:00+09:00",
+      "updated_at": "2026-05-20T21:43:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 76,
+    "fields": {
+      "post": 26,
+      "author": 4,
+      "content": "저도 처음엔 한밭수목원부터 시작했어요. 길이 평탄해서 부담이 적었습니다.",
+      "created_at": "2026-06-17T12:10:00+09:00",
+      "updated_at": "2026-06-17T12:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 77,
+    "fields": {
+      "post": 26,
+      "author": 28,
+      "content": "갑천도 초보자에게 괜찮아요. 3km 정도만 천천히 뛰어보면 좋아요.",
+      "created_at": "2026-04-30T15:22:00+09:00",
+      "updated_at": "2026-04-30T15:22:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 78,
+    "fields": {
+      "post": 26,
+      "author": 20,
+      "content": "처음에는 기록보다 꾸준함이 중요합니다. 무리하지 말고 시작해보세요.",
+      "created_at": "2026-04-30T15:13:00+09:00",
+      "updated_at": "2026-04-30T15:13:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 79,
+    "fields": {
+      "post": 27,
+      "author": 16,
+      "content": "야간에는 반사밴드나 밝은 옷 꼭 챙기세요. 안전이 먼저입니다.",
+      "created_at": "2026-05-31T11:06:00+09:00",
+      "updated_at": "2026-05-31T11:06:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 80,
+    "fields": {
+      "post": 27,
+      "author": 1,
+      "content": "AI 추천이 기록 쌓일수록 취향에 맞아지는 느낌 공감합니다.",
+      "created_at": "2026-06-21T09:10:00+09:00",
+      "updated_at": "2026-06-21T09:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 81,
+    "fields": {
+      "post": 27,
+      "author": 4,
+      "content": "복귀 러닝은 예전 기록과 비교하지 않는 게 좋더라구요.",
+      "created_at": "2026-06-17T12:10:00+09:00",
+      "updated_at": "2026-06-17T12:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 82,
+    "fields": {
+      "post": 28,
+      "author": 11,
+      "content": "강변 코스는 바람이 변수라 초반 페이스를 낮추는 걸 추천합니다.",
+      "created_at": "2026-06-14T10:10:00+09:00",
+      "updated_at": "2026-06-14T10:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 83,
+    "fields": {
+      "post": 28,
+      "author": 5,
+      "content": "7일 연속 축하드립니다! 불꽃 커지는 거 진짜 동기부여 돼요.",
+      "created_at": "2026-06-12T10:10:00+09:00",
+      "updated_at": "2026-06-12T10:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 84,
+    "fields": {
+      "post": 28,
+      "author": 7,
+      "content": "대청호는 장거리 훈련하기 좋죠. 언젠가 도전해보고 싶어요.",
+      "created_at": "2026-06-14T08:10:00+09:00",
+      "updated_at": "2026-06-14T08:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 85,
+    "fields": {
+      "post": 29,
+      "author": 38,
+      "content": "공원 코스는 회복 러닝할 때도 괜찮더라구요.",
+      "created_at": "2026-06-14T14:45:00+09:00",
+      "updated_at": "2026-06-14T14:45:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 86,
+    "fields": {
+      "post": 29,
+      "author": 45,
+      "content": "저녁 갑천은 루틴 만들기 정말 좋은 코스입니다.",
+      "created_at": "2026-06-14T14:41:00+09:00",
+      "updated_at": "2026-06-14T14:41:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 87,
+    "fields": {
+      "post": 29,
+      "author": 39,
+      "content": "도심 코스는 접근성이 좋아서 짧게 뛰기엔 괜찮죠.",
+      "created_at": "2026-06-14T15:37:00+09:00",
+      "updated_at": "2026-06-14T15:37:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 88,
+    "fields": {
+      "post": 30,
+      "author": 5,
+      "content": "컨디션 안 좋은 날엔 짧게라도 기록 남긴 게 충분히 좋아요.",
+      "created_at": "2026-06-12T10:10:00+09:00",
+      "updated_at": "2026-06-12T10:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 89,
+    "fields": {
+      "post": 30,
+      "author": 7,
+      "content": "복귀 중이면 3km부터 다시 시작하는 게 가장 안전한 것 같아요.",
+      "created_at": "2026-06-14T08:10:00+09:00",
+      "updated_at": "2026-06-14T08:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 90,
+    "fields": {
+      "post": 30,
+      "author": 24,
+      "content": "추천 이유가 같이 보이니까 왜 이 코스인지 이해돼서 좋네요.",
+      "created_at": "2026-05-30T14:16:00+09:00",
+      "updated_at": "2026-05-30T14:16:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 91,
+    "fields": {
+      "post": 31,
+      "author": 23,
+      "content": "저도 처음엔 한밭수목원부터 시작했어요. 길이 평탄해서 부담이 적었습니다.",
+      "created_at": "2026-04-26T12:10:00+09:00",
+      "updated_at": "2026-04-26T12:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 92,
+    "fields": {
+      "post": 31,
+      "author": 3,
+      "content": "갑천도 초보자에게 괜찮아요. 3km 정도만 천천히 뛰어보면 좋아요.",
+      "created_at": "2026-03-13T17:48:00+09:00",
+      "updated_at": "2026-03-13T17:48:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 93,
+    "fields": {
+      "post": 31,
+      "author": 50,
+      "content": "처음에는 기록보다 꾸준함이 중요합니다. 무리하지 말고 시작해보세요.",
+      "created_at": "2026-03-13T16:39:00+09:00",
+      "updated_at": "2026-03-13T16:39:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 94,
+    "fields": {
+      "post": 32,
+      "author": 50,
+      "content": "야간에는 반사밴드나 밝은 옷 꼭 챙기세요. 안전이 먼저입니다.",
+      "created_at": "2026-03-22T13:21:00+09:00",
+      "updated_at": "2026-03-22T13:21:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 95,
+    "fields": {
+      "post": 32,
+      "author": 1,
+      "content": "AI 추천이 기록 쌓일수록 취향에 맞아지는 느낌 공감합니다.",
+      "created_at": "2026-06-21T09:10:00+09:00",
+      "updated_at": "2026-06-21T09:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 96,
+    "fields": {
+      "post": 32,
+      "author": 19,
+      "content": "복귀 러닝은 예전 기록과 비교하지 않는 게 좋더라구요.",
+      "created_at": "2026-04-30T12:10:00+09:00",
+      "updated_at": "2026-04-30T12:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 97,
+    "fields": {
+      "post": 33,
+      "author": 40,
+      "content": "강변 코스는 바람이 변수라 초반 페이스를 낮추는 걸 추천합니다.",
+      "created_at": "2026-03-17T18:32:00+09:00",
+      "updated_at": "2026-03-17T18:32:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 98,
+    "fields": {
+      "post": 33,
+      "author": 47,
+      "content": "7일 연속 축하드립니다! 불꽃 커지는 거 진짜 동기부여 돼요.",
+      "created_at": "2026-03-17T16:52:00+09:00",
+      "updated_at": "2026-03-17T16:52:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 99,
+    "fields": {
+      "post": 33,
+      "author": 20,
+      "content": "대청호는 장거리 훈련하기 좋죠. 언젠가 도전해보고 싶어요.",
+      "created_at": "2026-04-07T10:10:00+09:00",
+      "updated_at": "2026-04-07T10:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 100,
+    "fields": {
+      "post": 34,
+      "author": 2,
+      "content": "공원 코스는 회복 러닝할 때도 괜찮더라구요.",
+      "created_at": "2026-05-05T19:13:00+09:00",
+      "updated_at": "2026-05-05T19:13:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 101,
+    "fields": {
+      "post": 34,
+      "author": 45,
+      "content": "저녁 갑천은 루틴 만들기 정말 좋은 코스입니다.",
+      "created_at": "2026-05-05T18:51:00+09:00",
+      "updated_at": "2026-05-05T18:51:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 102,
+    "fields": {
+      "post": 34,
+      "author": 11,
+      "content": "도심 코스는 접근성이 좋아서 짧게 뛰기엔 괜찮죠.",
+      "created_at": "2026-06-14T10:10:00+09:00",
+      "updated_at": "2026-06-14T10:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 103,
+    "fields": {
+      "post": 35,
+      "author": 20,
+      "content": "컨디션 안 좋은 날엔 짧게라도 기록 남긴 게 충분히 좋아요.",
+      "created_at": "2026-04-07T10:10:00+09:00",
+      "updated_at": "2026-04-07T10:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 104,
+    "fields": {
+      "post": 35,
+      "author": 13,
+      "content": "복귀 중이면 3km부터 다시 시작하는 게 가장 안전한 것 같아요.",
+      "created_at": "2026-06-21T12:10:00+09:00",
+      "updated_at": "2026-06-21T12:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 105,
+    "fields": {
+      "post": 35,
+      "author": 14,
+      "content": "추천 이유가 같이 보이니까 왜 이 코스인지 이해돼서 좋네요.",
+      "created_at": "2026-05-05T12:10:00+09:00",
+      "updated_at": "2026-05-05T12:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 106,
+    "fields": {
+      "post": 36,
+      "author": 35,
+      "content": "저도 처음엔 한밭수목원부터 시작했어요. 길이 평탄해서 부담이 적었습니다.",
+      "created_at": "2026-06-08T17:24:00+09:00",
+      "updated_at": "2026-06-08T17:24:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 107,
+    "fields": {
+      "post": 36,
+      "author": 42,
+      "content": "갑천도 초보자에게 괜찮아요. 3km 정도만 천천히 뛰어보면 좋아요.",
+      "created_at": "2026-06-08T15:34:00+09:00",
+      "updated_at": "2026-06-08T15:34:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 108,
+    "fields": {
+      "post": 36,
+      "author": 5,
+      "content": "처음에는 기록보다 꾸준함이 중요합니다. 무리하지 말고 시작해보세요.",
+      "created_at": "2026-06-12T10:10:00+09:00",
+      "updated_at": "2026-06-12T10:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 109,
+    "fields": {
+      "post": 37,
+      "author": 15,
+      "content": "야간에는 반사밴드나 밝은 옷 꼭 챙기세요. 안전이 먼저입니다.",
+      "created_at": "2026-04-24T10:10:00+09:00",
+      "updated_at": "2026-04-24T10:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 110,
+    "fields": {
+      "post": 37,
+      "author": 36,
+      "content": "AI 추천이 기록 쌓일수록 취향에 맞아지는 느낌 공감합니다.",
+      "created_at": "2026-04-30T12:10:00+09:00",
+      "updated_at": "2026-04-30T12:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 111,
+    "fields": {
+      "post": 37,
+      "author": 50,
+      "content": "복귀 러닝은 예전 기록과 비교하지 않는 게 좋더라구요.",
+      "created_at": "2026-04-16T11:46:00+09:00",
+      "updated_at": "2026-04-16T11:46:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 112,
+    "fields": {
+      "post": 38,
+      "author": 41,
+      "content": "강변 코스는 바람이 변수라 초반 페이스를 낮추는 걸 추천합니다.",
+      "created_at": "2026-05-21T14:41:00+09:00",
+      "updated_at": "2026-05-21T14:41:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 113,
+    "fields": {
+      "post": 38,
+      "author": 18,
+      "content": "7일 연속 축하드립니다! 불꽃 커지는 거 진짜 동기부여 돼요.",
+      "created_at": "2026-05-21T15:12:00+09:00",
+      "updated_at": "2026-05-21T15:12:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 114,
+    "fields": {
+      "post": 38,
+      "author": 2,
+      "content": "대청호는 장거리 훈련하기 좋죠. 언젠가 도전해보고 싶어요.",
+      "created_at": "2026-05-21T14:20:00+09:00",
+      "updated_at": "2026-05-21T14:20:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 115,
+    "fields": {
+      "post": 39,
+      "author": 20,
+      "content": "공원 코스는 회복 러닝할 때도 괜찮더라구요.",
+      "created_at": "2026-04-15T17:20:00+09:00",
+      "updated_at": "2026-04-15T17:20:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 116,
+    "fields": {
+      "post": 39,
+      "author": 8,
+      "content": "저녁 갑천은 루틴 만들기 정말 좋은 코스입니다.",
+      "created_at": "2026-06-03T12:10:00+09:00",
+      "updated_at": "2026-06-03T12:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 117,
+    "fields": {
+      "post": 39,
+      "author": 6,
+      "content": "도심 코스는 접근성이 좋아서 짧게 뛰기엔 괜찮죠.",
+      "created_at": "2026-06-15T09:10:00+09:00",
+      "updated_at": "2026-06-15T09:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 118,
+    "fields": {
+      "post": 40,
+      "author": 27,
+      "content": "컨디션 안 좋은 날엔 짧게라도 기록 남긴 게 충분히 좋아요.",
+      "created_at": "2026-06-19T15:48:00+09:00",
+      "updated_at": "2026-06-19T15:48:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 119,
+    "fields": {
+      "post": 40,
+      "author": 49,
+      "content": "복귀 중이면 3km부터 다시 시작하는 게 가장 안전한 것 같아요.",
+      "created_at": "2026-06-19T17:00:00+09:00",
+      "updated_at": "2026-06-19T17:00:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 120,
+    "fields": {
+      "post": 40,
+      "author": 46,
+      "content": "추천 이유가 같이 보이니까 왜 이 코스인지 이해돼서 좋네요.",
+      "created_at": "2026-06-19T15:15:00+09:00",
+      "updated_at": "2026-06-19T15:15:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 121,
+    "fields": {
+      "post": 41,
+      "author": 3,
+      "content": "저도 처음엔 한밭수목원부터 시작했어요. 길이 평탄해서 부담이 적었습니다.",
+      "created_at": "2026-04-28T15:25:00+09:00",
+      "updated_at": "2026-04-28T15:25:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 122,
+    "fields": {
+      "post": 41,
+      "author": 15,
+      "content": "갑천도 초보자에게 괜찮아요. 3km 정도만 천천히 뛰어보면 좋아요.",
+      "created_at": "2026-04-28T15:51:00+09:00",
+      "updated_at": "2026-04-28T15:51:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 123,
+    "fields": {
+      "post": 41,
+      "author": 43,
+      "content": "처음에는 기록보다 꾸준함이 중요합니다. 무리하지 말고 시작해보세요.",
+      "created_at": "2026-04-28T14:52:00+09:00",
+      "updated_at": "2026-04-28T14:52:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 124,
+    "fields": {
+      "post": 42,
+      "author": 2,
+      "content": "야간에는 반사밴드나 밝은 옷 꼭 챙기세요. 안전이 먼저입니다.",
+      "created_at": "2026-04-19T13:20:00+09:00",
+      "updated_at": "2026-04-19T13:20:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 125,
+    "fields": {
+      "post": 42,
+      "author": 32,
+      "content": "AI 추천이 기록 쌓일수록 취향에 맞아지는 느낌 공감합니다.",
+      "created_at": "2026-04-19T15:19:00+09:00",
+      "updated_at": "2026-04-19T15:19:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 126,
+    "fields": {
+      "post": 42,
+      "author": 29,
+      "content": "복귀 러닝은 예전 기록과 비교하지 않는 게 좋더라구요.",
+      "created_at": "2026-04-19T15:56:00+09:00",
+      "updated_at": "2026-04-19T15:56:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 127,
+    "fields": {
+      "post": 43,
+      "author": 7,
+      "content": "강변 코스는 바람이 변수라 초반 페이스를 낮추는 걸 추천합니다.",
+      "created_at": "2026-06-14T08:10:00+09:00",
+      "updated_at": "2026-06-14T08:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 128,
+    "fields": {
+      "post": 43,
+      "author": 12,
+      "content": "7일 연속 축하드립니다! 불꽃 커지는 거 진짜 동기부여 돼요.",
+      "created_at": "2026-06-02T09:10:00+09:00",
+      "updated_at": "2026-06-02T09:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 129,
+    "fields": {
+      "post": 43,
+      "author": 39,
+      "content": "대청호는 장거리 훈련하기 좋죠. 언젠가 도전해보고 싶어요.",
+      "created_at": "2026-06-01T13:40:00+09:00",
+      "updated_at": "2026-06-01T13:40:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 130,
+    "fields": {
+      "post": 44,
+      "author": 37,
+      "content": "공원 코스는 회복 러닝할 때도 괜찮더라구요.",
+      "created_at": "2026-04-20T15:56:00+09:00",
+      "updated_at": "2026-04-20T15:56:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 131,
+    "fields": {
+      "post": 44,
+      "author": 30,
+      "content": "저녁 갑천은 루틴 만들기 정말 좋은 코스입니다.",
+      "created_at": "2026-04-21T08:10:00+09:00",
+      "updated_at": "2026-04-21T08:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 132,
+    "fields": {
+      "post": 44,
+      "author": 32,
+      "content": "도심 코스는 접근성이 좋아서 짧게 뛰기엔 괜찮죠.",
+      "created_at": "2026-04-20T14:19:00+09:00",
+      "updated_at": "2026-04-20T14:19:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 133,
+    "fields": {
+      "post": 45,
+      "author": 15,
+      "content": "컨디션 안 좋은 날엔 짧게라도 기록 남긴 게 충분히 좋아요.",
+      "created_at": "2026-05-12T15:27:00+09:00",
+      "updated_at": "2026-05-12T15:27:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 134,
+    "fields": {
+      "post": 45,
+      "author": 22,
+      "content": "복귀 중이면 3km부터 다시 시작하는 게 가장 안전한 것 같아요.",
+      "created_at": "2026-05-12T16:50:00+09:00",
+      "updated_at": "2026-05-12T16:50:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 135,
+    "fields": {
+      "post": 45,
+      "author": 49,
+      "content": "추천 이유가 같이 보이니까 왜 이 코스인지 이해돼서 좋네요.",
+      "created_at": "2026-05-12T15:54:00+09:00",
+      "updated_at": "2026-05-12T15:54:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 136,
+    "fields": {
+      "post": 46,
+      "author": 4,
+      "content": "저도 처음엔 한밭수목원부터 시작했어요. 길이 평탄해서 부담이 적었습니다.",
+      "created_at": "2026-06-17T12:10:00+09:00",
+      "updated_at": "2026-06-17T12:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 137,
+    "fields": {
+      "post": 46,
+      "author": 18,
+      "content": "갑천도 초보자에게 괜찮아요. 3km 정도만 천천히 뛰어보면 좋아요.",
+      "created_at": "2026-05-03T19:34:00+09:00",
+      "updated_at": "2026-05-03T19:34:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 138,
+    "fields": {
+      "post": 46,
+      "author": 36,
+      "content": "처음에는 기록보다 꾸준함이 중요합니다. 무리하지 말고 시작해보세요.",
+      "created_at": "2026-05-03T17:05:00+09:00",
+      "updated_at": "2026-05-03T17:05:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 139,
+    "fields": {
+      "post": 47,
+      "author": 3,
+      "content": "야간에는 반사밴드나 밝은 옷 꼭 챙기세요. 안전이 먼저입니다.",
+      "created_at": "2026-03-22T18:40:00+09:00",
+      "updated_at": "2026-03-22T18:40:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 140,
+    "fields": {
+      "post": 47,
+      "author": 25,
+      "content": "AI 추천이 기록 쌓일수록 취향에 맞아지는 느낌 공감합니다.",
+      "created_at": "2026-04-02T12:10:00+09:00",
+      "updated_at": "2026-04-02T12:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 141,
+    "fields": {
+      "post": 47,
+      "author": 2,
+      "content": "복귀 러닝은 예전 기록과 비교하지 않는 게 좋더라구요.",
+      "created_at": "2026-03-22T16:59:00+09:00",
+      "updated_at": "2026-03-22T16:59:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 142,
+    "fields": {
+      "post": 48,
+      "author": 9,
+      "content": "강변 코스는 바람이 변수라 초반 페이스를 낮추는 걸 추천합니다.",
+      "created_at": "2026-06-05T09:10:00+09:00",
+      "updated_at": "2026-06-05T09:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 143,
+    "fields": {
+      "post": 48,
+      "author": 2,
+      "content": "7일 연속 축하드립니다! 불꽃 커지는 거 진짜 동기부여 돼요.",
+      "created_at": "2026-06-03T12:08:00+09:00",
+      "updated_at": "2026-06-03T12:08:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 144,
+    "fields": {
+      "post": 48,
+      "author": 44,
+      "content": "대청호는 장거리 훈련하기 좋죠. 언젠가 도전해보고 싶어요.",
+      "created_at": "2026-06-03T12:22:00+09:00",
+      "updated_at": "2026-06-03T12:22:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 145,
+    "fields": {
+      "post": 49,
+      "author": 5,
+      "content": "공원 코스는 회복 러닝할 때도 괜찮더라구요.",
+      "created_at": "2026-06-12T10:10:00+09:00",
+      "updated_at": "2026-06-12T10:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 146,
+    "fields": {
+      "post": 49,
+      "author": 6,
+      "content": "저녁 갑천은 루틴 만들기 정말 좋은 코스입니다.",
+      "created_at": "2026-06-15T09:10:00+09:00",
+      "updated_at": "2026-06-15T09:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 147,
+    "fields": {
+      "post": 49,
+      "author": 14,
+      "content": "도심 코스는 접근성이 좋아서 짧게 뛰기엔 괜찮죠.",
+      "created_at": "2026-06-11T22:16:00+09:00",
+      "updated_at": "2026-06-11T22:16:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 148,
+    "fields": {
+      "post": 50,
+      "author": 45,
+      "content": "컨디션 안 좋은 날엔 짧게라도 기록 남긴 게 충분히 좋아요.",
+      "created_at": "2026-04-10T14:42:00+09:00",
+      "updated_at": "2026-04-10T14:42:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 149,
+    "fields": {
+      "post": 50,
+      "author": 15,
+      "content": "복귀 중이면 3km부터 다시 시작하는 게 가장 안전한 것 같아요.",
+      "created_at": "2026-04-24T10:10:00+09:00",
+      "updated_at": "2026-04-24T10:10:00+09:00"
+    }
+  },
+  {
+    "model": "core.communitycomment",
+    "pk": 150,
+    "fields": {
+      "post": 50,
+      "author": 11,
+      "content": "추천 이유가 같이 보이니까 왜 이 코스인지 이해돼서 좋네요.",
+      "created_at": "2026-06-14T10:10:00+09:00",
+      "updated_at": "2026-06-14T10:10:00+09:00"
+    }
+  }
+]
