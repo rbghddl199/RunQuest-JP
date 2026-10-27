@@ -148,7 +148,7 @@ npm run dev -- --host 127.0.0.1 --port 5173
 
 **技術面**
 
-Vue3 / Pinia / Vue Router を用いた画面構成と状態管理、Django REST Framework による RESTful API の設計・実装を実践的に学びました。GMS 経由の OpenAI GPT API を用いた AI 機能では、ユーザーのアンケート結果とランニング記録から推薦結果を生成する一連の流れを構築しました。データベース設計では ER 図の作成とモデリングを通じて、データ間の関係設計の考え方を身につけました。また Capacitor を用いて Web アプリをデモ用 Android アプリへ変換し、GPS 機能と Kakao Map API を連携させて位置情報サービスを実装しました。
+Vue3 / Pinia / Vue Router を用いた画面構成と状態管理、Django REST Framework による RESTful API の設計・実装を実践的に学びました。OpenAI 互換の LLM API を用いた AI 機能では、ユーザーのアンケート結果とランニング記録から推薦結果を生成する一連の流れを構築しました。データベース設計では ER 図の作成とモデリングを通じて、データ間の関係設計の考え方を身につけました。また Capacitor を用いて Web アプリをデモ用 Android アプリへ変換し、GPS 機能と Kakao Map API を連携させて位置情報サービスを実装しました。
 
 **苦労した点**
 
