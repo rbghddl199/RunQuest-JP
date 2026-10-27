@@ -102,7 +102,7 @@ ENHANCED_COURSES = {
     'daejeon-course-04': {
         'name': '엑스포 시민광장 야간 코스',
         'summary': '조명이 밝고 길 찾기가 쉬운 도심 야간 러닝 코스',
-        'description': '엑스포 시민광장과 주변 보행로를 연결한 코스입니다. 고도 변화가 작고 야간 조명이 좋아 퇴근 후 짧은 러닝이나 시뮬레이션 발표에 적합합니다.',
+        'description': '엑스포 시민광장과 주변 보행로를 연결한 코스입니다. 고도 변화가 작고 야간 조명이 좋아 퇴근 후 짧은 러닝이나 시뮬레이션 시연에 적합합니다.',
         'difficulty': Course.Difficulty.EASY,
         'elevation_gain_m': 8,
         'tags': ['엑스포', '야간', '도심', '조명', '짧은 코스'],
@@ -201,7 +201,7 @@ def get_course(slug):
 
 
 class Command(BaseCommand):
-    help = '발표용 계정의 데이터 흐름을 자연스럽게 보강하고 테스트 문자열을 정리합니다.'
+    help = '시연용 계정의 데이터 흐름을 자연스럽게 보강하고 테스트 문자열을 정리합니다.'
 
     def handle(self, *args, **options):
         with transaction.atomic():
@@ -236,7 +236,6 @@ class Command(BaseCommand):
             | Q(content__regex=r'[ㄱ-ㅎㅏ-ㅣ]{4,}')
             | Q(title__icontains='테스트')
             | Q(content__icontains='테스트')
-            | Q(title__icontains='싸피')
         )
         replacements = [
             (

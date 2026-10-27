@@ -1,3 +1,4 @@
+import os
 from decimal import Decimal
 from pathlib import Path
 
@@ -8,7 +9,7 @@ from core.gpx import parse_gpx
 from core.models import Course, RecommendationSession
 
 
-GPX_DIR = Path(r'C:\Users\USER\Desktop\GPX')
+GPX_DIR = Path(os.getenv('RUNQUEST_GPX_DIR', Path(__file__).resolve().parents[1] / 'gpx'))
 KEEP_IDS = {
     int(path.stem[2:])
     for path in GPX_DIR.glob('pk*.gpx')

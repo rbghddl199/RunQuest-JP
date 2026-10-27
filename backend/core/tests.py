@@ -1351,12 +1351,12 @@ class ChatbotTests(APITestCase):
 
     @override_settings(EXTERNAL_AI_ENABLED=True)
     @patch.dict(os.environ, {
-        'GMS_KEY': 'test-gms-key',
-        'GMS_REMOTE_GUARDRAIL_ENABLED': 'True',
-        'GMS_CHAT_ENHANCE_INTENTS': 'greeting',
+        'LLM_KEY': 'test-llm-key',
+        'LLM_REMOTE_GUARDRAIL_ENABLED': 'True',
+        'LLM_CHAT_ENHANCE_INTENTS': 'greeting',
     })
-    @patch('core.gms_service.requests.post')
-    def test_chatbot_uses_gms_response_when_enabled(self, mock_post):
+    @patch('core.llm_service.requests.post')
+    def test_chatbot_uses_llm_response_when_enabled(self, mock_post):
         guardrail_response = Mock()
         guardrail_response.raise_for_status.return_value = None
         guardrail_response.json.return_value = {
@@ -1375,7 +1375,7 @@ class ChatbotTests(APITestCase):
         chat_response.raise_for_status.return_value = None
         chat_response.json.return_value = {
             'choices': [
-                {'message': {'content': 'GMS가 만든 안전한 러닝 답변입니다.'}},
+                {'message': {'content': 'LLM가 만든 안전한 러닝 답변입니다.'}},
             ],
         }
         mock_post.side_effect = [guardrail_response, chat_response]
@@ -1389,26 +1389,26 @@ class ChatbotTests(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
         self.assertEqual(
             response.data['assistant_message']['content'],
-            'GMS가 만든 안전한 러닝 답변입니다.',
+            'LLM가 만든 안전한 러닝 답변입니다.',
         )
         self.assertEqual(
             response.data['assistant_message']['metadata']['provider'],
-            'gms',
+            'llm',
         )
         self.assertEqual(
             response.data['assistant_message']['metadata']['guardrail']['source'],
-            'gms',
+            'llm',
         )
         self.assertEqual(mock_post.call_count, 2)
 
     @override_settings(EXTERNAL_AI_ENABLED=True)
     @patch.dict(os.environ, {
-        'GMS_KEY': 'test-gms-key',
-        'GMS_REMOTE_GUARDRAIL_ENABLED': 'True',
-        'GMS_CHAT_ENHANCE_INTENTS': 'course_recommendation',
+        'LLM_KEY': 'test-llm-key',
+        'LLM_REMOTE_GUARDRAIL_ENABLED': 'True',
+        'LLM_CHAT_ENHANCE_INTENTS': 'course_recommendation',
     })
-    @patch('core.gms_service.requests.post')
-    def test_local_guardrail_blocks_unsafe_message_before_gms_call(self, mock_post):
+    @patch('core.llm_service.requests.post')
+    def test_local_guardrail_blocks_unsafe_message_before_llm_call(self, mock_post):
         guardrail_response = Mock()
         guardrail_response.raise_for_status.return_value = None
         guardrail_response.json.return_value = {
@@ -1435,7 +1435,7 @@ class ChatbotTests(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
         self.assertEqual(assistant['intent'], 'blocked')
         self.assertIsNone(assistant['recommended_course'])
-        self.assertEqual(assistant['metadata']['provider'], 'gms_guardrail')
+        self.assertEqual(assistant['metadata']['provider'], 'llm_guardrail')
         self.assertFalse(assistant['metadata']['guardrail']['result'])
         self.assertEqual(
             assistant['metadata']['guardrail']['category'],
@@ -1449,11 +1449,11 @@ class ChatbotTests(APITestCase):
 
     @override_settings(EXTERNAL_AI_ENABLED=True)
     @patch.dict(os.environ, {
-        'GMS_KEY': 'test-gms-key',
-        'GMS_REMOTE_GUARDRAIL_ENABLED': 'True',
-        'GMS_CHAT_ENHANCE_INTENTS': 'course_recommendation',
+        'LLM_KEY': 'test-llm-key',
+        'LLM_REMOTE_GUARDRAIL_ENABLED': 'True',
+        'LLM_CHAT_ENHANCE_INTENTS': 'course_recommendation',
     })
-    @patch('core.gms_service.requests.post')
+    @patch('core.llm_service.requests.post')
     def test_guardrail_failure_allows_chat_with_fallback_metadata(self, mock_post):
         chat_response = Mock()
         chat_response.raise_for_status.return_value = None
@@ -1483,12 +1483,12 @@ class ChatbotTests(APITestCase):
     @patch.dict(
         os.environ,
         {
-            'GMS_KEY': 'test-gms-key',
-            'GMS_GUARDRAIL_FAIL_CLOSED': 'True',
-            'GMS_REMOTE_GUARDRAIL_ENABLED': 'True',
+            'LLM_KEY': 'test-llm-key',
+            'LLM_GUARDRAIL_FAIL_CLOSED': 'True',
+            'LLM_REMOTE_GUARDRAIL_ENABLED': 'True',
         },
     )
-    @patch('core.gms_service.requests.post')
+    @patch('core.llm_service.requests.post')
     def test_guardrail_failure_can_fail_closed(self, mock_post):
         mock_post.side_effect = requests.Timeout()
 
@@ -1509,8 +1509,8 @@ class ChatbotTests(APITestCase):
         self.assertEqual(mock_post.call_count, 1)
 
     @override_settings(EXTERNAL_AI_ENABLED=True)
-    @patch.dict(os.environ, {'GMS_KEY': 'test-gms-key'})
-    @patch('core.gms_service.requests.post')
+    @patch.dict(os.environ, {'LLM_KEY': 'test-llm-key'})
+    @patch('core.llm_service.requests.post')
     def test_local_guardrail_blocks_prompt_injection(self, mock_post):
         response = self.client.post(
             '/api/chat/conversation/',

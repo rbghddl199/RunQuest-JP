@@ -5,36 +5,36 @@ import time
 import requests
 from django.core.management.base import BaseCommand
 
-from core.gms_service import check_guardrail, enhance_chat_reply, get_gms_timeout
+from core.llm_service import check_guardrail, enhance_chat_reply, get_llm_timeout
 
 
 class Command(BaseCommand):
-    help = 'Validate GMS guardrail and answer-generation integration.'
+    help = 'Validate LLM guardrail and answer-generation integration.'
 
     def add_arguments(self, parser):
         parser.add_argument(
             '--prompt',
             default='대전에서 오늘 5km 정도 달릴 코스를 추천해줘.',
-            help='Prompt used for the live GMS validation.',
+            help='Prompt used for the live LLM validation.',
         )
         parser.add_argument(
             '--timeout-seconds',
             type=int,
             default=None,
-            help='Temporarily override GMS_TIMEOUT_SECONDS for this check.',
+            help='Temporarily override LLM_TIMEOUT_SECONDS for this check.',
         )
 
     def handle(self, *args, **options):
-        original_timeout = os.environ.get('GMS_TIMEOUT_SECONDS')
+        original_timeout = os.environ.get('LLM_TIMEOUT_SECONDS')
         if options['timeout_seconds'] is not None:
-            os.environ['GMS_TIMEOUT_SECONDS'] = str(options['timeout_seconds'])
+            os.environ['LLM_TIMEOUT_SECONDS'] = str(options['timeout_seconds'])
 
         prompt = options['prompt']
         started_at = time.perf_counter()
         result = {
-            'enabled': bool(os.environ.get('GMS_KEY')),
-            'model': os.environ.get('GMS_MODEL', 'gpt-5-nano'),
-            'timeout_seconds': get_gms_timeout(),
+            'enabled': bool(os.environ.get('LLM_KEY')),
+            'model': os.environ.get('LLM_MODEL', 'gpt-5-nano'),
+            'timeout_seconds': get_llm_timeout(),
             'checks': {},
         }
 
@@ -99,8 +99,8 @@ class Command(BaseCommand):
         finally:
             if options['timeout_seconds'] is not None:
                 if original_timeout is None:
-                    os.environ.pop('GMS_TIMEOUT_SECONDS', None)
+                    os.environ.pop('LLM_TIMEOUT_SECONDS', None)
                 else:
-                    os.environ['GMS_TIMEOUT_SECONDS'] = original_timeout
+                    os.environ['LLM_TIMEOUT_SECONDS'] = original_timeout
 
         self.stdout.write(json.dumps(result, ensure_ascii=False, indent=2))

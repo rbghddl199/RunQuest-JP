@@ -1,6 +1,6 @@
 # RunQuest Fixtures
 
-RunQuest fixture pack은 발표와 로컬 테스트를 위해 고정된 JSON 데이터로 구성되어 있습니다. 원본 데이터는 현재 프로젝트의 Django 모델 구조에 맞게 변환되어 로드됩니다.
+RunQuest fixture pack은 시연과 로컬 테스트를 위해 고정된 JSON 데이터로 구성되어 있습니다. 원본 데이터는 현재 프로젝트의 Django 모델 구조에 맞게 변환되어 로드됩니다.
 
 ## 핵심 조건
 
@@ -14,7 +14,7 @@ RunQuest fixture pack은 발표와 로컬 테스트를 위해 고정된 JSON 데
 
 ## Directories
 
-- `source/`: 전달받은 원본 14개 JSON 파일
+- `source/`: 팀에서 직접 설계한 초기 데이터 모델 기준의 원본 14개 JSON 파일
 - `runquest/`: 현재 `auth` 및 `core` 모델 구조로 변환된 로드용 fixture
 
 원본과 현재 프로젝트는 앱 라벨과 필드 구조가 다르므로 `source/` 파일을 직접 `loaddata`하지 않습니다.
@@ -37,7 +37,7 @@ python backend/manage.py load_runquest_fixtures --reset
 
 `--reset`은 현재 DB 데이터를 모두 삭제한 뒤 fixture를 다시 로드합니다. 시연 데이터 재설정 용도로만 사용합니다.
 
-전용 command는 내부적으로 `runquest/` fixture를 올바른 순서로 로드한 뒤, `polish_demo_data`를 실행해 대표 계정의 러닝 기록, 커뮤니티 글, 알림을 발표용 흐름에 맞게 보강합니다.
+전용 command는 내부적으로 `runquest/` fixture를 올바른 순서로 로드한 뒤, `polish_demo_data`를 실행해 대표 계정의 러닝 기록, 커뮤니티 글, 알림을 시연용 흐름에 맞게 보강합니다.
 
 현재 DB를 초기화하지 않고 시연 데이터의 문장과 대표 계정 흐름만 정리하려면 아래 명령을 실행합니다.
 

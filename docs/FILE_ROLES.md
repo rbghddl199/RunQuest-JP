@@ -57,6 +57,6 @@
 | `docs/ARCHITECTURE.md` | システム構成とデータフロー |
 | `docs/DEPLOYMENT.md` | デプロイチェックリスト |
 | `docs/PERFORMANCE_REPORT.md` | パフォーマンス計測結果と改善内容 |
-| `docs/EXPECTED_QUESTIONS.md` | 発表時の想定質疑応答 |
-| `docs/PRESENTATION.md` | デモの流れと発表要約 |
+| `docs/EXPECTED_QUESTIONS.md` | デモ時の想定質疑応答 |
+| `docs/PRESENTATION.md` | デモの流れとサービス要約 |
 | `docs/ui-review/` | 最新デモ画面のスクリーンショット |

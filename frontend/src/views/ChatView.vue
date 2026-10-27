@@ -65,7 +65,7 @@ function providerNotice(item) {
   if (provider === 'local_fallback') {
     return 'AI 연결이 지연되어 기본 추천 로직으로 안내했어요.'
   }
-  if (provider === 'gms') {
+  if (provider === 'llm') {
     return ''
   }
   return ''

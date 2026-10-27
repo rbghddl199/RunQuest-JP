@@ -1543,7 +1543,7 @@ class ChatConversationView(RunQuestAPIView):
                         'context': result['context'],
                         'provider': result.get('provider', 'local'),
                         'guardrail': result.get('guardrail', {}),
-                        'gms_requests': result.get('gms_requests', {}),
+                        'llm_requests': result.get('llm_requests', {}),
                         'location': result.get('location', {}),
                     },
                 )

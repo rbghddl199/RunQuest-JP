@@ -376,7 +376,7 @@ async function finishRun() {
           @click="trackingMode = 'simulation'; modePanelOpen = false"
         >
           <MapPinned :size="19" />
-          <span><strong>시뮬레이션</strong><small>발표용 가상 기록</small></span>
+          <span><strong>시뮬레이션</strong><small>시연용 가상 기록</small></span>
         </button>
       </section>
 

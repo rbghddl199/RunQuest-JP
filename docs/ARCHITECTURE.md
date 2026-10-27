@@ -11,7 +11,7 @@ flowchart LR
     API --> DB[("SQLite ローカルDB")]
     API --> REC["推薦エンジン"]
     API --> CHAT["チャットボット/フィードバックエンジン"]
-    CHAT --> GMS["GMS(外部LLMゲートウェイ)"]
+    CHAT --> LLM["LLM(OpenAI 互換 Chat API)"]
     CHAT --> OAI["OpenAI API(任意連携)"]
     V --> MAP["Kakao Map JavaScript SDK"]
     API --> WEATHER["天気/大気質API"]
@@ -25,7 +25,7 @@ flowchart LR
 | Django | 認証、権限、モデル検証、API 応答、推薦計算、コミュニティ処理 |
 | SQLite | ローカルデモ用データ保存 |
 | Kakao Map | コース経路とランニング位置の可視化 |
-| GMS/OpenAI | チャットボット応答とランニングフィードバック文の生成補助 |
+| LLM/OpenAI | チャットボット応答とランニングフィードバック文の生成補助 |
 
 ## 推薦フロー
 

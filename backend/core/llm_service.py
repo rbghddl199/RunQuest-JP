@@ -8,8 +8,8 @@ import requests
 from django.conf import settings
 
 
-DEFAULT_GMS_URL = 'https://api.openai.com/v1'
-DEFAULT_GMS_TIMEOUT = 5
+DEFAULT_LLM_URL = 'https://api.openai.com/v1'
+DEFAULT_LLM_TIMEOUT = 5
 GUARDRAIL_CATEGORIES = (
     'allowed',
     'sexual',
@@ -100,42 +100,42 @@ LOCAL_GUARDRAIL_RULES = (
 )
 
 
-class GMSServiceError(RuntimeError):
+class LLMServiceError(RuntimeError):
     def __init__(self, message, *, status_code=None, elapsed_ms=None):
         super().__init__(message)
         self.status_code = status_code
         self.elapsed_ms = elapsed_ms
 
 
-def is_gms_enabled():
-    return bool(os.getenv('GMS_KEY')) and settings.EXTERNAL_AI_ENABLED
+def is_llm_enabled():
+    return bool(os.getenv('LLM_KEY')) and settings.EXTERNAL_AI_ENABLED
 
 
-def get_gms_url():
+def get_llm_url():
     return (
-        os.getenv('GMS_URL')
-        or os.getenv('GMS_BASE_URL')
-        or DEFAULT_GMS_URL
+        os.getenv('LLM_URL')
+        or os.getenv('LLM_BASE_URL')
+        or DEFAULT_LLM_URL
     ).rstrip('/')
 
 
-def get_gms_timeout():
+def get_llm_timeout():
     try:
-        return max(1, int(os.getenv('GMS_TIMEOUT_SECONDS', DEFAULT_GMS_TIMEOUT)))
+        return max(1, int(os.getenv('LLM_TIMEOUT_SECONDS', DEFAULT_LLM_TIMEOUT)))
     except (TypeError, ValueError):
-        return DEFAULT_GMS_TIMEOUT
+        return DEFAULT_LLM_TIMEOUT
 
 
 def guardrail_fail_closed():
-    return os.getenv('GMS_GUARDRAIL_FAIL_CLOSED', 'False').lower() == 'true'
+    return os.getenv('LLM_GUARDRAIL_FAIL_CLOSED', 'False').lower() == 'true'
 
 
 def remote_guardrail_enabled():
-    return os.getenv('GMS_REMOTE_GUARDRAIL_ENABLED', 'False').lower() == 'true'
+    return os.getenv('LLM_REMOTE_GUARDRAIL_ENABLED', 'False').lower() == 'true'
 
 
-def gms_enhancement_intents():
-    raw = os.getenv('GMS_CHAT_ENHANCE_INTENTS', '')
+def llm_enhancement_intents():
+    raw = os.getenv('LLM_CHAT_ENHANCE_INTENTS', '')
     return {item.strip() for item in raw.split(',') if item.strip()}
 
 
@@ -143,12 +143,12 @@ def safe_status_code(value):
     return value if isinstance(value, int) else None
 
 
-def call_gms_chat(messages, response_format=None, return_metadata=False):
-    if not is_gms_enabled():
-        raise GMSServiceError('GMS가 비활성화되었거나 GMS_KEY가 없습니다.')
+def call_llm_chat(messages, response_format=None, return_metadata=False):
+    if not is_llm_enabled():
+        raise LLMServiceError('LLM가 비활성화되었거나 LLM_KEY가 없습니다.')
 
     payload = {
-        'model': os.getenv('GMS_MODEL', 'gpt-5-nano'),
+        'model': os.getenv('LLM_MODEL', 'gpt-5-nano'),
         'messages': messages,
     }
     if response_format:
@@ -157,21 +157,21 @@ def call_gms_chat(messages, response_format=None, return_metadata=False):
     started_at = time.perf_counter()
     try:
         response = requests.post(
-            f'{get_gms_url()}/chat/completions',
+            f'{get_llm_url()}/chat/completions',
             headers={
-                'Authorization': f"Bearer {os.getenv('GMS_KEY')}",
+                'Authorization': f"Bearer {os.getenv('LLM_KEY')}",
                 'Content-Type': 'application/json',
                 'Accept': 'application/json',
             },
             json=payload,
-            timeout=get_gms_timeout(),
+            timeout=get_llm_timeout(),
         )
         elapsed_ms = round((time.perf_counter() - started_at) * 1000)
         response.raise_for_status()
         data = response.json()
         content = data['choices'][0]['message']['content']
         if not isinstance(content, str) or not content.strip():
-            raise GMSServiceError('GMS 응답 내용이 비어 있습니다.')
+            raise LLMServiceError('LLM 응답 내용이 비어 있습니다.')
         if return_metadata:
             return content.strip(), {
                 'status_code': safe_status_code(response.status_code),
@@ -180,21 +180,21 @@ def call_gms_chat(messages, response_format=None, return_metadata=False):
                 'usage': data.get('usage') or {},
             }
         return content.strip()
-    except GMSServiceError:
+    except LLMServiceError:
         raise
     except requests.HTTPError as error:
         elapsed_ms = round((time.perf_counter() - started_at) * 1000)
         status_code = safe_status_code(getattr(error.response, 'status_code', None))
-        raise GMSServiceError(
-            'GMS 요청이 HTTP 오류로 실패했습니다.',
+        raise LLMServiceError(
+            'LLM 요청이 HTTP 오류로 실패했습니다.',
             status_code=status_code,
             elapsed_ms=elapsed_ms,
         ) from error
     except (requests.RequestException, KeyError, IndexError, TypeError, ValueError) as error:
         elapsed_ms = round((time.perf_counter() - started_at) * 1000)
         status_code = safe_status_code(getattr(getattr(error, 'response', None), 'status_code', None))
-        raise GMSServiceError(
-            'GMS 요청 또는 응답 처리에 실패했습니다.',
+        raise LLMServiceError(
+            'LLM 요청 또는 응답 처리에 실패했습니다.',
             status_code=status_code,
             elapsed_ms=elapsed_ms,
         ) from error
@@ -249,7 +249,7 @@ def normalize_guardrail_result(result):
         'result': result['result'],
         'reason': str(result.get('reason') or '판단 이유가 없습니다.')[:300],
         'category': category,
-        'source': 'gms',
+        'source': 'llm',
     }
 
 
@@ -259,10 +259,10 @@ def check_guardrail(prompt):
     if local_result:
         return local_result
 
-    if not is_gms_enabled() or not remote_guardrail_enabled():
+    if not is_llm_enabled() or not remote_guardrail_enabled():
         return {
             'result': True,
-            'reason': 'GMS 비활성화로 로컬 대화 규칙을 사용합니다.',
+            'reason': 'LLM 비활성화로 로컬 대화 규칙을 사용합니다.',
             'category': 'allowed',
             'source': 'local',
         }
@@ -289,7 +289,7 @@ def check_guardrail(prompt):
         },
     ]
     try:
-        content, request_meta = call_gms_chat(
+        content, request_meta = call_llm_chat(
             messages,
             response_format=GUARDRAIL_RESPONSE_FORMAT,
             return_metadata=True,
@@ -298,8 +298,8 @@ def check_guardrail(prompt):
             **normalize_guardrail_result(json.loads(content)),
             'request': request_meta,
         }
-    except (GMSServiceError, json.JSONDecodeError, TypeError, ValueError) as error:
-        logger.warning('GMS guardrail failed: %s', type(error).__name__)
+    except (LLMServiceError, json.JSONDecodeError, TypeError, ValueError) as error:
+        logger.warning('LLM guardrail failed: %s', type(error).__name__)
         blocked = guardrail_fail_closed()
         return {
             'result': not blocked,
@@ -320,9 +320,9 @@ def check_guardrail(prompt):
 def enhance_chat_reply(message, context, course, fallback, intent, recent_messages=None):
     conversational_intents = {'greeting', 'thanks', 'daily_chat', 'small_talk'}
     max_chars = 320 if intent in conversational_intents and not course else 170
-    if not is_gms_enabled():
+    if not is_llm_enabled():
         return compact_chat_reply(fallback, max_chars=max_chars), 'local', None
-    if intent not in gms_enhancement_intents():
+    if intent not in llm_enhancement_intents():
         return compact_chat_reply(fallback, max_chars=max_chars), 'local_fast', None
 
     course_data = None
@@ -367,9 +367,9 @@ def enhance_chat_reply(message, context, course, fallback, intent, recent_messag
         },
     ]
     try:
-        content, request_meta = call_gms_chat(messages, return_metadata=True)
-        return compact_chat_reply(content, max_chars=max_chars), 'gms', request_meta
-    except GMSServiceError as error:
+        content, request_meta = call_llm_chat(messages, return_metadata=True)
+        return compact_chat_reply(content, max_chars=max_chars), 'llm', request_meta
+    except LLMServiceError as error:
         return compact_chat_reply(fallback, max_chars=max_chars), 'local_fallback', {
             'status_code': getattr(error, 'status_code', None),
             'elapsed_ms': getattr(error, 'elapsed_ms', None),

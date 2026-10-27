@@ -1,7 +1,7 @@
 import hashlib
 import re
 
-from .gms_service import check_guardrail, enhance_chat_reply
+from .llm_service import check_guardrail, enhance_chat_reply
 from .models import Course, RunningRecord
 from .recommendations import location_fit
 
@@ -478,9 +478,9 @@ def build_assistant_reply(user, message, previous_context=None, recent_messages=
                 '러닝 코스, 운동 기록, 커뮤니티와 관련된 질문으로 다시 물어봐 주세요. '
                 f"({guardrail['reason']})"
             ),
-            'provider': 'gms_guardrail',
+            'provider': 'llm_guardrail',
             'guardrail': guardrail,
-            'gms_requests': {
+            'llm_requests': {
                 'guardrail': guardrail.get('request'),
                 'answer': None,
             },
@@ -566,7 +566,7 @@ def build_assistant_reply(user, message, previous_context=None, recent_messages=
         'content': content,
         'provider': provider,
         'guardrail': guardrail,
-        'gms_requests': {
+        'llm_requests': {
             'guardrail': guardrail.get('request'),
             'answer': answer_request,
         },
