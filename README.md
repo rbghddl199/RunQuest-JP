@@ -67,7 +67,7 @@ RunQuest は、ユーザーのアンケート結果・ランニング記録・�
 | バックエンド | Django REST Framework, JWT (SimpleJWT), drf-spectacular |
 | データベース | SQLite(ローカル検証用) |
 | 地図 | Kakao Map JavaScript SDK |
-| 生成AI | GMS 経由の OpenAI GPT API(外部連携が無効でもローカル fallback で動作) |
+| 生成AI | OpenAI 互換の LLM API(外部連携が無効でもローカル fallback で動作) |
 | モバイル化 | Capacitor(デモ用 Android ビルド) |
 
 詳細なアーキテクチャは [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) を参照してください。
@@ -135,7 +135,7 @@ npm run dev -- --host 127.0.0.1 --port 5173
 
 `http://127.0.0.1:5173` にアクセスすると画面が表示されます(画面表示は韓国語です)。デモアカウントは [docs/PRESENTATION.md](docs/PRESENTATION.md) に記載しています。
 
-外部 API(GMS/OpenAI・OpenWeather・Kakao Map)のキーが未設定でも、天気は既定値表示・AI応答はローカル fallback により、アプリ自体は問題なく動作するように設計しています。
+外部 API(LLM/OpenAI・OpenWeather・Kakao Map)のキーが未設定でも、天気は既定値表示・AI応答はローカル fallback により、アプリ自体は問題なく動作するように設計しています。
 
 ## チーム構成
 
